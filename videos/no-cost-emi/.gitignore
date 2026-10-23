@@ -9,3 +9,4 @@ src/data.js
 out/check.jpg
 build/recorded/
 !build/narration.mp3
+__pycache__/

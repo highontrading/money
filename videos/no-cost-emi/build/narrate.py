@@ -33,7 +33,7 @@ def synth(text):
                            "use_speaker_boost": True, "speed": 1.0},
     }
     req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_192",
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice}/with-timestamps?output_format=mp3_44100_128",
         data=json.dumps(body).encode(), method="POST",
         headers={"xi-api-key": key, "Content-Type": "application/json"})
     try:
