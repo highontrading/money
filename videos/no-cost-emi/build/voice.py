@@ -1,6 +1,6 @@
 # Synthesize each script line, trim silence, lay out on a timeline.
 #   python3 voice.py                 Piper (offline placeholder voice)
-#   python3 voice.py elevenlabs      ElevenLabs; needs ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID
+#   python3 voice.py elevenlabs      ElevenLabs; needs ELEVENLABS_API_KEY (ELEVENLABS_VOICE_ID overrides the channel voice)
 #   python3 voice.py recorded        your own takes, one per line, in build/recorded/00.wav, 01.wav, ...
 import hashlib, json, os, subprocess, sys, urllib.request
 import numpy as np
@@ -21,9 +21,9 @@ def piper(i, text):
     return out
 
 def elevenlabs(i, text):
-    key, voice = os.environ.get("ELEVENLABS_API_KEY"), os.environ.get("ELEVENLABS_VOICE_ID")
+    key, voice = os.environ.get("ELEVENLABS_API_KEY"), os.environ.get("ELEVENLABS_VOICE_ID", "LHJy3mhZWsvhUjy0zUM1")
     if not key or not voice:
-        sys.exit("Set ELEVENLABS_API_KEY and ELEVENLABS_VOICE_ID in the environment.")
+        sys.exit("Set ELEVENLABS_API_KEY in the environment.")
     model = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
     lines = S["lines"]
     body = {

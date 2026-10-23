@@ -27,7 +27,7 @@ Suggested caption line: *Send this to the friend who buys everything on EMI 📲
 
 | Engine | Command | Notes |
 |---|---|---|
-| ElevenLabs | `./make.sh elevenlabs` | Needs `ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID` set in the environment, plus `api.elevenlabs.io` allowed in the network settings. Optional: `ELEVENLABS_MODEL` (default `eleven_multilingual_v2`). Lines are cached in `build/lines/elevenlabs/`, so re-runs don't spend credits. |
+| ElevenLabs | `./make.sh elevenlabs` | Needs `ELEVENLABS_API_KEY` set in the environment and `api.elevenlabs.io` allowed in the network settings. The channel voice `LHJy3mhZWsvhUjy0zUM1` is the default; set `ELEVENLABS_VOICE_ID` to override it. Optional: `ELEVENLABS_MODEL` (default `eleven_multilingual_v2`). Lines are cached in `build/lines/elevenlabs/`, so re-runs don't spend credits. |
 | Your own recording | `./make.sh recorded` | One take per line of `script.json`, saved as `build/recorded/00.wav`, `01.wav` and so on. |
 | Piper (placeholder) | `./make.sh piper` | Offline voice `hi_IN-pratham-medium`. Licensed CC BY-NC-SA 4.0 (non-commercial) and sounds robotic, so don't post it. |
 
