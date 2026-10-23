@@ -57,29 +57,62 @@ def key():
     x = band(rng.normal(0, 1, n), 1200, 7000) * env(n, 0.0005, 0.006)
     return norm(x, rng.uniform(0.06, 0.1))
 
+def whoosh():
+    """paper sheet sweeping past the lens: band of noise that swells and sweeps down."""
+    n = int(0.7 * SR); t = np.arange(n) / SR
+    x = rng.normal(0, 1, n)
+    out = np.zeros(n)
+    for k, (lo, hi) in enumerate([(2500, 7000), (1200, 3500), (500, 1800)]):   # sweep down through bands
+        w = np.exp(-((t - 0.25 - k * 0.08) / 0.11) ** 2)
+        out += band(x, lo, hi) * w
+    return norm(out, 0.2)
+
 sfx = np.zeros(N)
 for e in EV:
     k = e["kind"]
-    s = {"slap": slap, "stamp": stamp, "tape": tape, "slide": slide, "key": key}.get(k)
+    s = {"slap": slap, "stamp": stamp, "tape": tape, "slide": slide, "key": key, "whoosh": whoosh}.get(k)
     snd = draw(e["dur"]) if k == "draw" else s() if s else None
     if snd is None: continue
     i = int(max(e["t"], 0) * SR)
     j = min(N, i + len(snd)); sfx[i:j] += snd[: j - i]
 
-def load(path):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True).stdout
-    return np.frombuffer(raw, np.float32).astype(np.float64)
+def load(path, ch=1):
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-ac", str(ch), "-ar", str(SR), "-f", "f32le", "-"], capture_output=True).stdout
+    x = np.frombuffer(raw, np.float32).astype(np.float64)
+    return x.reshape(-1, ch) if ch > 1 else x
 
-voice = load(os.path.join(ROOT, "voice_raw.wav"))
-mix_v = np.zeros(N); mix_v[: min(N, len(voice))] = voice[:N]
-# soft room tone so silence never feels dead
-room = band(rng.normal(0, 1, N), 80, 900) * 0.004
-out = np.stack([mix_v, mix_v], 1) * 0.9 + np.stack([sfx * 0.9, sfx * 0.75], 1) + room[:, None]
-pcm = np.clip(out, -1, 1).astype(np.float32)
+def fit(x):
+    out = np.zeros((N,) + x.shape[1:]); out[: min(N, len(x))] = x[:N]; return out
+
+# voice polish first, so the music ducks against the voice we actually hear
+vproc = os.path.join(ROOT, "voice_proc.wav")
+subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", os.path.join(ROOT, "voice_raw.wav"), "-af",
+                "highpass=f=75,equalizer=f=250:t=q:w=1:g=-2,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-22dB:ratio=3:attack=5:release=90",
+                "-ar", str(SR), vproc], check=True)
+voice = fit(load(vproc))
+# voice envelope -> ducking curve (fast attack, slow release)
+win = int(0.03 * SR)
+env = np.sqrt(np.convolve(voice ** 2, np.ones(win) / win, "same"))
+active = env > env.max() * 0.06
+duck = np.where(active, 1.0, 0.0)
+k = int(0.35 * SR)                                   # hold/release smoothing
+duck = np.convolve(duck, np.ones(k) / k, "same").clip(0, 1)
+vrms = np.sqrt(np.mean(voice[active] ** 2))
+music_path = os.path.join(ROOT, "music.wav")
+if os.path.exists(music_path):
+    music = fit(load(music_path, 2))
+    mrms = np.sqrt(np.mean(music ** 2)) + 1e-9
+    base = vrms / mrms * 10 ** (-15 / 20)            # music sits 15 dB under the voice...
+    gain = base * (1 - duck * (1 - 10 ** (-7 / 20)))  # ...and ducks 7 dB more while words are spoken
+    music = music * gain[:, None]
+else:
+    music = np.zeros((N, 2))
+room = band(rng.normal(0, 1, N), 80, 900) * 0.002
+out = np.stack([voice, voice], 1) + np.stack([sfx * 0.8, sfx * 0.68], 1) * (vrms / 0.12) + music + room[:, None]
+pcm = np.clip(out / (np.abs(out).max() + 1e-9) * 0.9, -1, 1).astype(np.float32)
 tmp = os.path.join(ROOT, "mix_pre.wav")
 subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-", tmp], input=pcm.tobytes(), check=True)
-# voice polish + broadcast loudness for Instagram (~-14 LUFS)
-subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", tmp, "-af",
-                "highpass=f=70,equalizer=f=3200:t=q:w=1.2:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-14:TP=-1.5:LRA=9",
+# broadcast loudness for Instagram (~-14 LUFS)
+subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", tmp, "-af", "loudnorm=I=-14:TP=-1.5:LRA=9",
                 "-ar", str(SR), os.path.join(ROOT, "mix.wav")], check=True)
 print("mixed", N / SR, "s")

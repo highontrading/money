@@ -1,6 +1,6 @@
 # FILE 02: No-cost EMI ka asli cost
 
-An 87-second Hinglish explainer reel, 1080×1920 at 30 fps, mixed to about −14 LUFS. It uses the collage design system: steel-blue board, cream paper, halftone cut-outs, ransom-note type, yellow tape and marker.
+A 96-second Hinglish explainer reel, 1080×1920 at 30 fps, mixed to about −14 LUFS. It uses the collage design system: steel-blue board, cream paper, halftone cut-outs, ransom-note type, yellow tape and marker.
 
 - Video: `out/no-cost-emi.mp4`
 - Cover for the grid: `out/no-cost-emi-cover.jpg`
@@ -21,28 +21,17 @@ Sources: the RBI circular RBI/2013-14/292 (17 Sep 2013) says that "the very conc
 
 Suggested caption line: *Send this to the friend who buys everything on EMI 📲 · Educational only, not investment advice · Source: RBI circular, 17 Sep 2013.*
 
-## Voice
+## How it's built
 
-`build/voice.py` supports three voices. Each one re-times the visuals, captions and sound effects automatically.
-
-| Engine | Command | Notes |
-|---|---|---|
-| ElevenLabs | `./make.sh elevenlabs` | Needs `ELEVENLABS_API_KEY` set in the environment and `api.elevenlabs.io` allowed in the network settings. The channel voice `LHJy3mhZWsvhUjy0zUM1` is the default; set `ELEVENLABS_VOICE_ID` to override it. Optional: `ELEVENLABS_MODEL` (default `eleven_multilingual_v2`). Lines are cached in `build/lines/elevenlabs/`, so re-runs don't spend credits. |
-| Your own recording | `./make.sh recorded` | One take per line of `script.json`, saved as `build/recorded/00.wav`, `01.wav` and so on. |
-| Piper (placeholder) | `./make.sh piper` | Offline voice `hi_IN-pratham-medium`. Licensed CC BY-NC-SA 4.0 (non-commercial) and sounds robotic, so don't post it. |
-
-ElevenLabs reads the Devanagari `tts` field of each line. Neighbouring lines are sent with every request so the intonation flows across lines.
-
-There is no music bed. Add a track inside Instagram at a low volume.
-
-## Rebuild
+This video follows the narration-first pipeline in [`../README.md`](../README.md). The narration is one continuous ElevenLabs take (voice `LHJy3mhZWsvhUjy0zUM1`, `eleven_multilingual_v2`), saved as `build/narration.mp3` with its timestamps in `build/narration_alignment.json`. Every visual is cued to its spoken word, and the music is generated to the same timeline.
 
 ```bash
 cd build
-./make.sh elevenlabs     # or: piper | recorded
+./make.sh            # rebuild from the saved narration: timeline, SFX, music, mix, frames, MP4, cover (~6 min)
+./make.sh --voice    # re-voice the script first (needs ELEVENLABS_API_KEY; about 1,400 credits)
 ```
 
-This runs voice, then the sound-effect cues, the mix (−14 LUFS), the frames (15 unique frames/s, held "on twos"), the MP4 and the cover. It takes about 3 minutes. The textures and halftones in `assets/` come from `textures.py` and `svg2png.js`. The fonts are Google Fonts (OFL/Apache) and live in `fonts/`.
+The narration is 93 s and the video 96 s. Speed and pause trimming are set in `build/narrate.py` (`NARRATION_SPEED`, `MAX_PAUSE`, `SCENE_PAUSE`).
 
 ## Reusing the design system
 

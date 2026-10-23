@@ -3,6 +3,11 @@
 const FPS_STEP = 15;
 const W = 1080, H = 1920;
 const stage = document.getElementById('stage');
+// everything that belongs to a scene lives in #world, which the virtual camera moves
+const world = document.createElement('div');
+world.id = 'world';
+Object.assign(world.style, { position: 'absolute', left: 0, top: 0, width: '1080px', height: '1920px', transformOrigin: '0 0', zIndex: 5 });
+stage.appendChild(world);
 const ELS = [];
 const SFX = [];
 let uid = 0;
@@ -46,11 +51,11 @@ function add(node, o) {
   if (o.shadow !== false) wrap.classList.add('shadow');
   wrap.appendChild(node);
   if (o.z != null) wrap.style.zIndex = o.z;
-  (o.parent || stage).appendChild(wrap);
+  (o.parent || world).appendChild(wrap);
   const e = Object.assign({ id: ++uid, node, wrap, x: W / 2, y: H / 2, rot: 0, s: 1, t0: 0, t1: Infinity,
-    enter: 'slap', exit: 'pull', jitter: 1, inDur: null, outDur: null }, o);
+    enter: 'slap', exit: 'cut', jitter: 1, inDur: null, outDur: null }, o);
   ELS.push(e);
-  const kind = { slap: 'slap', stamp: 'stamp', tape: 'tape', slideL: 'slide', slideR: 'slide', slideUp: 'slide', drop: 'slap', draw: 'draw', type: 'type' }[e.sfx || e.enter];
+  const kind = { slap: 'slap', stamp: 'stamp', tape: 'tape', slideL: 'slide', slideR: 'slide', slideUp: 'slide', drop: 'slap', draw: 'draw', type: 'type', whoosh: 'whoosh' }[e.sfx || e.enter];
   if (kind && isFinite(e.t0)) SFX.push({ t: e.t0, kind, dur: e.sfxDur || 0.5 });
   return e;
 }
@@ -77,6 +82,7 @@ function renderEl(e, t, step) {
   const outD = e.outDur ?? OUT_DUR[e.exit] ?? 0.2;
   if (t < e.t0 || t >= e.t1 + outD) { e.wrap.style.display = 'none'; return; }
   e.wrap.style.display = '';
+  if (e.smooth && e.update) e.update(t - e.t0, t, e);
   let { x, y, rot, s } = pose(e, t);
   let op = 1, lifted = false;
   const p = inD ? clamp((t - e.t0) / inD) : 1;
@@ -102,14 +108,18 @@ function renderEl(e, t, step) {
       case 'cut': op = 0; break;
     }
   }
+  if (e.float !== 0) { // nothing on the board is ever dead still
+    const f = e.float ?? 1;
+    x += Math.sin(t * 0.9 + e.id) * 2.4 * f; y += Math.cos(t * 0.73 + e.id * 1.7) * 3 * f; rot += Math.sin(t * 0.5 + e.id) * 0.35 * f;
+  }
   if (e.jitter) {
     const r = rng(hash(e.id, step));
     x += (r() - .5) * 2.6 * e.jitter; y += (r() - .5) * 2.6 * e.jitter; rot += (r() - .5) * 0.7 * e.jitter;
   }
   e.wrap.style.transform = `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) translate(-50%, -50%) rotate(${rot.toFixed(2)}deg) scale(${s.toFixed(4)})`;
   e.wrap.style.opacity = op.toFixed(3);
-  if (e.shadow !== false) e.wrap.className = 'el ' + (lifted ? 'lift' : 'shadow');
-  if (e.update) e.update(t - e.t0, t, e);
+  if (e.shadow !== false) e.wrap.className = 'el ' + (lifted || e.lift ? 'lift' : 'shadow');
+  if (e.update && !e.smooth) e.update(t - e.t0, t, e);
 }
 
 // ---- builders ----------------------------------------------------------------
@@ -278,7 +288,22 @@ function counter(node, from, to, dur, fmt) {
 // ---- captions ----------------------------------------------------------------
 let CAPS = [];
 const capNode = h('div', '', '', {}); capNode.id = 'caption';
+const plain = w => w.replace(/[^\p{L}\p{N}₹%]/gu, '');
+// Caption words are Roman Hinglish, the timed words are Devanagari: map by relative
+// position in the line, interpolated through the real word start/end times.
+function timeAt(tl, f) {
+  const ws = tl.words;
+  if (!ws || !ws.length) return tl.start + f * (tl.end - tl.start);
+  const len = ws.map(w => plain(w.w).length + 1), tot = len.reduce((a, b) => a + b, 0);
+  let acc = 0;
+  for (let j = 0; j < ws.length; j++) {
+    const f0 = acc / tot, f1 = (acc + len[j]) / tot;
+    if (f < f1 || j === ws.length - 1) return ws[j].t0 + clamp((f - f0) / (f1 - f0)) * (ws[j].t1 - ws[j].t0);
+    acc += len[j];
+  }
+}
 function buildCaptions(lines, timeline) {
+  if (CAPS.length) return;
   CAPS = lines.map((ln, i) => {
     const tl = timeline.lines[i];
     const words = [];
@@ -286,23 +311,83 @@ function buildCaptions(lines, timeline) {
       const key = part.startsWith('*');
       part.replace(/\*/g, '').split(' ').filter(Boolean).forEach(w => words.push({ w, key }));
     });
-    const weights = words.map(x => x.w.replace(/[^\p{L}\p{N}₹]/gu, '').length + 1.5);
+    const weights = words.map(x => plain(x.w).length + 1);
     const tot = weights.reduce((a, b) => a + b, 0);
-    let acc = 0; const span = tl.end - tl.start;
-    words.forEach((x, k) => { x.t = tl.start + (acc / tot) * span - 0.05; acc += weights[k]; });
+    let acc = 0;
+    words.forEach((x, k) => { x.t = timeAt(tl, acc / tot) - 0.03; acc += weights[k]; x.te = timeAt(tl, acc / tot); });
     return { start: tl.start, end: tl.end, next: timeline.lines[i + 1]?.start ?? tl.end + 0.6, words };
   });
 }
+// time a caption word is spoken: cue(2, '30,478') -> seconds. which = 't' (start) or 'te' (end)
+function cue(i, word, which = 't') {
+  buildCaptions(window.__SCRIPT.lines, window.__TIMELINE);
+  const ws = CAPS[i].words, needle = plain(word).toLowerCase();
+  const hit = ws.find(x => plain(x.w).toLowerCase().includes(needle));
+  if (!hit) throw new Error(`cue: "${word}" not in line ${i}: ${ws.map(x => x.w).join(' ')}`);
+  return hit[which];
+}
 function renderCaption(t, step) {
-  const c = CAPS.find(c => t >= c.start - 0.08 && t < c.next - 0.08);
-  if (!c || t > CAPS[CAPS.length - 1].end + 0.6) { capNode.style.display = 'none'; return; }
+  const c = CAPS.find(c => t >= c.start - 0.12 && t < c.next - 0.12);
+  if (!c || t > c.end + 0.9) { capNode.style.display = 'none'; return; }
   capNode.style.display = '';
   const html = c.words.map(x => `<span class="w${x.key ? ' k' : ''}${t >= x.t ? ' on' : ' f'}">${x.w}</span>`).join(' ');
   capNode.innerHTML = `<span class="ln">${html}</span>`;
-  const p = clamp((t - c.start + 0.08) / 0.14);
+  const p = clamp((t - c.start + 0.12) / 0.14);
   const r = rng(hash(999, step));
   capNode.style.top = '1350px';
   capNode.style.transform = `translate(${((r() - .5) * 1.6).toFixed(1)}px, ${((r() - .5) * 1.6).toFixed(1)}px) scale(${(1 + 0.06 * (1 - p)).toFixed(3)})`;
+}
+
+// ---- virtual camera -------------------------------------------------------------
+// slow push-ins per scene, punch-ins on reveals, shake on stamp hits
+const CAM = { scenes: [], punches: [], shakes: [] };
+function camScene(t0, t1, o = {}) { CAM.scenes.push(Object.assign({ t0, t1, s0: 1.0, s1: 1.05, ox: 540, oy: 860, dx: 0, dy: 0 }, o)); }
+function punch(t, amt = 0.07, fx = 540, fy = 900, hold = 1.1) { CAM.punches.push({ t, amt, fx, fy, hold }); }
+function shake(t, amp = 9) { CAM.shakes.push({ t, amp }); }
+function camAt(t) {
+  let s = 1, ox = 540, oy = 860, dx = 0, dy = 0;
+  const sc = CAM.scenes.find(c => t >= c.t0 && t < c.t1);
+  if (sc) {
+    const p = easeInOut(clamp((t - sc.t0) / (sc.t1 - sc.t0)));
+    s = lerp(sc.s0, sc.s1, p); ox = sc.ox; oy = sc.oy; dx = sc.dx * p; dy = sc.dy * p;
+  }
+  let best = 0, fx = ox, fy = oy, mult = 1;
+  for (const k of CAM.punches) {
+    if (t < k.t) continue;
+    const up = easeOut(clamp((t - k.t) / 0.18)), down = 1 - easeInOut(clamp((t - k.t - k.hold) / 0.55));
+    const w = up * down;
+    if (w <= 0) continue;
+    mult *= 1 + k.amt * w;
+    if (w > best) { best = w; fx = k.fx; fy = k.fy; }
+  }
+  s *= mult;
+  const OX = lerp(ox, fx, best), OY = lerp(oy, fy, best);
+  let sx = 0, sy = 0;
+  for (const k of CAM.shakes) {
+    const u = t - k.t;
+    if (u < 0 || u > 0.5) continue;
+    const a = k.amp * Math.exp(-u * 9);
+    sx += a * Math.sin(u * 70); sy += a * Math.cos(u * 53);
+  }
+  return { s, tx: OX * (1 - s) + dx + sx, ty: OY * (1 - s) + dy + sy };
+}
+
+// ---- paper-wipe transition ------------------------------------------------------------
+// a big torn sheet sweeps across; the scene underneath swaps while it is fully covered (tm)
+function wipe(tm, o = {}) {
+  const w = 2100, ht = 2300, dir = o.dir ?? 1;
+  const inner = `<div class="type" style="position:absolute;left:${dir > 0 ? 300 : 700}px;top:820px;width:1100px;font-size:34px;line-height:1.5;color:rgba(30,30,30,.5)">
+    ${'MONEY THEORY · FILE 02 · NO-COST EMI · '.repeat(14)}</div>
+    <div style="position:absolute;left:0;right:0;top:${o.band ?? 1100}px;height:110px;background:rgba(243,194,33,.93);transform:rotate(-4deg)"></div>`;
+  const node = sheet(w, ht, o.tex || 'tex-aged', strSeed('wipe' + tm), inner, {}, 22);
+  const e = add(node, { parent: stage, z: 700, x: 0, y: H / 2, rot: 0, t0: tm - 0.34, t1: tm + 0.34, enter: 'none', exit: 'cut',
+    smooth: true, float: 0, jitter: 0, sfx: 'whoosh', shadow: true, lift: true });
+  e.update = (lt, t) => {
+    const p = easeInOut(clamp((t - (tm - 0.34)) / 0.68));
+    e.x = dir > 0 ? lerp(W + w / 2, -w / 2, p) : lerp(-w / 2, W + w / 2, p);
+    e.rot = (1 - 2 * p) * 3 * dir;
+  };
+  return e;
 }
 
 // ---- main ---------------------------------------------------------------------
@@ -310,8 +395,10 @@ const grainEls = [];
 function renderAt(t) {
   const step = Math.floor(t * FPS_STEP + 1e-6);
   const q = step / FPS_STEP;
-  for (const e of ELS) renderEl(e, q, step);
+  for (const e of ELS) renderEl(e, e.smooth ? t : q, step);
   renderCaption(q, step);
+  const c = camAt(t);
+  world.style.transform = `translate(${c.tx.toFixed(2)}px, ${c.ty.toFixed(2)}px) scale(${c.s.toFixed(5)})`;
   grainEls.forEach((g, i) => g.style.display = (step % grainEls.length) === i ? '' : 'none');
 }
 
@@ -337,3 +424,4 @@ async function ready() {
   return true;
 }
 window.renderAt = renderAt; window.ready = ready; window.getSfx = () => SFX;
+window.getCam = () => CAM;

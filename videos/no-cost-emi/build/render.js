@@ -1,5 +1,5 @@
 // Render frames with headless Chromium. Usage:
-//   node render.js frames <from> <to> <outdir>   (frame indices at 15 steps/s)
+//   node render.js frames <from> <to> <outdir>   (frame indices at 30 fps; boards move on twos, camera is smooth)
 //   node render.js stills <outdir> t1 t2 ...       (PNG stills at given seconds)
 //   node render.js cover <out.jpg> <t>             (caption-free cover frame)
 //   node render.js sfx                             (dump sound-effect cue list)
@@ -32,7 +32,7 @@ fs.writeFileSync(path.join(ROOT, 'src', 'data.js'),
   } else {
     const [from, to, out] = args; fs.mkdirSync(out, { recursive: true });
     for (let k = +from; k < +to; k++) {
-      await p.evaluate(t => window.renderAt(t), k / 15);
+      await p.evaluate(t => window.renderAt(t), k / 30);
       await p.screenshot({ path: path.join(out, `${String(k).padStart(5, '0')}.jpg`), type: 'jpeg', quality: 92 });
     }
   }
