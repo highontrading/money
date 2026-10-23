@@ -23,10 +23,15 @@ Suggested caption line: *Send this to the friend who buys everything on EMI 📲
 
 ## Voice
 
-The narration is a **placeholder** made with the offline Piper voice `hi_IN-pratham-medium`. That voice is licensed **CC BY-NC-SA 4.0 (non-commercial)**, so replace it with your own recording before you monetise the reel. To swap it:
+`build/voice.py` supports three voices. Each one re-times the visuals, captions and sound effects automatically.
 
-1. Record the lines in `script.json` in order, one file per line, as `build/lines/00.wav`, `01.wav` and so on. Or record one take and I'll cut it.
-2. Re-run the pipeline. The visuals, captions and sound effects re-time themselves from `build/timeline.json`.
+| Engine | Command | Notes |
+|---|---|---|
+| ElevenLabs | `./make.sh elevenlabs` | Needs `ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID` set in the environment, plus `api.elevenlabs.io` allowed in the network settings. Optional: `ELEVENLABS_MODEL` (default `eleven_multilingual_v2`). Lines are cached in `build/lines/elevenlabs/`, so re-runs don't spend credits. |
+| Your own recording | `./make.sh recorded` | One take per line of `script.json`, saved as `build/recorded/00.wav`, `01.wav` and so on. |
+| Piper (placeholder) | `./make.sh piper` | Offline voice `hi_IN-pratham-medium`. Licensed CC BY-NC-SA 4.0 (non-commercial) and sounds robotic, so don't post it. |
+
+ElevenLabs reads the Devanagari `tts` field of each line. Neighbouring lines are sent with every request so the intonation flows across lines.
 
 There is no music bed. Add a track inside Instagram at a low volume.
 
@@ -34,16 +39,10 @@ There is no music bed. Add a track inside Instagram at a low volume.
 
 ```bash
 cd build
-python3 voice.py                  # voice lines -> voice_raw.wav + timeline.json (needs piper + voices/)
-node render.js sfx                # sound-effect cue list from the animation
-python3 audio.py                  # SFX + voice mix, loudness to -14 LUFS
-node render.js frames 0 1305 frames   # 15 unique frames/s, held "on twos"
-ffmpeg -framerate 15 -i frames/%05d.jpg -i mix.wav -filter:v "fps=30,format=yuv420p" \
-  -c:v libx264 -crf 19 -c:a aac -b:a 192k -shortest ../out/no-cost-emi.mp4
-node render.js cover ../out/no-cost-emi-cover.jpg 8.2
+./make.sh elevenlabs     # or: piper | recorded
 ```
 
-`node` needs `NODE_PATH` set to wherever Playwright is installed. The textures and halftones in `assets/` come from `textures.py` and `svg2png.js`. The fonts are Google Fonts (OFL/Apache) and live in `fonts/`.
+This runs voice, then the sound-effect cues, the mix (−14 LUFS), the frames (15 unique frames/s, held "on twos"), the MP4 and the cover. It takes about 3 minutes. The textures and halftones in `assets/` come from `textures.py` and `svg2png.js`. The fonts are Google Fonts (OFL/Apache) and live in `fonts/`.
 
 ## Reusing the design system
 

@@ -7,3 +7,4 @@ build/sfx.json
 build/log_*.txt
 src/data.js
 out/check.jpg
+build/recorded/
