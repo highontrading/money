@@ -1,0 +1,66 @@
+{
+  "episode": "EP 01",
+  "title": "IPO ka GMP: grey market ka sach",
+  "data_note": "Jio Platforms GMP from public trackers (InvestorGain / IIFL / IPOJI), 20-23 Oct 2026. Bajaj Housing (Sep 2024), Hyundai Motor India (Oct 2024), LIC (May 2022) from listing-day reports.",
+  "lines": [
+    {"id": "L01", "scene": "hook", "cap": "*Jio* ka IPO abhi list bhi nahi hua.", "tts": "जियो का आईपीओ, अभी लिस्ट भी नहीं हुआ."},
+    {"id": "L02", "scene": "hook", "cap": "Par ek bazaar mein uska share pehle se *₹1,364* ka bik raha hai.", "tts": "पर एक बाज़ार में, उसका शेयर पहले से, तेरह सौ चौंसठ रुपये का बिक रहा है."},
+    {"id": "L03", "scene": "hook", "cap": "Na NSE. Na BSE. Na koi app.", "tts": "ना एन एस ई. ना बी एस ई. ना कोई ऐप."},
+    {"id": "L04", "scene": "hook", "cap": "Is bazaar ko kehte hain *grey market.*", "tts": "इस बाज़ार को कहते हैं, ग्रे मार्केट."},
+    {"id": "L05", "scene": "hook", "cap": "Aur yeh number? *GMP.*", "tts": "और ये नंबर? जी एम पी."},
+    {"id": "L06", "scene": "hook", "cap": "GMP kya hai, kaise banta hai, aur kitna *bharosa* karna chahiye.", "tts": "जीएमपी क्या है, कैसे बनता है, और इस पर कितना भरोसा करना चाहिए."},
+
+    {"id": "L07", "scene": "gap", "cap": "IPO mein paise lagane aur shares milne ke beech ek *gap* hota hai.", "tts": "आईपीओ में पैसे लगाने, और शेयर मिलने के बीच, एक गैप होता है."},
+    {"id": "L08", "scene": "gap", "cap": "Bidding band, phir allotment, phir listing. *Teen working din.*", "tts": "बिडिंग बंद, फिर अलॉटमेंट, फिर लिस्टिंग. तीन वर्किंग दिन."},
+    {"id": "L09", "scene": "gap", "cap": "In dino share exchange pe *trade nahi* hota.", "tts": "इन दिनों में, शेयर एक्सचेंज पर ट्रेड नहीं होता."},
+    {"id": "L10", "scene": "gap", "cap": "Par log *andaza* lagana band nahi karte.", "tts": "पर लोग अंदाज़ा लगाना बंद नहीं करते."},
+
+    {"id": "L11", "scene": "grey", "cap": "Yahin aata hai grey market. Kuch *dealers,* phone calls, aur *cash.*", "tts": "यहीं आता है ग्रे मार्केट. कुछ डीलर्स, फ़ोन कॉल्स, और कैश."},
+    {"id": "L12", "scene": "grey", "cap": "Na contract, na receipt. Sab kuch *zubaan* pe chalta hai.", "tts": "ना कॉन्ट्रैक्ट, ना रसीद. सब कुछ ज़ुबान पर चलता है."},
+    {"id": "L13", "scene": "grey", "cap": "SEBI ise *recognise nahi* karta. Exchange koi guarantee nahi deta.", "tts": "सेबी इसे रिकग्नाइज़ नहीं करता. एक्सचेंज इसकी कोई गारंटी नहीं देता."},
+
+    {"id": "L14", "scene": "math", "cap": "GMP matlab: IPO price ke upar log kitna *extra* dene ko taiyaar hain.", "tts": "जीएमपी मतलब, आईपीओ प्राइस के ऊपर, लोग कितना एक्स्ट्रा देने को तैयार हैं."},
+    {"id": "L15", "scene": "math", "cap": "Jio ka upper price band hai *₹1,119.*", "tts": "जियो का अपर प्राइस बैंड है, ग्यारह सौ उन्नीस रुपये."},
+    {"id": "L16", "scene": "math", "cap": "23 October ko GMP chal raha tha *₹245.*", "tts": "तेईस अक्टूबर को, जीएमपी चल रहा था, दो सौ पैंतालीस रुपये."},
+    {"id": "L17", "scene": "math", "cap": "Dono jodo: *₹1,364.* Yahi hai grey market ka listing andaza.", "tts": "दोनों को जोड़ो, तेरह सौ चौंसठ. यही है ग्रे मार्केट का लिस्टिंग अंदाज़ा."},
+    {"id": "L18", "scene": "math", "cap": "Percent mein? 245 ÷ 1,119. Lagbhag *22% premium.*", "tts": "परसेंट में? दो सौ पैंतालीस, भाग ग्यारह सौ उन्नीस. लगभग बाईस परसेंट प्रीमियम."},
+    {"id": "L19", "scene": "math", "cap": "Ek lot mein 12 shares. Toh ek lot ka faayda: *₹2,940.*", "tts": "एक लॉट में बारह शेयर. तो एक लॉट का फ़ायदा, उनतीस सौ चालीस रुपये."},
+    {"id": "L20", "scene": "math", "cap": "Par dhyaan do. Sirf *kaagaz pe.*", "tts": "पर ध्यान दो. सिर्फ़ काग़ज़ पर."},
+
+    {"id": "L21", "scene": "deals", "cap": "Grey market mein sauda hota kaise hai? *Do tareeke.*", "tts": "अब ग्रे मार्केट में सौदा होता कैसे है? दो तरीके."},
+    {"id": "L22", "scene": "deals", "cap": "Pehla: *Kostak.* Aap apni poori application dealer ko bech dete ho.", "tts": "पहला, कोस्टक. आप अपनी पूरी एप्लिकेशन, डीलर को बेच देते हो."},
+    {"id": "L23", "scene": "deals", "cap": "Shares mile ya na mile, dealer ek *fixed rakam* deta hai.", "tts": "शेयर मिलें या ना मिलें, डीलर एक फ़िक्स्ड रकम देता है."},
+    {"id": "L24", "scene": "deals", "cap": "Dusra: *Subject to Sauda.* Deal tabhi pakki, jab allotment mile.", "tts": "दूसरा, सब्जेक्ट टू सौदा. डील तभी पक्की, जब अलॉटमेंट मिले."},
+    {"id": "L25", "scene": "deals", "cap": "Allotment nahi mila? Deal cancel. Isliye iska rate *zyada* hota hai.", "tts": "अलॉटमेंट नहीं मिला? डील कैंसल. इसलिए इसका रेट ज़्यादा होता है."},
+
+    {"id": "L26", "scene": "settle", "cap": "Settlement samjho ek *simple example* se.", "tts": "सेटलमेंट समझो, एक सिंपल एग्ज़ाम्पल से."},
+    {"id": "L27", "scene": "settle", "cap": "IPO price ₹100. GMP ₹30. Aapne dealer se *₹130* pe sauda kiya.", "tts": "आईपीओ प्राइस सौ रुपये. जीएमपी तीस. आपने डीलर से, एक सौ तीस पर सौदा किया."},
+    {"id": "L28", "scene": "settle", "cap": "Listing ₹150 pe hui? Share becho, aur *₹20 dealer ko* do.", "tts": "लिस्टिंग एक सौ पचास पर हुई? शेयर बेचो, और बीस रुपये डीलर को दो."},
+    {"id": "L29", "scene": "settle", "cap": "Listing ₹110 pe hui? Ab *dealer aapko ₹20* deta hai.", "tts": "लिस्टिंग एक सौ दस पर हुई? अब डीलर आपको बीस रुपये देता है."},
+    {"id": "L30", "scene": "settle", "cap": "Dono case mein aapke haath: *₹130.*", "tts": "दोनों केस में, आपके हाथ, एक सौ तीस."},
+    {"id": "L31", "scene": "settle", "cap": "Bas ek shart. Dealer apni baat se *na palte.*", "tts": "बस एक शर्त. डीलर अपनी बात से ना पलटे."},
+
+    {"id": "L32", "scene": "risk", "cap": "Aur agar palat gaya? Shikayat kahan karoge? *Kahin nahi.*", "tts": "और अगर पलट गया? शिकायत कहाँ करोगे? कहीं नहीं."},
+    {"id": "L33", "scene": "risk", "cap": "Doosra risk: GMP *kuch hi dealers* ke quotes se banta hai.", "tts": "दूसरा रिस्क. जीएमपी, कुछ ही डीलर्स के कोट्स से बनता है."},
+    {"id": "L34", "scene": "risk", "cap": "Volume chhota hai, toh number ko *upar-neeche* karna aasaan hai.", "tts": "वॉल्यूम छोटा है, तो नंबर को ऊपर नीचे करना आसान है."},
+    {"id": "L35", "scene": "risk", "cap": "Jio ka GMP 20 Oct ko *₹273* tha. Teen din mein *₹245.*", "tts": "जियो का जीएमपी, बीस अक्टूबर को, दो सौ तिहत्तर था. तीन दिन में, दो सौ पैंतालीस."},
+
+    {"id": "L36", "scene": "record", "cap": "Toh GMP kitna sahi nikalta hai? *Teen asli case.*", "tts": "तो जीएमपी कितना सही निकलता है? तीन असली केस देखो."},
+    {"id": "L37", "scene": "record", "cap": "Bajaj Housing Finance. IPO ₹70. GMP keh raha tha *lagbhag double.*", "tts": "बजाज हाउसिंग फ़ाइनेंस. आईपीओ प्राइस सत्तर रुपये. जीएमपी कह रहा था, लगभग डबल."},
+    {"id": "L38", "scene": "record", "cap": "Listing hui *₹150* pe. GMP sahi nikla.", "tts": "लिस्टिंग हुई, एक सौ पचास पर. जीएमपी सही निकला."},
+    {"id": "L39", "scene": "record", "cap": "Hyundai Motor India. Price band ke din GMP tha *+₹147.*", "tts": "ह्युंडई मोटर इंडिया. प्राइस बैंड के दिन, जीएमपी था, एक सौ सैंतालीस रुपये प्लस."},
+    {"id": "L40", "scene": "record", "cap": "Listing? ₹1,960 ke IPO price se *neeche.* ₹1,934.", "tts": "लिस्टिंग? उन्नीस सौ साठ के आईपीओ प्राइस से नीचे. उन्नीस सौ चौंतीस."},
+    {"id": "L41", "scene": "record", "cap": "LIC. GMP ek waqt +₹85 tha. Listing se pehle *minus* mein.", "tts": "एल आई सी. जीएमपी एक वक़्त, पचासी रुपये प्लस था. लिस्टिंग से पहले, माइनस में चला गया."},
+    {"id": "L42", "scene": "record", "cap": "Share list hua ₹949 se *8% neeche.*", "tts": "शेयर लिस्ट हुआ, नौ सौ उनचास से, आठ परसेंट नीचे."},
+
+    {"id": "L43", "scene": "use", "cap": "Toh GMP ko *kaise padhein?*", "tts": "तो जीएमपी को कैसे पढ़ें?"},
+    {"id": "L44", "scene": "use", "cap": "GMP ek *thermometer* hai. Forecast nahi.", "tts": "जीएमपी एक थर्मामीटर है. फ़ोरकास्ट नहीं."},
+    {"id": "L45", "scene": "use", "cap": "Yeh batata hai aaj *mood* kaisa hai. Listing pe kya hoga, yeh nahi.", "tts": "ये बताता है, कि आज मूड कैसा है. लिस्टिंग पर क्या होगा, ये नहीं."},
+    {"id": "L46", "scene": "use", "cap": "Asli data official hai: *subscription,* khaas kar QIB demand, company ke numbers, aur *valuation.*", "tts": "असली डेटा ऑफ़िशियल है. सब्सक्रिप्शन, ख़ासकर क्यू आई बी डिमांड. कंपनी के नंबर्स. और वैल्यूएशन."},
+    {"id": "L47", "scene": "use", "cap": "SEBI bhi is gap ke liye official *'when-listed'* trading ki baat kar chuka hai.", "tts": "सेबी भी इस गैप के लिए, ऑफ़िशियल वेन लिस्टेड ट्रेडिंग की बात कर चुका है."},
+    {"id": "L48", "scene": "use", "cap": "Tab tak GMP ko *gossip* ki tarah suno. Faisla *data* se lo.", "tts": "तब तक, जीएमपी को गॉसिप की तरह सुनो. फ़ैसला, डेटा से लो."},
+
+    {"id": "L49", "scene": "outro", "cap": "Jo dost sirf GMP dekh ke IPO bharta hai, *use yeh bhejo.*", "tts": "जो दोस्त, सिर्फ़ जीएमपी देखकर आईपीओ भरता है, उसे ये वीडियो भेजो."},
+    {"id": "L50", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है, मनी थ्योरी."}
+  ]
+}

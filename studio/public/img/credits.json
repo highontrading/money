@@ -1,0 +1,51 @@
+{
+ "bse": {
+  "file": "bse.jpg",
+  "title": "File:BSE - Bombay Stock Exchange Building.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+  "license": "CC BY 2.0",
+  "author": "Niyantha Shekhar"
+ },
+ "paper_kraft": {
+  "file": "paper_kraft.jpg",
+  "title": "File:Brown paper bag texture.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Brown_paper_bag_texture.jpg",
+  "license": "CC BY 2.0",
+  "author": "Matt Edward"
+ },
+ "crowd": {
+  "file": "crowd.jpg",
+  "title": "File:Crowd of people on Bandra station platforms 4 and 5.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Crowd_of_people_on_Bandra_station_platforms_4_and_5.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Rakesh from Bangalore"
+ },
+ "phone": {
+  "file": "phone.jpg",
+  "title": "File:Hand holding smartphone with blank white screen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hand_holding_smartphone_with_blank_white_screen.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Santeri Viinamäki"
+ },
+ "note500": {
+  "file": "note500.jpg",
+  "title": "File:India new 500 INR, MG series, 2016, obverse.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:India_new_500_INR,_MG_series,_2016,_obverse.jpg",
+  "license": "GODL-India",
+  "author": "Reserve Bank of India"
+ },
+ "paper_vintage": {
+  "file": "paper_vintage.jpg",
+  "title": "File:Vintage Paper Texture (9789792113).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vintage_Paper_Texture_(9789792113).jpg",
+  "license": "CC BY 2.0",
+  "author": "James Puckett from Boulder, USA"
+ },
+ "paper_wrinkled": {
+  "file": "paper_wrinkled.jpg",
+  "title": "File:Wrinkled Paper Texture Free Creative Commons (6816216700).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wrinkled_Paper_Texture_Free_Creative_Commons_(6816216700).jpg",
+  "license": "CC BY 2.0",
+  "author": "Pink Sherbet Photography from Utah, USA"
+ }
+}
