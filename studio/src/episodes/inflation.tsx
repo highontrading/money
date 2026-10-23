@@ -174,10 +174,10 @@ const Rbi: React.FC = () => {
   return (
     <AbsoluteFill>
       <Photo id="rbi" src="rbi.jpg" x={90} y={410} w={900} h={560} rot={-2} at={0} out={l23} enter="up" torn={{top: true, bottom: true}} rough={14} caption="RESERVE BANK OF INDIA, MUMBAI" />
-      <Hold from={l23 - 2} to={l24}>
-        <Card id="band" x={80} y={440} w={920} h={560} rot={-1} at={l23 - 2} enter="up" bg={C.card}>
-          <div style={{padding: '30px 40px'}}><Label size={22}>RBI ka inflation target</Label></div>
-        </Card>
+      <Card id="band" x={80} y={440} w={920} h={560} rot={-1} at={l23 - 2} out={l24} enter="up" bg={C.card}>
+        <div style={{padding: '30px 40px'}}><Label size={22}>RBI ka inflation target</Label></div>
+      </Card>
+      <Hold from={l23 + 10} to={l24}>
         <div style={{position: 'absolute', left: px(2), width: px(6) - px(2), top: 700, height: 90, background: C.yellow, border: `4px solid ${C.ink}`, zIndex: 66, opacity: ease(stepped(frame), word('L23', '2', -2), word('L23', '2', 6))}} />
         {[0, 2, 4, 6, 8].map((v) => (
           <div key={v} style={{position: 'absolute', left: px(v) - 40, width: 80, top: 810, textAlign: 'center', fontFamily: F.display, fontSize: 52, zIndex: 66}}>{v}%</div>
