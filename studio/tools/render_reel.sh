@@ -6,3 +6,5 @@ id="$1"
 mkdir -p out
 npx remotion render "src/reels/$id/entry.tsx" "$id" "out/$id.mp4" --crf=18 --audio-bitrate=192k
 npx remotion still "src/reels/$id/entry.tsx" "$id-cover" "out/$id-cover.jpg" --frame=0 --jpeg-quality=92
+sh tools/finalize.sh "out/$id.mp4" "final/$id.mp4"
+cp "out/$id-cover.jpg" "final/$id-cover.jpg"
