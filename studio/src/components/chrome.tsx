@@ -74,8 +74,8 @@ export const Captions: React.FC = () => {
           <div style={{position: 'absolute', inset: 0, background: C.card, clipPath: tornPolygon('cap' + line.id, 900, 200, {top: true, bottom: true}, 7)}} />
           <div style={{position: 'relative', fontFamily: F.sans, fontWeight: 800, fontSize: size, lineHeight: 1.16, color: C.ink, textAlign: 'center', letterSpacing: -0.5, textWrap: 'balance'} as React.CSSProperties}>
             {line.words.map((w, i) => {
-              const spoken = frame >= w.start;
-              const hp = ease(stepped(frame), w.start, w.start + 5);
+              const spoken = frame >= w.start - 3; // captions lead the voice slightly
+              const hp = ease(stepped(frame), w.start - 3, w.start + 2);
               return (
                 <span key={i} style={{position: 'relative', display: 'inline-block', marginRight: '0.24em', opacity: spoken ? 1 : 0.28, isolation: 'isolate'}}>
                   {w.hi ? (

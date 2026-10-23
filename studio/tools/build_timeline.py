@@ -62,30 +62,38 @@ def caption_words(cap):
     return words
 
 
+def spoken_weight(text):
+    # numbers are spoken as words ("1,364" -> "terah sau chaunsath rupaye"), so weigh them by digit count
+    if re.search(r"\d", text):
+        return 3.5 * len(re.sub(r"\D", "", text)) + 3
+    return len(re.sub(r"[^\w₹%]", "", text)) + 1.5
+
+
 def align(words, dur, ps):
-    # phrase boundaries after words ending in punctuation
+    wts = [spoken_weight(w["text"]) for w in words]
+    total = sum(wts)
+    # phrase breaks after words ending in punctuation; snap each to the pause
+    # nearest its text-proportional position, or keep the proportional estimate
     cuts = [i for i, w in enumerate(words[:-1]) if re.search(r"[.,?!:]$", w["text"])]
-    bounds = []
-    if cuts and len(ps) >= len(cuts):
-        chosen = sorted(sorted(ps, key=lambda p: -p[1])[: len(cuts)])
-        bounds = [c for c, _ in chosen]
-    phrases, cur = [], []
+    edges, used, last = [0.0], set(), 0.0
+    for c in cuts:
+        expect = dur * sum(wts[: c + 1]) / total
+        cand = [(abs(t - expect), k, t) for k, (t, _) in enumerate(ps) if k not in used and t > last + 0.15 and abs(t - expect) < 0.22 * dur]
+        if cand:
+            _, k, t = min(cand); used.add(k)
+        else:
+            t = expect
+        edges.append(t); last = t
+    edges.append(dur)
+    groups, cur = [], []
     for i, w in enumerate(words):
-        cur.append(w)
-        if i in cuts: phrases.append(cur); cur = []
-    phrases.append(cur)
-    if not bounds:
-        # no usable pauses: one phrase spread over the whole take
-        phrases = [words]; edges = [0, dur]
-    else:
-        edges = [0] + bounds + [dur]
-    for k, ph in enumerate(phrases):
-        a, b = edges[k], edges[k + 1]
-        # numbers are spoken as words ("1,364" -> "terah sau chaunsath rupaye"), so weigh them by digit count
-        wts = [3.5 * len(re.sub(r"\D", "", w["text"])) + 3 if re.search(r"\d", w["text"]) else len(re.sub(r"[^\w₹%]", "", w["text"])) + 1.5 for w in ph]
-        tot = sum(wts); acc = a
-        for w, wt in zip(ph, wts):
-            w["t0"] = acc; acc += (b - a) * wt / tot; w["t1"] = acc
+        cur.append(i)
+        if i in cuts: groups.append(cur); cur = []
+    groups.append(cur)
+    for g, (a, b) in zip(groups, zip(edges[:-1], edges[1:])):
+        gw = sum(wts[i] for i in g); acc = a
+        for i in g:
+            words[i]["t0"] = acc; acc += (b - a) * wts[i] / gw; words[i]["t1"] = acc
 
 
 def main():

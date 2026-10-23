@@ -11,8 +11,8 @@ import numpy as np, soundfile as sf, torch
 KOKORO_DIR = os.environ.get("KOKORO_DIR", "kokoro")
 REF_TEXT = ("नमस्ते दोस्तों. आज हम पैसे की एक ऐसी बात समझेंगे, जो हर निवेशक को पता होनी चाहिए. "
             "बात सीधी है, पर इसके पीछे का खेल थोड़ा दिलचस्प है.")
-SEEDS = [11, 23, 37]
-GOOD = 0.66  # numbers come back as digits (dropped here), so a clean take scores ~0.7-0.9
+SEEDS = [int(x) for x in os.environ.get("SEEDS", "11,23,37").split(",")]
+GOOD = float(os.environ.get("GOOD", 0.66))  # numbers come back as digits (dropped here), so a clean take scores ~0.7-0.9
 
 
 LATIN = {"IPO": "आईपीओ", "GMP": "जीएमपी", "NSE": "एनएसई", "BSE": "बीएसई", "SEBI": "सेबी", "QIB": "क्यूआईबी", "LIC": "एलआईसी"}

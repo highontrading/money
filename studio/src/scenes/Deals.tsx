@@ -21,7 +21,7 @@ export const Deals: React.FC = () => {
       <div style={{position: 'absolute', left: 90, top: 410}}>
         <Big words={['Do', 'tareeke']} at={word('L21', 'do', -2)} size={150} />
       </div>
-      <Hand x={560} y={430} at={word('L21', 'sauda', 0)} size={50} rot={-6} w={420}>grey market ke saude ↓</Hand>
+      <Hand x={100} y={572} at={word('L21', 'sauda', 0)} size={46} rot={-2} w={600}>grey market ke saude ↓</Hand>
 
       {/* L22-L23: Kostak */}
       <Card id="kostak" x={70} y={640} w={460} h={520} rot={-2} at={l22 - 2} enter="left" bg={C.card}>

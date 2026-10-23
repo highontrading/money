@@ -45,7 +45,7 @@ export const Risk: React.FC = () => {
         </div>
       </Card>
       {[0, 1, 2, 3].map((i) => (
-        <Cross key={i} id={'cx' + i} x={168} y={706 + i * 64} w={44} h={44} at={word('L32', 'shikayat', 6 + i * 4)} out={l33} />
+        <Cross key={i} id={'cx' + i} x={150} y={712 + i * 80} w={52} h={50} at={word('L32', 'shikayat', 6 + i * 4)} out={l33} />
       ))}
       <Stamp id="kahin" text="Kahin nahi" x={640} y={980} at={word('L32', 'kahin', -2)} out={l33} size={100} rot={-8} />
 
@@ -91,7 +91,7 @@ export const Risk: React.FC = () => {
             ) : null;
           })}
           {known.map((p) => (frame >= word('L35', '273', 4) ? <div key={'d' + p.d} style={{position: 'absolute', left: px(p.i) - 11, top: vy(p.v) - 11, width: 22, height: 22, borderRadius: 11, background: C.red, zIndex: 68}} /> : null))}
-          <Hand x={470} y={1205} at={word('L35', 'teen', 0)} size={56} rot={-4} color={C.red}>3 din, 28 rupaye neeche</Hand>
+          <Hand x={420} y={1092} at={word('L35', 'teen', 0)} size={56} rot={-4} color={C.red}>3 din, 28 rupaye neeche</Hand>
         </>
       ) : null}
     </AbsoluteFill>
