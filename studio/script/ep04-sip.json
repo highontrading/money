@@ -1,0 +1,32 @@
+{
+ "episode": "EP 04",
+ "title": "SIP ya lump sum?",
+ "data_note": "AMFI: SIP inflows Rs 32,490 cr in Sep 2026. Vanguard research: lump sum beat cost averaging ~2/3 of the time (2012 study; 68% in 1976-2022 update). NAV paths are illustrative.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "September 2026: Indians ne SIP se daale *₹32,490 crore.* Ek mahine mein.", "tts": "सितंबर दो हज़ार छब्बीस. भारतीयों ने SIP से डाले, बत्तीस हज़ार चार सौ नब्बे करोड़ रुपये. एक महीने में."},
+  {"id": "L02", "scene": "hook", "cap": "Par paisa *ek saath* haath mein ho, toh? SIP karo ya lump sum?", "tts": "पर पैसा एक साथ हाथ में हो, तो? SIP करो, या लम्प सम?"},
+  {"id": "L03", "scene": "hook", "cap": "Jawab ek *simple example* mein hai.", "tts": "जवाब एक सिंपल एग्ज़ाम्पल में है."},
+  {"id": "L04", "scene": "what", "cap": "*SIP:* har mahine ek fix rakam invest karna.", "tts": "SIP. हर महीने, एक फ़िक्स रकम इन्वेस्ट करना."},
+  {"id": "L05", "scene": "what", "cap": "*Lump sum:* saara paisa ek hi baar mein.", "tts": "लम्प सम. सारा पैसा, एक ही बार में."},
+  {"id": "L06", "scene": "dip", "cap": "Example: ₹4,000 lagane hain. Fund ka NAV hai *₹100.*", "tts": "एग्ज़ाम्पल. चार हज़ार रुपये लगाने हैं. फ़ंड का NAV है, सौ रुपये."},
+  {"id": "L07", "scene": "dip", "cap": "Lump sum: ₹4,000 ek baar mein. Mile *40 units.*", "tts": "लम्प सम. चार हज़ार एक बार में. मिले, चालीस यूनिट्स."},
+  {"id": "L08", "scene": "dip", "cap": "SIP: har mahine ₹1,000. Aur bazaar gira. NAV *100, 80, 50,* phir 100.", "tts": "SIP. हर महीने एक हज़ार. और बाज़ार गिरा. NAV सौ, अस्सी, पचास, फिर सौ."},
+  {"id": "L09", "scene": "dip", "cap": "Units mile 10, 12.5, 20 aur 10. Total *52.5 units.*", "tts": "यूनिट्स मिले, दस, साढ़े बारह, बीस, और दस. टोटल, साढ़े बावन यूनिट्स."},
+  {"id": "L10", "scene": "dip", "cap": "End mein NAV ₹100. SIP ki value *₹5,250.* Lump sum ki ₹4,000.", "tts": "एंड में NAV सौ. SIP की वैल्यू, बावन सौ पचास. लम्प सम की, चार हज़ार."},
+  {"id": "L11", "scene": "dip", "cap": "Isse kehte hain *rupee cost averaging.* Sasta hone pe zyada units.", "tts": "इसे कहते हैं, रुपी कॉस्ट एवरेजिंग. सस्ता होने पर, ज़्यादा यूनिट्स."},
+  {"id": "L12", "scene": "rise", "cap": "Ab doosra scenario. Bazaar *seedha upar:* 100, 110, 120, 130.", "tts": "अब दूसरा सिनेरियो. बाज़ार सीधा ऊपर. सौ, एक सौ दस, एक सौ बीस, एक सौ तीस."},
+  {"id": "L13", "scene": "rise", "cap": "SIP ko mile sirf *35.1 units.* Value ₹4,565.", "tts": "SIP को मिले, सिर्फ़ पैंतीस दशमलव एक यूनिट्स. वैल्यू, पैंतालीस सौ पैंसठ."},
+  {"id": "L14", "scene": "rise", "cap": "Lump sum ke 40 units: *₹5,200.* Is baar lump sum jeeta.", "tts": "लम्प सम के चालीस यूनिट्स, बावन सौ रुपये. इस बार लम्प सम जीता."},
+  {"id": "L15", "scene": "data", "cap": "Toh asli duniya mein *kaun* jeet-ta hai?", "tts": "तो असली दुनिया में, कौन जीतता है?"},
+  {"id": "L16", "scene": "data", "cap": "Vanguard ki research: lambe samay mein lump sum lagbhag *do-tihai* baar aage raha.", "tts": "वैनगार्ड की रिसर्च. लंबे समय में, लम्प सम लगभग दो तिहाई बार आगे रहा."},
+  {"id": "L17", "scene": "data", "cap": "Kyunki bazaar zyada tar *upar* jaata hai. Jaldi laga paisa zyada der kaam karta hai.", "tts": "क्योंकि बाज़ार ज़्यादातर ऊपर जाता है. जल्दी लगा पैसा, ज़्यादा देर काम करता है."},
+  {"id": "L18", "scene": "data", "cap": "Par jab bazaar *girta* hai, SIP chot kam karta hai.", "tts": "पर जब बाज़ार गिरता है, SIP चोट कम करता है."},
+  {"id": "L19", "scene": "choose", "cap": "Toh aap kya karo? Salary se har mahine invest kar rahe ho? *SIP* hi sahi hai.", "tts": "तो आप क्या करो? सैलरी से हर महीने इन्वेस्ट कर रहे हो? SIP ही सही है."},
+  {"id": "L20", "scene": "choose", "cap": "Bonus ya badi rakam haath mein? *Lump sum* ka math behtar hai.", "tts": "बोनस या बड़ी रकम हाथ में? लम्प सम का मैथ, बेहतर है."},
+  {"id": "L21", "scene": "choose", "cap": "Girne ka darr hai? *STP:* paisa liquid fund mein, wahan se har mahine equity mein.", "tts": "गिरने का डर है? STP. पैसा लिक्विड फ़ंड में, वहाँ से हर महीने, इक्विटी में."},
+  {"id": "L22", "scene": "choose", "cap": "SIP ka sabse bada fayda math nahi, *discipline* hai.", "tts": "SIP का सबसे बड़ा फ़ायदा मैथ नहीं, डिसिप्लिन है."},
+  {"id": "L23", "scene": "choose", "cap": "Aur sabse badi galti? Girte bazaar mein *SIP band* kar dena.", "tts": "और सबसे बड़ी ग़लती? गिरते बाज़ार में, SIP बंद कर देना."},
+  {"id": "L24", "scene": "outro", "cap": "SIP ho ya lump sum, zaroori hai *time in the market,* timing nahi. Yeh us dost ko bhejo jo 'sahi time' ka wait kar raha hai.", "tts": "SIP हो या लम्प सम, ज़रूरी है टाइम इन द मार्केट, टाइमिंग नहीं. ये उस दोस्त को भेजो, जो सही टाइम का वेट कर रहा है."},
+  {"id": "L25", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है, मनी थ्योरी."}
+ ]
+}

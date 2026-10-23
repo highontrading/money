@@ -45,6 +45,7 @@ def main(pairs):
                         "license": m.get("LicenseShortName", {}).get("value"),
                         "author": strip(m.get("Artist", {}).get("value"))}
         print("ok", key, credits[key]["license"], "|", credits[key]["author"][:50])
+        json.dump(credits, open(CREDITS, "w"), indent=1, ensure_ascii=False)
     json.dump(credits, open(CREDITS, "w"), indent=1, ensure_ascii=False)
 
 if __name__ == "__main__":

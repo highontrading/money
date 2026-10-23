@@ -1,6 +1,6 @@
 """Original score + foley for the episode, synthesized from scratch (no licensing).
 
-usage: synth_audio.py timeline.json out_dir
+usage: synth_audio.py timeline.json out_dir [transpose_semitones] [bpm]
 Writes music.wav (follows the scene structure) and sfx_*.wav.
 """
 import json, os, sys
@@ -115,7 +115,9 @@ LEVELS = {
 }
 
 
-def music(tl):
+def music(tl, transpose=0, bpm=96):
+    global BEAT
+    BEAT = 60 / bpm
     fps = tl["fps"]; total = tl["duration"] / fps + 2.5
     L = int(total * SR)
     out = np.zeros((L, 2))
@@ -128,6 +130,10 @@ def music(tl):
         out[i:i + len(x), 1] += x * (1 + min(0, pan))
 
     scenes = [(s["id"], s["start"] / fps, s["end"] / fps) for s in tl["scenes"]]
+    # first scene plays as the intro and the last as the outro, whatever they're called
+    scenes[0] = ("hook",) + scenes[0][1:]
+    scenes[-1] = ("outro",) + scenes[-1][1:]
+    scenes = [((s[0] if s[0] in LEVELS else ("risk" if "risk" in s[0] or "tension" in s[0] else "math")),) + s[1:] for s in scenes]
     scenes[-1] = (scenes[-1][0], scenes[-1][1], total)
 
     bar = 4 * BEAT
@@ -139,15 +145,15 @@ def music(tl):
         prog = TENSION if lv[5] else CHORDS
         root, notes = prog[(b // 2) % len(prog)] if lv[5] else prog[b % len(prog)]
         if b % (2 if lv[5] else 1) == 0:
-            add(pad([midi(n) for n in notes[:4]], bar * (2 if lv[5] else 1) + 0.9), t0, 0, 0.55 * lv[0])
+            add(pad([midi(n + transpose) for n in notes[:4]], bar * (2 if lv[5] else 1) + 0.9), t0, 0, 0.55 * lv[0])
         for k in range(8):
             if lv[1] <= 0: break
-            n = notes[ARP[(k + b) % 8] % len(notes)] + 12
+            n = notes[ARP[(k + b) % 8] % len(notes)] + 12 + transpose
             vel = (0.55 if k % 2 else 0.8) * lv[1]
             add(marimba(midi(n), 0.7, vel), t0 + k * BEAT / 2, pan=(-0.35 if k % 2 else 0.3), gain=0.32)
         for q in range(4):
             if lv[2] > 0 and q in (0, 2, 3):
-                add(sub(midi(root - 12), BEAT * 0.95), t0 + q * BEAT, 0, 0.55 * lv[2])
+                add(sub(midi(root - 12 + transpose), BEAT * 0.95), t0 + q * BEAT, 0, 0.55 * lv[2])
             if lv[3] > 0 and q in (0, 2):
                 add(kick(), t0 + q * BEAT, 0, 0.55 * lv[3])
             if lv[4] > 0:
@@ -156,9 +162,9 @@ def music(tl):
 
     # final resolution chord under the sign-off
     end = scenes[-1][1]
-    add(pad([midi(n) for n in [45, 52, 57, 60, 64]], 5.5), end + 0.5, 0, 0.6)
+    add(pad([midi(n + transpose) for n in [45, 52, 57, 60, 64]], 5.5), end + 0.5, 0, 0.6)
     for i, n in enumerate([69, 72, 76, 79]):
-        add(marimba(midi(n), 1.5, 0.8), end + 0.6 + i * 0.12, 0.2 * (i - 1.5), 0.3)
+        add(marimba(midi(n + transpose), 1.5, 0.8), end + 0.6 + i * 0.12, 0.2 * (i - 1.5), 0.3)
 
     # glue: gentle saturation, fade in/out, normalize to -14 dBFS peak-ish
     out = np.tanh(out * 1.4) / 1.4
@@ -200,7 +206,9 @@ if __name__ == "__main__":
     import soundfile as sf
     tl = json.load(open(sys.argv[1])); out = sys.argv[2]
     os.makedirs(out, exist_ok=True)
-    sf.write(os.path.join(out, "music.wav"), music(tl), SR)
+    tr = int(sys.argv[3]) if len(sys.argv) > 3 else 0
+    bpm = float(sys.argv[4]) if len(sys.argv) > 4 else 96
+    sf.write(os.path.join(out, "music.wav"), music(tl, tr, bpm), SR)
     for k, v in sfx().items():
         v = v / (np.abs(v).max() + 1e-9) * 0.8
         sf.write(os.path.join(out, f"sfx_{k}.wav"), v.astype(np.float32), SR)

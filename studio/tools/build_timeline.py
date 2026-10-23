@@ -1,6 +1,8 @@
 """Assemble narration takes into one track and write the frame-accurate timeline.
 
-usage: build_timeline.py script.json vo_dir public_dir timeline.json
+usage: build_timeline.py script.json vo_dir public_dir timeline.json [audio_subdir]
+- takes are <id>.wav (local TTS) or <id>.mp3 + <id>.align.json (ElevenLabs,
+  whose character timestamps give exact phrase boundaries)
 - trims each take, speeds it up slightly (pitch preserved), places it with
   breathing gaps (longer at scene changes, which carry the paper wipe)
 - aligns caption words to the audio: caption phrases (split at punctuation)
@@ -19,8 +21,8 @@ LEAD_IN = 0.45
 TAIL = 3.2
 
 
-def load_take(path):
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-af", f"atempo={TEMPO},highpass=f=75,equalizer=f=220:t=q:w=1.2:g=-1.5,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=6:release=80:makeup=2", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+def load_take(path, tempo=TEMPO):
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-af", f"atempo={tempo},highpass=f=75,equalizer=f=220:t=q:w=1.2:g=-1.5,equalizer=f=3200:t=q:w=1.4:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=6:release=80:makeup=2", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
                          capture_output=True, check=True).stdout
     a = np.frombuffer(raw, dtype=np.float32).copy()
     rms = np.sqrt(np.convolve(a ** 2, np.ones(480) / 480, mode="same"))
@@ -30,7 +32,17 @@ def load_take(path):
     a = a[s:e]
     fade = int(0.01 * SR)
     a[:fade] *= np.linspace(0, 1, fade); a[-fade:] *= np.linspace(1, 0, fade)
-    return a
+    return a, s / SR
+
+
+def punctuation_times(align_path, trim, tempo):
+    """Phrase-break candidates from ElevenLabs character timestamps."""
+    al = json.load(open(align_path))
+    out = []
+    for ch, t0, t1 in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]):
+        if ch in ".,?!:।":
+            out.append((t1 / tempo - trim + 0.05, 0.3))
+    return out
 
 
 def pauses(a, min_len=0.11):
@@ -98,21 +110,30 @@ def align(words, dur, ps):
 
 def main():
     script, vo, pub, tl_path = sys.argv[1:5]
+    sub = sys.argv[5] if len(sys.argv) > 5 else ""
+    audio_dir = os.path.join("audio", sub) if sub else "audio"
     lines = json.load(open(script))["lines"]
-    os.makedirs(os.path.join(pub, "audio"), exist_ok=True)
+    os.makedirs(os.path.join(pub, audio_dir), exist_ok=True)
     track, cursor, prev_scene = [], LEAD_IN, None
     tl_lines, scenes = [], []
     for ln in lines:
-        wav = os.path.join(vo, ln["id"] + ".wav")
-        # while takes are still generating, preview with silence of the expected length
-        a = load_take(wav) if os.path.exists(wav) else np.zeros(int(len(ln["tts"]) * 0.066 * SR), np.float32)
+        wav, mp3 = os.path.join(vo, ln["id"] + ".wav"), os.path.join(vo, ln["id"] + ".mp3")
+        ps = None
+        if os.path.exists(mp3):
+            a, trim = load_take(mp3, tempo=1.0)
+            ps = punctuation_times(os.path.join(vo, ln["id"] + ".align.json"), trim, 1.0)
+        elif os.path.exists(wav):
+            a, _ = load_take(wav)
+        else:
+            # while takes are still generating, preview with silence of the expected length
+            a = np.zeros(int(len(ln["tts"]) * 0.066 * SR), np.float32)
         if prev_scene is not None:
             cursor += SCENE_GAP if ln["scene"] != prev_scene else GAP
         if ln["scene"] != prev_scene:
             scenes.append({"id": ln["scene"], "start_s": max(0, cursor - SCENE_GAP / 2) if prev_scene else 0})
         dur = len(a) / SR
         words = caption_words(ln["cap"])
-        align(words, dur, pauses(a))
+        align(words, dur, ps if ps is not None else pauses(a))
         track.append((cursor, a))
         tl_lines.append({"id": ln["id"], "scene": ln["scene"], "start": round(cursor * FPS), "end": round((cursor + dur) * FPS),
                          "words": [{"text": w["text"], "hi": w["hi"], "start": round((cursor + w["t0"]) * FPS), "end": round((cursor + w["t1"]) * FPS)} for w in words]})
@@ -128,14 +149,14 @@ def main():
     except ImportError:
         mix *= 0.25 / (np.sqrt(np.mean(mix[mix != 0] ** 2)) + 1e-9)
     mix = np.tanh(mix * 1.1) / 1.1  # soft limiter instead of hard clipping
-    sf.write(os.path.join(pub, "audio", "narration.wav"), mix, SR)
+    sf.write(os.path.join(pub, audio_dir, "narration.wav"), mix, SR)
     duration = round(total * FPS)
     for i, s in enumerate(scenes):
         s["start"] = round(s.pop("start_s") * FPS)
         s["end"] = scenes[i + 1]["start_s"] * FPS if i + 1 < len(scenes) else duration
     for s in scenes: s["end"] = round(s["end"])
-    json.dump({"fps": FPS, "duration": duration, "lines": tl_lines, "scenes": scenes, "audio": "audio/narration.wav",
-               "music": "audio/music.wav", "sfx": []}, open(tl_path, "w"), indent=1, ensure_ascii=False)
+    json.dump({"fps": FPS, "duration": duration, "lines": tl_lines, "scenes": scenes, "audio": f"{audio_dir}/narration.wav",
+               "music": f"{audio_dir}/music.wav", "sfx": []}, open(tl_path, "w"), indent=1, ensure_ascii=False)
     print(f"duration {total:.1f}s, {len(tl_lines)} lines, {len(scenes)} scenes")
 
 

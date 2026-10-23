@@ -47,5 +47,26 @@
   "page": "https://commons.wikimedia.org/wiki/File:Wrinkled_Paper_Texture_Free_Creative_Commons_(6816216700).jpg",
   "license": "CC BY 2.0",
   "author": "Pink Sherbet Photography from Utah, USA"
+ },
+ "flats": {
+  "file": "flats.jpg",
+  "title": "File:Buildings in mumbai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Buildings_in_mumbai.jpg",
+  "license": "CC0",
+  "author": "Jishnu12684"
+ },
+ "rbi": {
+  "file": "rbi.jpg",
+  "title": "File:Mumbai, reserve bank of india 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mumbai,_reserve_bank_of_india_01.jpg",
+  "license": "CC BY 3.0",
+  "author": "Sailko"
+ },
+ "veg": {
+  "file": "veg.jpg",
+  "title": "File:Vegetable market, Ahmedabad.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vegetable_market,_Ahmedabad.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Bernard Gagnon"
  }
 }
