@@ -11,7 +11,7 @@ const PS = 0.62;
 
 const CallScreen: React.FC<{at: number}> = ({at}) => {
   const frame = useCurrentFrame();
-  const dots = '.'.repeat(1 + (Math.floor(stepped(frame - at) / 10) % 3));
+  const dots = '.'.repeat(1 + (Math.floor(Math.max(0, stepped(frame - at)) / 10) % 3));
   return (
     <div style={{position: 'absolute', left: 656 * PS - (262 * PS) / 2, top: 543 * PS - (436 * PS) / 2, width: 262 * PS, height: 436 * PS, transform: 'rotate(17.9deg)', background: '#111', borderRadius: 10, color: C.paperLight, fontFamily: F.mono, textAlign: 'center', paddingTop: 34, opacity: frame >= at ? 1 : 0}}>
       <div style={{fontSize: 12, letterSpacing: 2, opacity: 0.7}}>INCOMING CALL</div>
