@@ -137,6 +137,8 @@ if __name__ == "__main__":
         photo(R("rickshaw_crowd.jpg"), "rickshaw_crowd.jpg")
         photo(R("phone.jpg"), "phone.jpg", contrast=1.2)
         photo(R("note500.jpg"), "note500.jpg", size=(1600, 800), contrast=1.25, dots=False)
+        photo(R("card_terminal.jpg"), "card_terminal.jpg")
+        photo(R("gold_jewelry.jpg"), "gold_jewelry.jpg", contrast=1.25)
     if "grain" in what:
         grain()
     if "ink" in what:

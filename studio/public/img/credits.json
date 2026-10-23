@@ -47,5 +47,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Wrinkled_Paper_Texture_Free_Creative_Commons_(6816216700).jpg",
   "license": "CC BY 2.0",
   "author": "Pink Sherbet Photography from Utah, USA"
+ },
+ "card_terminal": {
+  "file": "card_terminal.jpg",
+  "title": "File:Credit card terminal in Laos.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Credit_card_terminal_in_Laos.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Basile Morin"
+ },
+ "gold_jewelry": {
+  "file": "gold_jewelry.jpg",
+  "title": "File:Native Gold Jewelry from SawantWadi.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Native_Gold_Jewelry_from_SawantWadi.jpg",
+  "license": "Public domain",
+  "author": "AnonymousUnknown author"
  }
 }
