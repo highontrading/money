@@ -3,3 +3,4 @@ build/
 out/
 public/audio/
 public/img/proc/
+__pycache__/
