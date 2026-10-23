@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+<defs>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d8d8d8"/><stop offset=".55" stop-color="#a8a8a8"/><stop offset="1" stop-color="#555"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6b6b6b"/><stop offset="1" stop-color="#2d2d2d"/></linearGradient>
+<linearGradient id="box" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a3a"/><stop offset="1" stop-color="#0f0f0f"/></linearGradient>
+</defs>
+<path d="M250 300 q0 -200 150 -200 q150 0 150 200" fill="none" stroke="#2a2a2a" stroke-width="30"/>
+<rect x="250" y="150" width="300" height="260" rx="10" fill="url(#box)" transform="rotate(-8 400 280)"/>
+<rect x="300" y="190" width="200" height="60" rx="6" fill="#d0d0d0" transform="rotate(-8 400 280)"/>
+<polygon points="120,300 600,300 640,860 80,860" fill="url(#b)"/>
+<polygon points="600,300 720,340 740,840 640,860" fill="url(#s)"/>
+<path d="M230 300 q0 -170 120 -170 q120 0 120 170" fill="none" stroke="#111" stroke-width="26"/>
+<rect x="190" y="520" width="340" height="130" fill="#1b1b1b"/>
+<rect x="230" y="560" width="260" height="50" fill="#e6e6e6"/>
+<polygon points="120,300 600,300 596,340 124,340" fill="#ececec"/>
+</svg>

@@ -1,0 +1,9 @@
+build/frames/
+build/lines/
+build/voices/
+build/*.wav
+build/*.mp3
+build/sfx.json
+build/log_*.txt
+src/data.js
+out/check.jpg
