@@ -1,0 +1,167 @@
+{
+ "duration": 86.939,
+ "lines": [
+  {
+   "i": 0,
+   "scene": "hook",
+   "start": 0.35,
+   "end": 3.402
+  },
+  {
+   "i": 1,
+   "scene": "hook",
+   "start": 3.542,
+   "end": 4.848
+  },
+  {
+   "i": 2,
+   "scene": "hook",
+   "start": 4.988,
+   "end": 8.429
+  },
+  {
+   "i": 3,
+   "scene": "rbi",
+   "start": 8.809,
+   "end": 10.804
+  },
+  {
+   "i": 4,
+   "scene": "rbi",
+   "start": 10.944,
+   "end": 14.126
+  },
+  {
+   "i": 5,
+   "scene": "three",
+   "start": 14.506,
+   "end": 15.574
+  },
+  {
+   "i": 6,
+   "scene": "three",
+   "start": 15.714,
+   "end": 18.002
+  },
+  {
+   "i": 7,
+   "scene": "math",
+   "start": 18.382,
+   "end": 22.365
+  },
+  {
+   "i": 8,
+   "scene": "math",
+   "start": 22.505,
+   "end": 25.612
+  },
+  {
+   "i": 9,
+   "scene": "math",
+   "start": 25.752,
+   "end": 28.798
+  },
+  {
+   "i": 10,
+   "scene": "math",
+   "start": 28.938,
+   "end": 32.768
+  },
+  {
+   "i": 11,
+   "scene": "math",
+   "start": 32.908,
+   "end": 35.574
+  },
+  {
+   "i": 12,
+   "scene": "twist",
+   "start": 35.954,
+   "end": 36.773
+  },
+  {
+   "i": 13,
+   "scene": "twist",
+   "start": 36.913,
+   "end": 39.995
+  },
+  {
+   "i": 14,
+   "scene": "twist",
+   "start": 40.135,
+   "end": 42.912
+  },
+  {
+   "i": 15,
+   "scene": "twist",
+   "start": 43.052,
+   "end": 47.562
+  },
+  {
+   "i": 16,
+   "scene": "twist",
+   "start": 47.702,
+   "end": 52.925
+  },
+  {
+   "i": 17,
+   "scene": "twist",
+   "start": 53.065,
+   "end": 56.894
+  },
+  {
+   "i": 18,
+   "scene": "fine",
+   "start": 57.274,
+   "end": 59.261
+  },
+  {
+   "i": 19,
+   "scene": "fine",
+   "start": 59.401,
+   "end": 62.142
+  },
+  {
+   "i": 20,
+   "scene": "fine",
+   "start": 62.282,
+   "end": 65.782
+  },
+  {
+   "i": 21,
+   "scene": "fine",
+   "start": 65.922,
+   "end": 69.195
+  },
+  {
+   "i": 22,
+   "scene": "land",
+   "start": 69.575,
+   "end": 71.65
+  },
+  {
+   "i": 23,
+   "scene": "land",
+   "start": 71.79,
+   "end": 75.015
+  },
+  {
+   "i": 24,
+   "scene": "land",
+   "start": 75.155,
+   "end": 77.71
+  },
+  {
+   "i": 25,
+   "scene": "end",
+   "start": 78.09,
+   "end": 81.359
+  },
+  {
+   "i": 26,
+   "scene": "end",
+   "start": 81.499,
+   "end": 84.739
+  }
+ ]
+}
