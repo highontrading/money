@@ -3,34 +3,142 @@
   "series": "MONEY THEORY",
   "episode": "FILE 02",
   "topic": "NO-COST EMI",
-  "note": "cap = on-screen Hinglish caption (*word* = yellow keyword). tts = Devanagari text fed to the voice. scene = visual block. Numbers: Rs 30,000 phone, 6 months, 16% p.a. card EMI rate, reducing balance, 18% GST, Rs 199 processing fee. Illustrative.",
+  "note": "cap = on-screen Hinglish caption (*word* = yellow keyword). tts = Devanagari text; all lines are voiced as ONE continuous take and visuals are cued to the spoken words. Numbers: Rs 30,000 phone, 6 months, 16% p.a. card EMI rate, reducing balance, 18% GST, Rs 199 processing fee. Illustrative.",
   "lines": [
-    {"scene": "hook", "cap": "₹30,000 ka *phone.* 6 mahine ki *EMI.*", "tts": "तीस हज़ार का फ़ोन. छह महीने की ई एम आई."},
-    {"scene": "hook", "cap": "Interest? *Zero.*", "tts": "इंटरेस्ट? ज़ीरो."},
-    {"scene": "hook", "cap": "Phir bhi aapne diye *₹30,478.* Kaise?", "tts": "फिर भी आपने दिए, तीस हज़ार चार सौ अठत्तर. कैसे?"},
-    {"scene": "rbi", "cap": "Kyunki *RBI* khud keh chuka hai…", "tts": "क्योंकि आर बी आई ख़ुद कह चुका है,"},
-    {"scene": "rbi", "cap": "zero percent interest jaisi cheez *exist hi nahi karti.*", "tts": "ज़ीरो परसेंट इंटरेस्ट जैसी चीज़, एग्ज़िस्ट ही नहीं करती."},
-    {"scene": "three", "cap": "Toh interest *gaya kahan?*", "tts": "तो इंटरेस्ट गया कहाँ?"},
-    {"scene": "three", "cap": "Chhupa diya gaya. *Teen* logon ke beech.", "tts": "छुपा दिया गया. तीन लोगों के बीच."},
-    {"scene": "math", "cap": "*Bank* ko apna interest chahiye. Maan lo *16%* saal ka.", "tts": "बैंक को अपना इंटरेस्ट चाहिए. मान लो, सोलह परसेंट साल का."},
-    {"scene": "math", "cap": "6 mahine mein woh banta hai lagbhag *₹1,350.*", "tts": "छह महीने में वो बनता है, लगभग तेरह सौ पचास रुपये."},
-    {"scene": "math", "cap": "Toh *brand* phone pe ₹1,350 ka *discount* de deta hai.", "tts": "तो ब्रांड, फ़ोन पे तेरह सौ पचास का डिस्काउंट दे देता है."},
-    {"scene": "math", "cap": "Loan bana *₹28,650* ka. Interest jodo…", "tts": "लोन बना, अट्ठाईस हज़ार छह सौ पचास का. इंटरेस्ट जोड़ो,"},
-    {"scene": "math", "cap": "…wapas *₹30,000.* Interest *brand ne bhara.*", "tts": "वापस तीस हज़ार. इंटरेस्ट ब्रांड ने भरा."},
-    {"scene": "twist", "cap": "Ab *asli khel.*", "tts": "अब असली खेल."},
-    {"scene": "twist", "cap": "Us interest pe lagta hai *18% GST.*", "tts": "उस इंटरेस्ट पे लगता है, अठारह परसेंट जी एस टी."},
-    {"scene": "twist", "cap": "Aur ye GST *discount mein cover nahi* hota.", "tts": "और ये जी एस टी, डिस्काउंट में कवर नहीं होता."},
-    {"scene": "twist", "cap": "₹1,350 ka 18% = *₹243.* Aapki jeb se.", "tts": "तेरह सौ पचास का अठारह परसेंट, दो सौ तैंतालीस. आपकी जेब से."},
-    {"scene": "twist", "cap": "Upar se *processing fee:* ₹199 + GST = *₹235.*", "tts": "ऊपर से प्रोसेसिंग फ़ीस. एक सौ निन्यानवे, प्लस जी एस टी. दो सौ पैंतीस."},
-    {"scene": "twist", "cap": "Total: *₹478 extra.* Ye hai 'no-cost' ka *cost.*", "tts": "टोटल, चार सौ अठत्तर एक्स्ट्रा. ये है नो कॉस्ट का कॉस्ट."},
-    {"scene": "fine", "cap": "Aur *fine print* yahin khatam nahi hota.", "tts": "और फ़ाइन प्रिंट, यहीं ख़त्म नहीं होता."},
-    {"scene": "fine", "cap": "Kai sales mein *full payment* pe discount *bada* hota hai.", "tts": "कई सेल्स में, फ़ुल पेमेंट पे डिस्काउंट बड़ा होता है."},
-    {"scene": "fine", "cap": "Poore ₹30,000 *card limit* se block. *Credit score* pe asar.", "tts": "पूरे तीस हज़ार, कार्ड लिमिट से ब्लॉक. क्रेडिट स्कोर पे असर."},
-    {"scene": "fine", "cap": "Ek EMI *miss?* Late fee. 'No-cost' *gaya.*", "tts": "एक ई एम आई मिस? लेट फ़ीस. नो कॉस्ट गया."},
-    {"scene": "land", "cap": "Toh no-cost EMI *bura nahi* hai.", "tts": "तो नो कॉस्ट ई एम आई बुरा नहीं है."},
-    {"scene": "land", "cap": "₹478 mein 6 mahine ka *aaram?* Fair deal.", "tts": "चार सौ अठत्तर में, छह महीने का आराम? फ़ेयर डील."},
-    {"scene": "land", "cap": "Bas checkout pe *dono price* compare karo.", "tts": "बस चेकआउट पे, दोनों प्राइस कंपेयर करो."},
-    {"scene": "end", "cap": "Free kuch nahi hota. Bas *bill kisi aur ke naam* hota hai.", "tts": "फ़्री कुछ नहीं होता. बस बिल, किसी और के नाम होता है."},
-    {"scene": "end", "cap": "Ye us *dost* ko bhejo jo sab kuch *EMI* pe leta hai.", "tts": "ये उस दोस्त को भेजो, जो सब कुछ ई एम आई पे लेता है."}
+    {
+      "scene": "hook",
+      "cap": "₹30,000 ka *phone…* 6 mahine ki *EMI.*",
+      "tts": "तीस हज़ार का फ़ोन... छह महीने की ई-एम-आई।"
+    },
+    {
+      "scene": "hook",
+      "cap": "Aur interest? Bilkul *zero!*",
+      "tts": "और इंटरेस्ट? बिल्कुल ज़ीरो!"
+    },
+    {
+      "scene": "hook",
+      "cap": "Lekin… aapne diye *₹30,478!* Kaise?",
+      "tts": "लेकिन... आपने दिए तीस हज़ार चार सौ अठत्तर रुपये! कैसे?"
+    },
+    {
+      "scene": "rbi",
+      "cap": "Kyunki *RBI* khud keh chuka hai…",
+      "tts": "क्योंकि आर-बी-आई ख़ुद कह चुका है..."
+    },
+    {
+      "scene": "rbi",
+      "cap": "zero percent interest jaisi koi cheez… *hoti hi nahi.*",
+      "tts": "ज़ीरो परसेंट इंटरेस्ट जैसी कोई चीज़... होती ही नहीं।"
+    },
+    {
+      "scene": "three",
+      "cap": "Toh phir interest *gaya kahan?*",
+      "tts": "तो फिर इंटरेस्ट गया कहाँ?"
+    },
+    {
+      "scene": "three",
+      "cap": "Woh chhupa diya gaya hai… *teen* logon ke beech.",
+      "tts": "वो छुपा दिया गया है... तीन लोगों के बीच।"
+    },
+    {
+      "scene": "math",
+      "cap": "*Bank* ko chahiye apna interest. Maan lo *16%* saalana.",
+      "tts": "बैंक को चाहिए अपना इंटरेस्ट। मान लो, सोलह परसेंट सालाना।"
+    },
+    {
+      "scene": "math",
+      "cap": "6 mahine mein ye banta hai lagbhag *₹1,350.*",
+      "tts": "छह महीने में ये बनता है, लगभग तेरह सौ पचास रुपये।"
+    },
+    {
+      "scene": "math",
+      "cap": "Toh *brand* phone pe ₹1,350 ka *discount* de deta hai.",
+      "tts": "तो ब्रांड, फ़ोन पर तेरह सौ पचास का डिस्काउंट दे देता है।"
+    },
+    {
+      "scene": "math",
+      "cap": "Ab loan bana *₹28,650* ka… isme interest jodo…",
+      "tts": "अब लोन बना अट्ठाईस हज़ार छह सौ पचास का... इसमें इंटरेस्ट जोड़ो..."
+    },
+    {
+      "scene": "math",
+      "cap": "…aur wapas *₹30,000!* Yaani interest bhara *brand ne.*",
+      "tts": "और वापस तीस हज़ार! यानी इंटरेस्ट भरा, ब्रांड ने।"
+    },
+    {
+      "scene": "twist",
+      "cap": "Par… ab aata hai *asli khel.*",
+      "tts": "पर... अब आता है असली खेल।"
+    },
+    {
+      "scene": "twist",
+      "cap": "Us interest pe lagta hai *18% GST.*",
+      "tts": "उस इंटरेस्ट पर लगता है, अठारह परसेंट जी-एस-टी।"
+    },
+    {
+      "scene": "twist",
+      "cap": "Aur ye GST *discount mein cover nahi* hota.",
+      "tts": "और ये जी-एस-टी, डिस्काउंट में कवर नहीं होता।"
+    },
+    {
+      "scene": "twist",
+      "cap": "₹1,350 ka 18% = *₹243.* Seedha aapki jeb se.",
+      "tts": "तेरह सौ पचास का अठारह परसेंट, दो सौ तैंतालीस रुपये। सीधा आपकी जेब से।"
+    },
+    {
+      "scene": "twist",
+      "cap": "Upar se *processing fee:* ₹199 + GST… yaani *₹235.*",
+      "tts": "ऊपर से प्रोसेसिंग फ़ीस, एक सौ निन्यानवे, प्लस जी-एस-टी... यानी दो सौ पैंतीस।"
+    },
+    {
+      "scene": "twist",
+      "cap": "Total? *₹478 extra.* Yahi hai 'no-cost' ka asli *cost.*",
+      "tts": "टोटल? चार सौ अठत्तर रुपये एक्स्ट्रा। यही है नो-कॉस्ट का असली कॉस्ट।"
+    },
+    {
+      "scene": "fine",
+      "cap": "Aur *fine print* yahin khatam nahi hota.",
+      "tts": "और फ़ाइन प्रिंट, यहीं ख़त्म नहीं होता।"
+    },
+    {
+      "scene": "fine",
+      "cap": "Kai sales mein *full payment* pe discount *zyada* milta hai.",
+      "tts": "कई सेल्स में, फ़ुल पेमेंट पर डिस्काउंट ज़्यादा मिलता है।"
+    },
+    {
+      "scene": "fine",
+      "cap": "Poore ₹30,000 *card limit* se block. Aur *credit score* pe asar.",
+      "tts": "पूरे तीस हज़ार, आपकी कार्ड लिमिट से ब्लॉक। और क्रेडिट स्कोर पर असर।"
+    },
+    {
+      "scene": "fine",
+      "cap": "Aur ek EMI *miss* hui? Late fee… 'no-cost' *gaya!*",
+      "tts": "और एक ई-एम-आई मिस हुई? लेट फ़ीस... और नो-कॉस्ट गया!"
+    },
+    {
+      "scene": "land",
+      "cap": "Toh kya no-cost EMI bura hai? *Nahi.*",
+      "tts": "तो क्या नो-कॉस्ट ई-एम-आई बुरा है? नहीं।"
+    },
+    {
+      "scene": "land",
+      "cap": "₹478 mein 6 mahine ka *aaram?* Fair deal.",
+      "tts": "चार सौ अठत्तर में, छह महीने का आराम? फ़ेयर डील।"
+    },
+    {
+      "scene": "land",
+      "cap": "Bas checkout pe *dono price* compare kar lena.",
+      "tts": "बस चेकआउट पर, दोनों प्राइस कंपेयर कर लेना।"
+    },
+    {
+      "scene": "end",
+      "cap": "Kyunki free kuch nahi hota… bas *bill kisi aur ke naam* pe hota hai.",
+      "tts": "क्योंकि फ़्री कुछ नहीं होता... बस बिल, किसी और के नाम पर होता है।"
+    },
+    {
+      "scene": "end",
+      "cap": "Ye video us *dost* ko bhejo jo sab kuch *EMI* pe leta hai.",
+      "tts": "ये वीडियो उस दोस्त को भेजो, जो सब कुछ ई-एम-आई पर लेता है।"
+    }
   ]
 }
