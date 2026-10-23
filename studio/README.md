@@ -2,7 +2,19 @@
 
 Code-built explainer Reels (1080×1920, 30 fps). The look is a Vox-style paper collage: off-white desk paper, torn and cut cards with real drop shadows, halftone B&W photos, yellow highlighter, red marker, rubber stamps, tape. Paper moves "on twos" (12 fps steps) with a slight per-frame wobble, so it reads as hand-animated, not AI-smooth.
 
-## Pipeline for one episode
+## Making a new video (current workflow)
+
+1. Write `script/<slug>.json`: per line a Roman-Hinglish caption (`*keywords*` get highlighted) and the Devanagari text the voice reads, grouped into scenes.
+2. `python3 tools/tts_elevenlabs.py script/<slug>.json build/<slug>/vo` (needs `ELEVENLABS_API_KEY`; voice from `ELEVENLABS_VOICE_ID`). Takes come with character timestamps.
+3. `python3 tools/qa_vo.py script/<slug>.json build/<slug>/vo medium` to transcribe takes back and flag drift.
+4. `python3 tools/build_timeline.py script/<slug>.json build/<slug>/vo public src/data/<slug>.json <slug>` then `python3 tools/synth_audio.py src/data/<slug>.json public/audio/<slug> <transpose> <bpm>` (needs numpy, scipy, soundfile, pyloudnorm).
+5. Add scenes in `src/episodes/<name>.tsx` (shared pieces in `src/components/kit.tsx`), register it with a cover in `src/Root.tsx`.
+6. `python3 tools/review.py <comp-id> src/data/<slug>.json out/review/<comp-id>` for contact sheets of every beat.
+7. `tools/finish.sh <comp-id>` renders the master, an Instagram encode at -14 LUFS, a 720p preview and the cover into `out/final/`.
+
+Masters are ~450 MB each; the session disk fills up fast, so clear `out/final/*_master.mp4` once the Instagram encode is checked.
+
+## Original pipeline (first video)
 
 ```
 script/ep01-gmp.json         narration lines: Roman Hinglish caption (*keywords* get highlighted) + Devanagari TTS text, grouped by scene

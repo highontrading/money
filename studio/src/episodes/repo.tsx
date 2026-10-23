@@ -93,8 +93,8 @@ const Emi: React.FC = () => {
       <Photo id="flats2" src="flats.jpg" x={90} y={410} w={900} h={250} rot={-1} at={0} enter="up" torn={{bottom: true}} rough={12} caption="₹50 LAKH · 20 SAAL" pos="50% 40%" zoom={0} />
       <Tile id="e8" y={690} at={word('L10', '8%', -4)} value={<Count from={0} to={41822} at={word('L10', 'emi', 0)} dur={16} />} label={'EMI @ 8%'} rot={-1} />
       <Tile id="e825" y={880} at={l11} value={<Count from={41822} to={42603} at={l11 + 4} dur={14} />} label={'EMI @ 8.25%'} hi rot={1} />
-      <Hand x={110} y={1060} at={word('L11', '781', -2)} size={54} rot={-2} color={C.red}>+₹781 har mahine</Hand>
-      <Stamp id="19l" text="≈ ₹1.9 lakh" sub="781 × 240 MAHINE" x={780} y={1150} at={word('L12', 'lakh', -6)} size={76} rot={-6} paper />
+      <Hand x={100} y={1050} at={word('L11', '781', -2)} size={50} rot={-2} color={C.red}>+₹781 har mahine</Hand>
+      <Stamp id="19l" text="≈ ₹1.9 lakh" sub="781 × 240 MAHINE" x={660} y={1170} at={word('L12', 'lakh', -6)} size={76} rot={-6} paper />
       <Sfx at={l12} name="coin" volume={0.2} />
     </AbsoluteFill>
   );

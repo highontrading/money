@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 mkdir -p out/final build
 for c in "$@"; do
   if [ ! -f "out/final/${c}_master.mp4" ]; then
-    npx remotion render src/Root.tsx "$c" "out/final/${c}_master.mp4" --crf=18 --audio-bitrate=256k > "build/render_${c}.log" 2>&1 || { echo "RENDER FAILED $c"; tail -c 600 "build/render_${c}.log"; continue; }
+    npx remotion render src/Root.tsx "$c" "out/final/${c}_master.mp4" --crf=18 --audio-bitrate=256k ${GL:+--gl=$GL} > "build/render_${c}.log" 2>&1 || { echo "RENDER FAILED $c"; tail -c 600 "build/render_${c}.log"; continue; }
   fi
   m=$(ffmpeg -nostats -i "out/final/${c}_master.mp4" -af loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json -f null - 2>&1 | python3 -c "
 import sys,json,re; t=sys.stdin.read(); d=json.loads(re.findall(r'\{[^{}]*\}', t)[-1])
