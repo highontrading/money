@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame} from 'remotion';
 import {clamp, ease, stepped} from '../lib/motion';
-import {Line, TL} from '../lib/timeline';
+import {Line, useTL} from '../lib/timeline';
 import {tornPolygon} from '../lib/torn';
 import {C, F, FPS, H, W} from '../theme';
 
@@ -37,14 +37,14 @@ const timecode = (frame: number) => {
   return `00:${pad(Math.floor(s / 60))}:${pad(s % 60)}:${pad(frame % FPS)}`;
 };
 
-export const Header: React.FC<{episode: string; topic: string}> = ({episode, topic}) => {
+export const Header: React.FC<{episode?: string; topic: string}> = ({episode, topic}) => {
   const frame = useCurrentFrame();
   const inP = ease(stepped(frame), 4, 14);
   return (
     <AbsoluteFill style={{zIndex: 800, pointerEvents: 'none'}}>
       <div style={{position: 'absolute', left: 64, top: 232, display: 'flex', alignItems: 'stretch', transform: `translateX(${(1 - inP) * -500}px)`}}>
         <div style={{background: C.ink, color: C.paperLight, fontFamily: F.display, fontSize: 34, letterSpacing: 2, padding: '8px 16px 6px'}}>MONEY THEORY</div>
-        <div style={{background: C.yellow, color: C.ink, fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: 3, padding: '14px 12px 0'}}>{episode}</div>
+        {episode ? <div style={{background: C.yellow, color: C.ink, fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: 3, padding: '14px 12px 0'}}>{episode}</div> : <div style={{background: C.yellow, width: 14}} />}
       </div>
       <div style={{position: 'absolute', right: 150, top: 236, transform: `translateX(${(1 - inP) * 500}px) rotate(2deg)`}}>
         <div style={{background: C.paperLight, border: `2px solid ${C.ink}`, fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: 3, padding: '8px 14px', color: C.ink}}>● {topic}</div>
@@ -62,6 +62,7 @@ const CAP_TOP = 1268;
 // *keywords* get a highlighter swipe.
 export const Captions: React.FC = () => {
   const frame = useCurrentFrame();
+  const TL = useTL();
   const line: Line | undefined = TL.lines.find((l) => frame >= l.start - 2 && frame < l.end + 6);
   if (!line) return null;
   const local = frame - line.start;

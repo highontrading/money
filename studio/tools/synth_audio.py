@@ -1,7 +1,7 @@
 """Original score + foley for the episode, synthesized from scratch (no licensing).
 
-usage: synth_audio.py timeline.json out_dir
-Writes music.wav (follows the scene structure) and sfx_*.wav.
+usage: synth_audio.py timeline.json out_dir [music]
+Writes music.wav (follows the scene structure) and sfx_*.wav; with "music", only music.wav.
 """
 import json, os, sys
 import numpy as np
@@ -112,6 +112,11 @@ LEVELS = {
     "record": (0.8, 1.0, 1.0, 1.0, 1.0, 0),
     "use": (1.0, 0.8, 0.8, 0.6, 0.7, 0),
     "outro": (1.0, 0.7, 0.6, 0.0, 0.0, 0),
+    # generic moods, used through each scene's "mood" (set in the script's "moods" map)
+    "build": (0.9, 0.9, 0.7, 0.0, 1.0, 0),
+    "drive": (0.8, 1.0, 1.0, 1.0, 1.0, 0),
+    "tension": (1.0, 0.5, 0.9, 0.0, 0.6, 1),
+    "lift": (1.0, 0.8, 0.8, 0.6, 0.7, 0),
 }
 
 
@@ -127,7 +132,7 @@ def music(tl):
         out[i:i + len(x), 0] += x * (1 - max(0, pan))
         out[i:i + len(x), 1] += x * (1 + min(0, pan))
 
-    scenes = [(s["id"], s["start"] / fps, s["end"] / fps) for s in tl["scenes"]]
+    scenes = [(s.get("mood", s["id"]), s["start"] / fps, s["end"] / fps) for s in tl["scenes"]]
     scenes[-1] = (scenes[-1][0], scenes[-1][1], total)
 
     bar = 4 * BEAT
@@ -201,7 +206,7 @@ if __name__ == "__main__":
     tl = json.load(open(sys.argv[1])); out = sys.argv[2]
     os.makedirs(out, exist_ok=True)
     sf.write(os.path.join(out, "music.wav"), music(tl), SR)
-    for k, v in sfx().items():
+    for k, v in (sfx().items() if sys.argv[3:4] != ["music"] else []):
         v = v / (np.abs(v).max() + 1e-9) * 0.8
         sf.write(os.path.join(out, f"sfx_{k}.wav"), v.astype(np.float32), SR)
     print("ok")

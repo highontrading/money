@@ -1,0 +1,33 @@
+{
+ "topic": "INSURANCE · IRR",
+ "title": "₹10 lakh dalo, ₹15 lakh pao: phir bhi FD se kam?",
+ "data_note": "Illustrative traditional endowment: ₹50,000/yr paid at the start of each year for 20 years, ₹15 lakh at the end of year 20 -> IRR 3.7%. Same flows at 7% -> ₹21.9 lakh. Long-run Indian CPI inflation roughly 5-6%.",
+ "moods": {"hook": "hook", "time": "build", "irr": "drive", "compare": "drive", "cover": "tension", "check": "lift", "outro": "outro"},
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Agent uncle ka offer: har saal *₹50,000* bharo, 20 saal.", "tts": "एजेंट अंकल का ऑफ़र: हर साल पचास हज़ार भरो, बीस साल."},
+  {"id": "L02", "scene": "hook", "cap": "Total lagaoge *₹10 lakh.* Maturity pe milega *₹15 lakh.*", "tts": "टोटल लगाओगे दस लाख. मैच्योरिटी पे मिलेगा पंद्रह लाख."},
+  {"id": "L03", "scene": "hook", "cap": "Upar se life cover. Aur sab *tax-free.*", "tts": "ऊपर से लाइफ़ कवर. और सब टैक्स फ़्री."},
+  {"id": "L04", "scene": "hook", "cap": "Paisa *50% badha.* Deal pakki?", "tts": "पैसा पचास परसेंट बढ़ा. डील पक्की?"},
+  {"id": "L05", "scene": "hook", "cap": "Ruko. Yeh ₹15 lakh, asal mein FD se bhi *kam* hai.", "tts": "रुको. ये पंद्रह लाख, असल में एफ़ डी से भी कम है."},
+  {"id": "L06", "scene": "time", "cap": "Galti yahan hai: hum paise ko seedha *jod* dete hain.", "tts": "ग़लती यहाँ है: हम पैसे को सीधा जोड़ देते हैं."},
+  {"id": "L07", "scene": "time", "cap": "Par pehla ₹50,000, *20 saal* kaam karta hai.", "tts": "पर पहला पचास हज़ार, बीस साल काम करता है."},
+  {"id": "L08", "scene": "time", "cap": "Aur aakhri ₹50,000? Sirf *ek saal.*", "tts": "और आख़िरी पचास हज़ार? सिर्फ़ एक साल."},
+  {"id": "L09", "scene": "time", "cap": "Har rupaye ka *time* alag hai. Isliye seedha jodna galat hai.", "tts": "हर रुपये का टाइम अलग है. इसलिए सीधा जोड़ना ग़लत है."},
+  {"id": "L10", "scene": "irr", "cap": "Sahi sawaal: mera paisa *har saal* kitne percent badha?", "tts": "सही सवाल: मेरा पैसा हर साल कितने परसेंट बढ़ा?"},
+  {"id": "L11", "scene": "irr", "cap": "Isse kehte hain *IRR.* Yaani saalana asli return.", "tts": "इसे कहते हैं आई आर आर. यानी सालाना असली रिटर्न."},
+  {"id": "L12", "scene": "irr", "cap": "Is policy ka IRR? Sirf *3.7%.*", "tts": "इस पॉलिसी का आई आर आर? सिर्फ़ तीन दशमलव सात परसेंट."},
+  {"id": "L13", "scene": "irr", "cap": "Lambe samay ki mehngai, lagbhag *5 se 6%.* Yaani asli value *ghat* rahi hai.", "tts": "लंबे समय की महंगाई, लगभग पाँच से छह परसेंट. यानी असली वैल्यू घट रही है."},
+  {"id": "L14", "scene": "compare", "cap": "Wahi ₹50,000 har saal, agar *7%* pe badhta?", "tts": "वही पचास हज़ार हर साल, अगर सात परसेंट पे बढ़ता?"},
+  {"id": "L15", "scene": "compare", "cap": "20 saal baad: lagbhag *₹21.9 lakh.*", "tts": "बीस साल बाद: लगभग इक्कीस दशमलव नौ लाख."},
+  {"id": "L16", "scene": "compare", "cap": "Policy: ₹15 lakh. Farak: lagbhag *₹7 lakh.*", "tts": "पॉलिसी: पंद्रह लाख. फ़र्क: लगभग सात लाख."},
+  {"id": "L17", "scene": "cover", "cap": "Aur woh life cover? Aksar bas *₹10 lakh* ke aas paas.", "tts": "और वो लाइफ़ कवर? अक्सर बस दस लाख के आस पास."},
+  {"id": "L18", "scene": "cover", "cap": "Ek *term plan* mein, ₹1 crore ka cover, saal ke kuch hazaar rupaye mein.", "tts": "एक टर्म प्लान में, एक करोड़ का कवर, साल के कुछ हज़ार रुपये में."},
+  {"id": "L19", "scene": "cover", "cap": "Insurance aur investment ko *mix* karoge, toh dono adhoore.", "tts": "इंश्योरेंस और इन्वेस्टमेंट को मिक्स करोगे, तो दोनों अधूरे."},
+  {"id": "L20", "scene": "check", "cap": "Toh agli baar policy mile, *ek sawaal* poocho:", "tts": "तो अगली बार पॉलिसी मिले, एक सवाल पूछो:"},
+  {"id": "L21", "scene": "check", "cap": "*IRR kitna hai?* Total nahi, IRR.", "tts": "आई आर आर कितना है? टोटल नहीं, आई आर आर."},
+  {"id": "L22", "scene": "check", "cap": "Khud nikaalna hai? Excel mein, *IRR formula.* Ek line ka kaam.", "tts": "ख़ुद निकालना है? एक्सेल में, आई आर आर फ़ॉर्मूला. एक लाइन का काम."},
+  {"id": "L23", "scene": "check", "cap": "Aur policy *beech mein* chhodi, toh surrender pe aur bhi nuksaan.", "tts": "और पॉलिसी बीच में छोड़ी, तो सरेंडर पे और भी नुकसान."},
+  {"id": "L24", "scene": "outro", "cap": "Jo rishtedaar policy bech raha hai, ya le raha hai, *use yeh bhejo.*", "tts": "जो रिश्तेदार पॉलिसी बेच रहा है, या ले रहा है, उसे ये वीडियो भेजो."},
+  {"id": "L25", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है मनी थ्योरी."}
+ ]
+}

@@ -29,6 +29,28 @@ npx remotion still src/Root.tsx ep01-cover out/ep01-cover.png
 node tools/stills.mjs out/stills <frame> <frame> ... # quick layout review
 ```
 
+## Topic reels (ElevenLabs narration)
+
+Five more reels use the same design system, each with its own script, timeline, audio and scene folder. They have no episode numbers.
+
+| Reel | Script | Scenes |
+|---|---|---|
+| Gold on Dhanteras: where ₹18,360 goes in a day | `script/gold-dhanteras.json` | `src/reels/gold-dhanteras/` |
+| Credit card minimum due: ₹3,244 interest | `script/credit-card-minimum-due.json` | `src/reels/credit-card-minimum-due/` |
+| Endowment policy: 1.5x money, 3.7% IRR | `script/policy-irr.json` | `src/reels/policy-irr/` |
+| Regular vs direct plan: 1% = ₹31 lakh | `script/direct-vs-regular.json` | `src/reels/direct-vs-regular/` |
+| -50% then +50% = ₹75: average vs CAGR | `script/average-vs-cagr.json` | `src/reels/average-vs-cagr/` |
+
+```
+python tools/tts_elevenlabs.py script/<id>.json build/<id>/vo [L05 ...]   # ElevenLabs takes + character timestamps (needs ELEVENLABS_API_KEY)
+TEMPO=1.06 python tools/build_timeline.py script/<id>.json build/<id>/vo public src/data/<id>.json <id>
+python tools/synth_audio.py src/data/<id>.json public/audio/<id> music
+node tools/stills.mjs src/reels/<id>/entry.tsx <id> out/stills <frame> ...
+sh tools/render_reel.sh <id>                                              # out/<id>.mp4 + out/<id>-cover.jpg
+```
+
+The voice is the Hindi narrator "Amrut Deshmukh" (`eleven_multilingual_v2`). Captions are timed from ElevenLabs' character alignment: each caption phrase (split at punctuation) is matched to the same phrase of the Devanagari text, so keep the punctuation of `cap` and `tts` in step. Re-take a line by passing its id to `tts_elevenlabs.py`; the other takes are kept. Each script's `moods` map sets the music intensity per scene, and `data_note` records the assumptions behind the numbers.
+
 ## Layout rules
 
 - Instagram covers the top ~220 px, bottom ~380 px and the right rail; visuals live in y 400–1240, captions at y ~1270.
