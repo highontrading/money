@@ -1,0 +1,955 @@
+{
+ "title": "IPO ka poora safar: idea se listing ki ghanti tak",
+ "format": "youtube-16x9",
+ "data_note": "Evergreen; Jio Platforms used as the worked example. Sources and verification status in script/ipo-journey-research.md.",
+ "chapters": [
+  {
+   "id": "C0",
+   "title": "Cold open",
+   "card": null
+  },
+  {
+   "id": "C1",
+   "title": "Partner chahiye",
+   "card": "CHAPTER 1 · PARTNER CHAHIYE"
+  },
+  {
+   "id": "C2",
+   "title": "Company ki kitaab: DRHP aur SEBI",
+   "card": "CHAPTER 2 · COMPANY KI KITAAB"
+  },
+  {
+   "id": "C3",
+   "title": "Daam kaun tay karta hai",
+   "card": "CHAPTER 3 · DAAM KAUN TAY KARTA HAI"
+  },
+  {
+   "id": "C4",
+   "title": "Teen din ki boli",
+   "card": "CHAPTER 4 · TEEN DIN KI BOLI"
+  },
+  {
+   "id": "C5",
+   "title": "Lottery: allotment",
+   "card": "CHAPTER 5 · LOTTERY"
+  },
+  {
+   "id": "C6",
+   "title": "Listing ki ghanti",
+   "card": "CHAPTER 6 · GHANTI"
+  },
+  {
+   "id": "C7",
+   "title": "Listing ke baad",
+   "card": "CHAPTER 7 · TAALE KHULTE HAIN"
+  },
+  {
+   "id": "C8",
+   "title": "Apply se pehle 5 sawaal",
+   "card": "CHAPTER 8 · PAANCH SAWAAL"
+  },
+  {
+   "id": "C9",
+   "title": "Poora safar",
+   "card": null
+  }
+ ],
+ "lines": [
+  {
+   "id": "L001",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "15 November 1977. Bombay. Ek kapde ki company pehli baar *public* ke paas aati hai.",
+   "tts": "पंद्रह नवंबर, उन्नीस सौ सतहत्तर. बंबई. एक कपड़े की कंपनी, पहली बार पब्लिक के पास आती है."
+  },
+  {
+   "id": "L002",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Share ka daam: *₹10.* Poora issue: *₹2.82 crore.*",
+   "tts": "शेयर का दाम, दस रुपये. पूरा इश्यू, दो करोड़ बयासी लाख रुपये."
+  },
+  {
+   "id": "L003",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Lagbhag *58,000* log form bharte hain. Issue *saat guna* bhar jaata hai.",
+   "tts": "लगभग अट्ठावन हज़ार लोग फ़ॉर्म भरते हैं. इश्यू, सात गुना भर जाता है."
+  },
+  {
+   "id": "L004",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Company ka naam: *Reliance.*",
+   "tts": "कंपनी का नाम... रिलायंस."
+  },
+  {
+   "id": "L005",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "49 saal baad. October 2026. Usi group ki ek company: *Jio Platforms.*",
+   "tts": "उनचास साल बाद. अक्टूबर, दो हज़ार छब्बीस. उसी ग्रुप की एक कंपनी. जियो प्लैटफ़ॉर्म्स."
+  },
+  {
+   "id": "L006",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Issue: *₹30,213 crore.* Form nahi, phone pe *UPI* se.",
+   "tts": "इश्यू, तीस हज़ार दो सौ तेरह करोड़ रुपये. फ़ॉर्म नहीं, फ़ोन पे, यूपीआई से."
+  },
+  {
+   "id": "L007",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Paisa badla. Technology badli. Par *raasta* wahi hai.",
+   "tts": "पैसा बदला. टेक्नोलॉजी बदली. पर रास्ता... वही है."
+  },
+  {
+   "id": "L008",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Har IPO, chahe Jio ho ya aapke shehar ki chhoti company, isi *safar* se guzarta hai.",
+   "tts": "हर आईपीओ, चाहे जियो हो, या आपके शहर की छोटी कंपनी, इसी सफ़र से गुज़रता है."
+  },
+  {
+   "id": "L009",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Aaj woh poora safar: ek *idea* se lekar listing ki *ghanti* tak.",
+   "tts": "आज वो पूरा सफ़र. एक आइडिया से लेकर, लिस्टिंग की घंटी तक."
+  },
+  {
+   "id": "L010",
+   "chapter": "C0",
+   "scene": "open",
+   "cap": "Aur raaste mein woh sawaal, jo har application se *pehle* poochne chahiye.",
+   "tts": "और रास्ते में वो सवाल, जो हर एप्लिकेशन से पहले, पूछने चाहिए."
+  },
+  {
+   "id": "L011",
+   "chapter": "C1",
+   "scene": "raju",
+   "cap": "Shuru karte hain ek *chai* ki dukaan se.",
+   "tts": "शुरू करते हैं, एक चाय की दुकान से."
+  },
+  {
+   "id": "L012",
+   "chapter": "C1",
+   "scene": "raju",
+   "cap": "Raju ki chai. Ek dukaan, phir paanch, phir *pachaas.*",
+   "tts": "राजू की चाय. एक दुकान, फिर पाँच, फिर पचास."
+  },
+  {
+   "id": "L013",
+   "chapter": "C1",
+   "scene": "raju",
+   "cap": "Ab Raju ko *500* dukaanein kholni hain. Chahiye lagbhag *₹100 crore.*",
+   "tts": "अब राजू को पाँच सौ दुकानें खोलनी हैं. चाहिए, लगभग सौ करोड़ रुपये."
+  },
+  {
+   "id": "L014",
+   "chapter": "C1",
+   "scene": "raju",
+   "cap": "Paisa aaye kahan se? *Teen raaste.*",
+   "tts": "पैसा आए कहाँ से? तीन रास्ते."
+  },
+  {
+   "id": "L015",
+   "chapter": "C1",
+   "scene": "raju",
+   "cap": "Ek: apni *bachat.* Par itni bachat kisi ki nahi hoti.",
+   "tts": "एक. अपनी बचत. पर इतनी बचत, किसी की नहीं होती."
+  },
+  {
+   "id": "L016",
+   "chapter": "C1",
+   "scene": "raju",
+   "cap": "Do: bank se *loan.* Par interest har mahine dena hai, chai bike ya na bike.",
+   "tts": "दो. बैंक से लोन. पर इंटरेस्ट हर महीने देना है, चाय बिके या ना बिके."
+  },
+  {
+   "id": "L017",
+   "chapter": "C1",
+   "scene": "raju",
+   "cap": "Teen: *partner* dhoondo. Woh paisa dega, badle mein company ka *hissa* lega.",
+   "tts": "तीन. पार्टनर ढूँढो. वो पैसा देगा, बदले में कंपनी का हिस्सा लेगा."
+  },
+  {
+   "id": "L018",
+   "chapter": "C1",
+   "scene": "partners",
+   "cap": "Raju partner chunta hai. Pehle *family aur dost.*",
+   "tts": "राजू पार्टनर चुनता है. पहले, फ़ैमिली और दोस्त."
+  },
+  {
+   "id": "L019",
+   "chapter": "C1",
+   "scene": "partners",
+   "cap": "Phir bade investors: *angel investors,* venture capital, private equity funds.",
+   "tts": "फिर बड़े इन्वेस्टर्स. एंजेल इन्वेस्टर्स, वेंचर कैपिटल, प्राइवेट इक्विटी फ़ंड्स."
+  },
+  {
+   "id": "L020",
+   "chapter": "C1",
+   "scene": "partners",
+   "cap": "Har partner ko milte hain *shares.* Company ke chhote-chhote tukde.",
+   "tts": "हर पार्टनर को मिलते हैं शेयर्स. कंपनी के छोटे-छोटे टुकड़े."
+  },
+  {
+   "id": "L021",
+   "chapter": "C1",
+   "scene": "partners",
+   "cap": "Par yeh sab *private* hai. Yeh shares koi bazaar mein khareed-bech nahi sakta.",
+   "tts": "पर ये सब प्राइवेट है. ये शेयर्स, कोई बाज़ार में ख़रीद-बेच नहीं सकता."
+  },
+  {
+   "id": "L022",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "Phir ek din *do cheezein* hoti hain.",
+   "tts": "फिर एक दिन, दो चीज़ें होती हैं."
+  },
+  {
+   "id": "L023",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "Company ko itna paisa chahiye ki private partner *kam* pad jaate hain.",
+   "tts": "कंपनी को इतना पैसा चाहिए, कि प्राइवेट पार्टनर कम पड़ जाते हैं."
+  },
+  {
+   "id": "L024",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "Aur purane partners kehte hain: hamein apna hissa bech ke *nikalna* hai.",
+   "tts": "और पुराने पार्टनर कहते हैं, हमें अपना हिस्सा बेच के निकलना है."
+  },
+  {
+   "id": "L025",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "Tab company poore desh se kehti hai: *aao, partner bano.*",
+   "tts": "तब कंपनी पूरे देश से कहती है. आओ, पार्टनर बनो."
+  },
+  {
+   "id": "L026",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "Isi ko kehte hain *IPO.* Initial Public Offering. Pehli baar, *public* ko shares ka offer.",
+   "tts": "इसी को कहते हैं आईपीओ. इनिशियल पब्लिक ऑफ़रिंग. पहली बार, पब्लिक को शेयर्स का ऑफ़र."
+  },
+  {
+   "id": "L027",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "IPO ka paisa *do jagah* jaa sakta hai.",
+   "tts": "आईपीओ का पैसा, दो जगह जा सकता है."
+  },
+  {
+   "id": "L028",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "*Fresh issue:* naye shares bante hain. Paisa *company* ke paas, kaam ke liye.",
+   "tts": "फ़्रेश इश्यू. नए शेयर्स बनते हैं. पैसा कंपनी के पास, काम के लिए."
+  },
+  {
+   "id": "L029",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "*Offer for sale:* purane partners apne shares bechte hain. Paisa *unki jeb* mein.",
+   "tts": "ऑफ़र फ़ॉर सेल. पुराने पार्टनर अपने शेयर्स बेचते हैं. पैसा, उनकी जेब में."
+  },
+  {
+   "id": "L030",
+   "chapter": "C1",
+   "scene": "ipo",
+   "cap": "Jio ka IPO poora *fresh issue* tha: 27 crore naye shares. Aur bada hissa *loan chukane* ke liye.",
+   "tts": "जियो का आईपीओ, पूरा फ़्रेश इश्यू था. सत्ताईस करोड़ नए शेयर्स. और बड़ा हिस्सा, लोन चुकाने के लिए."
+  },
+  {
+   "id": "L031",
+   "chapter": "C2",
+   "scene": "bankers",
+   "cap": "Par IPO laana dukaan pe board lagane jaisa *aasaan nahi.*",
+   "tts": "पर आईपीओ लाना, दुकान पे बोर्ड लगाने जैसा आसान नहीं."
+  },
+  {
+   "id": "L032",
+   "chapter": "C2",
+   "scene": "bankers",
+   "cap": "Company hire karti hai *merchant bankers.* Inka kaam: poora IPO chalana.",
+   "tts": "कंपनी हायर करती है, मर्चेंट बैंकर्स. इनका काम, पूरा आईपीओ चलाना."
+  },
+  {
+   "id": "L033",
+   "chapter": "C2",
+   "scene": "bankers",
+   "cap": "Saath mein lawyers, *auditors,* registrar. *Mahino* ki taiyaari.",
+   "tts": "साथ में लॉयर्स, ऑडिटर्स, रजिस्ट्रार. महीनों की तैयारी."
+  },
+  {
+   "id": "L034",
+   "chapter": "C2",
+   "scene": "drhp",
+   "cap": "Sabse bada kaam: ek *mota document.*",
+   "tts": "सबसे बड़ा काम. एक मोटा डॉक्यूमेंट."
+  },
+  {
+   "id": "L035",
+   "chapter": "C2",
+   "scene": "drhp",
+   "cap": "Naam: *DRHP.* Draft Red Herring Prospectus.",
+   "tts": "नाम, डीआरएचपी. ड्राफ़्ट रेड हेरिंग प्रॉस्पेक्टस."
+  },
+  {
+   "id": "L036",
+   "chapter": "C2",
+   "scene": "drhp",
+   "cap": "Red herring kyun? Aise document ke cover pe *laal* rang mein chetavni hoti thi: yeh *final nahi* hai.",
+   "tts": "रेड हेरिंग क्यों? ऐसे डॉक्यूमेंट के कवर पे, लाल रंग में चेतावनी होती थी. ये फ़ाइनल नहीं है."
+  },
+  {
+   "id": "L037",
+   "chapter": "C2",
+   "scene": "drhp",
+   "cap": "Kyunki isme abhi *daam* aur *taareekh* nahi hote.",
+   "tts": "क्योंकि इसमें अभी, दाम और तारीख़ नहीं होते."
+  },
+  {
+   "id": "L038",
+   "chapter": "C2",
+   "scene": "drhp",
+   "cap": "Baaki sab hota hai. Company kya karti hai, kitna *kamaati* hai, kitna *karz* hai.",
+   "tts": "बाक़ी सब होता है. कंपनी क्या करती है, कितना कमाती है, कितना कर्ज़ है."
+  },
+  {
+   "id": "L039",
+   "chapter": "C2",
+   "scene": "drhp",
+   "cap": "Promoters kaun hain. Kaunse *court cases* chal rahe hain. Aur *risks* kya hain.",
+   "tts": "प्रमोटर्स कौन हैं. कौन से कोर्ट केस चल रहे हैं. और रिस्क्स क्या हैं."
+  },
+  {
+   "id": "L040",
+   "chapter": "C2",
+   "scene": "drhp",
+   "cap": "Aur sabse kaam ka section: *objects of the issue.* Paisa kahan jaayega.",
+   "tts": "और सबसे काम का सेक्शन. ऑब्जेक्ट्स ऑफ़ द इश्यू. पैसा कहाँ जाएगा."
+  },
+  {
+   "id": "L041",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "Yeh DRHP jaata hai *SEBI* ke paas. Share market ka regulator.",
+   "tts": "ये डीआरएचपी जाता है सेबी के पास. शेयर मार्केट का रेगुलेटर."
+  },
+  {
+   "id": "L042",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "Aur aap bhi ise *padh* sakte ho. SEBI ki website pe, bilkul *free.*",
+   "tts": "और आप भी इसे पढ़ सकते हो. सेबी की वेबसाइट पे, बिल्कुल फ़्री."
+  },
+  {
+   "id": "L043",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "SEBI sawaal poochta hai. Company jawaab deti hai. Phir SEBI deta hai apne *observations.*",
+   "tts": "सेबी सवाल पूछता है. कंपनी जवाब देती है. फिर सेबी देता है, अपने ऑब्ज़र्वेशंस."
+  },
+  {
+   "id": "L044",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "Ab ek *badi galatfehmi* door kar lo.",
+   "tts": "अब एक बड़ी ग़लतफ़हमी, दूर कर लो."
+  },
+  {
+   "id": "L045",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "SEBI yeh nahi batata ki company *achchhi* hai ya *buri.*",
+   "tts": "सेबी ये नहीं बताता, कि कंपनी अच्छी है या बुरी."
+  },
+  {
+   "id": "L046",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "SEBI dekhta hai ki zaroori baatein *saaf-saaf* likhi hain ya nahi.",
+   "tts": "सेबी देखता है, कि ज़रूरी बातें, साफ़-साफ़ लिखी हैं या नहीं."
+  },
+  {
+   "id": "L047",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "Toh *\"SEBI ne approve kiya, toh safe hai\"?* Galat. Faisla *aapka* hai.",
+   "tts": "तो, सेबी ने अप्रूव किया, तो सेफ़ है? ग़लत. फ़ैसला आपका है."
+  },
+  {
+   "id": "L048",
+   "chapter": "C2",
+   "scene": "sebi",
+   "cap": "Observations ke baad company ke paas *ek saal* hota hai IPO kholne ke liye.",
+   "tts": "ऑब्ज़र्वेशंस के बाद, कंपनी के पास एक साल होता है, आईपीओ खोलने के लिए."
+  },
+  {
+   "id": "L049",
+   "chapter": "C3",
+   "scene": "band",
+   "cap": "Ab sawaal: share *kitne* ka?",
+   "tts": "अब सवाल. शेयर कितने का?"
+  },
+  {
+   "id": "L050",
+   "chapter": "C3",
+   "scene": "band",
+   "cap": "Bankers bade investors se milte hain. Demand ka andaza lagate hain. Ise kehte hain *roadshow.*",
+   "tts": "बैंकर्स बड़े इन्वेस्टर्स से मिलते हैं. डिमांड का अंदाज़ा लगाते हैं. इसे कहते हैं, रोडशो."
+  },
+  {
+   "id": "L051",
+   "chapter": "C3",
+   "scene": "band",
+   "cap": "Phir aata hai *RHP.* Ab dates bhi, aur *price band* bhi.",
+   "tts": "फिर आता है, आरएचपी. अब डेट्स भी, और प्राइस बैंड भी."
+  },
+  {
+   "id": "L052",
+   "chapter": "C3",
+   "scene": "band",
+   "cap": "Price band matlab ek *range.* Jio ka: *₹1,065 se ₹1,119.*",
+   "tts": "प्राइस बैंड मतलब, एक रेंज. जियो का, एक हज़ार पैंसठ से, एक हज़ार एक सौ उन्नीस रुपये."
+  },
+  {
+   "id": "L053",
+   "chapter": "C3",
+   "scene": "band",
+   "cap": "Is range ke andar log *boli* lagate hain. Isliye ise kehte hain *book building.*",
+   "tts": "इस रेंज के अंदर लोग बोली लगाते हैं. इसलिए इसे कहते हैं, बुक बिल्डिंग."
+  },
+  {
+   "id": "L054",
+   "chapter": "C3",
+   "scene": "band",
+   "cap": "Aam investor aksar *cut-off* chunta hai. Matlab: jo bhi final daam ho, main taiyaar hoon.",
+   "tts": "आम इन्वेस्टर अक्सर, कट-ऑफ़ चुनता है. मतलब, जो भी फ़ाइनल दाम हो, मैं तैयार हूँ."
+  },
+  {
+   "id": "L055",
+   "chapter": "C3",
+   "scene": "lot",
+   "cap": "Aur shares milte hain *lot* mein. Ek-ek nahi.",
+   "tts": "और शेयर्स मिलते हैं लॉट में. एक-एक नहीं."
+  },
+  {
+   "id": "L056",
+   "chapter": "C3",
+   "scene": "lot",
+   "cap": "Rules ke hisaab se ek lot lagbhag *₹10 se 15 hazaar* ka hota hai.",
+   "tts": "रूल्स के हिसाब से, एक लॉट लगभग, दस से पंद्रह हज़ार रुपये का होता है."
+  },
+  {
+   "id": "L057",
+   "chapter": "C3",
+   "scene": "lot",
+   "cap": "Jio ka lot: *12 shares.* Upper band pe *₹13,428.*",
+   "tts": "जियो का लॉट, बारह शेयर्स. अपर बैंड पे, तेरह हज़ार चार सौ अट्ठाईस रुपये."
+  },
+  {
+   "id": "L058",
+   "chapter": "C3",
+   "scene": "anchors",
+   "cap": "Issue khulne se *ek din pehle* aate hain bade khiladi: *anchor investors.*",
+   "tts": "इश्यू खुलने से एक दिन पहले, आते हैं बड़े खिलाड़ी. एंकर इन्वेस्टर्स."
+  },
+  {
+   "id": "L059",
+   "chapter": "C3",
+   "scene": "anchors",
+   "cap": "Mutual funds, insurance companies, *videshi* funds.",
+   "tts": "म्यूचुअल फ़ंड्स, इंश्योरेंस कंपनियाँ, विदेशी फ़ंड्स."
+  },
+  {
+   "id": "L060",
+   "chapter": "C3",
+   "scene": "anchors",
+   "cap": "Jio mein *212* anchors ne milke *₹8,110 crore* lagaye.",
+   "tts": "जियो में, दो सौ बारह एंकर्स ने मिलके, आठ हज़ार एक सौ दस करोड़ रुपये लगाए."
+  },
+  {
+   "id": "L061",
+   "chapter": "C3",
+   "scene": "anchors",
+   "cap": "Inka kaam: *bharosa* dikhana. Ki bade log bhi is daam pe taiyaar hain.",
+   "tts": "इनका काम, भरोसा दिखाना. कि बड़े लोग भी, इस दाम पे तैयार हैं."
+  },
+  {
+   "id": "L062",
+   "chapter": "C3",
+   "scene": "anchors",
+   "cap": "Par ek shart. Anchors ke aadhe shares *30 din,* aur aadhe *90 din* tak bik nahi sakte.",
+   "tts": "पर एक शर्त. एंकर्स के आधे शेयर्स तीस दिन, और आधे नब्बे दिन तक, बिक नहीं सकते."
+  },
+  {
+   "id": "L063",
+   "chapter": "C3",
+   "scene": "anchors",
+   "cap": "Taaki listing ke din hi *bhaag* na jaayein.",
+   "tts": "ताकि लिस्टिंग के दिन ही, भाग न जाएँ."
+  },
+  {
+   "id": "L064",
+   "chapter": "C3",
+   "scene": "cake",
+   "cap": "Ab baaki shares ka *batwara.* Ise ek *cake* samjho.",
+   "tts": "अब बाक़ी शेयर्स का बँटवारा. इसे एक केक समझो."
+  },
+  {
+   "id": "L065",
+   "chapter": "C3",
+   "scene": "cake",
+   "cap": "*50%* bade institutions ke liye. Inhe kehte hain *QIB.*",
+   "tts": "पचास परसेंट, बड़े इंस्टिट्यूशंस के लिए. इन्हें कहते हैं, क्यूआईबी."
+  },
+  {
+   "id": "L066",
+   "chapter": "C3",
+   "scene": "cake",
+   "cap": "*15%* bade investors ke liye, jo ₹2 lakh se *zyada* lagate hain. *NII.*",
+   "tts": "पंद्रह परसेंट, बड़े इन्वेस्टर्स के लिए, जो दो लाख से ज़्यादा लगाते हैं. एनआईआई."
+  },
+  {
+   "id": "L067",
+   "chapter": "C3",
+   "scene": "cake",
+   "cap": "Aur *35%* aapke liye. *Retail* investor, jo ₹2 lakh *tak* lagate hain.",
+   "tts": "और पैंतीस परसेंट, आपके लिए. रिटेल इन्वेस्टर, जो दो लाख तक लगाते हैं."
+  },
+  {
+   "id": "L068",
+   "chapter": "C3",
+   "scene": "cake",
+   "cap": "Yeh batwara *profit* wali companies ka hai. Jo company abhi profit nahi dikha paati, usme retail ko sirf *10%.*",
+   "tts": "ये बँटवारा, प्रॉफ़िट वाली कंपनियों का है. जो कंपनी अभी प्रॉफ़िट नहीं दिखा पाती, उसमें रिटेल को सिर्फ़ दस परसेंट."
+  },
+  {
+   "id": "L069",
+   "chapter": "C3",
+   "scene": "cake",
+   "cap": "Kyunki wahan *risk* zyada hai. Rule khud aapko *bacha* raha hai.",
+   "tts": "क्योंकि वहाँ रिस्क ज़्यादा है. रूल ख़ुद, आपको बचा रहा है."
+  },
+  {
+   "id": "L070",
+   "chapter": "C4",
+   "scene": "bid",
+   "cap": "Ab aata hai *bada din.* Issue khulta hai, kam se kam *teen working din* ke liye.",
+   "tts": "अब आता है, बड़ा दिन. इश्यू खुलता है, कम से कम तीन वर्किंग दिन के लिए."
+  },
+  {
+   "id": "L071",
+   "chapter": "C4",
+   "scene": "bid",
+   "cap": "Jio ka: *21 se 23 October.*",
+   "tts": "जियो का, इक्कीस से तेईस अक्टूबर."
+  },
+  {
+   "id": "L072",
+   "chapter": "C4",
+   "scene": "then",
+   "cap": "Dadaji ke zamane mein? Bank jao, *form* bharo, *cheque* lagao.",
+   "tts": "दादाजी के ज़माने में? बैंक जाओ, फ़ॉर्म भरो, चेक लगाओ."
+  },
+  {
+   "id": "L073",
+   "chapter": "C4",
+   "scene": "then",
+   "cap": "Shares mile toh ghar *kaagaz ka certificate* aata tha. Na mile, toh refund ka cheque, *hafton* baad.",
+   "tts": "शेयर्स मिले, तो घर काग़ज़ का सर्टिफ़िकेट आता था. ना मिले, तो रिफ़ंड का चेक, हफ़्तों बाद."
+  },
+  {
+   "id": "L074",
+   "chapter": "C4",
+   "scene": "then",
+   "cap": "Reliance ke 1977 wale IPO ke baad, listing mein lagbhag *do mahine* lage the.",
+   "tts": "रिलायंस के उन्नीस सौ सतहत्तर वाले आईपीओ के बाद, लिस्टिंग में लगभग दो महीने लगे थे."
+  },
+  {
+   "id": "L075",
+   "chapter": "C4",
+   "scene": "now",
+   "cap": "Aaj? Broker app kholo, *bid* lagao, UPI pe *mandate* approve karo.",
+   "tts": "आज? ब्रोकर ऐप खोलो, बिड लगाओ, यूपीआई पे मैंडेट अप्रूव करो."
+  },
+  {
+   "id": "L076",
+   "chapter": "C4",
+   "scene": "now",
+   "cap": "Aur ek baat jo bahut log nahi jaante: paisa *kat-ta nahi.* Sirf *block* hota hai.",
+   "tts": "और एक बात, जो बहुत लोग नहीं जानते. पैसा कटता नहीं. सिर्फ़ ब्लॉक होता है."
+  },
+  {
+   "id": "L077",
+   "chapter": "C4",
+   "scene": "now",
+   "cap": "Is system ka naam hai *ASBA.* Paisa aapke account mein hi rehta hai. Bas aap use kharch nahi kar sakte.",
+   "tts": "इस सिस्टम का नाम है, अस्बा. पैसा आपके अकाउंट में ही रहता है. बस आप उसे ख़र्च नहीं कर सकते."
+  },
+  {
+   "id": "L078",
+   "chapter": "C4",
+   "scene": "now",
+   "cap": "Shares mile toh paisa *kat-ta* hai. Na mile, toh block *khul* jaata hai.",
+   "tts": "शेयर्स मिले, तो पैसा कटता है. ना मिले, तो ब्लॉक खुल जाता है."
+  },
+  {
+   "id": "L079",
+   "chapter": "C4",
+   "scene": "subs",
+   "cap": "Teen din exchange pe live dikhta hai: kis category mein kitni *demand.*",
+   "tts": "तीन दिन, एक्सचेंज पे लाइव दिखता है. किस कैटेगरी में, कितनी डिमांड."
+  },
+  {
+   "id": "L080",
+   "chapter": "C4",
+   "scene": "subs",
+   "cap": "Ise kehte hain *subscription.* Jitne shares the, usse kitne *guna* boli lagi.",
+   "tts": "इसे कहते हैं, सब्सक्रिप्शन. जितने शेयर्स थे, उससे कितने गुना बोली लगी."
+  },
+  {
+   "id": "L081",
+   "chapter": "C4",
+   "scene": "subs",
+   "cap": "Jio: overall lagbhag *21 guna.* QIB *65 guna* se zyada. Retail lagbhag *2.7 guna.*",
+   "tts": "जियो. ओवरऑल लगभग इक्कीस गुना. क्यूआईबी, पैंसठ गुना से ज़्यादा. रिटेल, लगभग दो दशमलव सात गुना."
+  },
+  {
+   "id": "L082",
+   "chapter": "C4",
+   "scene": "subs",
+   "cap": "Yaani bade investors ki line, aapki line se *kahin lambi* thi.",
+   "tts": "यानी बड़े इन्वेस्टर्स की लाइन, आपकी लाइन से कहीं लंबी थी."
+  },
+  {
+   "id": "L083",
+   "chapter": "C4",
+   "scene": "subs",
+   "cap": "In dino ek aur bazaar chalta hai, bina kisi niyam ke: *grey market.* Uska number: *GMP.*",
+   "tts": "इन दिनों एक और बाज़ार चलता है, बिना किसी नियम के. ग्रे मार्केट. उसका नंबर, जीएमपी."
+  },
+  {
+   "id": "L084",
+   "chapter": "C4",
+   "scene": "subs",
+   "cap": "GMP *unofficial* hai. Uspe poori video *alag se* hai.",
+   "tts": "जीएमपी अनऑफ़िशियल है. उस पे पूरी वीडियो, अलग से है."
+  },
+  {
+   "id": "L085",
+   "chapter": "C5",
+   "scene": "clock",
+   "cap": "Teen din khatam. Is din ko kehte hain *T day.* Ab ghadi chalti hai.",
+   "tts": "तीन दिन ख़त्म. इस दिन को कहते हैं, टी डे. अब घड़ी चलती है."
+  },
+  {
+   "id": "L086",
+   "chapter": "C5",
+   "scene": "clock",
+   "cap": "SEBI ka niyam: *T+3.* Issue band hone ke teen working din mein *listing.*",
+   "tts": "सेबी का नियम, टी प्लस थ्री. इश्यू बंद होने के, तीन वर्किंग दिन में, लिस्टिंग."
+  },
+  {
+   "id": "L087",
+   "chapter": "C5",
+   "scene": "allot",
+   "cap": "Pehla kaam, *T+1:* allotment. Shares kisko milenge?",
+   "tts": "पहला काम, टी प्लस वन. अलॉटमेंट. शेयर्स किसको मिलेंगे?"
+  },
+  {
+   "id": "L088",
+   "chapter": "C5",
+   "scene": "allot",
+   "cap": "Retail mein demand zyada ho, toh niyam hai: *zyada se zyada logon* ko, kam se kam *ek lot.*",
+   "tts": "रिटेल में डिमांड ज़्यादा हो, तो नियम है. ज़्यादा से ज़्यादा लोगों को, कम से कम एक लॉट."
+  },
+  {
+   "id": "L089",
+   "chapter": "C5",
+   "scene": "allot",
+   "cap": "Isliye hoti hai *lottery.* Computer se, stock exchange ki *nigrani* mein.",
+   "tts": "इसलिए होती है लॉटरी. कंप्यूटर से, स्टॉक एक्सचेंज की निगरानी में."
+  },
+  {
+   "id": "L090",
+   "chapter": "C5",
+   "scene": "allot",
+   "cap": "Aur twist yeh hai: aapne 1 lot lagaya ho ya *14,* lottery mein aapki *ek hi parchi* hai.",
+   "tts": "और ट्विस्ट ये है. आपने एक लॉट लगाया हो, या चौदह, लॉटरी में आपकी एक ही पर्ची है."
+  },
+  {
+   "id": "L091",
+   "chapter": "C5",
+   "scene": "allot",
+   "cap": "Jio mein retail ke liye lagbhag *8.5 crore* shares the. 12 ka lot. Yaani zyada se zyada lagbhag *70 lakh* log jeet sakte the.",
+   "tts": "जियो में, रिटेल के लिए लगभग साढ़े आठ करोड़ शेयर्स थे. बारह का लॉट. यानी ज़्यादा से ज़्यादा, लगभग सत्तर लाख लोग जीत सकते थे."
+  },
+  {
+   "id": "L092",
+   "chapter": "C5",
+   "scene": "allot",
+   "cap": "Usse zyada log apply karein, toh *har kisi* ko nahi milega. Chahe paisa kitna bhi lagaya ho.",
+   "tts": "उससे ज़्यादा लोग अप्लाई करें, तो हर किसी को नहीं मिलेगा. चाहे पैसा कितना भी लगाया हो."
+  },
+  {
+   "id": "L093",
+   "chapter": "C5",
+   "scene": "allot",
+   "cap": "Status dekhna hai? Registrar ki site pe, ya NSE, BSE pe. *PAN* daalo, bas.",
+   "tts": "स्टेटस देखना है? रजिस्ट्रार की साइट पे, या एनएसई, बीएसई पे. पैन डालो, बस."
+  },
+  {
+   "id": "L094",
+   "chapter": "C5",
+   "scene": "credit",
+   "cap": "*T+2:* mila toh shares aapke *demat* mein. Nahi mila, toh UPI block *release.*",
+   "tts": "टी प्लस टू. मिला, तो शेयर्स आपके डीमैट में. नहीं मिला, तो यूपीआई ब्लॉक रिलीज़."
+  },
+  {
+   "id": "L095",
+   "chapter": "C5",
+   "scene": "credit",
+   "cap": "Aaj India mein *20 crore* se zyada demat accounts hain. Kaagaz ka certificate ab *itihaas* hai.",
+   "tts": "आज इंडिया में, बीस करोड़ से ज़्यादा डीमैट अकाउंट्स हैं. काग़ज़ का सर्टिफ़िकेट, अब इतिहास है."
+  },
+  {
+   "id": "L096",
+   "chapter": "C6",
+   "scene": "preopen",
+   "cap": "*T+3:* listing ka din. Par share seedha bazaar mein nahi *kudta.*",
+   "tts": "टी प्लस थ्री. लिस्टिंग का दिन. पर शेयर, सीधा बाज़ार में नहीं कूदता."
+  },
+  {
+   "id": "L097",
+   "chapter": "C6",
+   "scene": "preopen",
+   "cap": "Pehle ek *special pre-open session.* Subah 9 se 9:45 tak, sirf *orders* lagte hain.",
+   "tts": "पहले एक स्पेशल प्री-ओपन सेशन. सुबह नौ से पौने दस तक, सिर्फ़ ऑर्डर्स लगते हैं."
+  },
+  {
+   "id": "L098",
+   "chapter": "C6",
+   "scene": "preopen",
+   "cap": "Phir exchange woh daam dhoondta hai, jahan *sabse zyada* shares ka sauda ho sake.",
+   "tts": "फिर एक्सचेंज वो दाम ढूँढता है, जहाँ सबसे ज़्यादा शेयर्स का सौदा हो सके."
+  },
+  {
+   "id": "L099",
+   "chapter": "C6",
+   "scene": "preopen",
+   "cap": "Wahi hai *listing price.* Aur 10 baje se *normal trading.*",
+   "tts": "वही है, लिस्टिंग प्राइस. और दस बजे से, नॉर्मल ट्रेडिंग."
+  },
+  {
+   "id": "L100",
+   "chapter": "C6",
+   "scene": "bell",
+   "cap": "Aur haan, *ghanti* bhi bajti hai. Promoters, bankers, camere. Bada *jashn.*",
+   "tts": "और हाँ, घंटी भी बजती है. प्रमोटर्स, बैंकर्स, कैमरे. बड़ा जश्न."
+  },
+  {
+   "id": "L101",
+   "chapter": "C6",
+   "scene": "bell",
+   "cap": "Par IPO price aur listing price ka farak hi aapka pehla *munafa* ya *nuksaan* hai.",
+   "tts": "पर आईपीओ प्राइस और लिस्टिंग प्राइस का फ़र्क़ ही, आपका पहला मुनाफ़ा या नुक़सान है."
+  },
+  {
+   "id": "L102",
+   "chapter": "C6",
+   "scene": "bell",
+   "cap": "Bajaj Housing Finance: IPO *₹70,* listing *₹150.* Doguna se zyada.",
+   "tts": "बजाज हाउसिंग फ़ाइनेंस. आईपीओ सत्तर रुपये, लिस्टिंग एक सौ पचास. दोगुना से ज़्यादा."
+  },
+  {
+   "id": "L103",
+   "chapter": "C6",
+   "scene": "bell",
+   "cap": "Hyundai Motor India: IPO *₹1,960,* listing *₹1,934.* Neeche.",
+   "tts": "ह्युंडई मोटर इंडिया. आईपीओ, एक हज़ार नौ सौ साठ. लिस्टिंग, एक हज़ार नौ सौ चौंतीस. नीचे."
+  },
+  {
+   "id": "L104",
+   "chapter": "C6",
+   "scene": "bell",
+   "cap": "LIC: listing pe lagbhag *8%* neeche.",
+   "tts": "एलआईसी. लिस्टिंग पे, लगभग आठ परसेंट नीचे."
+  },
+  {
+   "id": "L105",
+   "chapter": "C6",
+   "scene": "bell",
+   "cap": "Matlab bada naam, *guarantee* nahi. Listing sirf *ek din* ka mood hai.",
+   "tts": "मतलब, बड़ा नाम गारंटी नहीं. लिस्टिंग, सिर्फ़ एक दिन का मूड है."
+  },
+  {
+   "id": "L106",
+   "chapter": "C7",
+   "scene": "lockin",
+   "cap": "Listing ke baad bhi kahani khatam nahi. Ab kuch *taale* khulte hain.",
+   "tts": "लिस्टिंग के बाद भी, कहानी ख़त्म नहीं. अब कुछ ताले खुलते हैं."
+  },
+  {
+   "id": "L107",
+   "chapter": "C7",
+   "scene": "lockin",
+   "cap": "30 din baad anchors ke aadhe shares free. 90 din baad, *baaki aadhe.*",
+   "tts": "तीस दिन बाद, एंकर्स के आधे शेयर्स फ़्री. नब्बे दिन बाद, बाक़ी आधे."
+  },
+  {
+   "id": "L108",
+   "chapter": "C7",
+   "scene": "lockin",
+   "cap": "Purane private investors ke shares: *6 mahine* baad.",
+   "tts": "पुराने प्राइवेट इन्वेस्टर्स के शेयर्स, छह महीने बाद."
+  },
+  {
+   "id": "L109",
+   "chapter": "C7",
+   "scene": "lockin",
+   "cap": "Aur promoters? Unka kam se kam *20%* hissa, *18 mahine* tak lock. Kuch case mein *teen saal.*",
+   "tts": "और प्रमोटर्स? उनका कम से कम बीस परसेंट हिस्सा, अठारह महीने तक लॉक. कुछ केस में, तीन साल."
+  },
+  {
+   "id": "L110",
+   "chapter": "C7",
+   "scene": "lockin",
+   "cap": "Taale khulte hain toh bechne wale *badh* sakte hain. Yeh dates *RHP* mein pehle se likhi hoti hain.",
+   "tts": "ताले खुलते हैं, तो बेचने वाले बढ़ सकते हैं. ये डेट्स, आरएचपी में पहले से लिखी होती हैं."
+  },
+  {
+   "id": "L111",
+   "chapter": "C7",
+   "scene": "public",
+   "cap": "Aur company ki zindagi badal jaati hai. Ab woh *public* hai.",
+   "tts": "और कंपनी की ज़िंदगी बदल जाती है. अब वो पब्लिक है."
+  },
+  {
+   "id": "L112",
+   "chapter": "C7",
+   "scene": "public",
+   "cap": "Har teen mahine *results.* Har badi khabar exchange ko *batani* padti hai.",
+   "tts": "हर तीन महीने रिज़ल्ट्स. हर बड़ी ख़बर, एक्सचेंज को बतानी पड़ती है."
+  },
+  {
+   "id": "L113",
+   "chapter": "C7",
+   "scene": "public",
+   "cap": "Aur aap? Ab aap *malik* ho. Chhote se, par malik. *Voting* ka haq bhi.",
+   "tts": "और आप? अब आप मालिक हो. छोटे से, पर मालिक. वोटिंग का हक़ भी."
+  },
+  {
+   "id": "L114",
+   "chapter": "C8",
+   "scene": "questions",
+   "cap": "Toh agla IPO aaye, toh apply karne se pehle yeh *paanch sawaal.*",
+   "tts": "तो अगला आईपीओ आए, तो अप्लाई करने से पहले, ये पाँच सवाल."
+  },
+  {
+   "id": "L115",
+   "chapter": "C8",
+   "scene": "questions",
+   "cap": "Ek: paisa *kiske paas* jaa raha hai? Company ke paas, ya purane partners ki jeb mein?",
+   "tts": "एक. पैसा किसके पास जा रहा है? कंपनी के पास, या पुराने पार्टनर्स की जेब में?"
+  },
+  {
+   "id": "L116",
+   "chapter": "C8",
+   "scene": "questions",
+   "cap": "Do: paisa *kis kaam* aayega? Naya business, ya purana loan? *Objects of the issue* padho.",
+   "tts": "दो. पैसा किस काम आएगा? नया बिज़नेस, या पुराना लोन? ऑब्जेक्ट्स ऑफ़ द इश्यू पढ़ो."
+  },
+  {
+   "id": "L117",
+   "chapter": "C8",
+   "scene": "questions",
+   "cap": "Teen: company *kamaati* hai? Profit badh raha hai, ya *karz?*",
+   "tts": "तीन. कंपनी कमाती है? प्रॉफ़िट बढ़ रहा है, या कर्ज़?"
+  },
+  {
+   "id": "L118",
+   "chapter": "C8",
+   "scene": "questions",
+   "cap": "Chaar: daam *sahi* hai? RHP mein *\"basis for offer price\"* dekho. Doosri companies se *tulna* karo.",
+   "tts": "चार. दाम सही है? आरएचपी में, बेसिस फ़ॉर ऑफ़र प्राइस देखो. दूसरी कंपनियों से तुलना करो."
+  },
+  {
+   "id": "L119",
+   "chapter": "C8",
+   "scene": "questions",
+   "cap": "Paanch: main *kyun* apply kar raha hoon? Listing ke ek din ke liye, ya *paanch saal* ke liye?",
+   "tts": "पाँच. मैं क्यों अप्लाई कर रहा हूँ? लिस्टिंग के एक दिन के लिए, या पाँच साल के लिए?"
+  },
+  {
+   "id": "L120",
+   "chapter": "C9",
+   "scene": "recap",
+   "cap": "Ek baar, *poora safar.*",
+   "tts": "एक बार, पूरा सफ़र."
+  },
+  {
+   "id": "L121",
+   "chapter": "C9",
+   "scene": "recap",
+   "cap": "Partner chahiye. Bankers. *DRHP.* SEBI ke sawaal.",
+   "tts": "पार्टनर चाहिए. बैंकर्स. डीआरएचपी. सेबी के सवाल."
+  },
+  {
+   "id": "L122",
+   "chapter": "C9",
+   "scene": "recap",
+   "cap": "Price band. Anchors. *Teen din* ki boli.",
+   "tts": "प्राइस बैंड. एंकर्स. तीन दिन की बोली."
+  },
+  {
+   "id": "L123",
+   "chapter": "C9",
+   "scene": "recap",
+   "cap": "T+1 *lottery.* T+2 demat. T+3 *ghanti.*",
+   "tts": "टी प्लस वन, लॉटरी. टी प्लस टू, डीमैट. टी प्लस थ्री, घंटी."
+  },
+  {
+   "id": "L124",
+   "chapter": "C9",
+   "scene": "recap",
+   "cap": "1977 mein bhi yahi raasta tha. Aur agle IPO ka bhi *yahi* hoga.",
+   "tts": "उन्नीस सौ सतहत्तर में भी, यही रास्ता था. और अगले आईपीओ का भी, यही होगा."
+  },
+  {
+   "id": "L125",
+   "chapter": "C9",
+   "scene": "recap",
+   "cap": "IPO lottery ka ticket nahi. Ek company mein *hissedaari* hai.",
+   "tts": "आईपीओ, लॉटरी का टिकट नहीं. एक कंपनी में, हिस्सेदारी है."
+  },
+  {
+   "id": "L126",
+   "chapter": "C9",
+   "scene": "outro",
+   "cap": "Ghar mein jo bhi pehli baar IPO bhar raha hai, beta, papa ya dadi, *unhe yeh bhejo.*",
+   "tts": "घर में जो भी पहली बार आईपीओ भर रहा है, बेटा, पापा या दादी, उन्हें ये भेजो."
+  },
+  {
+   "id": "L127",
+   "chapter": "C9",
+   "scene": "outro",
+   "cap": "Yeh video sirf samjhane ke liye hai. *Investment advice nahi.*",
+   "tts": "ये वीडियो, सिर्फ़ समझाने के लिए है. इन्वेस्टमेंट एडवाइस नहीं."
+  },
+  {
+   "id": "L128",
+   "chapter": "C9",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है, मनी थ्योरी."
+  }
+ ]
+}
