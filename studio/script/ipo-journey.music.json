@@ -1,0 +1,20 @@
+[
+ {"at": "start", "mood": "hook", "prog": "tension"},
+ {"at": "L005", "mood": "math", "prog": "main"},
+ {"at": "L009", "mood": "use", "prog": "main"},
+ {"at": "C1", "mood": "gap", "prog": "bright"},
+ {"at": "C2", "mood": "use", "prog": "calm"},
+ {"at": "L044", "mood": "risk"},
+ {"at": "C3", "mood": "math", "prog": "main"},
+ {"at": "C4", "mood": "deals", "prog": "bright", "tr": 2},
+ {"at": "L072", "mood": "calm", "prog": "calm", "tr": 2},
+ {"at": "L075", "mood": "math", "prog": "bright", "tr": 2},
+ {"at": "C5", "mood": "risk"},
+ {"at": "L094", "mood": "gap", "prog": "main"},
+ {"at": "C6", "mood": "record", "prog": "bright"},
+ {"at": "L105", "mood": "drop", "prog": "calm"},
+ {"at": "C7", "mood": "calm", "prog": "calm"},
+ {"at": "C8", "mood": "hook", "prog": "calm"},
+ {"at": "C9", "mood": "math", "prog": "bright"},
+ {"at": "L126", "mood": "outro", "prog": "main"}
+]

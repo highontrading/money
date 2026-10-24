@@ -124,5 +124,117 @@
   "page": "https://commons.wikimedia.org/wiki/File:Jamnagar_Refinery.jpg",
   "license": "CC BY-SA 4.0",
   "author": "Reliance Industries"
+ },
+ "certificate1909": {
+  "file": "certificate1909.jpg",
+  "title": "File:Bengal Luxmi Cotton Mills Share Certificate 1909.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bengal_Luxmi_Cotton_Mills_Share_Certificate_1909.jpg",
+  "license": "Public domain",
+  "author": "Unknown"
+ },
+ "postman": {
+  "file": "postman.jpg",
+  "title": "File:Historical Indian postman 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Historical_Indian_postman_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Pratishkhedekar"
+ },
+ "chai_kettle": {
+  "file": "chai_kettle.jpg",
+  "title": "File:India - Varanasi Chai kettle - 0666.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:India_-_Varanasi_Chai_kettle_-_0666.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Jorge Royan"
+ },
+ "chai_stall": {
+  "file": "chai_stall.jpg",
+  "title": "File:Kolkata Wayside Tea Stall.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kolkata_Wayside_Tea_Stall.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Sumasa"
+ },
+ "drum": {
+  "file": "drum.jpg",
+  "title": "File:Lottery drum (tambiolo).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lottery_drum_(tambiolo).jpg",
+  "license": "CC BY 2.0",
+  "author": "Betsy Weber"
+ },
+ "skyline": {
+  "file": "skyline.jpg",
+  "title": "File:Nariman Point Cityscape.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nariman_Point_Cityscape.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Saadabdullah007"
+ },
+ "nse": {
+  "file": "nse.jpg",
+  "title": "File:National Stock Exchange.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Stock_Exchange.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "312user"
+ },
+ "typewriter": {
+  "file": "typewriter.jpg",
+  "title": "File:Numerical Keys on a Vintage Typewriter.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Numerical_Keys_on_a_Vintage_Typewriter.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Mathieu Landretti"
+ },
+ "ahmedabad_se": {
+  "file": "ahmedabad_se.jpg",
+  "title": "File:Old Stock Market Ahmedabad - 1.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_Stock_Market_Ahmedabad_-_1.JPG",
+  "license": "CC BY-SA 3.0",
+  "author": "Aksi great, Dipan Shukla"
+ },
+ "sebi": {
+  "file": "sebi.jpg",
+  "title": "File:SEBI Bhavan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SEBI_Bhavan.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Jimmy vikas"
+ },
+ "chai_pour": {
+  "file": "video/chai_pour.mp4",
+  "title": "File:Making chai in Kumbakonam.ogv",
+  "page": "https://commons.wikimedia.org/wiki/File:Making_chai_in_Kumbakonam.ogv",
+  "license": "CC BY 2.0",
+  "author": "Arian Zwegers"
+ },
+ "train_crowd": {
+  "file": "video/train_crowd.mp4",
+  "title": "File:Mumbai Local Train.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Mumbai_Local_Train.webm",
+  "license": "CC BY 3.0",
+  "author": "Anita Paliwal"
+ },
+ "bell_ring": {
+  "file": "video/bell_ring.mp4",
+  "title": "File:Philippine Stock Exchange, Inc. Bell Ringing Ceremony - 8000 PSEI mark - 14 April 2015.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Philippine_Stock_Exchange,_Inc._Bell_Ringing_Ceremony_-_8000_PSEI_mark_-_14_April_2015.webm",
+  "license": "Public domain",
+  "author": "Philippine Government - Radio Television Malacañang"
+ },
+ "prelinger_floor": {
+  "file": "video/floor_*.mp4",
+  "title": "Vista Stock Shots: New York Stock Exchange",
+  "page": "https://archive.org/details/0803_Vista_Stock_Shots_New_York_Stock_Exchange_13_00_55_00",
+  "license": "Public domain",
+  "author": "Prelinger Archives"
+ },
+ "prelinger_press": {
+  "file": "video/press_*.mp4",
+  "title": "Printing (1947)",
+  "page": "https://archive.org/details/0525_Printing_E01105_00_40_38_11",
+  "license": "Public domain",
+  "author": "Prelinger Archives"
+ },
+ "prelinger_bank": {
+  "file": "video/bank_*.mp4",
+  "title": "Banks and Credit (1948)",
+  "page": "https://archive.org/details/0537_Banks_and_Credit_19_41_46_04",
+  "license": "Public domain",
+  "author": "Prelinger Archives"
  }
 }

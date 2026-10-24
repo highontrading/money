@@ -1,6 +1,6 @@
 """Transcribe every narration take back and flag lines that drift from the script.
 
-usage: qa_vo.py script.json vo_dir [model]
+usage: qa_vo.py script.json vo_dir [model] [--only L01,L02]
 """
 import difflib, json, os, re, subprocess, sys
 import numpy as np
@@ -20,9 +20,11 @@ def norm(s):
 
 def main():
     script = json.load(open(sys.argv[1])); vo = sys.argv[2]
-    m = WhisperModel(sys.argv[3] if len(sys.argv) > 3 else "small", device="cpu", compute_type="int8")
+    m = WhisperModel(sys.argv[3] if len(sys.argv) > 3 and not sys.argv[3].startswith("--") else "small", device="cpu", compute_type="int8")
+    only = set(sys.argv[sys.argv.index("--only") + 1].split(",")) if "--only" in sys.argv else None
     for ln in script["lines"]:
         p = os.path.join(vo, ln["id"] + ".mp3")
+        if not os.path.exists(p) or (only and ln["id"] not in only): continue
         a = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", p, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"], capture_output=True).stdout, dtype=np.float32)
         segs, _ = m.transcribe(a, language="hi", beam_size=5)
         heard = " ".join(s.text for s in segs).strip()
