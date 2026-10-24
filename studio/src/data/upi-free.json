@@ -1,0 +1,1197 @@
+{
+ "fps": 30,
+ "duration": 2376,
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "start": 14,
+   "end": 119,
+   "words": [
+    {
+     "text": "Roz",
+     "hi": false,
+     "start": 14,
+     "end": 22
+    },
+    {
+     "text": "UPI",
+     "hi": false,
+     "start": 22,
+     "end": 30
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 30,
+     "end": 37
+    },
+    {
+     "text": "paise",
+     "hi": false,
+     "start": 37,
+     "end": 49
+    },
+    {
+     "text": "bhejte",
+     "hi": false,
+     "start": 49,
+     "end": 63
+    },
+    {
+     "text": "ho.",
+     "hi": false,
+     "start": 63,
+     "end": 70
+    },
+    {
+     "text": "Fee?",
+     "hi": false,
+     "start": 83,
+     "end": 90
+    },
+    {
+     "text": "Zero.",
+     "hi": true,
+     "start": 106,
+     "end": 115
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "start": 124,
+   "end": 189,
+   "words": [
+    {
+     "text": "Har",
+     "hi": false,
+     "start": 124,
+     "end": 131
+    },
+    {
+     "text": "mahine,",
+     "hi": false,
+     "start": 131,
+     "end": 142
+    },
+    {
+     "text": "arabon",
+     "hi": true,
+     "start": 158,
+     "end": 170
+    },
+    {
+     "text": "payments.",
+     "hi": false,
+     "start": 170,
+     "end": 185
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "start": 194,
+   "end": 332,
+   "words": [
+    {
+     "text": "Phir",
+     "hi": false,
+     "start": 194,
+     "end": 205
+    },
+    {
+     "text": "payment",
+     "hi": false,
+     "start": 205,
+     "end": 221
+    },
+    {
+     "text": "apps",
+     "hi": false,
+     "start": 221,
+     "end": 231
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 231,
+     "end": 238
+    },
+    {
+     "text": "valuation",
+     "hi": false,
+     "start": 238,
+     "end": 258
+    },
+    {
+     "text": "hazaaron",
+     "hi": true,
+     "start": 258,
+     "end": 277
+    },
+    {
+     "text": "crore?",
+     "hi": true,
+     "start": 277,
+     "end": 289
+    },
+    {
+     "text": "Kamaate",
+     "hi": false,
+     "start": 293,
+     "end": 310
+    },
+    {
+     "text": "kahan",
+     "hi": false,
+     "start": 310,
+     "end": 323
+    },
+    {
+     "text": "se?",
+     "hi": false,
+     "start": 323,
+     "end": 330
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "scene": "free",
+   "start": 350,
+   "end": 464,
+   "words": [
+    {
+     "text": "Saalon",
+     "hi": false,
+     "start": 350,
+     "end": 367
+    },
+    {
+     "text": "tak,",
+     "hi": false,
+     "start": 367,
+     "end": 378
+    },
+    {
+     "text": "sarkar",
+     "hi": false,
+     "start": 381,
+     "end": 395
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 395,
+     "end": 401
+    },
+    {
+     "text": "UPI",
+     "hi": false,
+     "start": 401,
+     "end": 410
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 410,
+     "end": 416
+    },
+    {
+     "text": "merchant",
+     "hi": false,
+     "start": 416,
+     "end": 434
+    },
+    {
+     "text": "fee",
+     "hi": false,
+     "start": 434,
+     "end": 442
+    },
+    {
+     "text": "zero",
+     "hi": true,
+     "start": 442,
+     "end": 452
+    },
+    {
+     "text": "rakhi.",
+     "hi": false,
+     "start": 452,
+     "end": 464
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "scene": "free",
+   "start": 469,
+   "end": 575,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 469,
+     "end": 477
+    },
+    {
+     "text": "apps",
+     "hi": false,
+     "start": 477,
+     "end": 487
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 487,
+     "end": 493
+    },
+    {
+     "text": "payment",
+     "hi": false,
+     "start": 493,
+     "end": 509
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 509,
+     "end": 515
+    },
+    {
+     "text": "nahi,",
+     "hi": false,
+     "start": 515,
+     "end": 525
+    },
+    {
+     "text": "aap",
+     "hi": true,
+     "start": 530,
+     "end": 538
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 538,
+     "end": 545
+    },
+    {
+     "text": "kamaana",
+     "hi": false,
+     "start": 545,
+     "end": 561
+    },
+    {
+     "text": "seekha.",
+     "hi": false,
+     "start": 561,
+     "end": 575
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "scene": "money",
+   "start": 593,
+   "end": 774,
+   "words": [
+    {
+     "text": "Ek:",
+     "hi": false,
+     "start": 593,
+     "end": 602
+    },
+    {
+     "text": "loans.",
+     "hi": true,
+     "start": 618,
+     "end": 637
+    },
+    {
+     "text": "Aapka",
+     "hi": false,
+     "start": 648,
+     "end": 658
+    },
+    {
+     "text": "payment",
+     "hi": false,
+     "start": 658,
+     "end": 672
+    },
+    {
+     "text": "data",
+     "hi": false,
+     "start": 672,
+     "end": 681
+    },
+    {
+     "text": "dekh",
+     "hi": false,
+     "start": 681,
+     "end": 690
+    },
+    {
+     "text": "ke,",
+     "hi": false,
+     "start": 690,
+     "end": 695
+    },
+    {
+     "text": "loan",
+     "hi": false,
+     "start": 697,
+     "end": 710
+    },
+    {
+     "text": "offer.",
+     "hi": false,
+     "start": 710,
+     "end": 725
+    },
+    {
+     "text": "Har",
+     "hi": false,
+     "start": 727,
+     "end": 735
+    },
+    {
+     "text": "loan",
+     "hi": false,
+     "start": 735,
+     "end": 745
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 745,
+     "end": 751
+    },
+    {
+     "text": "commission.",
+     "hi": false,
+     "start": 751,
+     "end": 772
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "scene": "money",
+   "start": 779,
+   "end": 862,
+   "words": [
+    {
+     "text": "Do:",
+     "hi": false,
+     "start": 779,
+     "end": 788
+    },
+    {
+     "text": "insurance",
+     "hi": true,
+     "start": 803,
+     "end": 820
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 820,
+     "end": 827
+    },
+    {
+     "text": "mutual",
+     "hi": false,
+     "start": 827,
+     "end": 839
+    },
+    {
+     "text": "funds",
+     "hi": false,
+     "start": 839,
+     "end": 849
+    },
+    {
+     "text": "bechna.",
+     "hi": false,
+     "start": 849,
+     "end": 861
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "scene": "money",
+   "start": 867,
+   "end": 1038,
+   "words": [
+    {
+     "text": "Teen:",
+     "hi": false,
+     "start": 867,
+     "end": 876
+    },
+    {
+     "text": "dukaan",
+     "hi": false,
+     "start": 894,
+     "end": 912
+    },
+    {
+     "text": "wala",
+     "hi": false,
+     "start": 912,
+     "end": 924
+    },
+    {
+     "text": "soundbox.",
+     "hi": true,
+     "start": 924,
+     "end": 946
+    },
+    {
+     "text": "Woh",
+     "hi": false,
+     "start": 949,
+     "end": 956
+    },
+    {
+     "text": "payment",
+     "hi": false,
+     "start": 956,
+     "end": 971
+    },
+    {
+     "text": "received",
+     "hi": false,
+     "start": 971,
+     "end": 987
+    },
+    {
+     "text": "wala",
+     "hi": false,
+     "start": 987,
+     "end": 996
+    },
+    {
+     "text": "dabba,",
+     "hi": false,
+     "start": 996,
+     "end": 1008
+    },
+    {
+     "text": "mahine",
+     "hi": false,
+     "start": 1010,
+     "end": 1021
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1021,
+     "end": 1027
+    },
+    {
+     "text": "kiraya.",
+     "hi": false,
+     "start": 1027,
+     "end": 1038
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "scene": "money",
+   "start": 1043,
+   "end": 1193,
+   "words": [
+    {
+     "text": "Chaar:",
+     "hi": false,
+     "start": 1043,
+     "end": 1054
+    },
+    {
+     "text": "ads",
+     "hi": true,
+     "start": 1070,
+     "end": 1079
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 1079,
+     "end": 1088
+    },
+    {
+     "text": "rewards.",
+     "hi": false,
+     "start": 1088,
+     "end": 1104
+    },
+    {
+     "text": "Woh",
+     "hi": false,
+     "start": 1121,
+     "end": 1128
+    },
+    {
+     "text": "scratch",
+     "hi": false,
+     "start": 1128,
+     "end": 1141
+    },
+    {
+     "text": "card",
+     "hi": false,
+     "start": 1141,
+     "end": 1149
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 1149,
+     "end": 1155
+    },
+    {
+     "text": "kisi",
+     "hi": false,
+     "start": 1155,
+     "end": 1164
+    },
+    {
+     "text": "brand",
+     "hi": false,
+     "start": 1164,
+     "end": 1173
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1173,
+     "end": 1178
+    },
+    {
+     "text": "ad",
+     "hi": false,
+     "start": 1178,
+     "end": 1184
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1184,
+     "end": 1190
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "scene": "money",
+   "start": 1198,
+   "end": 1315,
+   "words": [
+    {
+     "text": "Yaani",
+     "hi": false,
+     "start": 1198,
+     "end": 1216
+    },
+    {
+     "text": "UPI",
+     "hi": false,
+     "start": 1216,
+     "end": 1228
+    },
+    {
+     "text": "darwaza",
+     "hi": true,
+     "start": 1228,
+     "end": 1251
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1251,
+     "end": 1264
+    },
+    {
+     "text": "Kamaai",
+     "hi": false,
+     "start": 1266,
+     "end": 1278
+    },
+    {
+     "text": "andar",
+     "hi": false,
+     "start": 1278,
+     "end": 1289
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1289,
+     "end": 1294
+    },
+    {
+     "text": "kamron",
+     "hi": false,
+     "start": 1294,
+     "end": 1306
+    },
+    {
+     "text": "mein.",
+     "hi": false,
+     "start": 1306,
+     "end": 1315
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "scene": "new",
+   "start": 1333,
+   "end": 1533,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1333,
+     "end": 1342
+    },
+    {
+     "text": "ab",
+     "hi": false,
+     "start": 1342,
+     "end": 1348
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 1348,
+     "end": 1354
+    },
+    {
+     "text": "badlaav.",
+     "hi": true,
+     "start": 1354,
+     "end": 1370
+    },
+    {
+     "text": "15",
+     "hi": false,
+     "start": 1390,
+     "end": 1407
+    },
+    {
+     "text": "October",
+     "hi": false,
+     "start": 1407,
+     "end": 1421
+    },
+    {
+     "text": "2026",
+     "hi": false,
+     "start": 1421,
+     "end": 1450
+    },
+    {
+     "text": "se,",
+     "hi": false,
+     "start": 1450,
+     "end": 1456
+    },
+    {
+     "text": "kuch",
+     "hi": false,
+     "start": 1458,
+     "end": 1468
+    },
+    {
+     "text": "bade",
+     "hi": false,
+     "start": 1468,
+     "end": 1479
+    },
+    {
+     "text": "merchant",
+     "hi": false,
+     "start": 1479,
+     "end": 1497
+    },
+    {
+     "text": "payments",
+     "hi": false,
+     "start": 1497,
+     "end": 1515
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 1515,
+     "end": 1522
+    },
+    {
+     "text": "fee.",
+     "hi": false,
+     "start": 1522,
+     "end": 1530
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "scene": "new",
+   "start": 1537,
+   "end": 1685,
+   "words": [
+    {
+     "text": "₹2,000",
+     "hi": false,
+     "start": 1537,
+     "end": 1563
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 1563,
+     "end": 1569
+    },
+    {
+     "text": "upar,",
+     "hi": false,
+     "start": 1569,
+     "end": 1577
+    },
+    {
+     "text": "0.4%",
+     "hi": true,
+     "start": 1585,
+     "end": 1627
+    },
+    {
+     "text": "tak.",
+     "hi": false,
+     "start": 1627,
+     "end": 1646
+    },
+    {
+     "text": "Woh",
+     "hi": false,
+     "start": 1649,
+     "end": 1656
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 1656,
+     "end": 1663
+    },
+    {
+     "text": "dukaandaar",
+     "hi": false,
+     "start": 1663,
+     "end": 1680
+    },
+    {
+     "text": "se.",
+     "hi": false,
+     "start": 1680,
+     "end": 1685
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "scene": "new",
+   "start": 1690,
+   "end": 1813,
+   "words": [
+    {
+     "text": "Aapke",
+     "hi": false,
+     "start": 1690,
+     "end": 1699
+    },
+    {
+     "text": "liye?",
+     "hi": false,
+     "start": 1699,
+     "end": 1706
+    },
+    {
+     "text": "UPI",
+     "hi": false,
+     "start": 1724,
+     "end": 1733
+    },
+    {
+     "text": "ab",
+     "hi": false,
+     "start": 1733,
+     "end": 1740
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 1740,
+     "end": 1749
+    },
+    {
+     "text": "free.",
+     "hi": true,
+     "start": 1749,
+     "end": 1760
+    },
+    {
+     "text": "Dost",
+     "hi": false,
+     "start": 1776,
+     "end": 1783
+    },
+    {
+     "text": "ko",
+     "hi": false,
+     "start": 1783,
+     "end": 1788
+    },
+    {
+     "text": "bhejna",
+     "hi": false,
+     "start": 1788,
+     "end": 1797
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 1797,
+     "end": 1803
+    },
+    {
+     "text": "free.",
+     "hi": false,
+     "start": 1803,
+     "end": 1810
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "scene": "lesson",
+   "start": 1831,
+   "end": 1939,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 1831,
+     "end": 1842
+    },
+    {
+     "text": "seekh?",
+     "hi": false,
+     "start": 1842,
+     "end": 1858
+    },
+    {
+     "text": "Jab",
+     "hi": false,
+     "start": 1860,
+     "end": 1868
+    },
+    {
+     "text": "kuch",
+     "hi": false,
+     "start": 1868,
+     "end": 1878
+    },
+    {
+     "text": "free",
+     "hi": true,
+     "start": 1878,
+     "end": 1888
+    },
+    {
+     "text": "ho,",
+     "hi": false,
+     "start": 1888,
+     "end": 1894
+    },
+    {
+     "text": "poocho:",
+     "hi": false,
+     "start": 1896,
+     "end": 1915
+    },
+    {
+     "text": "kamaai",
+     "hi": false,
+     "start": 1918,
+     "end": 1927
+    },
+    {
+     "text": "kahan",
+     "hi": false,
+     "start": 1927,
+     "end": 1934
+    },
+    {
+     "text": "se?",
+     "hi": false,
+     "start": 1934,
+     "end": 1939
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "scene": "lesson",
+   "start": 1943,
+   "end": 2069,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1943,
+     "end": 1952
+    },
+    {
+     "text": "app",
+     "hi": false,
+     "start": 1952,
+     "end": 1960
+    },
+    {
+     "text": "jo",
+     "hi": false,
+     "start": 1960,
+     "end": 1966
+    },
+    {
+     "text": "loan",
+     "hi": true,
+     "start": 1966,
+     "end": 1976
+    },
+    {
+     "text": "offer",
+     "hi": false,
+     "start": 1976,
+     "end": 1988
+    },
+    {
+     "text": "kare,",
+     "hi": false,
+     "start": 1988,
+     "end": 1998
+    },
+    {
+     "text": "usse",
+     "hi": false,
+     "start": 2000,
+     "end": 2009
+    },
+    {
+     "text": "pehle",
+     "hi": false,
+     "start": 2009,
+     "end": 2020
+    },
+    {
+     "text": "rate",
+     "hi": false,
+     "start": 2020,
+     "end": 2029
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 2029,
+     "end": 2037
+    },
+    {
+     "text": "fees",
+     "hi": false,
+     "start": 2037,
+     "end": 2046
+    },
+    {
+     "text": "zaroor",
+     "hi": false,
+     "start": 2046,
+     "end": 2059
+    },
+    {
+     "text": "padho.",
+     "hi": false,
+     "start": 2059,
+     "end": 2069
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "scene": "outro",
+   "start": 2087,
+   "end": 2201,
+   "words": [
+    {
+     "text": "Jo",
+     "hi": false,
+     "start": 2087,
+     "end": 2094
+    },
+    {
+     "text": "dost",
+     "hi": false,
+     "start": 2094,
+     "end": 2105
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 2105,
+     "end": 2114
+    },
+    {
+     "text": "cheez",
+     "hi": false,
+     "start": 2114,
+     "end": 2127
+    },
+    {
+     "text": "UPI",
+     "hi": false,
+     "start": 2127,
+     "end": 2136
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 2136,
+     "end": 2143
+    },
+    {
+     "text": "bharta",
+     "hi": false,
+     "start": 2143,
+     "end": 2158
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2158,
+     "end": 2167
+    },
+    {
+     "text": "use",
+     "hi": true,
+     "start": 2169,
+     "end": 2178
+    },
+    {
+     "text": "yeh",
+     "hi": true,
+     "start": 2178,
+     "end": 2188
+    },
+    {
+     "text": "bhejo.",
+     "hi": true,
+     "start": 2188,
+     "end": 2201
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "start": 2206,
+   "end": 2280,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2206,
+     "end": 2217
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 2217,
+     "end": 2229
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 2243,
+     "end": 2250
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2250,
+     "end": 2256
+    },
+    {
+     "text": "Money",
+     "hi": true,
+     "start": 2256,
+     "end": 2266
+    },
+    {
+     "text": "Theory.",
+     "hi": true,
+     "start": 2266,
+     "end": 2276
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "mood": "hook",
+   "start": 0,
+   "end": 341
+  },
+  {
+   "id": "free",
+   "mood": "build",
+   "start": 341,
+   "end": 584
+  },
+  {
+   "id": "money",
+   "mood": "drive",
+   "start": 584,
+   "end": 1324
+  },
+  {
+   "id": "new",
+   "mood": "tension",
+   "start": 1324,
+   "end": 1822
+  },
+  {
+   "id": "lesson",
+   "mood": "lift",
+   "start": 1822,
+   "end": 2078
+  },
+  {
+   "id": "outro",
+   "mood": "outro",
+   "start": 2078,
+   "end": 2376
+  }
+ ],
+ "audio": "audio/upi-free/narration.wav",
+ "music": "audio/upi-free/music.wav",
+ "sfx": []
+}

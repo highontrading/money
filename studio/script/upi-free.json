@@ -1,0 +1,117 @@
+{
+ "topic": "UPI · FINTECH",
+ "title": "UPI free hai. Toh apps kamaate kaise?",
+ "data_note": "UPI merchant payments carried zero MDR for years. Apps earn through loan distribution, insurance/MF distribution, merchant soundbox rentals, ads and rewards. NPCI framework effective 15 Oct 2026: up to 0.4% MDR (capped ₹300) on specified merchant payments above ₹2,000, paid by the merchant; consumers and P2P transfers remain free; small merchants exempt (per reported NPCI FAQs).",
+ "moods": {
+  "hook": "hook",
+  "free": "build",
+  "money": "drive",
+  "new": "tension",
+  "lesson": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Roz UPI se paise bhejte ho. Fee? *Zero.*",
+   "tts": "रोज़ यू पी आई से पैसे भेजते हो. फ़ी? ज़ीरो."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Har mahine, *arabon* payments.",
+   "tts": "हर महीने, अरबों पेमेंट्स."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Phir payment apps ki valuation *hazaaron crore?* Kamaate kahan se?",
+   "tts": "फिर पेमेंट ऐप्स की वैल्यूएशन हज़ारों करोड़? कमाते कहाँ से?"
+  },
+  {
+   "id": "L04",
+   "scene": "free",
+   "cap": "Saalon tak, sarkar ne UPI pe merchant fee *zero* rakhi.",
+   "tts": "सालों तक, सरकार ने यू पी आई पे मर्चेंट फ़ी ज़ीरो रखी."
+  },
+  {
+   "id": "L05",
+   "scene": "free",
+   "cap": "Toh apps ne payment se nahi, *aap* se kamaana seekha.",
+   "tts": "तो ऐप्स ने पेमेंट से नहीं, आप से कमाना सीखा."
+  },
+  {
+   "id": "L06",
+   "scene": "money",
+   "cap": "Ek: *loans.* Aapka payment data dekh ke, loan offer. Har loan pe commission.",
+   "tts": "एक: लोन्स. आपका पेमेंट डेटा देख के, लोन ऑफ़र. हर लोन पे कमीशन."
+  },
+  {
+   "id": "L07",
+   "scene": "money",
+   "cap": "Do: *insurance* aur mutual funds bechna.",
+   "tts": "दो: इंश्योरेंस और म्यूचुअल फ़ंड्स बेचना."
+  },
+  {
+   "id": "L08",
+   "scene": "money",
+   "cap": "Teen: dukaan wala *soundbox.* Woh payment received wala dabba, mahine ka kiraya.",
+   "tts": "तीन: दुकान वाला साउंडबॉक्स. वो पेमेंट रिसीव्ड वाला डिब्बा, महीने का किराया."
+  },
+  {
+   "id": "L09",
+   "scene": "money",
+   "cap": "Chaar: *ads* aur rewards. Woh scratch card bhi kisi brand ka ad hai.",
+   "tts": "चार: ऐड्स और रिवॉर्ड्स. वो स्क्रैच कार्ड भी किसी ब्रांड का ऐड है."
+  },
+  {
+   "id": "L10",
+   "scene": "money",
+   "cap": "Yaani UPI *darwaza* hai. Kamaai andar ke kamron mein.",
+   "tts": "यानी यू पी आई दरवाज़ा है. कमाई अंदर के कमरों में."
+  },
+  {
+   "id": "L11",
+   "scene": "new",
+   "cap": "Aur ab ek *badlaav.* 15 October 2026 se, kuch bade merchant payments pe fee.",
+   "tts": "और अब एक बदलाव. पंद्रह अक्टूबर दो हज़ार छब्बीस से, कुछ बड़े मर्चेंट पेमेंट्स पे फ़ी."
+  },
+  {
+   "id": "L12",
+   "scene": "new",
+   "cap": "₹2,000 se upar, *0.4%* tak. Woh bhi dukaandaar se.",
+   "tts": "दो हज़ार से ऊपर, ज़ीरो दशमलव चार परसेंट तक. वो भी दुकानदार से."
+  },
+  {
+   "id": "L13",
+   "scene": "new",
+   "cap": "Aapke liye? UPI ab bhi *free.* Dost ko bhejna bhi free.",
+   "tts": "आपके लिए? यू पी आई अब भी फ़्री. दोस्त को भेजना भी फ़्री."
+  },
+  {
+   "id": "L14",
+   "scene": "lesson",
+   "cap": "Toh seekh? Jab kuch *free* ho, poocho: kamaai kahan se?",
+   "tts": "तो सीख? जब कुछ फ़्री हो, पूछो: कमाई कहाँ से?"
+  },
+  {
+   "id": "L15",
+   "scene": "lesson",
+   "cap": "Aur app jo *loan* offer kare, usse pehle rate aur fees zaroor padho.",
+   "tts": "और ऐप जो लोन ऑफ़र करे, उससे पहले रेट और फ़ीस ज़रूर पढ़ो."
+  },
+  {
+   "id": "L16",
+   "scene": "outro",
+   "cap": "Jo dost har cheez UPI se bharta hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त हर चीज़ यू पी आई से भरता है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

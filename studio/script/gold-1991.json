@@ -1,0 +1,123 @@
+{
+ "topic": "HISTORY · 1991",
+ "title": "1991: India ne apna sona girvi kyun rakha?",
+ "data_note": "July 1991: RBI pledged 46.91 tonnes of gold with the Bank of England and Bank of Japan, raising ~US$405 million; earlier (May) ~20 tonnes went to Switzerland via SBI/UBS. Reserves covered only a few weeks of imports. Loans repaid by Nov 1991. India's forex reserves are now above US$700 billion; RBI moved 100 tonnes of gold from the UK to India in 2023-24.",
+ "moods": {
+  "hook": "hook",
+  "why": "tension",
+  "gold": "drive",
+  "reform": "lift",
+  "today": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "July 1991. Chupke se, ek plane mein bhar ke *sona* videsh gaya.",
+   "tts": "जुलाई उन्नीस सौ इक्यानवे. चुपके से, एक प्लेन में भर के सोना विदेश गया."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "India ka sona. *Girvi* rakhne ke liye.",
+   "tts": "इंडिया का सोना. गिरवी रखने के लिए."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Kyunki desh ke paas videshi mudra, bas *kuch hafton* ki bachi thi.",
+   "tts": "क्योंकि देश के पास विदेशी मुद्रा, बस कुछ हफ़्तों की बची थी."
+  },
+  {
+   "id": "L04",
+   "scene": "why",
+   "cap": "Desh tel, khaad, machinery *dollar* mein khareedta hai.",
+   "tts": "देश तेल, खाद, मशीनरी डॉलर में ख़रीदता है."
+  },
+  {
+   "id": "L05",
+   "scene": "why",
+   "cap": "1990 mein *Gulf War.* Tel mehnga hua, aur Khaadi se aane wala paisa ghata.",
+   "tts": "उन्नीस सौ नब्बे में गल्फ़ वॉर. तेल महंगा हुआ, और खाड़ी से आने वाला पैसा घटा."
+  },
+  {
+   "id": "L06",
+   "scene": "why",
+   "cap": "Dollar aa kam rahe the, jaa zyada rahe the. *Khazana khaali* hone laga.",
+   "tts": "डॉलर आ कम रहे थे, जा ज़्यादा रहे थे. ख़ज़ाना ख़ाली होने लगा."
+  },
+  {
+   "id": "L07",
+   "scene": "why",
+   "cap": "Aur agar India apna *karz* na chuka paata? Duniya mein bharosa khatam.",
+   "tts": "और अगर इंडिया अपना कर्ज़ ना चुका पाता? दुनिया में भरोसा ख़त्म."
+  },
+  {
+   "id": "L08",
+   "scene": "gold",
+   "cap": "Toh RBI ne *46.91 tonne* sona, Bank of England aur Bank of Japan ke paas girvi rakha.",
+   "tts": "तो आरबीआई ने छियालीस दशमलव नौ एक टन सोना, बैंक ऑफ़ इंग्लैंड और बैंक ऑफ़ जापान के पास गिरवी रखा."
+  },
+  {
+   "id": "L09",
+   "scene": "gold",
+   "cap": "Badle mein mile, lagbhag *40 crore dollar.*",
+   "tts": "बदले में मिले, लगभग चालीस करोड़ डॉलर."
+  },
+  {
+   "id": "L10",
+   "scene": "gold",
+   "cap": "Usse pehle bhi, *20 tonne* sona Switzerland gaya tha.",
+   "tts": "उससे पहले भी, बीस टन सोना स्विट्ज़रलैंड गया था."
+  },
+  {
+   "id": "L11",
+   "scene": "reform",
+   "cap": "Par sona sirf *waqt* khareed sakta tha. Asli ilaaj tha badlaav.",
+   "tts": "पर सोना सिर्फ़ वक़्त ख़रीद सकता था. असली इलाज था बदलाव."
+  },
+  {
+   "id": "L12",
+   "scene": "reform",
+   "cap": "Usi saal, *1991 ke reforms.* License raj dheela, rupaya devalue, videshi company ke liye darwaza.",
+   "tts": "उसी साल, उन्नीस सौ इक्यानवे के रिफ़ॉर्म्स. लाइसेंस राज ढीला, रुपया डीवैल्यू, विदेशी कंपनी के लिए दरवाज़ा."
+  },
+  {
+   "id": "L13",
+   "scene": "reform",
+   "cap": "Aur woh girvi sona? Usi saal ke end tak, *karz chuka* ke chhuda liya gaya.",
+   "tts": "और वो गिरवी सोना? उसी साल के एंड तक, कर्ज़ चुका के छुड़ा लिया गया."
+  },
+  {
+   "id": "L14",
+   "scene": "today",
+   "cap": "Aaj? India ke paas *700 billion dollar* se zyada ka reserve.",
+   "tts": "आज? इंडिया के पास सात सौ बिलियन डॉलर से ज़्यादा का रिज़र्व."
+  },
+  {
+   "id": "L15",
+   "scene": "today",
+   "cap": "Aur 2024 mein, RBI ne *100 tonne* sona UK se wapas India laaya.",
+   "tts": "और दो हज़ार चौबीस में, आरबीआई ने सौ टन सोना यू के से वापस इंडिया लाया."
+  },
+  {
+   "id": "L16",
+   "scene": "today",
+   "cap": "Jo sona kabhi girvi gaya tha, aaj *wapas ghar* aa raha hai.",
+   "tts": "जो सोना कभी गिरवी गया था, आज वापस घर आ रहा है."
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "cap": "Jo dost kehta hai history boring hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त कहता है हिस्ट्री बोरिंग है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L18",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

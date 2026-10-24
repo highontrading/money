@@ -1,0 +1,123 @@
+{
+ "topic": "ECONOMY",
+ "title": "Sarkar note chhaap ke sabko amir kyun nahi karti?",
+ "data_note": "Village example illustrative. Zimbabwe: official annual inflation 231 million % (~23 crore %) in July 2008; prices doubling roughly daily by late 2008; Z$100 trillion note issued Jan 2009; the Zimbabwe dollar was abandoned in 2009. RBI's inflation target: 4% (±2%).",
+ "moods": {
+  "hook": "hook",
+  "village": "build",
+  "real": "drive",
+  "zim": "tension",
+  "balance": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Sarkar ke paas note chhaapne ki *machine* hai.",
+   "tts": "सरकार के पास नोट छापने की मशीन है."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Toh har ghar ko *₹1 crore* chhaap ke de do. Sab amir?",
+   "tts": "तो हर घर को एक करोड़ छाप के दे दो. सब अमीर?"
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Ek desh ne yahi kiya. Aur wahan note chhapa: *100 trillion dollar* ka.",
+   "tts": "एक देश ने यही किया. और वहाँ नोट छपा: सौ ट्रिलियन डॉलर का."
+  },
+  {
+   "id": "L04",
+   "scene": "village",
+   "cap": "Samjho ek chhota sa *gaon.* 10 log, 10 aam, aur ₹100.",
+   "tts": "समझो एक छोटा सा गाँव. दस लोग, दस आम, और सौ रुपये."
+  },
+  {
+   "id": "L05",
+   "scene": "village",
+   "cap": "Ek aam ka daam? Lagbhag *₹10.*",
+   "tts": "एक आम का दाम? लगभग दस रुपये."
+  },
+  {
+   "id": "L06",
+   "scene": "village",
+   "cap": "Ab sarkar ne note chhaape. Gaon mein ab *₹1,000.*",
+   "tts": "अब सरकार ने नोट छापे. गाँव में अब हज़ार रुपये."
+  },
+  {
+   "id": "L07",
+   "scene": "village",
+   "cap": "Par aam? Ab bhi *sirf 10.*",
+   "tts": "पर आम? अब भी सिर्फ़ दस."
+  },
+  {
+   "id": "L08",
+   "scene": "village",
+   "cap": "Zyada paisa, utne hi aam. Toh aam ho gaya *₹100* ka.",
+   "tts": "ज़्यादा पैसा, उतने ही आम. तो आम हो गया सौ रुपये का."
+  },
+  {
+   "id": "L09",
+   "scene": "real",
+   "cap": "Sab ke paas zyada note. Par koi *amir nahi* hua.",
+   "tts": "सब के पास ज़्यादा नोट. पर कोई अमीर नहीं हुआ."
+  },
+  {
+   "id": "L10",
+   "scene": "real",
+   "cap": "Kyunki asli daulat *note* nahi. Asli daulat hai cheezein aur kaam.",
+   "tts": "क्योंकि असली दौलत नोट नहीं. असली दौलत है चीज़ें और काम."
+  },
+  {
+   "id": "L11",
+   "scene": "zim",
+   "cap": "Zimbabwe ne yahi galti ki. 2008 mein, mehngai *23 crore percent* pahunch gayi.",
+   "tts": "ज़िम्बाब्वे ने यही ग़लती की. दो हज़ार आठ में, महंगाई तेईस करोड़ परसेंट पहुँच गई."
+  },
+  {
+   "id": "L12",
+   "scene": "zim",
+   "cap": "Daam *har din* dugne ho rahe the.",
+   "tts": "दाम हर दिन दुगने हो रहे थे."
+  },
+  {
+   "id": "L13",
+   "scene": "zim",
+   "cap": "Aakhir mein desh ko apni currency hi *chhodni* padi.",
+   "tts": "आख़िर में देश को अपनी करेंसी ही छोड़नी पड़ी."
+  },
+  {
+   "id": "L14",
+   "scene": "balance",
+   "cap": "Toh kya note chhapna hamesha galat? *Nahi.*",
+   "tts": "तो क्या नोट छापना हमेशा ग़लत? नहीं."
+  },
+  {
+   "id": "L15",
+   "scene": "balance",
+   "cap": "Economy badhti hai, toh paisa bhi *thoda* badhna chahiye. Balance zaroori.",
+   "tts": "इकॉनमी बढ़ती है, तो पैसा भी थोड़ा बढ़ना चाहिए. बैलेंस ज़रूरी."
+  },
+  {
+   "id": "L16",
+   "scene": "balance",
+   "cap": "Isliye RBI ka kaam hai, mehngai ko *lagbhag 4%* pe rakhna.",
+   "tts": "इसलिए आरबीआई का काम है, महंगाई को लगभग चार परसेंट पे रखना."
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "cap": "Jo poochta hai sarkar note kyun nahi chhaapti, *use yeh bhejo.*",
+   "tts": "जो पूछता है सरकार नोट क्यों नहीं छापती, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L18",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

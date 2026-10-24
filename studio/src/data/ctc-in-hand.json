@@ -1,0 +1,1197 @@
+{
+ "fps": 30,
+ "duration": 2551,
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "start": 14,
+   "end": 92,
+   "words": [
+    {
+     "text": "Offer",
+     "hi": false,
+     "start": 14,
+     "end": 21
+    },
+    {
+     "text": "letter",
+     "hi": false,
+     "start": 21,
+     "end": 30
+    },
+    {
+     "text": "aaya:",
+     "hi": false,
+     "start": 30,
+     "end": 36
+    },
+    {
+     "text": "CTC",
+     "hi": false,
+     "start": 52,
+     "end": 60
+    },
+    {
+     "text": "₹12",
+     "hi": true,
+     "start": 60,
+     "end": 78
+    },
+    {
+     "text": "lakh.",
+     "hi": true,
+     "start": 78,
+     "end": 88
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "start": 96,
+   "end": 186,
+   "words": [
+    {
+     "text": "Socha,",
+     "hi": false,
+     "start": 96,
+     "end": 110
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 124,
+     "end": 130
+    },
+    {
+     "text": "mahine",
+     "hi": false,
+     "start": 130,
+     "end": 139
+    },
+    {
+     "text": "₹1",
+     "hi": false,
+     "start": 139,
+     "end": 148
+    },
+    {
+     "text": "lakh.",
+     "hi": false,
+     "start": 148,
+     "end": 155
+    },
+    {
+     "text": "Party!",
+     "hi": true,
+     "start": 168,
+     "end": 182
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "start": 191,
+   "end": 264,
+   "words": [
+    {
+     "text": "Pehli",
+     "hi": false,
+     "start": 191,
+     "end": 200
+    },
+    {
+     "text": "salary",
+     "hi": false,
+     "start": 200,
+     "end": 210
+    },
+    {
+     "text": "aayi:",
+     "hi": false,
+     "start": 210,
+     "end": 218
+    },
+    {
+     "text": "₹79,000.",
+     "hi": true,
+     "start": 236,
+     "end": 261
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "start": 269,
+   "end": 373,
+   "words": [
+    {
+     "text": "₹21,000",
+     "hi": false,
+     "start": 269,
+     "end": 289
+    },
+    {
+     "text": "kahan",
+     "hi": true,
+     "start": 289,
+     "end": 295
+    },
+    {
+     "text": "gaye?",
+     "hi": true,
+     "start": 295,
+     "end": 300
+    },
+    {
+     "text": "CTC",
+     "hi": false,
+     "start": 325,
+     "end": 333
+    },
+    {
+     "text": "ko",
+     "hi": false,
+     "start": 333,
+     "end": 340
+    },
+    {
+     "text": "kholte",
+     "hi": false,
+     "start": 340,
+     "end": 354
+    },
+    {
+     "text": "hain.",
+     "hi": false,
+     "start": 354,
+     "end": 364
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "scene": "ctc",
+   "start": 391,
+   "end": 539,
+   "words": [
+    {
+     "text": "CTC",
+     "hi": false,
+     "start": 391,
+     "end": 400
+    },
+    {
+     "text": "matlab",
+     "hi": false,
+     "start": 400,
+     "end": 416
+    },
+    {
+     "text": "Cost",
+     "hi": true,
+     "start": 416,
+     "end": 427
+    },
+    {
+     "text": "to",
+     "hi": true,
+     "start": 427,
+     "end": 435
+    },
+    {
+     "text": "Company.",
+     "hi": true,
+     "start": 435,
+     "end": 452
+    },
+    {
+     "text": "Company",
+     "hi": false,
+     "start": 470,
+     "end": 482
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 482,
+     "end": 487
+    },
+    {
+     "text": "kharcha,",
+     "hi": false,
+     "start": 487,
+     "end": 500
+    },
+    {
+     "text": "aapki",
+     "hi": false,
+     "start": 509,
+     "end": 518
+    },
+    {
+     "text": "salary",
+     "hi": false,
+     "start": 518,
+     "end": 528
+    },
+    {
+     "text": "nahi.",
+     "hi": false,
+     "start": 528,
+     "end": 536
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "scene": "ctc",
+   "start": 544,
+   "end": 719,
+   "words": [
+    {
+     "text": "Pehla",
+     "hi": false,
+     "start": 544,
+     "end": 557
+    },
+    {
+     "text": "tukda:",
+     "hi": false,
+     "start": 557,
+     "end": 570
+    },
+    {
+     "text": "variable",
+     "hi": true,
+     "start": 580,
+     "end": 594
+    },
+    {
+     "text": "pay,",
+     "hi": true,
+     "start": 594,
+     "end": 600
+    },
+    {
+     "text": "₹1",
+     "hi": false,
+     "start": 614,
+     "end": 622
+    },
+    {
+     "text": "lakh.",
+     "hi": false,
+     "start": 622,
+     "end": 630
+    },
+    {
+     "text": "Saal",
+     "hi": false,
+     "start": 648,
+     "end": 658
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 658,
+     "end": 664
+    },
+    {
+     "text": "end",
+     "hi": false,
+     "start": 664,
+     "end": 672
+    },
+    {
+     "text": "mein,",
+     "hi": false,
+     "start": 672,
+     "end": 682
+    },
+    {
+     "text": "agar",
+     "hi": false,
+     "start": 684,
+     "end": 692
+    },
+    {
+     "text": "target",
+     "hi": false,
+     "start": 692,
+     "end": 704
+    },
+    {
+     "text": "pura",
+     "hi": false,
+     "start": 704,
+     "end": 712
+    },
+    {
+     "text": "hua.",
+     "hi": false,
+     "start": 712,
+     "end": 719
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "scene": "ctc",
+   "start": 724,
+   "end": 875,
+   "words": [
+    {
+     "text": "Doosra:",
+     "hi": false,
+     "start": 724,
+     "end": 738
+    },
+    {
+     "text": "company",
+     "hi": false,
+     "start": 757,
+     "end": 776
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 776,
+     "end": 785
+    },
+    {
+     "text": "PF,",
+     "hi": true,
+     "start": 785,
+     "end": 793
+    },
+    {
+     "text": "₹60,000.",
+     "hi": false,
+     "start": 799,
+     "end": 817
+    },
+    {
+     "text": "Seedha",
+     "hi": false,
+     "start": 834,
+     "end": 846
+    },
+    {
+     "text": "PF",
+     "hi": false,
+     "start": 846,
+     "end": 852
+    },
+    {
+     "text": "account",
+     "hi": false,
+     "start": 852,
+     "end": 866
+    },
+    {
+     "text": "mein.",
+     "hi": false,
+     "start": 866,
+     "end": 875
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "scene": "ctc",
+   "start": 880,
+   "end": 1033,
+   "words": [
+    {
+     "text": "Teesra:",
+     "hi": false,
+     "start": 880,
+     "end": 898
+    },
+    {
+     "text": "gratuity,",
+     "hi": true,
+     "start": 907,
+     "end": 920
+    },
+    {
+     "text": "₹24,000.",
+     "hi": false,
+     "start": 936,
+     "end": 957
+    },
+    {
+     "text": "Aam",
+     "hi": false,
+     "start": 973,
+     "end": 979
+    },
+    {
+     "text": "taur",
+     "hi": false,
+     "start": 979,
+     "end": 987
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 987,
+     "end": 991
+    },
+    {
+     "text": "5",
+     "hi": false,
+     "start": 991,
+     "end": 1001
+    },
+    {
+     "text": "saal",
+     "hi": false,
+     "start": 1001,
+     "end": 1008
+    },
+    {
+     "text": "naukri",
+     "hi": false,
+     "start": 1008,
+     "end": 1019
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1019,
+     "end": 1024
+    },
+    {
+     "text": "baad.",
+     "hi": false,
+     "start": 1024,
+     "end": 1031
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "scene": "ctc",
+   "start": 1038,
+   "end": 1121,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1038,
+     "end": 1045
+    },
+    {
+     "text": "group",
+     "hi": false,
+     "start": 1045,
+     "end": 1055
+    },
+    {
+     "text": "insurance,",
+     "hi": true,
+     "start": 1055,
+     "end": 1071
+    },
+    {
+     "text": "lagbhag",
+     "hi": false,
+     "start": 1085,
+     "end": 1096
+    },
+    {
+     "text": "₹6,000.",
+     "hi": false,
+     "start": 1096,
+     "end": 1119
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "scene": "monthly",
+   "start": 1139,
+   "end": 1307,
+   "words": [
+    {
+     "text": "Bacha",
+     "hi": false,
+     "start": 1139,
+     "end": 1150
+    },
+    {
+     "text": "gross",
+     "hi": false,
+     "start": 1150,
+     "end": 1161
+    },
+    {
+     "text": "salary:",
+     "hi": false,
+     "start": 1161,
+     "end": 1173
+    },
+    {
+     "text": "lagbhag",
+     "hi": false,
+     "start": 1189,
+     "end": 1206
+    },
+    {
+     "text": "₹10.1",
+     "hi": true,
+     "start": 1206,
+     "end": 1234
+    },
+    {
+     "text": "lakh.",
+     "hi": true,
+     "start": 1234,
+     "end": 1246
+    },
+    {
+     "text": "Mahine",
+     "hi": false,
+     "start": 1261,
+     "end": 1272
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1272,
+     "end": 1276
+    },
+    {
+     "text": "₹84,000.",
+     "hi": false,
+     "start": 1276,
+     "end": 1304
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "scene": "monthly",
+   "start": 1312,
+   "end": 1422,
+   "words": [
+    {
+     "text": "Ab",
+     "hi": false,
+     "start": 1312,
+     "end": 1321
+    },
+    {
+     "text": "isme",
+     "hi": false,
+     "start": 1321,
+     "end": 1335
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 1335,
+     "end": 1344
+    },
+    {
+     "text": "aapka",
+     "hi": true,
+     "start": 1344,
+     "end": 1360
+    },
+    {
+     "text": "PF",
+     "hi": true,
+     "start": 1360,
+     "end": 1369
+    },
+    {
+     "text": "katega:",
+     "hi": false,
+     "start": 1369,
+     "end": 1389
+    },
+    {
+     "text": "₹5,000",
+     "hi": false,
+     "start": 1391,
+     "end": 1412
+    },
+    {
+     "text": "mahina.",
+     "hi": false,
+     "start": 1412,
+     "end": 1422
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "scene": "monthly",
+   "start": 1427,
+   "end": 1497,
+   "words": [
+    {
+     "text": "Kuch",
+     "hi": false,
+     "start": 1427,
+     "end": 1434
+    },
+    {
+     "text": "states",
+     "hi": false,
+     "start": 1434,
+     "end": 1445
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1445,
+     "end": 1453
+    },
+    {
+     "text": "₹200",
+     "hi": false,
+     "start": 1453,
+     "end": 1472
+    },
+    {
+     "text": "professional",
+     "hi": true,
+     "start": 1472,
+     "end": 1491
+    },
+    {
+     "text": "tax.",
+     "hi": true,
+     "start": 1491,
+     "end": 1497
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "scene": "monthly",
+   "start": 1502,
+   "end": 1617,
+   "words": [
+    {
+     "text": "Income",
+     "hi": false,
+     "start": 1502,
+     "end": 1523
+    },
+    {
+     "text": "tax?",
+     "hi": false,
+     "start": 1523,
+     "end": 1536
+    },
+    {
+     "text": "New",
+     "hi": false,
+     "start": 1540,
+     "end": 1549
+    },
+    {
+     "text": "regime",
+     "hi": false,
+     "start": 1549,
+     "end": 1562
+    },
+    {
+     "text": "mein,",
+     "hi": false,
+     "start": 1562,
+     "end": 1572
+    },
+    {
+     "text": "is",
+     "hi": false,
+     "start": 1574,
+     "end": 1582
+    },
+    {
+     "text": "salary",
+     "hi": false,
+     "start": 1582,
+     "end": 1598
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 1598,
+     "end": 1606
+    },
+    {
+     "text": "zero.",
+     "hi": true,
+     "start": 1606,
+     "end": 1617
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "scene": "monthly",
+   "start": 1622,
+   "end": 1700,
+   "words": [
+    {
+     "text": "Haath",
+     "hi": false,
+     "start": 1622,
+     "end": 1634
+    },
+    {
+     "text": "mein:",
+     "hi": false,
+     "start": 1634,
+     "end": 1644
+    },
+    {
+     "text": "lagbhag",
+     "hi": false,
+     "start": 1654,
+     "end": 1667
+    },
+    {
+     "text": "₹79,000.",
+     "hi": true,
+     "start": 1667,
+     "end": 1697
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "scene": "good",
+   "start": 1718,
+   "end": 1850,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 1718,
+     "end": 1723
+    },
+    {
+     "text": "kya",
+     "hi": false,
+     "start": 1723,
+     "end": 1728
+    },
+    {
+     "text": "₹21,000",
+     "hi": false,
+     "start": 1728,
+     "end": 1752
+    },
+    {
+     "text": "gaye?",
+     "hi": false,
+     "start": 1752,
+     "end": 1759
+    },
+    {
+     "text": "Nahi.",
+     "hi": true,
+     "start": 1777,
+     "end": 1797
+    },
+    {
+     "text": "Zyaadatar",
+     "hi": false,
+     "start": 1802,
+     "end": 1818
+    },
+    {
+     "text": "aapka",
+     "hi": false,
+     "start": 1818,
+     "end": 1828
+    },
+    {
+     "text": "hi",
+     "hi": false,
+     "start": 1828,
+     "end": 1834
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 1834,
+     "end": 1843
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1843,
+     "end": 1850
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "scene": "good",
+   "start": 1855,
+   "end": 2019,
+   "words": [
+    {
+     "text": "PF",
+     "hi": false,
+     "start": 1855,
+     "end": 1862
+    },
+    {
+     "text": "aapki",
+     "hi": false,
+     "start": 1862,
+     "end": 1874
+    },
+    {
+     "text": "retirement",
+     "hi": true,
+     "start": 1874,
+     "end": 1896
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1896,
+     "end": 1903
+    },
+    {
+     "text": "liye",
+     "hi": false,
+     "start": 1903,
+     "end": 1913
+    },
+    {
+     "text": "jud",
+     "hi": false,
+     "start": 1913,
+     "end": 1922
+    },
+    {
+     "text": "raha",
+     "hi": false,
+     "start": 1922,
+     "end": 1933
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1933,
+     "end": 1941
+    },
+    {
+     "text": "Variable,",
+     "hi": false,
+     "start": 1943,
+     "end": 1971
+    },
+    {
+     "text": "achha",
+     "hi": false,
+     "start": 1973,
+     "end": 1983
+    },
+    {
+     "text": "kaam",
+     "hi": false,
+     "start": 1983,
+     "end": 1991
+    },
+    {
+     "text": "karo",
+     "hi": false,
+     "start": 1991,
+     "end": 2000
+    },
+    {
+     "text": "toh",
+     "hi": false,
+     "start": 2000,
+     "end": 2007
+    },
+    {
+     "text": "milega.",
+     "hi": false,
+     "start": 2007,
+     "end": 2019
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "scene": "good",
+   "start": 2023,
+   "end": 2140,
+   "words": [
+    {
+     "text": "Bas",
+     "hi": false,
+     "start": 2023,
+     "end": 2031
+    },
+    {
+     "text": "offer",
+     "hi": false,
+     "start": 2031,
+     "end": 2043
+    },
+    {
+     "text": "compare",
+     "hi": false,
+     "start": 2043,
+     "end": 2058
+    },
+    {
+     "text": "karte",
+     "hi": false,
+     "start": 2058,
+     "end": 2070
+    },
+    {
+     "text": "waqt,",
+     "hi": false,
+     "start": 2070,
+     "end": 2080
+    },
+    {
+     "text": "CTC",
+     "hi": false,
+     "start": 2082,
+     "end": 2097
+    },
+    {
+     "text": "nahi,",
+     "hi": false,
+     "start": 2097,
+     "end": 2114
+    },
+    {
+     "text": "in-hand",
+     "hi": true,
+     "start": 2116,
+     "end": 2128
+    },
+    {
+     "text": "poocho.",
+     "hi": false,
+     "start": 2128,
+     "end": 2140
+    }
+   ]
+  },
+  {
+   "id": "L18",
+   "scene": "good",
+   "start": 2145,
+   "end": 2255,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 2145,
+     "end": 2153
+    },
+    {
+     "text": "salary",
+     "hi": true,
+     "start": 2153,
+     "end": 2168
+    },
+    {
+     "text": "breakup",
+     "hi": true,
+     "start": 2168,
+     "end": 2184
+    },
+    {
+     "text": "maango.",
+     "hi": false,
+     "start": 2184,
+     "end": 2199
+    },
+    {
+     "text": "Basic",
+     "hi": false,
+     "start": 2203,
+     "end": 2217
+    },
+    {
+     "text": "kitna,",
+     "hi": false,
+     "start": 2217,
+     "end": 2231
+    },
+    {
+     "text": "variable",
+     "hi": false,
+     "start": 2233,
+     "end": 2246
+    },
+    {
+     "text": "kitna.",
+     "hi": false,
+     "start": 2246,
+     "end": 2255
+    }
+   ]
+  },
+  {
+   "id": "L19",
+   "scene": "outro",
+   "start": 2273,
+   "end": 2369,
+   "words": [
+    {
+     "text": "Jisne",
+     "hi": false,
+     "start": 2273,
+     "end": 2283
+    },
+    {
+     "text": "abhi",
+     "hi": false,
+     "start": 2283,
+     "end": 2292
+    },
+    {
+     "text": "abhi",
+     "hi": false,
+     "start": 2292,
+     "end": 2300
+    },
+    {
+     "text": "offer",
+     "hi": false,
+     "start": 2300,
+     "end": 2311
+    },
+    {
+     "text": "letter",
+     "hi": false,
+     "start": 2311,
+     "end": 2322
+    },
+    {
+     "text": "paaya",
+     "hi": false,
+     "start": 2322,
+     "end": 2332
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2332,
+     "end": 2339
+    },
+    {
+     "text": "use",
+     "hi": true,
+     "start": 2341,
+     "end": 2349
+    },
+    {
+     "text": "yeh",
+     "hi": true,
+     "start": 2349,
+     "end": 2358
+    },
+    {
+     "text": "bhejo.",
+     "hi": true,
+     "start": 2358,
+     "end": 2369
+    }
+   ]
+  },
+  {
+   "id": "L20",
+   "scene": "outro",
+   "start": 2374,
+   "end": 2455,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2374,
+     "end": 2387
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 2387,
+     "end": 2401
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 2417,
+     "end": 2424
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2424,
+     "end": 2430
+    },
+    {
+     "text": "Money",
+     "hi": true,
+     "start": 2430,
+     "end": 2440
+    },
+    {
+     "text": "Theory.",
+     "hi": true,
+     "start": 2440,
+     "end": 2451
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "mood": "hook",
+   "start": 0,
+   "end": 382
+  },
+  {
+   "id": "ctc",
+   "mood": "build",
+   "start": 382,
+   "end": 1130
+  },
+  {
+   "id": "monthly",
+   "mood": "drive",
+   "start": 1130,
+   "end": 1709
+  },
+  {
+   "id": "good",
+   "mood": "lift",
+   "start": 1709,
+   "end": 2264
+  },
+  {
+   "id": "outro",
+   "mood": "outro",
+   "start": 2264,
+   "end": 2551
+  }
+ ],
+ "audio": "audio/ctc-in-hand/narration.wav",
+ "music": "audio/ctc-in-hand/music.wav",
+ "sfx": []
+}

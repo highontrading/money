@@ -139,6 +139,10 @@ if __name__ == "__main__":
         photo(R("note500.jpg"), "note500.jpg", size=(1600, 800), contrast=1.25, dots=False)
         photo(R("card_terminal.jpg"), "card_terminal.jpg")
         photo(R("gold_jewelry.jpg"), "gold_jewelry.jpg", contrast=1.25)
+        for k in ("gold_bars", "popcorn", "cinema_hall", "rbi_tower"):
+            if os.path.exists(R(k + ".jpg")): photo(R(k + ".jpg"), k + ".jpg")
+        if os.path.exists(R("zim_note.jpg")):
+            photo(R("zim_note.jpg"), "zim_note.jpg", size=(1600, 800), contrast=1.2, dots=False)
     if "grain" in what:
         grain()
     if "ink" in what:

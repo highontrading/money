@@ -1,0 +1,117 @@
+{
+ "topic": "STOCK MARKET · F&O",
+ "title": "F&O: 10 mein se 9 traders ghaate mein",
+ "data_note": "SEBI study (July 2025): ~91% of individual equity-derivative traders made net losses in FY25; aggregate net loss ₹1,05,603 crore (~₹1.06 lakh crore); average ~₹1.1 lakh per trader. Earlier study: 93% over FY22-FY24. SEBI tightened index-derivative rules from Nov 2024 (bigger contract size, one weekly expiry per exchange).",
+ "moods": {
+  "hook": "hook",
+  "zero": "build",
+  "cost": "drive",
+  "decay": "tension",
+  "lesson": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Reel pe dekha: options se *roz ₹5,000.*",
+   "tts": "रील पे देखा: ऑप्शंस से रोज़ पाँच हज़ार."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Ab SEBI ka data dekho. *10 mein se 9* traders, nuksaan mein.",
+   "tts": "अब सेबी का डेटा देखो. दस में से नौ ट्रेडर्स, नुकसान में."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "FY25 mein, individual traders ka total nuksaan: *₹1.06 lakh crore.*",
+   "tts": "फ़ाइनेंशियल ईयर पच्चीस में, इंडिविजुअल ट्रेडर्स का टोटल नुकसान: एक लाख छह हज़ार करोड़."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Average har trader: lagbhag *₹1.1 lakh* ka ghaata.",
+   "tts": "एवरेज हर ट्रेडर: लगभग एक लाख दस हज़ार का घाटा."
+  },
+  {
+   "id": "L05",
+   "scene": "hook",
+   "cap": "Itne log haar kyun rahe hain? *Teen wajah.*",
+   "tts": "इतने लोग हार क्यों रहे हैं? तीन वजह."
+  },
+  {
+   "id": "L06",
+   "scene": "zero",
+   "cap": "Ek: F&O *zero-sum* hai. Aapka profit, kisi aur ka loss.",
+   "tts": "एक: एफ़ एंड ओ ज़ीरो सम है. आपका प्रॉफ़िट, किसी और का लॉस."
+  },
+  {
+   "id": "L07",
+   "scene": "zero",
+   "cap": "Aur doosri taraf aksar *professionals,* algos aur badi firms.",
+   "tts": "और दूसरी तरफ़ अक्सर प्रोफ़ेशनल्स, एल्गोस और बड़ी फ़र्म्स."
+  },
+  {
+   "id": "L08",
+   "scene": "cost",
+   "cap": "Do: har trade pe *kharcha.* Brokerage, STT, exchange fees, GST.",
+   "tts": "दो: हर ट्रेड पे ख़र्चा. ब्रोकरेज, एस टी टी, एक्सचेंज फ़ीस, जी एस टी."
+  },
+  {
+   "id": "L09",
+   "scene": "cost",
+   "cap": "Bazaar barabar raha, toh bhi aap *minus* mein.",
+   "tts": "बाज़ार बराबर रहा, तो भी आप माइनस में."
+  },
+  {
+   "id": "L10",
+   "scene": "decay",
+   "cap": "Teen: option kharida? Uski keemat *har din pighalti* hai.",
+   "tts": "तीन: ऑप्शन ख़रीदा? उसकी कीमत हर दिन पिघलती है."
+  },
+  {
+   "id": "L11",
+   "scene": "decay",
+   "cap": "Isse kehte hain *time decay.* Sahi hone ke liye, sahi waqt pe sahi hona padta hai.",
+   "tts": "इसे कहते हैं टाइम डिके. सही होने के लिए, सही वक़्त पे सही होना पड़ता है."
+  },
+  {
+   "id": "L12",
+   "scene": "decay",
+   "cap": "Direction sahi, timing galat? *Phir bhi loss.*",
+   "tts": "डायरेक्शन सही, टाइमिंग ग़लत? फिर भी लॉस."
+  },
+  {
+   "id": "L13",
+   "scene": "lesson",
+   "cap": "Isliye SEBI ne niyam *sakht* kiye. Bade lot, kam weekly expiry.",
+   "tts": "इसलिए सेबी ने नियम सख़्त किए. बड़े लॉट, कम वीकली एक्सपायरी."
+  },
+  {
+   "id": "L14",
+   "scene": "lesson",
+   "cap": "Seekhna hai? Pehle *paper trading.* Ya chhote paise, jo khona afford kar sako.",
+   "tts": "सीखना है? पहले पेपर ट्रेडिंग. या छोटे पैसे, जो खोना अफ़ॉर्ड कर सको."
+  },
+  {
+   "id": "L15",
+   "scene": "lesson",
+   "cap": "Aur dhan banana hai? Woh aksar *lambi investing* se banta hai, roz ke jackpot se nahi.",
+   "tts": "और धन बनाना है? वो अक्सर लंबी इन्वेस्टिंग से बनता है, रोज़ के जैकपॉट से नहीं."
+  },
+  {
+   "id": "L16",
+   "scene": "outro",
+   "cap": "Jo dost roz options khelta hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त रोज़ ऑप्शंस खेलता है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

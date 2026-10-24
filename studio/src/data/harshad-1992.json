@@ -1,0 +1,1347 @@
+{
+ "fps": 30,
+ "duration": 2506,
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "start": 14,
+   "end": 175,
+   "words": [
+    {
+     "text": "1992.",
+     "hi": false,
+     "start": 14,
+     "end": 43
+    },
+    {
+     "text": "Sensex",
+     "hi": false,
+     "start": 60,
+     "end": 72
+    },
+    {
+     "text": "do",
+     "hi": false,
+     "start": 72,
+     "end": 77
+    },
+    {
+     "text": "saal",
+     "hi": false,
+     "start": 77,
+     "end": 86
+    },
+    {
+     "text": "mein,",
+     "hi": false,
+     "start": 86,
+     "end": 95
+    },
+    {
+     "text": "lagbhag",
+     "hi": true,
+     "start": 105,
+     "end": 116
+    },
+    {
+     "text": "1,000",
+     "hi": true,
+     "start": 116,
+     "end": 139
+    },
+    {
+     "text": "se",
+     "hi": true,
+     "start": 139,
+     "end": 144
+    },
+    {
+     "text": "4,500",
+     "hi": true,
+     "start": 144,
+     "end": 166
+    },
+    {
+     "text": "tak.",
+     "hi": false,
+     "start": 166,
+     "end": 172
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "start": 179,
+   "end": 340,
+   "words": [
+    {
+     "text": "Is",
+     "hi": false,
+     "start": 179,
+     "end": 185
+    },
+    {
+     "text": "rally",
+     "hi": false,
+     "start": 185,
+     "end": 196
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 196,
+     "end": 202
+    },
+    {
+     "text": "peeche",
+     "hi": false,
+     "start": 202,
+     "end": 214
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 214,
+     "end": 220
+    },
+    {
+     "text": "naam:",
+     "hi": false,
+     "start": 220,
+     "end": 229
+    },
+    {
+     "text": "Harshad",
+     "hi": true,
+     "start": 245,
+     "end": 269
+    },
+    {
+     "text": "Mehta.",
+     "hi": true,
+     "start": 269,
+     "end": 288
+    },
+    {
+     "text": "Log",
+     "hi": false,
+     "start": 290,
+     "end": 300
+    },
+    {
+     "text": "kehte",
+     "hi": false,
+     "start": 300,
+     "end": 313
+    },
+    {
+     "text": "the,",
+     "hi": false,
+     "start": 313,
+     "end": 322
+    },
+    {
+     "text": "Big",
+     "hi": false,
+     "start": 324,
+     "end": 330
+    },
+    {
+     "text": "Bull.",
+     "hi": false,
+     "start": 330,
+     "end": 338
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "start": 345,
+   "end": 436,
+   "words": [
+    {
+     "text": "Par",
+     "hi": false,
+     "start": 345,
+     "end": 352
+    },
+    {
+     "text": "bazaar",
+     "hi": false,
+     "start": 352,
+     "end": 363
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 363,
+     "end": 371
+    },
+    {
+     "text": "jo",
+     "hi": false,
+     "start": 371,
+     "end": 376
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 376,
+     "end": 386
+    },
+    {
+     "text": "aa",
+     "hi": false,
+     "start": 386,
+     "end": 391
+    },
+    {
+     "text": "raha",
+     "hi": false,
+     "start": 391,
+     "end": 400
+    },
+    {
+     "text": "tha,",
+     "hi": false,
+     "start": 400,
+     "end": 406
+    },
+    {
+     "text": "woh",
+     "hi": false,
+     "start": 409,
+     "end": 415
+    },
+    {
+     "text": "banks",
+     "hi": true,
+     "start": 415,
+     "end": 424
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 424,
+     "end": 430
+    },
+    {
+     "text": "tha.",
+     "hi": false,
+     "start": 430,
+     "end": 436
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "start": 441,
+   "end": 529,
+   "words": [
+    {
+     "text": "Kaise?",
+     "hi": false,
+     "start": 441,
+     "end": 452
+    },
+    {
+     "text": "Ek",
+     "hi": false,
+     "start": 470,
+     "end": 476
+    },
+    {
+     "text": "kaagaz",
+     "hi": false,
+     "start": 476,
+     "end": 487
+    },
+    {
+     "text": "se:",
+     "hi": false,
+     "start": 487,
+     "end": 493
+    },
+    {
+     "text": "bank",
+     "hi": true,
+     "start": 509,
+     "end": 516
+    },
+    {
+     "text": "receipt.",
+     "hi": true,
+     "start": 516,
+     "end": 527
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "scene": "br",
+   "start": 547,
+   "end": 673,
+   "words": [
+    {
+     "text": "Banks",
+     "hi": false,
+     "start": 547,
+     "end": 559
+    },
+    {
+     "text": "aapas",
+     "hi": false,
+     "start": 559,
+     "end": 571
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 571,
+     "end": 581
+    },
+    {
+     "text": "short-term",
+     "hi": false,
+     "start": 581,
+     "end": 599
+    },
+    {
+     "text": "lend",
+     "hi": false,
+     "start": 599,
+     "end": 609
+    },
+    {
+     "text": "karte",
+     "hi": false,
+     "start": 609,
+     "end": 621
+    },
+    {
+     "text": "the,",
+     "hi": false,
+     "start": 621,
+     "end": 629
+    },
+    {
+     "text": "government",
+     "hi": true,
+     "start": 633,
+     "end": 647
+    },
+    {
+     "text": "securities",
+     "hi": true,
+     "start": 647,
+     "end": 661
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 661,
+     "end": 666
+    },
+    {
+     "text": "badle.",
+     "hi": false,
+     "start": 666,
+     "end": 673
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "scene": "br",
+   "start": 678,
+   "end": 836,
+   "words": [
+    {
+     "text": "Securities",
+     "hi": false,
+     "start": 678,
+     "end": 697
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 697,
+     "end": 703
+    },
+    {
+     "text": "jagah",
+     "hi": false,
+     "start": 703,
+     "end": 714
+    },
+    {
+     "text": "aksar",
+     "hi": false,
+     "start": 714,
+     "end": 725
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 725,
+     "end": 730
+    },
+    {
+     "text": "receipt",
+     "hi": true,
+     "start": 730,
+     "end": 744
+    },
+    {
+     "text": "chalti",
+     "hi": false,
+     "start": 744,
+     "end": 757
+    },
+    {
+     "text": "thi.",
+     "hi": false,
+     "start": 757,
+     "end": 764
+    },
+    {
+     "text": "BR.",
+     "hi": false,
+     "start": 785,
+     "end": 791
+    },
+    {
+     "text": "Securities",
+     "hi": false,
+     "start": 794,
+     "end": 810
+    },
+    {
+     "text": "hamare",
+     "hi": false,
+     "start": 810,
+     "end": 821
+    },
+    {
+     "text": "paas",
+     "hi": false,
+     "start": 821,
+     "end": 829
+    },
+    {
+     "text": "hain.",
+     "hi": false,
+     "start": 829,
+     "end": 836
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "scene": "br",
+   "start": 841,
+   "end": 985,
+   "words": [
+    {
+     "text": "Do",
+     "hi": false,
+     "start": 841,
+     "end": 848
+    },
+    {
+     "text": "chhote",
+     "hi": false,
+     "start": 848,
+     "end": 861
+    },
+    {
+     "text": "banks",
+     "hi": false,
+     "start": 861,
+     "end": 873
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 873,
+     "end": 880
+    },
+    {
+     "text": "aisi",
+     "hi": false,
+     "start": 880,
+     "end": 890
+    },
+    {
+     "text": "receipts",
+     "hi": false,
+     "start": 890,
+     "end": 907
+    },
+    {
+     "text": "di,",
+     "hi": false,
+     "start": 907,
+     "end": 914
+    },
+    {
+     "text": "jinke",
+     "hi": false,
+     "start": 916,
+     "end": 927
+    },
+    {
+     "text": "peeche",
+     "hi": false,
+     "start": 927,
+     "end": 941
+    },
+    {
+     "text": "securities",
+     "hi": true,
+     "start": 941,
+     "end": 961
+    },
+    {
+     "text": "thi",
+     "hi": true,
+     "start": 961,
+     "end": 969
+    },
+    {
+     "text": "hi",
+     "hi": true,
+     "start": 969,
+     "end": 975
+    },
+    {
+     "text": "nahi.",
+     "hi": true,
+     "start": 975,
+     "end": 985
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "scene": "br",
+   "start": 990,
+   "end": 1143,
+   "words": [
+    {
+     "text": "Bade",
+     "hi": false,
+     "start": 990,
+     "end": 999
+    },
+    {
+     "text": "banks",
+     "hi": false,
+     "start": 999,
+     "end": 1010
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 1010,
+     "end": 1016
+    },
+    {
+     "text": "in",
+     "hi": false,
+     "start": 1016,
+     "end": 1022
+    },
+    {
+     "text": "kaagazon",
+     "hi": false,
+     "start": 1022,
+     "end": 1038
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 1038,
+     "end": 1044
+    },
+    {
+     "text": "croron",
+     "hi": true,
+     "start": 1044,
+     "end": 1057
+    },
+    {
+     "text": "ka",
+     "hi": true,
+     "start": 1057,
+     "end": 1062
+    },
+    {
+     "text": "paisa",
+     "hi": true,
+     "start": 1062,
+     "end": 1073
+    },
+    {
+     "text": "de",
+     "hi": false,
+     "start": 1073,
+     "end": 1079
+    },
+    {
+     "text": "diya.",
+     "hi": false,
+     "start": 1079,
+     "end": 1089
+    },
+    {
+     "text": "Woh",
+     "hi": false,
+     "start": 1099,
+     "end": 1105
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 1105,
+     "end": 1115
+    },
+    {
+     "text": "gaya",
+     "hi": false,
+     "start": 1115,
+     "end": 1123
+    },
+    {
+     "text": "share",
+     "hi": false,
+     "start": 1123,
+     "end": 1132
+    },
+    {
+     "text": "bazaar.",
+     "hi": false,
+     "start": 1132,
+     "end": 1143
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "scene": "crash",
+   "start": 1161,
+   "end": 1325,
+   "words": [
+    {
+     "text": "23",
+     "hi": false,
+     "start": 1161,
+     "end": 1182
+    },
+    {
+     "text": "April",
+     "hi": false,
+     "start": 1182,
+     "end": 1196
+    },
+    {
+     "text": "1992.",
+     "hi": false,
+     "start": 1196,
+     "end": 1231
+    },
+    {
+     "text": "Ek",
+     "hi": false,
+     "start": 1234,
+     "end": 1240
+    },
+    {
+     "text": "journalist,",
+     "hi": false,
+     "start": 1240,
+     "end": 1261
+    },
+    {
+     "text": "Sucheta",
+     "hi": true,
+     "start": 1262,
+     "end": 1276
+    },
+    {
+     "text": "Dalal",
+     "hi": true,
+     "start": 1276,
+     "end": 1286
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 1286,
+     "end": 1292
+    },
+    {
+     "text": "yeh",
+     "hi": false,
+     "start": 1292,
+     "end": 1299
+    },
+    {
+     "text": "khel",
+     "hi": false,
+     "start": 1299,
+     "end": 1308
+    },
+    {
+     "text": "khol",
+     "hi": false,
+     "start": 1308,
+     "end": 1317
+    },
+    {
+     "text": "diya.",
+     "hi": false,
+     "start": 1317,
+     "end": 1325
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "scene": "crash",
+   "start": 1330,
+   "end": 1432,
+   "words": [
+    {
+     "text": "Banks",
+     "hi": false,
+     "start": 1330,
+     "end": 1341
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 1341,
+     "end": 1346
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 1346,
+     "end": 1357
+    },
+    {
+     "text": "wapas",
+     "hi": false,
+     "start": 1357,
+     "end": 1368
+    },
+    {
+     "text": "maanga.",
+     "hi": false,
+     "start": 1368,
+     "end": 1380
+    },
+    {
+     "text": "Bazaar",
+     "hi": false,
+     "start": 1396,
+     "end": 1411
+    },
+    {
+     "text": "dhadaam.",
+     "hi": true,
+     "start": 1411,
+     "end": 1427
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "scene": "crash",
+   "start": 1437,
+   "end": 1593,
+   "words": [
+    {
+     "text": "RBI",
+     "hi": false,
+     "start": 1437,
+     "end": 1444
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 1444,
+     "end": 1450
+    },
+    {
+     "text": "committee",
+     "hi": false,
+     "start": 1450,
+     "end": 1467
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 1467,
+     "end": 1473
+    },
+    {
+     "text": "scam",
+     "hi": false,
+     "start": 1473,
+     "end": 1482
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1482,
+     "end": 1488
+    },
+    {
+     "text": "size",
+     "hi": false,
+     "start": 1488,
+     "end": 1497
+    },
+    {
+     "text": "bataya:",
+     "hi": false,
+     "start": 1497,
+     "end": 1509
+    },
+    {
+     "text": "lagbhag",
+     "hi": false,
+     "start": 1525,
+     "end": 1543
+    },
+    {
+     "text": "₹4,025",
+     "hi": true,
+     "start": 1543,
+     "end": 1578
+    },
+    {
+     "text": "crore.",
+     "hi": true,
+     "start": 1578,
+     "end": 1591
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "scene": "crash",
+   "start": 1598,
+   "end": 1754,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1598,
+     "end": 1605
+    },
+    {
+     "text": "jo",
+     "hi": false,
+     "start": 1605,
+     "end": 1611
+    },
+    {
+     "text": "log",
+     "hi": false,
+     "start": 1611,
+     "end": 1618
+    },
+    {
+     "text": "Big",
+     "hi": false,
+     "start": 1618,
+     "end": 1625
+    },
+    {
+     "text": "Bull",
+     "hi": false,
+     "start": 1625,
+     "end": 1633
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1633,
+     "end": 1639
+    },
+    {
+     "text": "peeche,",
+     "hi": false,
+     "start": 1639,
+     "end": 1650
+    },
+    {
+     "text": "oonche",
+     "hi": false,
+     "start": 1652,
+     "end": 1664
+    },
+    {
+     "text": "daam",
+     "hi": false,
+     "start": 1664,
+     "end": 1672
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 1672,
+     "end": 1678
+    },
+    {
+     "text": "kharid",
+     "hi": false,
+     "start": 1678,
+     "end": 1689
+    },
+    {
+     "text": "rahe",
+     "hi": false,
+     "start": 1689,
+     "end": 1698
+    },
+    {
+     "text": "the?",
+     "hi": false,
+     "start": 1698,
+     "end": 1705
+    },
+    {
+     "text": "Sabse",
+     "hi": true,
+     "start": 1707,
+     "end": 1719
+    },
+    {
+     "text": "bada",
+     "hi": true,
+     "start": 1719,
+     "end": 1728
+    },
+    {
+     "text": "nuksaan",
+     "hi": true,
+     "start": 1728,
+     "end": 1744
+    },
+    {
+     "text": "unka.",
+     "hi": false,
+     "start": 1744,
+     "end": 1754
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "scene": "after",
+   "start": 1772,
+   "end": 1859,
+   "words": [
+    {
+     "text": "Is",
+     "hi": false,
+     "start": 1772,
+     "end": 1779
+    },
+    {
+     "text": "scam",
+     "hi": false,
+     "start": 1779,
+     "end": 1790
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1790,
+     "end": 1797
+    },
+    {
+     "text": "baad,",
+     "hi": false,
+     "start": 1797,
+     "end": 1808
+    },
+    {
+     "text": "SEBI",
+     "hi": true,
+     "start": 1810,
+     "end": 1818
+    },
+    {
+     "text": "ko",
+     "hi": false,
+     "start": 1818,
+     "end": 1824
+    },
+    {
+     "text": "kanooni",
+     "hi": false,
+     "start": 1824,
+     "end": 1838
+    },
+    {
+     "text": "taakat",
+     "hi": false,
+     "start": 1838,
+     "end": 1850
+    },
+    {
+     "text": "mili.",
+     "hi": false,
+     "start": 1850,
+     "end": 1859
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "scene": "after",
+   "start": 1864,
+   "end": 2019,
+   "words": [
+    {
+     "text": "Phir",
+     "hi": false,
+     "start": 1864,
+     "end": 1880
+    },
+    {
+     "text": "aaya",
+     "hi": false,
+     "start": 1880,
+     "end": 1896
+    },
+    {
+     "text": "NSE,",
+     "hi": true,
+     "start": 1896,
+     "end": 1909
+    },
+    {
+     "text": "screen",
+     "hi": false,
+     "start": 1911,
+     "end": 1927
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 1927,
+     "end": 1934
+    },
+    {
+     "text": "trading.",
+     "hi": false,
+     "start": 1934,
+     "end": 1952
+    },
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1955,
+     "end": 1966
+    },
+    {
+     "text": "demat,",
+     "hi": false,
+     "start": 1966,
+     "end": 1982
+    },
+    {
+     "text": "kaagazi",
+     "hi": false,
+     "start": 1983,
+     "end": 1997
+    },
+    {
+     "text": "share",
+     "hi": false,
+     "start": 1997,
+     "end": 2007
+    },
+    {
+     "text": "khatam.",
+     "hi": false,
+     "start": 2007,
+     "end": 2019
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "scene": "lesson",
+   "start": 2037,
+   "end": 2197,
+   "words": [
+    {
+     "text": "Seekh?",
+     "hi": false,
+     "start": 2037,
+     "end": 2048
+    },
+    {
+     "text": "Jab",
+     "hi": false,
+     "start": 2064,
+     "end": 2072
+    },
+    {
+     "text": "sab",
+     "hi": false,
+     "start": 2072,
+     "end": 2080
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 2080,
+     "end": 2086
+    },
+    {
+     "text": "hi",
+     "hi": false,
+     "start": 2086,
+     "end": 2092
+    },
+    {
+     "text": "hero",
+     "hi": true,
+     "start": 2092,
+     "end": 2101
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 2101,
+     "end": 2107
+    },
+    {
+     "text": "peeche",
+     "hi": false,
+     "start": 2107,
+     "end": 2120
+    },
+    {
+     "text": "bhaagein,",
+     "hi": false,
+     "start": 2120,
+     "end": 2137
+    },
+    {
+     "text": "poocho:",
+     "hi": false,
+     "start": 2138,
+     "end": 2155
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 2156,
+     "end": 2165
+    },
+    {
+     "text": "aa",
+     "hi": false,
+     "start": 2165,
+     "end": 2170
+    },
+    {
+     "text": "kahan",
+     "hi": false,
+     "start": 2170,
+     "end": 2179
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 2179,
+     "end": 2183
+    },
+    {
+     "text": "raha",
+     "hi": false,
+     "start": 2183,
+     "end": 2191
+    },
+    {
+     "text": "hai?",
+     "hi": false,
+     "start": 2191,
+     "end": 2197
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "scene": "outro",
+   "start": 2215,
+   "end": 2324,
+   "words": [
+    {
+     "text": "Jo",
+     "hi": false,
+     "start": 2215,
+     "end": 2221
+    },
+    {
+     "text": "dost",
+     "hi": false,
+     "start": 2221,
+     "end": 2231
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 2231,
+     "end": 2239
+    },
+    {
+     "text": "tip",
+     "hi": false,
+     "start": 2239,
+     "end": 2246
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 2246,
+     "end": 2252
+    },
+    {
+     "text": "share",
+     "hi": false,
+     "start": 2252,
+     "end": 2264
+    },
+    {
+     "text": "khareedta",
+     "hi": false,
+     "start": 2264,
+     "end": 2282
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2282,
+     "end": 2290
+    },
+    {
+     "text": "use",
+     "hi": true,
+     "start": 2292,
+     "end": 2301
+    },
+    {
+     "text": "yeh",
+     "hi": true,
+     "start": 2301,
+     "end": 2311
+    },
+    {
+     "text": "bhejo.",
+     "hi": true,
+     "start": 2311,
+     "end": 2324
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "start": 2329,
+   "end": 2410,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2329,
+     "end": 2347
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 2347,
+     "end": 2368
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 2373,
+     "end": 2380
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2380,
+     "end": 2386
+    },
+    {
+     "text": "Money",
+     "hi": true,
+     "start": 2386,
+     "end": 2396
+    },
+    {
+     "text": "Theory.",
+     "hi": true,
+     "start": 2396,
+     "end": 2406
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "mood": "hook",
+   "start": 0,
+   "end": 538
+  },
+  {
+   "id": "br",
+   "mood": "build",
+   "start": 538,
+   "end": 1152
+  },
+  {
+   "id": "crash",
+   "mood": "tension",
+   "start": 1152,
+   "end": 1763
+  },
+  {
+   "id": "after",
+   "mood": "lift",
+   "start": 1763,
+   "end": 2028
+  },
+  {
+   "id": "lesson",
+   "mood": "lift",
+   "start": 2028,
+   "end": 2206
+  },
+  {
+   "id": "outro",
+   "mood": "outro",
+   "start": 2206,
+   "end": 2506
+  }
+ ],
+ "audio": "audio/harshad-1992/narration.wav",
+ "music": "audio/harshad-1992/music.wav",
+ "sfx": []
+}

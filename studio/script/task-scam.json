@@ -1,0 +1,130 @@
+{
+ "topic": "SCAM ALERT",
+ "title": "'Like karo, ₹150 kamao': ek hafte mein ₹5 lakh gaye",
+ "data_note": "Pattern reported by police and cybercrime advisories: WhatsApp/Telegram 'part-time job', ₹150-250 per like, small real payouts to build trust, Telegram group with planted members, 'prepaid tasks', then large deposits frozen behind fake 'tax/fees'. Report: 1930 (National Cybercrime Helpline) or cybercrime.gov.in. Amounts illustrative.",
+ "moods": {
+  "hook": "hook",
+  "trust": "build",
+  "group": "build",
+  "prepaid": "tension",
+  "trap": "tension",
+  "rule": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "WhatsApp pe message: *ghar baithe kamao.*",
+   "tts": "व्हाट्सऐप पे मैसेज: घर बैठे कमाओ."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Kaam? Bas YouTube video *like* karo. Har like, ₹150.",
+   "tts": "काम? बस यूट्यूब वीडियो लाइक करो. हर लाइक, एक सौ पचास."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Teen like kiye. ₹450 *sach mein* aa gaye.",
+   "tts": "तीन लाइक किए. चार सौ पचास सच में आ गए."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Ek hafte baad, *₹5 lakh* gaye. Kaise?",
+   "tts": "एक हफ़्ते बाद, पाँच लाख गए. कैसे?"
+  },
+  {
+   "id": "L05",
+   "scene": "trust",
+   "cap": "Step ek: *chhota paisa,* bharosa banane ke liye.",
+   "tts": "स्टेप एक: छोटा पैसा, भरोसा बनाने के लिए."
+  },
+  {
+   "id": "L06",
+   "scene": "trust",
+   "cap": "Woh ₹450 unka *investment* tha. Aapke bharose mein.",
+   "tts": "वो चार सौ पचास उनका इन्वेस्टमेंट था. आपके भरोसे में."
+  },
+  {
+   "id": "L07",
+   "scene": "group",
+   "cap": "Step do: Telegram group. Wahan sab *kama* rahe hain. Screenshots, dhanyavaad.",
+   "tts": "स्टेप दो: टेलीग्राम ग्रुप. वहाँ सब कमा रहे हैं. स्क्रीनशॉट्स, धन्यवाद."
+  },
+  {
+   "id": "L08",
+   "scene": "group",
+   "cap": "Par woh baaki log? Aksar *unke hi* log.",
+   "tts": "पर वो बाकी लोग? अक्सर उनके ही लोग."
+  },
+  {
+   "id": "L09",
+   "scene": "prepaid",
+   "cap": "Step teen: *prepaid task.* Pehle ₹1,000 daalo, ₹1,300 pao.",
+   "tts": "स्टेप तीन: प्रीपेड टास्क. पहले हज़ार डालो, तेरह सौ पाओ."
+  },
+  {
+   "id": "L10",
+   "scene": "prepaid",
+   "cap": "Mil bhi jaata hai. *Lalach* badhta hai.",
+   "tts": "मिल भी जाता है. लालच बढ़ता है."
+  },
+  {
+   "id": "L11",
+   "scene": "trap",
+   "cap": "Step chaar: bada task. *₹50,000* daalo. Ab paisa atak gaya.",
+   "tts": "स्टेप चार: बड़ा टास्क. पचास हज़ार डालो. अब पैसा अटक गया."
+  },
+  {
+   "id": "L12",
+   "scene": "trap",
+   "cap": "Nikaalna hai? *Tax bharo.* Fee bharo. Ek aur task karo.",
+   "tts": "निकालना है? टैक्स भरो. फ़ीस भरो. एक और टास्क करो."
+  },
+  {
+   "id": "L13",
+   "scene": "trap",
+   "cap": "Jo bhara, *wapas nahi.* Account aur group, gaayab.",
+   "tts": "जो भरा, वापस नहीं. अकाउंट और ग्रुप, ग़ायब."
+  },
+  {
+   "id": "L14",
+   "scene": "rule",
+   "cap": "Ek seedha rule: jo kaam *pehle paisa maange,* woh naukri nahi.",
+   "tts": "एक सीधा रूल: जो काम पहले पैसा माँगे, वो नौकरी नहीं."
+  },
+  {
+   "id": "L15",
+   "scene": "rule",
+   "cap": "Like karne ke paise *koi nahi* deta.",
+   "tts": "लाइक करने के पैसे कोई नहीं देता."
+  },
+  {
+   "id": "L16",
+   "scene": "rule",
+   "cap": "Fas gaye? Turant *1930* pe call karo. Ya cybercrime.gov.in pe report.",
+   "tts": "फँस गए? तुरंत उन्नीस सौ तीस पे कॉल करो. या साइबर क्राइम डॉट जी ओ वी डॉट इन पे रिपोर्ट."
+  },
+  {
+   "id": "L17",
+   "scene": "rule",
+   "cap": "Jitni jaldi report, utna *paisa rokne* ka chance.",
+   "tts": "जितनी जल्दी रिपोर्ट, उतना पैसा रोकने का चांस."
+  },
+  {
+   "id": "L18",
+   "scene": "outro",
+   "cap": "Family group mein daalo, *mummy papa ko bhejo.*",
+   "tts": "फ़ैमिली ग्रुप में डालो, मम्मी पापा को भेजो."
+  },
+  {
+   "id": "L19",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

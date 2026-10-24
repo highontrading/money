@@ -1,0 +1,117 @@
+{
+ "topic": "HISTORY · 1992",
+ "title": "1992: ek kaagaz se hazaaron crore ka scam",
+ "data_note": "1992 securities scam: Sensex rose from ~1,000 (1990) to ~4,500 (April 1992). Fake bank receipts (BRs) issued by two small banks (Bank of Karad, Metropolitan Co-operative Bank) in interbank ready-forward deals diverted bank money into stocks. Exposed by Sucheta Dalal (Times of India, 23 April 1992). RBI's Janakiraman Committee: ~₹4,025 crore. Afterwards SEBI got statutory powers (SEBI Act 1992), NSE screen trading began (1994), demat followed (NSDL 1996).",
+ "moods": {
+  "hook": "hook",
+  "br": "build",
+  "crash": "tension",
+  "after": "lift",
+  "lesson": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "1992. Sensex do saal mein, *lagbhag 1,000 se 4,500* tak.",
+   "tts": "उन्नीस सौ बानवे. सेंसेक्स दो साल में, लगभग एक हज़ार से पैंतालीस सौ तक."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Is rally ke peeche ek naam: *Harshad Mehta.* Log kehte the, Big Bull.",
+   "tts": "इस रैली के पीछे एक नाम: हर्षद मेहता. लोग कहते थे, बिग बुल."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Par bazaar mein jo paisa aa raha tha, woh *banks* ka tha.",
+   "tts": "पर बाज़ार में जो पैसा आ रहा था, वो बैंक्स का था."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Kaise? Ek kaagaz se: *bank receipt.*",
+   "tts": "कैसे? एक काग़ज़ से: बैंक रिसीट."
+  },
+  {
+   "id": "L05",
+   "scene": "br",
+   "cap": "Banks aapas mein short-term lend karte the, *government securities* ke badle.",
+   "tts": "बैंक्स आपस में शॉर्ट टर्म लेंड करते थे, गवर्नमेंट सिक्योरिटीज़ के बदले."
+  },
+  {
+   "id": "L06",
+   "scene": "br",
+   "cap": "Securities ki jagah aksar ek *receipt* chalti thi. BR. Securities hamare paas hain.",
+   "tts": "सिक्योरिटीज़ की जगह अक्सर एक रिसीट चलती थी. बी आर. सिक्योरिटीज़ हमारे पास हैं."
+  },
+  {
+   "id": "L07",
+   "scene": "br",
+   "cap": "Do chhote banks ne aisi receipts di, jinke peeche *securities thi hi nahi.*",
+   "tts": "दो छोटे बैंक्स ने ऐसी रिसीट्स दीं, जिनके पीछे सिक्योरिटीज़ थी ही नहीं."
+  },
+  {
+   "id": "L08",
+   "scene": "br",
+   "cap": "Bade banks ne in kaagazon pe *croron ka paisa* de diya. Woh paisa gaya share bazaar.",
+   "tts": "बड़े बैंक्स ने इन काग़ज़ों पे करोड़ों का पैसा दे दिया. वो पैसा गया शेयर बाज़ार."
+  },
+  {
+   "id": "L09",
+   "scene": "crash",
+   "cap": "23 April 1992. Ek journalist, *Sucheta Dalal* ne yeh khel khol diya.",
+   "tts": "तेईस अप्रैल उन्नीस सौ बानवे. एक जर्नलिस्ट, सुचेता दलाल ने ये खेल खोल दिया."
+  },
+  {
+   "id": "L10",
+   "scene": "crash",
+   "cap": "Banks ne paisa wapas maanga. Bazaar *dhadaam.*",
+   "tts": "बैंक्स ने पैसा वापस माँगा. बाज़ार धड़ाम."
+  },
+  {
+   "id": "L11",
+   "scene": "crash",
+   "cap": "RBI ki committee ne scam ka size bataya: lagbhag *₹4,025 crore.*",
+   "tts": "आरबीआई की कमेटी ने स्कैम का साइज़ बताया: लगभग चार हज़ार पच्चीस करोड़."
+  },
+  {
+   "id": "L12",
+   "scene": "crash",
+   "cap": "Aur jo log Big Bull ke peeche, oonche daam pe kharid rahe the? *Sabse bada nuksaan* unka.",
+   "tts": "और जो लोग बिग बुल के पीछे, ऊँचे दाम पे ख़रीद रहे थे? सबसे बड़ा नुकसान उनका."
+  },
+  {
+   "id": "L13",
+   "scene": "after",
+   "cap": "Is scam ke baad, *SEBI* ko kanooni taakat mili.",
+   "tts": "इस स्कैम के बाद, सेबी को कानूनी ताक़त मिली."
+  },
+  {
+   "id": "L14",
+   "scene": "after",
+   "cap": "Phir aaya *NSE,* screen pe trading. Aur demat, kaagazi share khatam.",
+   "tts": "फिर आया एन एस ई, स्क्रीन पे ट्रेडिंग. और डीमैट, काग़ज़ी शेयर ख़त्म."
+  },
+  {
+   "id": "L15",
+   "scene": "lesson",
+   "cap": "Seekh? Jab sab ek hi *hero* ke peeche bhaagein, poocho: paisa aa kahan se raha hai?",
+   "tts": "सीख? जब सब एक ही हीरो के पीछे भागें, पूछो: पैसा आ कहाँ से रहा है?"
+  },
+  {
+   "id": "L16",
+   "scene": "outro",
+   "cap": "Jo dost har tip pe share khareedta hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त हर टिप पे शेयर ख़रीदता है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

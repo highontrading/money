@@ -1,0 +1,124 @@
+{
+ "topic": "BUSINESS · CINEMA",
+ "title": "Ticket ₹280, popcorn ₹400: kyun?",
+ "data_note": "Multiplex FY26 averages (company results, approx.): ticket ~₹280, food & beverage spend per head ~₹150. Ticket revenue: GST, then a large share goes to distributors (commonly ~half in a big film's first week). F&B revenue stays with the exhibitor at high margins. Supreme Court (2023): theatres may bar outside food but must give free drinking water. Menu prices illustrative.",
+ "moods": {
+  "hook": "hook",
+  "ticket": "build",
+  "popcorn": "drive",
+  "why": "build",
+  "decoy": "tension",
+  "tip": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Movie ticket: *₹280.* Popcorn: *₹400.*",
+   "tts": "मूवी टिकट: दो सौ अस्सी. पॉपकॉर्न: चार सौ."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Makke ke daane, *chaar sau rupaye?*",
+   "tts": "मक्के के दाने, चार सौ रुपये?"
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Yeh lalach nahi. Yeh *business model* hai.",
+   "tts": "ये लालच नहीं. ये बिज़नेस मॉडल है."
+  },
+  {
+   "id": "L04",
+   "scene": "ticket",
+   "cap": "Ticket ka paisa theatre ka *poora* nahi hota.",
+   "tts": "टिकट का पैसा थिएटर का पूरा नहीं होता."
+  },
+  {
+   "id": "L05",
+   "scene": "ticket",
+   "cap": "Ticket pe GST. Phir bache paise ka bada hissa, *film walon* ko jaata hai.",
+   "tts": "टिकट पे जी एस टी. फिर बचे पैसे का बड़ा हिस्सा, फ़िल्म वालों को जाता है."
+  },
+  {
+   "id": "L06",
+   "scene": "ticket",
+   "cap": "Badi film ke pehle hafte mein, aksar *lagbhag aadha.*",
+   "tts": "बड़ी फ़िल्म के पहले हफ़्ते में, अक्सर लगभग आधा."
+  },
+  {
+   "id": "L07",
+   "scene": "popcorn",
+   "cap": "Ab popcorn. Iska paisa? *Poora theatre ka.*",
+   "tts": "अब पॉपकॉर्न. इसका पैसा? पूरा थिएटर का."
+  },
+  {
+   "id": "L08",
+   "scene": "popcorn",
+   "cap": "Aur makka, tel, namak, *sasta* hai. Toh har tub pe bada margin.",
+   "tts": "और मक्का, तेल, नमक, सस्ता है. तो हर टब पे बड़ा मार्जिन."
+  },
+  {
+   "id": "L09",
+   "scene": "popcorn",
+   "cap": "Bade multiplex mein, har darshak average *₹150 ka* khaana khaata hai.",
+   "tts": "बड़े मल्टीप्लेक्स में, हर दर्शक एवरेज डेढ़ सौ का खाना खाता है."
+  },
+  {
+   "id": "L10",
+   "scene": "why",
+   "cap": "Isliye theatre ka khel hai: *ticket se andar bulao,* popcorn se kamao.",
+   "tts": "इसलिए थिएटर का खेल है: टिकट से अंदर बुलाओ, पॉपकॉर्न से कमाओ."
+  },
+  {
+   "id": "L11",
+   "scene": "why",
+   "cap": "Aur andar aap *captive* ho. Aksar bahar ka khaana mana.",
+   "tts": "और अंदर आप कैप्टिव हो. अक्सर बाहर का खाना मना."
+  },
+  {
+   "id": "L12",
+   "scene": "decoy",
+   "cap": "Aur menu pe ek *chaal* bhi hai.",
+   "tts": "और मेन्यू पे एक चाल भी है."
+  },
+  {
+   "id": "L13",
+   "scene": "decoy",
+   "cap": "Small ₹250. Medium ₹380. *Large ₹400.*",
+   "tts": "स्मॉल ढाई सौ. मीडियम तीन सौ अस्सी. लार्ज चार सौ."
+  },
+  {
+   "id": "L14",
+   "scene": "decoy",
+   "cap": "Medium isliye hai, taaki *large sasta* lage. Isse kehte hain *decoy.*",
+   "tts": "मीडियम इसलिए है, ताकि लार्ज सस्ता लगे. इसे कहते हैं डिकॉय."
+  },
+  {
+   "id": "L15",
+   "scene": "tip",
+   "cap": "Toh agli baar? Combo aur *large* se pehle, socho: chahiye kitna?",
+   "tts": "तो अगली बार? कॉम्बो और लार्ज से पहले, सोचो: चाहिए कितना?"
+  },
+  {
+   "id": "L16",
+   "scene": "tip",
+   "cap": "Aur paani? Theatre ko *free peene ka paani* dena hota hai.",
+   "tts": "और पानी? थिएटर को फ़्री पीने का पानी देना होता है."
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "cap": "Jo dost har movie pe large combo leta hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त हर मूवी पे लार्ज कॉम्बो लेता है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L18",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

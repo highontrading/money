@@ -1,0 +1,123 @@
+{
+ "topic": "PSYCHOLOGY",
+ "title": "₹999 kyun, ₹1,000 kyun nahi?",
+ "data_note": "Left-digit effect (e.g. Thomas & Morwitz, 2005), anchoring on a struck-out MRP, and the decoy effect. Prices are illustrative examples.",
+ "moods": {
+  "hook": "hook",
+  "left": "build",
+  "anchor": "drive",
+  "decoy": "tension",
+  "defend": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "₹999 aur ₹1,000. Farak? *Sirf ₹1.*",
+   "tts": "नौ सौ निन्यानवे और एक हज़ार. फ़र्क? सिर्फ़ एक रुपया."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Par dimaag ko lagta hai, *bahut sasta.*",
+   "tts": "पर दिमाग़ को लगता है, बहुत सस्ता."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Dukaandaar yeh jaante hain. Aur aap pe *teen chaalein* chalte hain.",
+   "tts": "दुकानदार ये जानते हैं. और आप पे तीन चालें चलते हैं."
+  },
+  {
+   "id": "L04",
+   "scene": "left",
+   "cap": "Chaal ek: *left digit.*",
+   "tts": "चाल एक: लेफ़्ट डिजिट."
+  },
+  {
+   "id": "L05",
+   "scene": "left",
+   "cap": "Hum number *baayein se* padhte hain. Pehla digit dimaag mein chipak jaata hai.",
+   "tts": "हम नंबर बाएँ से पढ़ते हैं. पहला डिजिट दिमाग़ में चिपक जाता है."
+  },
+  {
+   "id": "L06",
+   "scene": "left",
+   "cap": "₹999 pe dimaag padhta hai: *nau sau kuch.* Hazaar nahi.",
+   "tts": "नौ सौ निन्यानवे पे दिमाग़ पढ़ता है: नौ सौ कुछ. हज़ार नहीं."
+  },
+  {
+   "id": "L07",
+   "scene": "left",
+   "cap": "Isliye ₹1,999, ₹49,999. *Har jagah* 9.",
+   "tts": "इसलिए उन्नीस सौ निन्यानवे, उनचास हज़ार नौ सौ निन्यानवे. हर जगह नौ."
+  },
+  {
+   "id": "L08",
+   "scene": "anchor",
+   "cap": "Chaal do: *anchor.*",
+   "tts": "चाल दो: एंकर."
+  },
+  {
+   "id": "L09",
+   "scene": "anchor",
+   "cap": "MRP ₹4,999, kaata hua. Neeche likha: *ab sirf ₹1,999.*",
+   "tts": "एम आर पी उनचास सौ निन्यानवे, काटा हुआ. नीचे लिखा: अब सिर्फ़ उन्नीस सौ निन्यानवे."
+  },
+  {
+   "id": "L10",
+   "scene": "anchor",
+   "cap": "Pehla number dimaag mein *anchor* ban jaata hai. Doosra, deal lagta hai.",
+   "tts": "पहला नंबर दिमाग़ में एंकर बन जाता है. दूसरा, डील लगता है."
+  },
+  {
+   "id": "L11",
+   "scene": "anchor",
+   "cap": "Chahe woh cheez *₹1,999 ki hi* thi.",
+   "tts": "चाहे वो चीज़ उन्नीस सौ निन्यानवे की ही थी."
+  },
+  {
+   "id": "L12",
+   "scene": "decoy",
+   "cap": "Chaal teen: *decoy.* Teen plan.",
+   "tts": "चाल तीन: डिकॉय. तीन प्लान."
+  },
+  {
+   "id": "L13",
+   "scene": "decoy",
+   "cap": "Basic ₹199. Standard ₹449. *Premium ₹499.*",
+   "tts": "बेसिक एक सौ निन्यानवे. स्टैंडर्ड चार सौ उनचास. प्रीमियम चार सौ निन्यानवे."
+  },
+  {
+   "id": "L14",
+   "scene": "decoy",
+   "cap": "Standard bikne ke liye nahi hai. Woh bas *Premium ko sasta* dikhata hai.",
+   "tts": "स्टैंडर्ड बिकने के लिए नहीं है. वो बस प्रीमियम को सस्ता दिखाता है."
+  },
+  {
+   "id": "L15",
+   "scene": "defend",
+   "cap": "Bachaav? Daam ko *round* karke padho. ₹999 matlab ₹1,000.",
+   "tts": "बचाव? दाम को राउंड करके पढ़ो. नौ सौ निन्यानवे मतलब हज़ार."
+  },
+  {
+   "id": "L16",
+   "scene": "defend",
+   "cap": "MRP ko ignore karo. Poocho: *mere liye* iski keemat kitni hai?",
+   "tts": "एम आर पी को इग्नोर करो. पूछो: मेरे लिए इसकी कीमत कितनी है?"
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "cap": "Jo dost har sale mein deal dhoondhta hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त हर सेल में डील ढूँढता है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L18",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

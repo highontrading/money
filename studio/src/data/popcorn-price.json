@@ -1,0 +1,1187 @@
+{
+ "fps": 30,
+ "duration": 2282,
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "start": 14,
+   "end": 128,
+   "words": [
+    {
+     "text": "Movie",
+     "hi": false,
+     "start": 14,
+     "end": 23
+    },
+    {
+     "text": "ticket:",
+     "hi": false,
+     "start": 23,
+     "end": 34
+    },
+    {
+     "text": "₹280.",
+     "hi": true,
+     "start": 46,
+     "end": 74
+    },
+    {
+     "text": "Popcorn:",
+     "hi": false,
+     "start": 84,
+     "end": 97
+    },
+    {
+     "text": "₹400.",
+     "hi": true,
+     "start": 111,
+     "end": 122
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "start": 133,
+   "end": 195,
+   "words": [
+    {
+     "text": "Makke",
+     "hi": false,
+     "start": 133,
+     "end": 143
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 143,
+     "end": 149
+    },
+    {
+     "text": "daane,",
+     "hi": false,
+     "start": 149,
+     "end": 160
+    },
+    {
+     "text": "chaar",
+     "hi": true,
+     "start": 171,
+     "end": 178
+    },
+    {
+     "text": "sau",
+     "hi": true,
+     "start": 178,
+     "end": 183
+    },
+    {
+     "text": "rupaye?",
+     "hi": true,
+     "start": 183,
+     "end": 191
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "start": 200,
+   "end": 278,
+   "words": [
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 200,
+     "end": 207
+    },
+    {
+     "text": "lalach",
+     "hi": false,
+     "start": 207,
+     "end": 220
+    },
+    {
+     "text": "nahi.",
+     "hi": false,
+     "start": 220,
+     "end": 229
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 244,
+     "end": 250
+    },
+    {
+     "text": "business",
+     "hi": true,
+     "start": 250,
+     "end": 263
+    },
+    {
+     "text": "model",
+     "hi": true,
+     "start": 263,
+     "end": 272
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 272,
+     "end": 278
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "scene": "ticket",
+   "start": 296,
+   "end": 366,
+   "words": [
+    {
+     "text": "Ticket",
+     "hi": false,
+     "start": 296,
+     "end": 307
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 307,
+     "end": 312
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 312,
+     "end": 322
+    },
+    {
+     "text": "theatre",
+     "hi": false,
+     "start": 322,
+     "end": 335
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 335,
+     "end": 340
+    },
+    {
+     "text": "poora",
+     "hi": true,
+     "start": 340,
+     "end": 350
+    },
+    {
+     "text": "nahi",
+     "hi": false,
+     "start": 350,
+     "end": 358
+    },
+    {
+     "text": "hota.",
+     "hi": false,
+     "start": 358,
+     "end": 366
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "scene": "ticket",
+   "start": 371,
+   "end": 529,
+   "words": [
+    {
+     "text": "Ticket",
+     "hi": false,
+     "start": 371,
+     "end": 388
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 388,
+     "end": 395
+    },
+    {
+     "text": "GST.",
+     "hi": false,
+     "start": 395,
+     "end": 405
+    },
+    {
+     "text": "Phir",
+     "hi": false,
+     "start": 423,
+     "end": 431
+    },
+    {
+     "text": "bache",
+     "hi": false,
+     "start": 431,
+     "end": 441
+    },
+    {
+     "text": "paise",
+     "hi": false,
+     "start": 441,
+     "end": 450
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 450,
+     "end": 455
+    },
+    {
+     "text": "bada",
+     "hi": false,
+     "start": 455,
+     "end": 464
+    },
+    {
+     "text": "hissa,",
+     "hi": false,
+     "start": 464,
+     "end": 473
+    },
+    {
+     "text": "film",
+     "hi": true,
+     "start": 483,
+     "end": 491
+    },
+    {
+     "text": "walon",
+     "hi": true,
+     "start": 491,
+     "end": 502
+    },
+    {
+     "text": "ko",
+     "hi": false,
+     "start": 502,
+     "end": 507
+    },
+    {
+     "text": "jaata",
+     "hi": false,
+     "start": 507,
+     "end": 518
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 518,
+     "end": 525
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "scene": "ticket",
+   "start": 534,
+   "end": 640,
+   "words": [
+    {
+     "text": "Badi",
+     "hi": false,
+     "start": 534,
+     "end": 544
+    },
+    {
+     "text": "film",
+     "hi": false,
+     "start": 544,
+     "end": 554
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 554,
+     "end": 560
+    },
+    {
+     "text": "pehle",
+     "hi": false,
+     "start": 560,
+     "end": 572
+    },
+    {
+     "text": "hafte",
+     "hi": false,
+     "start": 572,
+     "end": 583
+    },
+    {
+     "text": "mein,",
+     "hi": false,
+     "start": 583,
+     "end": 593
+    },
+    {
+     "text": "aksar",
+     "hi": false,
+     "start": 595,
+     "end": 609
+    },
+    {
+     "text": "lagbhag",
+     "hi": true,
+     "start": 609,
+     "end": 627
+    },
+    {
+     "text": "aadha.",
+     "hi": true,
+     "start": 627,
+     "end": 640
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "scene": "popcorn",
+   "start": 658,
+   "end": 757,
+   "words": [
+    {
+     "text": "Ab",
+     "hi": false,
+     "start": 658,
+     "end": 665
+    },
+    {
+     "text": "popcorn.",
+     "hi": false,
+     "start": 665,
+     "end": 681
+    },
+    {
+     "text": "Iska",
+     "hi": false,
+     "start": 697,
+     "end": 709
+    },
+    {
+     "text": "paisa?",
+     "hi": false,
+     "start": 709,
+     "end": 724
+    },
+    {
+     "text": "Poora",
+     "hi": true,
+     "start": 727,
+     "end": 738
+    },
+    {
+     "text": "theatre",
+     "hi": true,
+     "start": 738,
+     "end": 751
+    },
+    {
+     "text": "ka.",
+     "hi": true,
+     "start": 751,
+     "end": 757
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "scene": "popcorn",
+   "start": 762,
+   "end": 926,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 762,
+     "end": 770
+    },
+    {
+     "text": "makka,",
+     "hi": false,
+     "start": 770,
+     "end": 782
+    },
+    {
+     "text": "tel,",
+     "hi": false,
+     "start": 792,
+     "end": 803
+    },
+    {
+     "text": "namak,",
+     "hi": false,
+     "start": 814,
+     "end": 823
+    },
+    {
+     "text": "sasta",
+     "hi": true,
+     "start": 834,
+     "end": 849
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 849,
+     "end": 858
+    },
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 865,
+     "end": 873
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 873,
+     "end": 881
+    },
+    {
+     "text": "tub",
+     "hi": false,
+     "start": 881,
+     "end": 889
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 889,
+     "end": 896
+    },
+    {
+     "text": "bada",
+     "hi": false,
+     "start": 896,
+     "end": 906
+    },
+    {
+     "text": "margin.",
+     "hi": false,
+     "start": 906,
+     "end": 919
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "scene": "popcorn",
+   "start": 931,
+   "end": 1048,
+   "words": [
+    {
+     "text": "Bade",
+     "hi": false,
+     "start": 931,
+     "end": 942
+    },
+    {
+     "text": "multiplex",
+     "hi": false,
+     "start": 942,
+     "end": 962
+    },
+    {
+     "text": "mein,",
+     "hi": false,
+     "start": 962,
+     "end": 972
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 975,
+     "end": 981
+    },
+    {
+     "text": "darshak",
+     "hi": false,
+     "start": 981,
+     "end": 991
+    },
+    {
+     "text": "average",
+     "hi": false,
+     "start": 991,
+     "end": 1002
+    },
+    {
+     "text": "₹150",
+     "hi": true,
+     "start": 1002,
+     "end": 1019
+    },
+    {
+     "text": "ka",
+     "hi": true,
+     "start": 1019,
+     "end": 1023
+    },
+    {
+     "text": "khaana",
+     "hi": false,
+     "start": 1023,
+     "end": 1033
+    },
+    {
+     "text": "khaata",
+     "hi": false,
+     "start": 1033,
+     "end": 1042
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1042,
+     "end": 1048
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "scene": "why",
+   "start": 1066,
+   "end": 1202,
+   "words": [
+    {
+     "text": "Isliye",
+     "hi": false,
+     "start": 1066,
+     "end": 1081
+    },
+    {
+     "text": "theatre",
+     "hi": false,
+     "start": 1081,
+     "end": 1098
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1098,
+     "end": 1105
+    },
+    {
+     "text": "khel",
+     "hi": false,
+     "start": 1105,
+     "end": 1116
+    },
+    {
+     "text": "hai:",
+     "hi": false,
+     "start": 1116,
+     "end": 1125
+    },
+    {
+     "text": "ticket",
+     "hi": true,
+     "start": 1127,
+     "end": 1141
+    },
+    {
+     "text": "se",
+     "hi": true,
+     "start": 1141,
+     "end": 1147
+    },
+    {
+     "text": "andar",
+     "hi": true,
+     "start": 1147,
+     "end": 1158
+    },
+    {
+     "text": "bulao,",
+     "hi": true,
+     "start": 1158,
+     "end": 1170
+    },
+    {
+     "text": "popcorn",
+     "hi": false,
+     "start": 1172,
+     "end": 1186
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 1186,
+     "end": 1191
+    },
+    {
+     "text": "kamao.",
+     "hi": false,
+     "start": 1191,
+     "end": 1202
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "scene": "why",
+   "start": 1207,
+   "end": 1329,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1207,
+     "end": 1215
+    },
+    {
+     "text": "andar",
+     "hi": false,
+     "start": 1215,
+     "end": 1227
+    },
+    {
+     "text": "aap",
+     "hi": false,
+     "start": 1227,
+     "end": 1236
+    },
+    {
+     "text": "captive",
+     "hi": true,
+     "start": 1236,
+     "end": 1252
+    },
+    {
+     "text": "ho.",
+     "hi": false,
+     "start": 1252,
+     "end": 1259
+    },
+    {
+     "text": "Aksar",
+     "hi": false,
+     "start": 1277,
+     "end": 1288
+    },
+    {
+     "text": "bahar",
+     "hi": false,
+     "start": 1288,
+     "end": 1300
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1300,
+     "end": 1306
+    },
+    {
+     "text": "khaana",
+     "hi": false,
+     "start": 1306,
+     "end": 1319
+    },
+    {
+     "text": "mana.",
+     "hi": false,
+     "start": 1319,
+     "end": 1329
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "scene": "decoy",
+   "start": 1347,
+   "end": 1399,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1347,
+     "end": 1354
+    },
+    {
+     "text": "menu",
+     "hi": false,
+     "start": 1354,
+     "end": 1363
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 1363,
+     "end": 1369
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 1369,
+     "end": 1374
+    },
+    {
+     "text": "chaal",
+     "hi": true,
+     "start": 1374,
+     "end": 1385
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 1385,
+     "end": 1392
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1392,
+     "end": 1399
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "scene": "decoy",
+   "start": 1404,
+   "end": 1546,
+   "words": [
+    {
+     "text": "Small",
+     "hi": false,
+     "start": 1404,
+     "end": 1414
+    },
+    {
+     "text": "₹250.",
+     "hi": false,
+     "start": 1414,
+     "end": 1434
+    },
+    {
+     "text": "Medium",
+     "hi": false,
+     "start": 1454,
+     "end": 1467
+    },
+    {
+     "text": "₹380.",
+     "hi": false,
+     "start": 1467,
+     "end": 1490
+    },
+    {
+     "text": "Large",
+     "hi": true,
+     "start": 1513,
+     "end": 1522
+    },
+    {
+     "text": "₹400.",
+     "hi": true,
+     "start": 1522,
+     "end": 1542
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "scene": "decoy",
+   "start": 1551,
+   "end": 1690,
+   "words": [
+    {
+     "text": "Medium",
+     "hi": false,
+     "start": 1551,
+     "end": 1565
+    },
+    {
+     "text": "isliye",
+     "hi": false,
+     "start": 1565,
+     "end": 1580
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 1580,
+     "end": 1589
+    },
+    {
+     "text": "taaki",
+     "hi": false,
+     "start": 1591,
+     "end": 1605
+    },
+    {
+     "text": "large",
+     "hi": true,
+     "start": 1605,
+     "end": 1620
+    },
+    {
+     "text": "sasta",
+     "hi": true,
+     "start": 1620,
+     "end": 1634
+    },
+    {
+     "text": "lage.",
+     "hi": false,
+     "start": 1634,
+     "end": 1646
+    },
+    {
+     "text": "Isse",
+     "hi": false,
+     "start": 1648,
+     "end": 1658
+    },
+    {
+     "text": "kehte",
+     "hi": false,
+     "start": 1658,
+     "end": 1669
+    },
+    {
+     "text": "hain",
+     "hi": false,
+     "start": 1669,
+     "end": 1679
+    },
+    {
+     "text": "decoy.",
+     "hi": true,
+     "start": 1679,
+     "end": 1690
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "scene": "tip",
+   "start": 1708,
+   "end": 1848,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 1708,
+     "end": 1715
+    },
+    {
+     "text": "agli",
+     "hi": false,
+     "start": 1715,
+     "end": 1724
+    },
+    {
+     "text": "baar?",
+     "hi": false,
+     "start": 1724,
+     "end": 1733
+    },
+    {
+     "text": "Combo",
+     "hi": false,
+     "start": 1752,
+     "end": 1763
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 1763,
+     "end": 1770
+    },
+    {
+     "text": "large",
+     "hi": true,
+     "start": 1770,
+     "end": 1780
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 1780,
+     "end": 1786
+    },
+    {
+     "text": "pehle,",
+     "hi": false,
+     "start": 1786,
+     "end": 1796
+    },
+    {
+     "text": "socho:",
+     "hi": false,
+     "start": 1804,
+     "end": 1819
+    },
+    {
+     "text": "chahiye",
+     "hi": false,
+     "start": 1828,
+     "end": 1839
+    },
+    {
+     "text": "kitna?",
+     "hi": false,
+     "start": 1839,
+     "end": 1848
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "scene": "tip",
+   "start": 1853,
+   "end": 1963,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1853,
+     "end": 1859
+    },
+    {
+     "text": "paani?",
+     "hi": false,
+     "start": 1859,
+     "end": 1867
+    },
+    {
+     "text": "Theatre",
+     "hi": false,
+     "start": 1886,
+     "end": 1897
+    },
+    {
+     "text": "ko",
+     "hi": false,
+     "start": 1897,
+     "end": 1901
+    },
+    {
+     "text": "free",
+     "hi": true,
+     "start": 1901,
+     "end": 1909
+    },
+    {
+     "text": "peene",
+     "hi": true,
+     "start": 1909,
+     "end": 1917
+    },
+    {
+     "text": "ka",
+     "hi": true,
+     "start": 1917,
+     "end": 1922
+    },
+    {
+     "text": "paani",
+     "hi": true,
+     "start": 1922,
+     "end": 1930
+    },
+    {
+     "text": "dena",
+     "hi": false,
+     "start": 1930,
+     "end": 1937
+    },
+    {
+     "text": "hota",
+     "hi": false,
+     "start": 1937,
+     "end": 1945
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1945,
+     "end": 1950
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "start": 1981,
+   "end": 2100,
+   "words": [
+    {
+     "text": "Jo",
+     "hi": false,
+     "start": 1981,
+     "end": 1988
+    },
+    {
+     "text": "dost",
+     "hi": false,
+     "start": 1988,
+     "end": 1998
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 1998,
+     "end": 2006
+    },
+    {
+     "text": "movie",
+     "hi": false,
+     "start": 2006,
+     "end": 2017
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 2017,
+     "end": 2024
+    },
+    {
+     "text": "large",
+     "hi": false,
+     "start": 2024,
+     "end": 2035
+    },
+    {
+     "text": "combo",
+     "hi": false,
+     "start": 2035,
+     "end": 2047
+    },
+    {
+     "text": "leta",
+     "hi": false,
+     "start": 2047,
+     "end": 2057
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2057,
+     "end": 2065
+    },
+    {
+     "text": "use",
+     "hi": true,
+     "start": 2067,
+     "end": 2077
+    },
+    {
+     "text": "yeh",
+     "hi": true,
+     "start": 2077,
+     "end": 2086
+    },
+    {
+     "text": "bhejo.",
+     "hi": true,
+     "start": 2086,
+     "end": 2100
+    }
+   ]
+  },
+  {
+   "id": "L18",
+   "scene": "outro",
+   "start": 2105,
+   "end": 2186,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2105,
+     "end": 2117
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 2117,
+     "end": 2130
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 2146,
+     "end": 2153
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2153,
+     "end": 2160
+    },
+    {
+     "text": "Money",
+     "hi": true,
+     "start": 2160,
+     "end": 2170
+    },
+    {
+     "text": "Theory.",
+     "hi": true,
+     "start": 2170,
+     "end": 2182
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "mood": "hook",
+   "start": 0,
+   "end": 287
+  },
+  {
+   "id": "ticket",
+   "mood": "build",
+   "start": 287,
+   "end": 649
+  },
+  {
+   "id": "popcorn",
+   "mood": "drive",
+   "start": 649,
+   "end": 1057
+  },
+  {
+   "id": "why",
+   "mood": "build",
+   "start": 1057,
+   "end": 1338
+  },
+  {
+   "id": "decoy",
+   "mood": "tension",
+   "start": 1338,
+   "end": 1699
+  },
+  {
+   "id": "tip",
+   "mood": "lift",
+   "start": 1699,
+   "end": 1972
+  },
+  {
+   "id": "outro",
+   "mood": "outro",
+   "start": 1972,
+   "end": 2282
+  }
+ ],
+ "audio": "audio/popcorn-price/narration.wav",
+ "music": "audio/popcorn-price/music.wav",
+ "sfx": []
+}

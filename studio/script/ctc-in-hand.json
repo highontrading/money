@@ -1,0 +1,134 @@
+{
+ "topic": "SALARY · CTC",
+ "title": "CTC ₹12 lakh, haath mein ₹79,000?",
+ "data_note": "Illustrative CTC ₹12 lakh: variable ₹1 lakh, employer PF ₹60,000 (12% of ₹5 lakh basic), gratuity ₹24,050 (4.81% of basic; usually payable after 5 years), group insurance ~₹6,000 -> gross ~₹10.1 lakh (₹84,000/month). Employee PF ₹5,000/month, professional tax ₹200 in some states. New regime FY 2026-27: gross incl. variable ₹11.1 lakh - ₹75,000 standard deduction = ₹10.35 lakh -> zero tax. In-hand ~₹79,000.",
+ "moods": {
+  "hook": "hook",
+  "ctc": "build",
+  "monthly": "drive",
+  "good": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Offer letter aaya: CTC *₹12 lakh.*",
+   "tts": "ऑफ़र लेटर आया: सी टी सी बारह लाख."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Socha, har mahine ₹1 lakh. *Party!*",
+   "tts": "सोचा, हर महीने एक लाख. पार्टी!"
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Pehli salary aayi: *₹79,000.*",
+   "tts": "पहली सैलरी आई: उन्यासी हज़ार."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "₹21,000 *kahan gaye?* CTC ko kholte hain.",
+   "tts": "इक्कीस हज़ार कहाँ गए? सी टी सी को खोलते हैं."
+  },
+  {
+   "id": "L05",
+   "scene": "ctc",
+   "cap": "CTC matlab *Cost to Company.* Company ka kharcha, aapki salary nahi.",
+   "tts": "सी टी सी मतलब कॉस्ट टू कंपनी. कंपनी का ख़र्चा, आपकी सैलरी नहीं."
+  },
+  {
+   "id": "L06",
+   "scene": "ctc",
+   "cap": "Pehla tukda: *variable pay,* ₹1 lakh. Saal ke end mein, agar target pura hua.",
+   "tts": "पहला टुकड़ा: वेरिएबल पे, एक लाख. साल के एंड में, अगर टारगेट पूरा हुआ."
+  },
+  {
+   "id": "L07",
+   "scene": "ctc",
+   "cap": "Doosra: company ka *PF,* ₹60,000. Seedha PF account mein.",
+   "tts": "दूसरा: कंपनी का पी एफ़, साठ हज़ार. सीधा पी एफ़ अकाउंट में."
+  },
+  {
+   "id": "L08",
+   "scene": "ctc",
+   "cap": "Teesra: *gratuity,* ₹24,000. Aam taur pe 5 saal naukri ke baad.",
+   "tts": "तीसरा: ग्रेच्युटी, चौबीस हज़ार. आम तौर पे पाँच साल नौकरी के बाद."
+  },
+  {
+   "id": "L09",
+   "scene": "ctc",
+   "cap": "Aur group *insurance,* lagbhag ₹6,000.",
+   "tts": "और ग्रुप इंश्योरेंस, लगभग छह हज़ार."
+  },
+  {
+   "id": "L10",
+   "scene": "monthly",
+   "cap": "Bacha gross salary: lagbhag *₹10.1 lakh.* Mahine ka ₹84,000.",
+   "tts": "बचा ग्रॉस सैलरी: लगभग दस दशमलव एक लाख. महीने का चौरासी हज़ार."
+  },
+  {
+   "id": "L11",
+   "scene": "monthly",
+   "cap": "Ab isme se *aapka PF* katega: ₹5,000 mahina.",
+   "tts": "अब इसमें से आपका पी एफ़ कटेगा: पाँच हज़ार महीना."
+  },
+  {
+   "id": "L12",
+   "scene": "monthly",
+   "cap": "Kuch states mein ₹200 *professional tax.*",
+   "tts": "कुछ स्टेट्स में दो सौ प्रोफ़ेशनल टैक्स."
+  },
+  {
+   "id": "L13",
+   "scene": "monthly",
+   "cap": "Income tax? New regime mein, is salary pe *zero.*",
+   "tts": "इनकम टैक्स? न्यू रिजीम में, इस सैलरी पे ज़ीरो."
+  },
+  {
+   "id": "L14",
+   "scene": "monthly",
+   "cap": "Haath mein: lagbhag *₹79,000.*",
+   "tts": "हाथ में: लगभग उन्यासी हज़ार."
+  },
+  {
+   "id": "L15",
+   "scene": "good",
+   "cap": "Toh kya ₹21,000 gaye? *Nahi.* Zyaadatar aapka hi paisa hai.",
+   "tts": "तो क्या इक्कीस हज़ार गए? नहीं. ज़्यादातर आपका ही पैसा है."
+  },
+  {
+   "id": "L16",
+   "scene": "good",
+   "cap": "PF aapki *retirement* ke liye jud raha hai. Variable, achha kaam karo toh milega.",
+   "tts": "पी एफ़ आपकी रिटायरमेंट के लिए जुड़ रहा है. वेरिएबल, अच्छा काम करो तो मिलेगा."
+  },
+  {
+   "id": "L17",
+   "scene": "good",
+   "cap": "Bas offer compare karte waqt, CTC nahi, *in-hand* poocho.",
+   "tts": "बस ऑफ़र कंपेयर करते वक़्त, सी टी सी नहीं, इन हैंड पूछो."
+  },
+  {
+   "id": "L18",
+   "scene": "good",
+   "cap": "Aur *salary breakup* maango. Basic kitna, variable kitna.",
+   "tts": "और सैलरी ब्रेकअप माँगो. बेसिक कितना, वेरिएबल कितना."
+  },
+  {
+   "id": "L19",
+   "scene": "outro",
+   "cap": "Jisne abhi abhi offer letter paaya hai, *use yeh bhejo.*",
+   "tts": "जिसने अभी अभी ऑफ़र लेटर पाया है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L20",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

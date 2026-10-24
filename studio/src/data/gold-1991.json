@@ -1,0 +1,1415 @@
+{
+ "fps": 30,
+ "duration": 2628,
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "start": 14,
+   "end": 178,
+   "words": [
+    {
+     "text": "July",
+     "hi": false,
+     "start": 14,
+     "end": 26
+    },
+    {
+     "text": "1991.",
+     "hi": false,
+     "start": 26,
+     "end": 63
+    },
+    {
+     "text": "Chupke",
+     "hi": false,
+     "start": 81,
+     "end": 94
+    },
+    {
+     "text": "se,",
+     "hi": false,
+     "start": 94,
+     "end": 100
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 113,
+     "end": 118
+    },
+    {
+     "text": "plane",
+     "hi": false,
+     "start": 118,
+     "end": 127
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 127,
+     "end": 135
+    },
+    {
+     "text": "bhar",
+     "hi": false,
+     "start": 135,
+     "end": 143
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 143,
+     "end": 148
+    },
+    {
+     "text": "sona",
+     "hi": true,
+     "start": 148,
+     "end": 156
+    },
+    {
+     "text": "videsh",
+     "hi": false,
+     "start": 156,
+     "end": 166
+    },
+    {
+     "text": "gaya.",
+     "hi": false,
+     "start": 166,
+     "end": 174
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "start": 183,
+   "end": 253,
+   "words": [
+    {
+     "text": "India",
+     "hi": false,
+     "start": 183,
+     "end": 193
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 193,
+     "end": 199
+    },
+    {
+     "text": "sona.",
+     "hi": false,
+     "start": 199,
+     "end": 208
+    },
+    {
+     "text": "Girvi",
+     "hi": true,
+     "start": 223,
+     "end": 231
+    },
+    {
+     "text": "rakhne",
+     "hi": false,
+     "start": 231,
+     "end": 240
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 240,
+     "end": 244
+    },
+    {
+     "text": "liye.",
+     "hi": false,
+     "start": 244,
+     "end": 251
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "start": 258,
+   "end": 387,
+   "words": [
+    {
+     "text": "Kyunki",
+     "hi": false,
+     "start": 258,
+     "end": 271
+    },
+    {
+     "text": "desh",
+     "hi": false,
+     "start": 271,
+     "end": 281
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 281,
+     "end": 287
+    },
+    {
+     "text": "paas",
+     "hi": false,
+     "start": 287,
+     "end": 297
+    },
+    {
+     "text": "videshi",
+     "hi": false,
+     "start": 297,
+     "end": 312
+    },
+    {
+     "text": "mudra,",
+     "hi": false,
+     "start": 312,
+     "end": 324
+    },
+    {
+     "text": "bas",
+     "hi": false,
+     "start": 328,
+     "end": 336
+    },
+    {
+     "text": "kuch",
+     "hi": true,
+     "start": 336,
+     "end": 346
+    },
+    {
+     "text": "hafton",
+     "hi": true,
+     "start": 346,
+     "end": 359
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 359,
+     "end": 365
+    },
+    {
+     "text": "bachi",
+     "hi": false,
+     "start": 365,
+     "end": 377
+    },
+    {
+     "text": "thi.",
+     "hi": false,
+     "start": 377,
+     "end": 385
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "scene": "why",
+   "start": 405,
+   "end": 508,
+   "words": [
+    {
+     "text": "Desh",
+     "hi": false,
+     "start": 405,
+     "end": 423
+    },
+    {
+     "text": "tel,",
+     "hi": false,
+     "start": 423,
+     "end": 439
+    },
+    {
+     "text": "khaad,",
+     "hi": false,
+     "start": 441,
+     "end": 459
+    },
+    {
+     "text": "machinery",
+     "hi": false,
+     "start": 462,
+     "end": 475
+    },
+    {
+     "text": "dollar",
+     "hi": true,
+     "start": 475,
+     "end": 484
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 484,
+     "end": 490
+    },
+    {
+     "text": "khareedta",
+     "hi": false,
+     "start": 490,
+     "end": 503
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 503,
+     "end": 508
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "scene": "why",
+   "start": 513,
+   "end": 678,
+   "words": [
+    {
+     "text": "1990",
+     "hi": false,
+     "start": 513,
+     "end": 542
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 542,
+     "end": 552
+    },
+    {
+     "text": "Gulf",
+     "hi": true,
+     "start": 552,
+     "end": 562
+    },
+    {
+     "text": "War.",
+     "hi": true,
+     "start": 562,
+     "end": 569
+    },
+    {
+     "text": "Tel",
+     "hi": false,
+     "start": 586,
+     "end": 595
+    },
+    {
+     "text": "mehnga",
+     "hi": false,
+     "start": 595,
+     "end": 610
+    },
+    {
+     "text": "hua,",
+     "hi": false,
+     "start": 610,
+     "end": 619
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 621,
+     "end": 628
+    },
+    {
+     "text": "Khaadi",
+     "hi": false,
+     "start": 628,
+     "end": 639
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 639,
+     "end": 644
+    },
+    {
+     "text": "aane",
+     "hi": false,
+     "start": 644,
+     "end": 652
+    },
+    {
+     "text": "wala",
+     "hi": false,
+     "start": 652,
+     "end": 660
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 660,
+     "end": 669
+    },
+    {
+     "text": "ghata.",
+     "hi": false,
+     "start": 669,
+     "end": 678
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "scene": "why",
+   "start": 683,
+   "end": 820,
+   "words": [
+    {
+     "text": "Dollar",
+     "hi": false,
+     "start": 683,
+     "end": 698
+    },
+    {
+     "text": "aa",
+     "hi": false,
+     "start": 698,
+     "end": 705
+    },
+    {
+     "text": "kam",
+     "hi": false,
+     "start": 705,
+     "end": 714
+    },
+    {
+     "text": "rahe",
+     "hi": false,
+     "start": 714,
+     "end": 724
+    },
+    {
+     "text": "the,",
+     "hi": false,
+     "start": 724,
+     "end": 733
+    },
+    {
+     "text": "jaa",
+     "hi": false,
+     "start": 735,
+     "end": 745
+    },
+    {
+     "text": "zyada",
+     "hi": false,
+     "start": 745,
+     "end": 758
+    },
+    {
+     "text": "rahe",
+     "hi": false,
+     "start": 758,
+     "end": 769
+    },
+    {
+     "text": "the.",
+     "hi": false,
+     "start": 769,
+     "end": 778
+    },
+    {
+     "text": "Khazana",
+     "hi": true,
+     "start": 781,
+     "end": 793
+    },
+    {
+     "text": "khaali",
+     "hi": true,
+     "start": 793,
+     "end": 804
+    },
+    {
+     "text": "hone",
+     "hi": false,
+     "start": 804,
+     "end": 812
+    },
+    {
+     "text": "laga.",
+     "hi": false,
+     "start": 812,
+     "end": 820
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "scene": "why",
+   "start": 825,
+   "end": 948,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 825,
+     "end": 833
+    },
+    {
+     "text": "agar",
+     "hi": false,
+     "start": 833,
+     "end": 843
+    },
+    {
+     "text": "India",
+     "hi": false,
+     "start": 843,
+     "end": 854
+    },
+    {
+     "text": "apna",
+     "hi": false,
+     "start": 854,
+     "end": 864
+    },
+    {
+     "text": "karz",
+     "hi": true,
+     "start": 864,
+     "end": 873
+    },
+    {
+     "text": "na",
+     "hi": false,
+     "start": 873,
+     "end": 879
+    },
+    {
+     "text": "chuka",
+     "hi": false,
+     "start": 879,
+     "end": 891
+    },
+    {
+     "text": "paata?",
+     "hi": false,
+     "start": 891,
+     "end": 902
+    },
+    {
+     "text": "Duniya",
+     "hi": false,
+     "start": 904,
+     "end": 916
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 916,
+     "end": 924
+    },
+    {
+     "text": "bharosa",
+     "hi": false,
+     "start": 924,
+     "end": 937
+    },
+    {
+     "text": "khatam.",
+     "hi": false,
+     "start": 937,
+     "end": 948
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "scene": "gold",
+   "start": 966,
+   "end": 1164,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 966,
+     "end": 977
+    },
+    {
+     "text": "RBI",
+     "hi": false,
+     "start": 977,
+     "end": 988
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 988,
+     "end": 997
+    },
+    {
+     "text": "46.91",
+     "hi": true,
+     "start": 997,
+     "end": 1039
+    },
+    {
+     "text": "tonne",
+     "hi": true,
+     "start": 1039,
+     "end": 1055
+    },
+    {
+     "text": "sona,",
+     "hi": false,
+     "start": 1055,
+     "end": 1068
+    },
+    {
+     "text": "Bank",
+     "hi": false,
+     "start": 1077,
+     "end": 1085
+    },
+    {
+     "text": "of",
+     "hi": false,
+     "start": 1085,
+     "end": 1090
+    },
+    {
+     "text": "England",
+     "hi": false,
+     "start": 1090,
+     "end": 1103
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 1103,
+     "end": 1109
+    },
+    {
+     "text": "Bank",
+     "hi": false,
+     "start": 1109,
+     "end": 1117
+    },
+    {
+     "text": "of",
+     "hi": false,
+     "start": 1117,
+     "end": 1122
+    },
+    {
+     "text": "Japan",
+     "hi": false,
+     "start": 1122,
+     "end": 1132
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1132,
+     "end": 1137
+    },
+    {
+     "text": "paas",
+     "hi": false,
+     "start": 1137,
+     "end": 1145
+    },
+    {
+     "text": "girvi",
+     "hi": false,
+     "start": 1145,
+     "end": 1155
+    },
+    {
+     "text": "rakha.",
+     "hi": false,
+     "start": 1155,
+     "end": 1164
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "scene": "gold",
+   "start": 1169,
+   "end": 1253,
+   "words": [
+    {
+     "text": "Badle",
+     "hi": false,
+     "start": 1169,
+     "end": 1179
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1179,
+     "end": 1187
+    },
+    {
+     "text": "mile,",
+     "hi": false,
+     "start": 1187,
+     "end": 1196
+    },
+    {
+     "text": "lagbhag",
+     "hi": false,
+     "start": 1198,
+     "end": 1212
+    },
+    {
+     "text": "40",
+     "hi": true,
+     "start": 1212,
+     "end": 1228
+    },
+    {
+     "text": "crore",
+     "hi": true,
+     "start": 1228,
+     "end": 1238
+    },
+    {
+     "text": "dollar.",
+     "hi": true,
+     "start": 1238,
+     "end": 1250
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "scene": "gold",
+   "start": 1258,
+   "end": 1355,
+   "words": [
+    {
+     "text": "Usse",
+     "hi": false,
+     "start": 1258,
+     "end": 1271
+    },
+    {
+     "text": "pehle",
+     "hi": false,
+     "start": 1271,
+     "end": 1286
+    },
+    {
+     "text": "bhi,",
+     "hi": false,
+     "start": 1286,
+     "end": 1297
+    },
+    {
+     "text": "20",
+     "hi": true,
+     "start": 1299,
+     "end": 1312
+    },
+    {
+     "text": "tonne",
+     "hi": true,
+     "start": 1312,
+     "end": 1320
+    },
+    {
+     "text": "sona",
+     "hi": false,
+     "start": 1320,
+     "end": 1327
+    },
+    {
+     "text": "Switzerland",
+     "hi": false,
+     "start": 1327,
+     "end": 1342
+    },
+    {
+     "text": "gaya",
+     "hi": false,
+     "start": 1342,
+     "end": 1349
+    },
+    {
+     "text": "tha.",
+     "hi": false,
+     "start": 1349,
+     "end": 1355
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "scene": "reform",
+   "start": 1373,
+   "end": 1509,
+   "words": [
+    {
+     "text": "Par",
+     "hi": false,
+     "start": 1373,
+     "end": 1382
+    },
+    {
+     "text": "sona",
+     "hi": false,
+     "start": 1382,
+     "end": 1394
+    },
+    {
+     "text": "sirf",
+     "hi": false,
+     "start": 1394,
+     "end": 1405
+    },
+    {
+     "text": "waqt",
+     "hi": true,
+     "start": 1405,
+     "end": 1416
+    },
+    {
+     "text": "khareed",
+     "hi": false,
+     "start": 1416,
+     "end": 1434
+    },
+    {
+     "text": "sakta",
+     "hi": false,
+     "start": 1434,
+     "end": 1447
+    },
+    {
+     "text": "tha.",
+     "hi": false,
+     "start": 1447,
+     "end": 1456
+    },
+    {
+     "text": "Asli",
+     "hi": false,
+     "start": 1459,
+     "end": 1470
+    },
+    {
+     "text": "ilaaj",
+     "hi": false,
+     "start": 1470,
+     "end": 1483
+    },
+    {
+     "text": "tha",
+     "hi": false,
+     "start": 1483,
+     "end": 1492
+    },
+    {
+     "text": "badlaav.",
+     "hi": false,
+     "start": 1492,
+     "end": 1509
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "scene": "reform",
+   "start": 1514,
+   "end": 1750,
+   "words": [
+    {
+     "text": "Usi",
+     "hi": false,
+     "start": 1514,
+     "end": 1524
+    },
+    {
+     "text": "saal,",
+     "hi": false,
+     "start": 1524,
+     "end": 1535
+    },
+    {
+     "text": "1991",
+     "hi": true,
+     "start": 1543,
+     "end": 1578
+    },
+    {
+     "text": "ke",
+     "hi": true,
+     "start": 1578,
+     "end": 1585
+    },
+    {
+     "text": "reforms.",
+     "hi": true,
+     "start": 1585,
+     "end": 1602
+    },
+    {
+     "text": "License",
+     "hi": false,
+     "start": 1614,
+     "end": 1631
+    },
+    {
+     "text": "raj",
+     "hi": false,
+     "start": 1631,
+     "end": 1641
+    },
+    {
+     "text": "dheela,",
+     "hi": false,
+     "start": 1641,
+     "end": 1657
+    },
+    {
+     "text": "rupaya",
+     "hi": false,
+     "start": 1659,
+     "end": 1677
+    },
+    {
+     "text": "devalue,",
+     "hi": false,
+     "start": 1677,
+     "end": 1697
+    },
+    {
+     "text": "videshi",
+     "hi": false,
+     "start": 1700,
+     "end": 1712
+    },
+    {
+     "text": "company",
+     "hi": false,
+     "start": 1712,
+     "end": 1724
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1724,
+     "end": 1729
+    },
+    {
+     "text": "liye",
+     "hi": false,
+     "start": 1729,
+     "end": 1737
+    },
+    {
+     "text": "darwaza.",
+     "hi": false,
+     "start": 1737,
+     "end": 1750
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "scene": "reform",
+   "start": 1754,
+   "end": 1891,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1754,
+     "end": 1760
+    },
+    {
+     "text": "woh",
+     "hi": false,
+     "start": 1760,
+     "end": 1766
+    },
+    {
+     "text": "girvi",
+     "hi": false,
+     "start": 1766,
+     "end": 1774
+    },
+    {
+     "text": "sona?",
+     "hi": false,
+     "start": 1774,
+     "end": 1782
+    },
+    {
+     "text": "Usi",
+     "hi": false,
+     "start": 1802,
+     "end": 1810
+    },
+    {
+     "text": "saal",
+     "hi": false,
+     "start": 1810,
+     "end": 1820
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1820,
+     "end": 1826
+    },
+    {
+     "text": "end",
+     "hi": false,
+     "start": 1826,
+     "end": 1835
+    },
+    {
+     "text": "tak,",
+     "hi": false,
+     "start": 1835,
+     "end": 1843
+    },
+    {
+     "text": "karz",
+     "hi": true,
+     "start": 1845,
+     "end": 1852
+    },
+    {
+     "text": "chuka",
+     "hi": true,
+     "start": 1852,
+     "end": 1861
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1861,
+     "end": 1866
+    },
+    {
+     "text": "chhuda",
+     "hi": false,
+     "start": 1866,
+     "end": 1876
+    },
+    {
+     "text": "liya",
+     "hi": false,
+     "start": 1876,
+     "end": 1884
+    },
+    {
+     "text": "gaya.",
+     "hi": false,
+     "start": 1884,
+     "end": 1891
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "scene": "today",
+   "start": 1909,
+   "end": 2037,
+   "words": [
+    {
+     "text": "Aaj?",
+     "hi": false,
+     "start": 1909,
+     "end": 1921
+    },
+    {
+     "text": "India",
+     "hi": false,
+     "start": 1939,
+     "end": 1948
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1948,
+     "end": 1954
+    },
+    {
+     "text": "paas",
+     "hi": false,
+     "start": 1954,
+     "end": 1962
+    },
+    {
+     "text": "700",
+     "hi": true,
+     "start": 1962,
+     "end": 1981
+    },
+    {
+     "text": "billion",
+     "hi": true,
+     "start": 1981,
+     "end": 1994
+    },
+    {
+     "text": "dollar",
+     "hi": true,
+     "start": 1994,
+     "end": 2005
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 2005,
+     "end": 2010
+    },
+    {
+     "text": "zyada",
+     "hi": false,
+     "start": 2010,
+     "end": 2019
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 2019,
+     "end": 2025
+    },
+    {
+     "text": "reserve.",
+     "hi": false,
+     "start": 2025,
+     "end": 2037
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "scene": "today",
+   "start": 2042,
+   "end": 2207,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 2042,
+     "end": 2049
+    },
+    {
+     "text": "2024",
+     "hi": false,
+     "start": 2049,
+     "end": 2078
+    },
+    {
+     "text": "mein,",
+     "hi": false,
+     "start": 2078,
+     "end": 2087
+    },
+    {
+     "text": "RBI",
+     "hi": false,
+     "start": 2094,
+     "end": 2102
+    },
+    {
+     "text": "ne",
+     "hi": false,
+     "start": 2102,
+     "end": 2109
+    },
+    {
+     "text": "100",
+     "hi": true,
+     "start": 2109,
+     "end": 2134
+    },
+    {
+     "text": "tonne",
+     "hi": true,
+     "start": 2134,
+     "end": 2147
+    },
+    {
+     "text": "sona",
+     "hi": false,
+     "start": 2147,
+     "end": 2157
+    },
+    {
+     "text": "UK",
+     "hi": false,
+     "start": 2157,
+     "end": 2164
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 2164,
+     "end": 2170
+    },
+    {
+     "text": "wapas",
+     "hi": false,
+     "start": 2170,
+     "end": 2182
+    },
+    {
+     "text": "India",
+     "hi": false,
+     "start": 2182,
+     "end": 2195
+    },
+    {
+     "text": "laaya.",
+     "hi": false,
+     "start": 2195,
+     "end": 2207
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "scene": "today",
+   "start": 2212,
+   "end": 2324,
+   "words": [
+    {
+     "text": "Jo",
+     "hi": false,
+     "start": 2212,
+     "end": 2219
+    },
+    {
+     "text": "sona",
+     "hi": false,
+     "start": 2219,
+     "end": 2230
+    },
+    {
+     "text": "kabhi",
+     "hi": false,
+     "start": 2230,
+     "end": 2244
+    },
+    {
+     "text": "girvi",
+     "hi": false,
+     "start": 2244,
+     "end": 2257
+    },
+    {
+     "text": "gaya",
+     "hi": false,
+     "start": 2257,
+     "end": 2268
+    },
+    {
+     "text": "tha,",
+     "hi": false,
+     "start": 2268,
+     "end": 2277
+    },
+    {
+     "text": "aaj",
+     "hi": false,
+     "start": 2280,
+     "end": 2286
+    },
+    {
+     "text": "wapas",
+     "hi": true,
+     "start": 2286,
+     "end": 2296
+    },
+    {
+     "text": "ghar",
+     "hi": true,
+     "start": 2296,
+     "end": 2304
+    },
+    {
+     "text": "aa",
+     "hi": false,
+     "start": 2304,
+     "end": 2309
+    },
+    {
+     "text": "raha",
+     "hi": false,
+     "start": 2309,
+     "end": 2318
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 2318,
+     "end": 2324
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "scene": "outro",
+   "start": 2342,
+   "end": 2450,
+   "words": [
+    {
+     "text": "Jo",
+     "hi": false,
+     "start": 2342,
+     "end": 2349
+    },
+    {
+     "text": "dost",
+     "hi": false,
+     "start": 2349,
+     "end": 2359
+    },
+    {
+     "text": "kehta",
+     "hi": false,
+     "start": 2359,
+     "end": 2371
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2371,
+     "end": 2379
+    },
+    {
+     "text": "history",
+     "hi": false,
+     "start": 2379,
+     "end": 2395
+    },
+    {
+     "text": "boring",
+     "hi": false,
+     "start": 2395,
+     "end": 2409
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2409,
+     "end": 2417
+    },
+    {
+     "text": "use",
+     "hi": true,
+     "start": 2419,
+     "end": 2428
+    },
+    {
+     "text": "yeh",
+     "hi": true,
+     "start": 2428,
+     "end": 2437
+    },
+    {
+     "text": "bhejo.",
+     "hi": true,
+     "start": 2437,
+     "end": 2450
+    }
+   ]
+  },
+  {
+   "id": "L18",
+   "scene": "outro",
+   "start": 2455,
+   "end": 2532,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2455,
+     "end": 2466
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 2466,
+     "end": 2478
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 2494,
+     "end": 2501
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2501,
+     "end": 2508
+    },
+    {
+     "text": "Money",
+     "hi": true,
+     "start": 2508,
+     "end": 2519
+    },
+    {
+     "text": "Theory.",
+     "hi": true,
+     "start": 2519,
+     "end": 2531
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "mood": "hook",
+   "start": 0,
+   "end": 396
+  },
+  {
+   "id": "why",
+   "mood": "tension",
+   "start": 396,
+   "end": 957
+  },
+  {
+   "id": "gold",
+   "mood": "drive",
+   "start": 957,
+   "end": 1364
+  },
+  {
+   "id": "reform",
+   "mood": "lift",
+   "start": 1364,
+   "end": 1900
+  },
+  {
+   "id": "today",
+   "mood": "lift",
+   "start": 1900,
+   "end": 2333
+  },
+  {
+   "id": "outro",
+   "mood": "outro",
+   "start": 2333,
+   "end": 2628
+  }
+ ],
+ "audio": "audio/gold-1991/narration.wav",
+ "music": "audio/gold-1991/music.wav",
+ "sfx": []
+}
