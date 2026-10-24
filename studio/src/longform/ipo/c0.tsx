@@ -40,6 +40,15 @@ const Open: React.FC = () => {
           <div style={{marginTop: 22, fontSize: 70, lineHeight: 1.05}}><Typed text={'15 NOV 1977\nBOMBAY'} at={word('L001', '15', 0)} cps={9} style={{fontSize: 70}} /></div>
         </div>
       </Card>
+      <Card id="o-kapda" x={1220} y={500} w={560} h={250} rot={-2.5} at={word('L001', 'kapde', -6)} out={l2 - 2} enter="up" bg={C.paperLight}>
+        <div style={{display: 'flex', alignItems: 'center', gap: 28, height: '100%', padding: '0 30px'}}>
+          <div style={{width: 170, height: 170, border: `4px solid ${C.ink}`, background: `repeating-linear-gradient(0deg, ${C.ink} 0 3px, transparent 3px 11px), repeating-linear-gradient(90deg, rgba(20,20,20,0.55) 0 3px, ${C.yellow} 3px 11px)`}} />
+          <div>
+            <Label size={18}>Ek kapde ki</Label>
+            <div style={{fontFamily: F.display, fontSize: 72, lineHeight: 1, marginTop: 10}}>COMPANY</div>
+          </div>
+        </div>
+      </Card>
       <Stamp id="o-public" text="Public issue" paper x={880} y={680} at={word('L001', 'public', -2)} out={l3} size={64} rot={-7} />
       <Photo id="o-cert" src="certificate1909.jpg" x={1210} y={470} w={580} h={490} rot={3} at={l2 - 2} out={l3} enter="up" torn={{bottom: true}} rough={12} zoom={0.03} caption="PURANA SHARE CERTIFICATE" />
       <Stamp id="o-10" text="₹10" sub="EK SHARE" x={1640} y={800} at={word('L002', '₹10', -2)} out={l3} size={120} rot={-9} paper />

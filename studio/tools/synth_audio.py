@@ -1,7 +1,9 @@
 """Original score + foley for the episode, synthesized from scratch (no licensing).
 
-usage: synth_audio.py timeline.json out_dir [transpose_semitones] [bpm]
+usage: synth_audio.py timeline.json out_dir [transpose_semitones] [bpm] [sections.json]
 Writes music.wav (follows the scene structure) and sfx_*.wav.
+Long-form: sections.json lists [{"at": "L005" | "C3", "mood": "math", "prog": "bright", "tr": 0}, ...]
+so the score changes per chapter instead of following scene ids.
 """
 import json, os, sys
 import numpy as np
@@ -98,6 +100,9 @@ CHORDS = [
     (55, [55, 59, 62, 64, 67]),
 ]
 TENSION = [(50, [50, 53, 57, 60, 64]), (46, [50, 53, 58, 62, 65])]  # Dm9 / Bb for the risk section
+BRIGHT = [(48, [52, 55, 60, 62, 67]), (55, [55, 59, 62, 64, 67]), (57, [57, 60, 64, 67, 71]), (53, [53, 57, 60, 64, 67])]  # C - G6 - Am9 - Fmaj7
+CALM = [(53, [53, 57, 60, 64, 67]), (52, [52, 55, 59, 62, 67]), (50, [50, 53, 57, 60, 65]), (48, [48, 52, 55, 59, 64])]  # Fmaj7 - Em7 - Dm7 - Cmaj7
+PROGS = {"main": CHORDS, "tension": TENSION, "bright": BRIGHT, "calm": CALM}
 ARP = [0, 2, 4, 3, 1, 3, 4, 2]
 
 # intensity per scene: (pad, arp, bass, kick, hats, tension)
@@ -112,10 +117,24 @@ LEVELS = {
     "record": (0.8, 1.0, 1.0, 1.0, 1.0, 0),
     "use": (1.0, 0.8, 0.8, 0.6, 0.7, 0),
     "outro": (1.0, 0.7, 0.6, 0.0, 0.0, 0),
+    "calm": (1.0, 0.6, 0.5, 0.0, 0.35, 0),
+    "drop": (0.9, 0.0, 0.0, 0.0, 0.0, 0),
 }
 
 
-def music(tl, transpose=0, bpm=96):
+def resolve_sections(tl, path):
+    """[{at: line or chapter id, mood, prog, tr}] -> [(t_seconds, levels, prog, tr)] sorted by time."""
+    fps = tl["fps"]
+    starts = {l["id"]: l["start"] / fps for l in tl["lines"]}
+    starts.update({c["id"]: c["start"] / fps for c in tl.get("chapters", [])})
+    out = []
+    for sec in json.load(open(path)):
+        t0 = 0.0 if sec["at"] in ("start", "C0") else starts[sec["at"]] - 0.3
+        out.append((t0, LEVELS[sec["mood"]], PROGS[sec.get("prog", "main")], sec.get("tr", 0), sec["mood"]))
+    return sorted(out, key=lambda x: x[0])
+
+
+def music(tl, transpose=0, bpm=96, sections_path=None):
     global BEAT
     BEAT = 60 / bpm
     fps = tl["fps"]; total = tl["duration"] / fps + 2.5
@@ -136,13 +155,19 @@ def music(tl, transpose=0, bpm=96):
     scenes = [((s[0] if s[0] in LEVELS else ("risk" if "risk" in s[0] or "tension" in s[0] else "math")),) + s[1:] for s in scenes]
     scenes[-1] = (scenes[-1][0], scenes[-1][1], total)
 
+    sections = resolve_sections(tl, sections_path) if sections_path else None
+    base_tr = transpose
     bar = 4 * BEAT
     nbars = int(total / bar) + 1
     for b in range(nbars):
         t0 = b * bar
-        sc = next((s for s in scenes if s[1] <= t0 + 0.01 < s[2]), scenes[-1])
-        lv = LEVELS.get(sc[0], LEVELS["math"])
-        prog = TENSION if lv[5] else CHORDS
+        if sections:
+            sec = [x for x in sections if x[0] <= t0 + 0.01][-1] if t0 + 0.01 >= sections[0][0] else sections[0]
+            lv, prog, transpose = sec[1], (TENSION if sec[1][5] else sec[2]), base_tr + sec[3]
+        else:
+            sc = next((s for s in scenes if s[1] <= t0 + 0.01 < s[2]), scenes[-1])
+            lv = LEVELS.get(sc[0], LEVELS["math"])
+            prog = TENSION if lv[5] else CHORDS
         root, notes = prog[(b // 2) % len(prog)] if lv[5] else prog[b % len(prog)]
         if b % (2 if lv[5] else 1) == 0:
             add(pad([midi(n + transpose) for n in notes[:4]], bar * (2 if lv[5] else 1) + 0.9), t0, 0, 0.55 * lv[0])
@@ -161,6 +186,7 @@ def music(tl, transpose=0, bpm=96):
                 add(shaker(), t0 + q * BEAT + BEAT * 0.75, -0.3, 0.05 * lv[4])
 
     # final resolution chord under the sign-off
+    transpose = base_tr
     end = scenes[-1][1]
     add(pad([midi(n + transpose) for n in [45, 52, 57, 60, 64]], 5.5), end + 0.5, 0, 0.6)
     for i, n in enumerate([69, 72, 76, 79]):
@@ -272,7 +298,8 @@ if __name__ == "__main__":
     os.makedirs(out, exist_ok=True)
     tr = int(sys.argv[3]) if len(sys.argv) > 3 else 0
     bpm = float(sys.argv[4]) if len(sys.argv) > 4 else 96
-    sf.write(os.path.join(out, "music.wav"), music(tl, tr, bpm), SR)
+    sections = sys.argv[5] if len(sys.argv) > 5 else None
+    sf.write(os.path.join(out, "music.wav"), music(tl, tr, bpm, sections), SR)
     for k, v in sfx().items():
         v = v / (np.abs(v).max() + 1e-9) * 0.8
         sf.write(os.path.join(out, f"sfx_{k}.wav"), v.astype(np.float32), SR)

@@ -14,6 +14,7 @@ import {FPS, H, W} from './theme';
 import {LongEpisode} from './longform/LongEpisode';
 import {LH, LW} from './longform/frame';
 import {ipoJourney} from './longform/ipo';
+import {ThumbA, ThumbB} from './longform/ipo/thumbs';
 
 const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
   {def: ep01, cover: {big: 'GMP', line1: 'GREY MARKET', line2: 'KA SACH', photo: 'bse.jpg', stamp: '₹1,364 ?'}},
@@ -42,6 +43,8 @@ const Root: React.FC = () => (
     ))}
     {/* YouTube long-form, 16:9 */}
     <Composition id={ipoJourney.id} component={IpoJourney} durationInFrames={ipoJourney.timeline.duration} fps={FPS} width={LW} height={LH} />
+    <Still id="ipo-journey-thumb-a" component={ThumbA} width={1280} height={720} />
+    <Still id="ipo-journey-thumb-b" component={ThumbB} width={1280} height={720} />
   </>
 );
 
