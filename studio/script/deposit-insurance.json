@@ -1,0 +1,31 @@
+{
+ "topic": "BANK DEPOSITS",
+ "title": "Bank doob gaya: ₹20 lakh FD mein se kitna milega?",
+ "data_note": "DICGC deposit insurance: ₹5 lakh per depositor per bank (principal + interest, all branches and deposit types combined), since 4 Feb 2020 (₹1 lakh before). Interim payout within ~90 days for banks under restrictions (DICGC Amendment Act 2021). Deposits held in a different capacity (e.g. joint accounts) are insured separately. Not covered: NBFC / company deposits, mutual funds. Limit as of Oct 2026; a hike has been proposed but not notified.",
+ "moods": {"hook": "hook", "dicgc": "build", "fine": "drive", "history": "tension", "spread": "lift", "outro": "outro"},
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Ek bank mein aapki *₹20 lakh* ki FD.", "tts": "एक बैंक में आपकी बीस लाख की एफ़ डी."},
+  {"id": "L02", "scene": "hook", "cap": "Aur ek din, bank *doob* gaya.", "tts": "और एक दिन, बैंक डूब गया."},
+  {"id": "L03", "scene": "hook", "cap": "Kitna wapas milega? *₹20 lakh?*", "tts": "कितना वापस मिलेगा? बीस लाख?"},
+  {"id": "L04", "scene": "hook", "cap": "Guarantee sirf *₹5 lakh* ki hai.", "tts": "गारंटी सिर्फ़ पाँच लाख की है."},
+  {"id": "L05", "scene": "hook", "cap": "Baaki ₹15 lakh? *Pata nahi.*", "tts": "बाकी पंद्रह लाख? पता नहीं."},
+  {"id": "L06", "scene": "dicgc", "cap": "Har bank deposit ka *insurance* hota hai. RBI ki company: *DICGC.*", "tts": "हर बैंक डिपॉज़िट का इंश्योरेंस होता है. आरबीआई की कंपनी: डी आई सी जी सी."},
+  {"id": "L07", "scene": "dicgc", "cap": "Bank fail ho, toh har depositor ko, *₹5 lakh tak.*", "tts": "बैंक फ़ेल हो, तो हर डिपॉज़िटर को, पाँच लाख तक."},
+  {"id": "L08", "scene": "dicgc", "cap": "Aur yeh paisa lagbhag *90 din* mein milta hai.", "tts": "और ये पैसा लगभग नब्बे दिन में मिलता है."},
+  {"id": "L09", "scene": "fine", "cap": "Ab teen baatein jo log *miss* karte hain.", "tts": "अब तीन बातें जो लोग मिस करते हैं."},
+  {"id": "L10", "scene": "fine", "cap": "Ek: ₹5 lakh mein *interest bhi* shaamil hai.", "tts": "एक: पाँच लाख में इंटरेस्ट भी शामिल है."},
+  {"id": "L11", "scene": "fine", "cap": "Do: limit *per bank* hai. Har account ya branch ki alag nahi.", "tts": "दो: लिमिट पर बैंक है. हर अकाउंट या ब्रांच की अलग नहीं."},
+  {"id": "L12", "scene": "fine", "cap": "Savings, FD, RD, sab *mila ke* ₹5 lakh.", "tts": "सेविंग्स, एफ़ डी, आर डी, सब मिला के पाँच लाख."},
+  {"id": "L13", "scene": "fine", "cap": "Teen: NBFC ya company FD, mutual fund, *cover nahi* hote.", "tts": "तीन: एन बी एफ़ सी या कंपनी एफ़ डी, म्यूचुअल फ़ंड, कवर नहीं होते."},
+  {"id": "L14", "scene": "history", "cap": "Yeh sirf darr nahi. 2019 mein *PMC Bank* ke depositors ka paisa, saalon atka raha.", "tts": "ये सिर्फ़ डर नहीं. दो हज़ार उन्नीस में पी एम सी बैंक के डिपॉज़िटर्स का पैसा, सालों अटका रहा."},
+  {"id": "L15", "scene": "history", "cap": "Tab cover sirf *₹1 lakh* tha. 2020 mein badha ke ₹5 lakh hua.", "tts": "तब कवर सिर्फ़ एक लाख था. दो हज़ार बीस में बढ़ा के पाँच लाख हुआ."},
+  {"id": "L16", "scene": "spread", "cap": "Toh ₹20 lakh ko bachaayein kaise? *Baant do.*", "tts": "तो बीस लाख को बचाएँ कैसे? बाँट दो."},
+  {"id": "L17", "scene": "spread", "cap": "Alag alag bank. Har ek mein ₹5 lakh se *thoda kam.*", "tts": "अलग अलग बैंक. हर एक में पाँच लाख से थोड़ा कम."},
+  {"id": "L18", "scene": "spread", "cap": "Taaki interest mila ke bhi, *limit ke andar.*", "tts": "ताकि इंटरेस्ट मिला के भी, लिमिट के अंदर."},
+  {"id": "L19", "scene": "spread", "cap": "Aur joint account ka cover, aapke apne account se *alag* hota hai.", "tts": "और जॉइंट अकाउंट का कवर, आपके अपने अकाउंट से अलग होता है."},
+  {"id": "L20", "scene": "spread", "cap": "Small finance ya co-op bank mein *zyada interest* mil raha hai? Toh yeh rule aur bhi zaroori.", "tts": "स्मॉल फ़ाइनेंस या को-ऑप बैंक में ज़्यादा इंटरेस्ट मिल रहा है? तो ये रूल और भी ज़रूरी."},
+  {"id": "L21", "scene": "spread", "cap": "Bank ka naam DICGC ki *insured banks* list mein check karo.", "tts": "बैंक का नाम डी आई सी जी सी की इंश्योर्ड बैंक्स लिस्ट में चेक करो."},
+  {"id": "L22", "scene": "outro", "cap": "Jo apni saari savings ek hi bank mein rakhta hai, *use yeh bhejo.*", "tts": "जो अपनी सारी सेविंग्स एक ही बैंक में रखता है, उसे ये वीडियो भेजो."},
+  {"id": "L23", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है मनी थ्योरी."}
+ ]
+}

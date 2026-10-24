@@ -1,0 +1,1551 @@
+{
+ "fps": 30,
+ "duration": 2707,
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "start": 14,
+   "end": 70,
+   "words": [
+    {
+     "text": "Ek",
+     "hi": false,
+     "start": 14,
+     "end": 18
+    },
+    {
+     "text": "bank",
+     "hi": false,
+     "start": 18,
+     "end": 25
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 25,
+     "end": 32
+    },
+    {
+     "text": "aapki",
+     "hi": false,
+     "start": 32,
+     "end": 40
+    },
+    {
+     "text": "₹20",
+     "hi": true,
+     "start": 40,
+     "end": 53
+    },
+    {
+     "text": "lakh",
+     "hi": true,
+     "start": 53,
+     "end": 60
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 60,
+     "end": 64
+    },
+    {
+     "text": "FD.",
+     "hi": false,
+     "start": 64,
+     "end": 68
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "start": 74,
+   "end": 112,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 74,
+     "end": 79
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 79,
+     "end": 83
+    },
+    {
+     "text": "din,",
+     "hi": false,
+     "start": 83,
+     "end": 88
+    },
+    {
+     "text": "bank",
+     "hi": false,
+     "start": 95,
+     "end": 101
+    },
+    {
+     "text": "doob",
+     "hi": true,
+     "start": 101,
+     "end": 106
+    },
+    {
+     "text": "gaya.",
+     "hi": false,
+     "start": 106,
+     "end": 112
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "start": 116,
+   "end": 160,
+   "words": [
+    {
+     "text": "Kitna",
+     "hi": false,
+     "start": 116,
+     "end": 124
+    },
+    {
+     "text": "wapas",
+     "hi": false,
+     "start": 124,
+     "end": 132
+    },
+    {
+     "text": "milega?",
+     "hi": false,
+     "start": 132,
+     "end": 140
+    },
+    {
+     "text": "₹20",
+     "hi": true,
+     "start": 146,
+     "end": 154
+    },
+    {
+     "text": "lakh?",
+     "hi": true,
+     "start": 154,
+     "end": 159
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "start": 165,
+   "end": 219,
+   "words": [
+    {
+     "text": "Guarantee",
+     "hi": false,
+     "start": 165,
+     "end": 178
+    },
+    {
+     "text": "sirf",
+     "hi": false,
+     "start": 178,
+     "end": 185
+    },
+    {
+     "text": "₹5",
+     "hi": true,
+     "start": 185,
+     "end": 193
+    },
+    {
+     "text": "lakh",
+     "hi": true,
+     "start": 193,
+     "end": 200
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 200,
+     "end": 204
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 204,
+     "end": 210
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "scene": "hook",
+   "start": 224,
+   "end": 277,
+   "words": [
+    {
+     "text": "Baaki",
+     "hi": false,
+     "start": 224,
+     "end": 231
+    },
+    {
+     "text": "₹15",
+     "hi": false,
+     "start": 231,
+     "end": 242
+    },
+    {
+     "text": "lakh?",
+     "hi": false,
+     "start": 242,
+     "end": 248
+    },
+    {
+     "text": "Pata",
+     "hi": true,
+     "start": 262,
+     "end": 269
+    },
+    {
+     "text": "nahi.",
+     "hi": true,
+     "start": 269,
+     "end": 277
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "scene": "dicgc",
+   "start": 295,
+   "end": 487,
+   "words": [
+    {
+     "text": "Har",
+     "hi": false,
+     "start": 295,
+     "end": 303
+    },
+    {
+     "text": "bank",
+     "hi": false,
+     "start": 303,
+     "end": 314
+    },
+    {
+     "text": "deposit",
+     "hi": false,
+     "start": 314,
+     "end": 330
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 330,
+     "end": 337
+    },
+    {
+     "text": "insurance",
+     "hi": true,
+     "start": 337,
+     "end": 357
+    },
+    {
+     "text": "hota",
+     "hi": false,
+     "start": 357,
+     "end": 368
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 368,
+     "end": 377
+    },
+    {
+     "text": "RBI",
+     "hi": false,
+     "start": 397,
+     "end": 405
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 405,
+     "end": 412
+    },
+    {
+     "text": "company:",
+     "hi": false,
+     "start": 412,
+     "end": 427
+    },
+    {
+     "text": "DICGC.",
+     "hi": true,
+     "start": 438,
+     "end": 465
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "scene": "dicgc",
+   "start": 492,
+   "end": 567,
+   "words": [
+    {
+     "text": "Bank",
+     "hi": false,
+     "start": 492,
+     "end": 500
+    },
+    {
+     "text": "fail",
+     "hi": false,
+     "start": 500,
+     "end": 508
+    },
+    {
+     "text": "ho,",
+     "hi": false,
+     "start": 508,
+     "end": 513
+    },
+    {
+     "text": "toh",
+     "hi": false,
+     "start": 517,
+     "end": 523
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 523,
+     "end": 528
+    },
+    {
+     "text": "depositor",
+     "hi": false,
+     "start": 528,
+     "end": 542
+    },
+    {
+     "text": "ko,",
+     "hi": false,
+     "start": 542,
+     "end": 547
+    },
+    {
+     "text": "₹5",
+     "hi": true,
+     "start": 549,
+     "end": 556
+    },
+    {
+     "text": "lakh",
+     "hi": true,
+     "start": 556,
+     "end": 562
+    },
+    {
+     "text": "tak.",
+     "hi": true,
+     "start": 562,
+     "end": 567
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "scene": "dicgc",
+   "start": 572,
+   "end": 620,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 572,
+     "end": 576
+    },
+    {
+     "text": "yeh",
+     "hi": false,
+     "start": 576,
+     "end": 580
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 580,
+     "end": 586
+    },
+    {
+     "text": "lagbhag",
+     "hi": false,
+     "start": 586,
+     "end": 593
+    },
+    {
+     "text": "90",
+     "hi": true,
+     "start": 593,
+     "end": 601
+    },
+    {
+     "text": "din",
+     "hi": true,
+     "start": 601,
+     "end": 605
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 605,
+     "end": 610
+    },
+    {
+     "text": "milta",
+     "hi": false,
+     "start": 610,
+     "end": 616
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 616,
+     "end": 620
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "scene": "fine",
+   "start": 638,
+   "end": 733,
+   "words": [
+    {
+     "text": "Ab",
+     "hi": false,
+     "start": 638,
+     "end": 644
+    },
+    {
+     "text": "teen",
+     "hi": false,
+     "start": 644,
+     "end": 654
+    },
+    {
+     "text": "baatein",
+     "hi": false,
+     "start": 654,
+     "end": 668
+    },
+    {
+     "text": "jo",
+     "hi": false,
+     "start": 668,
+     "end": 674
+    },
+    {
+     "text": "log",
+     "hi": false,
+     "start": 674,
+     "end": 682
+    },
+    {
+     "text": "miss",
+     "hi": true,
+     "start": 682,
+     "end": 692
+    },
+    {
+     "text": "karte",
+     "hi": false,
+     "start": 692,
+     "end": 703
+    },
+    {
+     "text": "hain.",
+     "hi": false,
+     "start": 703,
+     "end": 712
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "scene": "fine",
+   "start": 738,
+   "end": 850,
+   "words": [
+    {
+     "text": "Ek:",
+     "hi": false,
+     "start": 738,
+     "end": 748
+    },
+    {
+     "text": "₹5",
+     "hi": false,
+     "start": 763,
+     "end": 772
+    },
+    {
+     "text": "lakh",
+     "hi": false,
+     "start": 772,
+     "end": 780
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 780,
+     "end": 788
+    },
+    {
+     "text": "interest",
+     "hi": true,
+     "start": 788,
+     "end": 802
+    },
+    {
+     "text": "bhi",
+     "hi": true,
+     "start": 802,
+     "end": 809
+    },
+    {
+     "text": "shaamil",
+     "hi": false,
+     "start": 809,
+     "end": 821
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 821,
+     "end": 828
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "scene": "fine",
+   "start": 854,
+   "end": 998,
+   "words": [
+    {
+     "text": "Do:",
+     "hi": false,
+     "start": 854,
+     "end": 863
+    },
+    {
+     "text": "limit",
+     "hi": false,
+     "start": 887,
+     "end": 894
+    },
+    {
+     "text": "per",
+     "hi": true,
+     "start": 894,
+     "end": 899
+    },
+    {
+     "text": "bank",
+     "hi": true,
+     "start": 899,
+     "end": 906
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 906,
+     "end": 911
+    },
+    {
+     "text": "Har",
+     "hi": false,
+     "start": 932,
+     "end": 937
+    },
+    {
+     "text": "account",
+     "hi": false,
+     "start": 937,
+     "end": 946
+    },
+    {
+     "text": "ya",
+     "hi": false,
+     "start": 946,
+     "end": 950
+    },
+    {
+     "text": "branch",
+     "hi": false,
+     "start": 950,
+     "end": 958
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 958,
+     "end": 962
+    },
+    {
+     "text": "alag",
+     "hi": false,
+     "start": 962,
+     "end": 968
+    },
+    {
+     "text": "nahi.",
+     "hi": false,
+     "start": 968,
+     "end": 974
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "scene": "fine",
+   "start": 1003,
+   "end": 1098,
+   "words": [
+    {
+     "text": "Savings,",
+     "hi": false,
+     "start": 1003,
+     "end": 1018
+    },
+    {
+     "text": "FD,",
+     "hi": false,
+     "start": 1027,
+     "end": 1040
+    },
+    {
+     "text": "RD,",
+     "hi": false,
+     "start": 1045,
+     "end": 1058
+    },
+    {
+     "text": "sab",
+     "hi": false,
+     "start": 1064,
+     "end": 1070
+    },
+    {
+     "text": "mila",
+     "hi": true,
+     "start": 1070,
+     "end": 1077
+    },
+    {
+     "text": "ke",
+     "hi": true,
+     "start": 1077,
+     "end": 1081
+    },
+    {
+     "text": "₹5",
+     "hi": false,
+     "start": 1081,
+     "end": 1089
+    },
+    {
+     "text": "lakh.",
+     "hi": false,
+     "start": 1089,
+     "end": 1096
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "scene": "fine",
+   "start": 1102,
+   "end": 1299,
+   "words": [
+    {
+     "text": "Teen:",
+     "hi": false,
+     "start": 1102,
+     "end": 1111
+    },
+    {
+     "text": "NBFC",
+     "hi": false,
+     "start": 1134,
+     "end": 1157
+    },
+    {
+     "text": "ya",
+     "hi": false,
+     "start": 1157,
+     "end": 1171
+    },
+    {
+     "text": "company",
+     "hi": false,
+     "start": 1171,
+     "end": 1207
+    },
+    {
+     "text": "FD,",
+     "hi": false,
+     "start": 1207,
+     "end": 1221
+    },
+    {
+     "text": "mutual",
+     "hi": false,
+     "start": 1230,
+     "end": 1242
+    },
+    {
+     "text": "fund,",
+     "hi": false,
+     "start": 1242,
+     "end": 1251
+    },
+    {
+     "text": "cover",
+     "hi": true,
+     "start": 1279,
+     "end": 1286
+    },
+    {
+     "text": "nahi",
+     "hi": true,
+     "start": 1286,
+     "end": 1292
+    },
+    {
+     "text": "hote.",
+     "hi": false,
+     "start": 1292,
+     "end": 1298
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "scene": "history",
+   "start": 1317,
+   "end": 1563,
+   "words": [
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 1317,
+     "end": 1324
+    },
+    {
+     "text": "sirf",
+     "hi": false,
+     "start": 1324,
+     "end": 1332
+    },
+    {
+     "text": "darr",
+     "hi": false,
+     "start": 1332,
+     "end": 1339
+    },
+    {
+     "text": "nahi.",
+     "hi": false,
+     "start": 1339,
+     "end": 1347
+    },
+    {
+     "text": "2019",
+     "hi": false,
+     "start": 1382,
+     "end": 1422
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1422,
+     "end": 1435
+    },
+    {
+     "text": "PMC",
+     "hi": true,
+     "start": 1435,
+     "end": 1446
+    },
+    {
+     "text": "Bank",
+     "hi": true,
+     "start": 1446,
+     "end": 1458
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1458,
+     "end": 1467
+    },
+    {
+     "text": "depositors",
+     "hi": false,
+     "start": 1467,
+     "end": 1494
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1494,
+     "end": 1502
+    },
+    {
+     "text": "paisa,",
+     "hi": false,
+     "start": 1502,
+     "end": 1517
+    },
+    {
+     "text": "saalon",
+     "hi": false,
+     "start": 1533,
+     "end": 1544
+    },
+    {
+     "text": "atka",
+     "hi": false,
+     "start": 1544,
+     "end": 1552
+    },
+    {
+     "text": "raha.",
+     "hi": false,
+     "start": 1552,
+     "end": 1561
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "scene": "history",
+   "start": 1568,
+   "end": 1666,
+   "words": [
+    {
+     "text": "Tab",
+     "hi": false,
+     "start": 1568,
+     "end": 1573
+    },
+    {
+     "text": "cover",
+     "hi": false,
+     "start": 1573,
+     "end": 1579
+    },
+    {
+     "text": "sirf",
+     "hi": false,
+     "start": 1579,
+     "end": 1585
+    },
+    {
+     "text": "₹1",
+     "hi": true,
+     "start": 1585,
+     "end": 1591
+    },
+    {
+     "text": "lakh",
+     "hi": true,
+     "start": 1591,
+     "end": 1597
+    },
+    {
+     "text": "tha.",
+     "hi": false,
+     "start": 1597,
+     "end": 1601
+    },
+    {
+     "text": "2020",
+     "hi": false,
+     "start": 1615,
+     "end": 1633
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1633,
+     "end": 1638
+    },
+    {
+     "text": "badha",
+     "hi": false,
+     "start": 1638,
+     "end": 1645
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1645,
+     "end": 1649
+    },
+    {
+     "text": "₹5",
+     "hi": false,
+     "start": 1649,
+     "end": 1655
+    },
+    {
+     "text": "lakh",
+     "hi": false,
+     "start": 1655,
+     "end": 1661
+    },
+    {
+     "text": "hua.",
+     "hi": false,
+     "start": 1661,
+     "end": 1665
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "scene": "spread",
+   "start": 1684,
+   "end": 1733,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 1684,
+     "end": 1687
+    },
+    {
+     "text": "₹20",
+     "hi": false,
+     "start": 1687,
+     "end": 1695
+    },
+    {
+     "text": "lakh",
+     "hi": false,
+     "start": 1695,
+     "end": 1699
+    },
+    {
+     "text": "ko",
+     "hi": false,
+     "start": 1699,
+     "end": 1701
+    },
+    {
+     "text": "bachaayein",
+     "hi": false,
+     "start": 1701,
+     "end": 1709
+    },
+    {
+     "text": "kaise?",
+     "hi": false,
+     "start": 1709,
+     "end": 1714
+    },
+    {
+     "text": "Baant",
+     "hi": true,
+     "start": 1721,
+     "end": 1728
+    },
+    {
+     "text": "do.",
+     "hi": true,
+     "start": 1728,
+     "end": 1732
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "scene": "spread",
+   "start": 1738,
+   "end": 1821,
+   "words": [
+    {
+     "text": "Alag",
+     "hi": false,
+     "start": 1738,
+     "end": 1745
+    },
+    {
+     "text": "alag",
+     "hi": false,
+     "start": 1745,
+     "end": 1752
+    },
+    {
+     "text": "bank.",
+     "hi": false,
+     "start": 1752,
+     "end": 1758
+    },
+    {
+     "text": "Har",
+     "hi": false,
+     "start": 1774,
+     "end": 1779
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 1779,
+     "end": 1783
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1783,
+     "end": 1789
+    },
+    {
+     "text": "₹5",
+     "hi": false,
+     "start": 1789,
+     "end": 1796
+    },
+    {
+     "text": "lakh",
+     "hi": false,
+     "start": 1796,
+     "end": 1802
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 1802,
+     "end": 1806
+    },
+    {
+     "text": "thoda",
+     "hi": true,
+     "start": 1806,
+     "end": 1813
+    },
+    {
+     "text": "kam.",
+     "hi": true,
+     "start": 1813,
+     "end": 1817
+    }
+   ]
+  },
+  {
+   "id": "L18",
+   "scene": "spread",
+   "start": 1825,
+   "end": 1911,
+   "words": [
+    {
+     "text": "Taaki",
+     "hi": false,
+     "start": 1825,
+     "end": 1833
+    },
+    {
+     "text": "interest",
+     "hi": false,
+     "start": 1833,
+     "end": 1843
+    },
+    {
+     "text": "mila",
+     "hi": false,
+     "start": 1843,
+     "end": 1850
+    },
+    {
+     "text": "ke",
+     "hi": false,
+     "start": 1850,
+     "end": 1854
+    },
+    {
+     "text": "bhi,",
+     "hi": false,
+     "start": 1854,
+     "end": 1859
+    },
+    {
+     "text": "limit",
+     "hi": true,
+     "start": 1874,
+     "end": 1881
+    },
+    {
+     "text": "ke",
+     "hi": true,
+     "start": 1881,
+     "end": 1884
+    },
+    {
+     "text": "andar.",
+     "hi": true,
+     "start": 1884,
+     "end": 1891
+    }
+   ]
+  },
+  {
+   "id": "L19",
+   "scene": "spread",
+   "start": 1915,
+   "end": 2028,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1915,
+     "end": 1920
+    },
+    {
+     "text": "joint",
+     "hi": false,
+     "start": 1920,
+     "end": 1928
+    },
+    {
+     "text": "account",
+     "hi": false,
+     "start": 1928,
+     "end": 1937
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1937,
+     "end": 1941
+    },
+    {
+     "text": "cover,",
+     "hi": false,
+     "start": 1941,
+     "end": 1948
+    },
+    {
+     "text": "aapke",
+     "hi": false,
+     "start": 1954,
+     "end": 1964
+    },
+    {
+     "text": "apne",
+     "hi": false,
+     "start": 1964,
+     "end": 1973
+    },
+    {
+     "text": "account",
+     "hi": false,
+     "start": 1973,
+     "end": 1986
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 1986,
+     "end": 1992
+    },
+    {
+     "text": "alag",
+     "hi": true,
+     "start": 1992,
+     "end": 2000
+    },
+    {
+     "text": "hota",
+     "hi": false,
+     "start": 2000,
+     "end": 2009
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 2009,
+     "end": 2016
+    }
+   ]
+  },
+  {
+   "id": "L20",
+   "scene": "spread",
+   "start": 2033,
+   "end": 2245,
+   "words": [
+    {
+     "text": "Small",
+     "hi": false,
+     "start": 2033,
+     "end": 2043
+    },
+    {
+     "text": "finance",
+     "hi": false,
+     "start": 2043,
+     "end": 2058
+    },
+    {
+     "text": "ya",
+     "hi": false,
+     "start": 2058,
+     "end": 2063
+    },
+    {
+     "text": "co-op",
+     "hi": false,
+     "start": 2063,
+     "end": 2073
+    },
+    {
+     "text": "bank",
+     "hi": false,
+     "start": 2073,
+     "end": 2082
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 2082,
+     "end": 2091
+    },
+    {
+     "text": "zyada",
+     "hi": true,
+     "start": 2091,
+     "end": 2102
+    },
+    {
+     "text": "interest",
+     "hi": true,
+     "start": 2102,
+     "end": 2117
+    },
+    {
+     "text": "mil",
+     "hi": false,
+     "start": 2117,
+     "end": 2125
+    },
+    {
+     "text": "raha",
+     "hi": false,
+     "start": 2125,
+     "end": 2134
+    },
+    {
+     "text": "hai?",
+     "hi": false,
+     "start": 2134,
+     "end": 2142
+    },
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 2166,
+     "end": 2172
+    },
+    {
+     "text": "yeh",
+     "hi": false,
+     "start": 2172,
+     "end": 2179
+    },
+    {
+     "text": "rule",
+     "hi": false,
+     "start": 2179,
+     "end": 2187
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 2187,
+     "end": 2194
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 2194,
+     "end": 2201
+    },
+    {
+     "text": "zaroori.",
+     "hi": false,
+     "start": 2201,
+     "end": 2213
+    }
+   ]
+  },
+  {
+   "id": "L21",
+   "scene": "spread",
+   "start": 2250,
+   "end": 2413,
+   "words": [
+    {
+     "text": "Bank",
+     "hi": false,
+     "start": 2250,
+     "end": 2263
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 2263,
+     "end": 2271
+    },
+    {
+     "text": "naam",
+     "hi": false,
+     "start": 2271,
+     "end": 2283
+    },
+    {
+     "text": "DICGC",
+     "hi": false,
+     "start": 2283,
+     "end": 2298
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 2298,
+     "end": 2306
+    },
+    {
+     "text": "insured",
+     "hi": true,
+     "start": 2306,
+     "end": 2325
+    },
+    {
+     "text": "banks",
+     "hi": true,
+     "start": 2325,
+     "end": 2340
+    },
+    {
+     "text": "list",
+     "hi": false,
+     "start": 2340,
+     "end": 2352
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 2352,
+     "end": 2364
+    },
+    {
+     "text": "check",
+     "hi": false,
+     "start": 2364,
+     "end": 2379
+    },
+    {
+     "text": "karo.",
+     "hi": false,
+     "start": 2379,
+     "end": 2392
+    }
+   ]
+  },
+  {
+   "id": "L22",
+   "scene": "outro",
+   "start": 2431,
+   "end": 2536,
+   "words": [
+    {
+     "text": "Jo",
+     "hi": false,
+     "start": 2431,
+     "end": 2435
+    },
+    {
+     "text": "apni",
+     "hi": false,
+     "start": 2435,
+     "end": 2442
+    },
+    {
+     "text": "saari",
+     "hi": false,
+     "start": 2442,
+     "end": 2450
+    },
+    {
+     "text": "savings",
+     "hi": false,
+     "start": 2450,
+     "end": 2460
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 2460,
+     "end": 2464
+    },
+    {
+     "text": "hi",
+     "hi": false,
+     "start": 2464,
+     "end": 2468
+    },
+    {
+     "text": "bank",
+     "hi": false,
+     "start": 2468,
+     "end": 2475
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 2475,
+     "end": 2482
+    },
+    {
+     "text": "rakhta",
+     "hi": false,
+     "start": 2482,
+     "end": 2491
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2491,
+     "end": 2496
+    },
+    {
+     "text": "use",
+     "hi": true,
+     "start": 2507,
+     "end": 2515
+    },
+    {
+     "text": "yeh",
+     "hi": true,
+     "start": 2515,
+     "end": 2523
+    },
+    {
+     "text": "bhejo.",
+     "hi": true,
+     "start": 2523,
+     "end": 2535
+    }
+   ]
+  },
+  {
+   "id": "L23",
+   "scene": "outro",
+   "start": 2541,
+   "end": 2611,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2541,
+     "end": 2550
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 2550,
+     "end": 2561
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 2587,
+     "end": 2592
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2592,
+     "end": 2596
+    },
+    {
+     "text": "Money",
+     "hi": true,
+     "start": 2596,
+     "end": 2602
+    },
+    {
+     "text": "Theory.",
+     "hi": true,
+     "start": 2602,
+     "end": 2609
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "mood": "hook",
+   "start": 0,
+   "end": 286
+  },
+  {
+   "id": "dicgc",
+   "mood": "build",
+   "start": 286,
+   "end": 629
+  },
+  {
+   "id": "fine",
+   "mood": "drive",
+   "start": 629,
+   "end": 1308
+  },
+  {
+   "id": "history",
+   "mood": "tension",
+   "start": 1308,
+   "end": 1675
+  },
+  {
+   "id": "spread",
+   "mood": "lift",
+   "start": 1675,
+   "end": 2422
+  },
+  {
+   "id": "outro",
+   "mood": "outro",
+   "start": 2422,
+   "end": 2707
+  }
+ ],
+ "audio": "audio/deposit-insurance/narration.wav",
+ "music": "audio/deposit-insurance/music.wav",
+ "sfx": []
+}

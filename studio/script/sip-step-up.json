@@ -1,0 +1,30 @@
+{
+ "topic": "SIP · STEP-UP",
+ "title": "SIP same rakha: ₹1 crore. Har saal 10% badhaya: ₹2 crore",
+ "data_note": "Illustrative: ₹10,000 monthly SIP, 12% a year compounded monthly, 20 years. Flat: ₹99.9 lakh (invested ₹24 lakh). 10% annual step-up: ₹1.99 crore (invested ₹68.7 lakh; year-20 SIP ₹61,159). 5% step-up: ₹1.37 crore. At 5% inflation, ₹10,000 after 20 years is worth ~₹3,770 today.",
+ "moods": {"hook": "hook", "step": "build", "honest": "tension", "why": "drive", "how": "lift", "outro": "outro"},
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Do dost. Dono ka SIP: *₹10,000* mahina. 20 saal.", "tts": "दो दोस्त. दोनों का एसआईपी: दस हज़ार महीना. बीस साल."},
+  {"id": "L02", "scene": "hook", "cap": "Ek ne 20 saal *same* rakha. Mila lagbhag *₹1 crore.*", "tts": "एक ने बीस साल सेम रखा. मिला लगभग एक करोड़."},
+  {"id": "L03", "scene": "hook", "cap": "Doosre ne har saal SIP *10% badhaya.* Mila lagbhag *₹2 crore.*", "tts": "दूसरे ने हर साल एसआईपी दस परसेंट बढ़ाया. मिला लगभग दो करोड़."},
+  {"id": "L04", "scene": "hook", "cap": "Same fund. Same return. *Dugna* paisa.", "tts": "सेम फ़ंड. सेम रिटर्न. दुगना पैसा."},
+  {"id": "L05", "scene": "hook", "cap": "Isse kehte hain *step-up SIP.*", "tts": "इसे कहते हैं स्टेप अप एसआईपी."},
+  {"id": "L06", "scene": "step", "cap": "Idea simple hai: salary badhti hai, toh *SIP bhi badhao.*", "tts": "आइडिया सिंपल है: सैलरी बढ़ती है, तो एसआईपी भी बढ़ाओ."},
+  {"id": "L07", "scene": "step", "cap": "Pehle saal ₹10,000. Doosre saal *₹11,000.* Teesre saal ₹12,100.", "tts": "पहले साल दस हज़ार. दूसरे साल ग्यारह हज़ार. तीसरे साल बारह हज़ार सौ."},
+  {"id": "L08", "scene": "step", "cap": "20ve saal tak, SIP ho jaata hai lagbhag *₹61,000.*", "tts": "बीसवें साल तक, एसआईपी हो जाता है लगभग इकसठ हज़ार."},
+  {"id": "L09", "scene": "honest", "cap": "Haan, doosre dost ne *zyada* lagaya.", "tts": "हाँ, दूसरे दोस्त ने ज़्यादा लगाया."},
+  {"id": "L10", "scene": "honest", "cap": "Pehla: ₹24 lakh. Doosra: lagbhag *₹69 lakh.*", "tts": "पहला: चौबीस लाख. दूसरा: लगभग उनहत्तर लाख."},
+  {"id": "L11", "scene": "honest", "cap": "Par har saal sirf utna, jitni *salary badhi.*", "tts": "पर हर साल सिर्फ़ उतना, जितनी सैलरी बढ़ी."},
+  {"id": "L12", "scene": "honest", "cap": "Salary ka *hissa* wahi raha. Bas rupaye badhe.", "tts": "सैलरी का हिस्सा वही रहा. बस रुपये बढ़े."},
+  {"id": "L13", "scene": "why", "cap": "Aur flat SIP mein ek *chhupa* nuksaan hai.", "tts": "और फ़्लैट एसआईपी में एक छुपा नुकसान है."},
+  {"id": "L14", "scene": "why", "cap": "20 saal baad, ₹10,000 ki *keemat* aadhe se bhi kam.", "tts": "बीस साल बाद, दस हज़ार की कीमत आधे से भी कम."},
+  {"id": "L15", "scene": "why", "cap": "Mehngai ki wajah se. Toh asal mein, aapka SIP har saal *chhota* hota ja raha hai.", "tts": "महंगाई की वजह से. तो असल में, आपका एसआईपी हर साल छोटा होता जा रहा है."},
+  {"id": "L16", "scene": "why", "cap": "Step-up usi ko *barabar* rakhta hai.", "tts": "स्टेप अप उसी को बराबर रखता है."},
+  {"id": "L17", "scene": "how", "cap": "Kaise karein? Zyaadatar apps aur fund houses mein *step-up* ka option hota hai.", "tts": "कैसे करें? ज़्यादातर ऐप्स और फ़ंड हाउसेज़ में स्टेप अप का ऑप्शन होता है."},
+  {"id": "L18", "scene": "how", "cap": "Ek baar set karo: *har saal 10%.* Ya ek fixed amount.", "tts": "एक बार सेट करो: हर साल दस परसेंट. या एक फ़िक्स्ड अमाउंट."},
+  {"id": "L19", "scene": "how", "cap": "Appraisal aaye, toh *pehla kaam:* SIP badhao. Phir shopping.", "tts": "अप्रेज़ल आए, तो पहला काम: एसआईपी बढ़ाओ. फिर शॉपिंग."},
+  {"id": "L20", "scene": "how", "cap": "10% mushkil lage? *5%* se shuru karo. Woh bhi ₹1 crore ko *₹1.37 crore* bana deta hai.", "tts": "दस परसेंट मुश्किल लगे? पाँच परसेंट से शुरू करो. वो भी एक करोड़ को एक करोड़ सैंतीस लाख बना देता है."},
+  {"id": "L21", "scene": "outro", "cap": "Jiska appraisal letter abhi aaya hai, *use yeh bhejo.*", "tts": "जिसका अप्रेज़ल लेटर अभी आया है, उसे ये वीडियो भेजो."},
+  {"id": "L22", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है मनी थ्योरी."}
+ ]
+}
