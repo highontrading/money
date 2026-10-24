@@ -66,7 +66,7 @@ export const Thumb: React.FC<{size?: number; fill?: string}> = ({size = 120, fil
 // Fishing hook with the bait hanging off it.
 export const FishHook: React.FC<{h?: number; color?: string}> = ({h = 300, color = C.ink}) => (
   <svg width={h * 0.55} height={h} viewBox="0 0 110 200" style={{overflow: 'visible'}}>
-    <line x1={55} y1={-400} x2={55} y2={20} stroke={color} strokeWidth={3} strokeDasharray="2 0" />
+    <line x1={55} y1={-60} x2={55} y2={20} stroke={color} strokeWidth={3} />
     <path d="M55,20 L55,140 C55,190 10,190 12,150 L28,162" fill="none" stroke={color} strokeWidth={9} strokeLinecap="round" strokeLinejoin="round" />
     <circle cx={55} cy={18} r={8} fill="none" stroke={color} strokeWidth={5} />
   </svg>
@@ -161,4 +161,12 @@ export const Meter: React.FC<{w: number; label: string; at: number; dur?: number
       </div>
     </div>
   );
+};
+
+// Inline text that pops in on its beat (keeps its layout space while hidden).
+export const Appear: React.FC<{at: number; children: React.ReactNode}> = ({at, children}) => {
+  const frame = useCurrentFrame();
+  const shown = stepped(frame) >= at;
+  const p = shown ? Math.min(1.05, pop(frame, at)) : 0;
+  return <span style={{display: 'inline-block', visibility: shown ? 'visible' : 'hidden', transform: `translateY(${(1 - p) * -24}px) scale(${0.9 + 0.1 * p})`}}>{children}</span>;
 };
