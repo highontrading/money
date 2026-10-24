@@ -31,7 +31,7 @@ node tools/stills.mjs out/stills <frame> <frame> ... # quick layout review
 
 ## Topic reels (ElevenLabs narration)
 
-Five more reels use the same design system, each with its own script, timeline, audio and scene folder. They have no episode numbers.
+Ten more reels use the same design system, each with its own script, timeline, audio and scene folder. They have no episode numbers.
 
 | Reel | Script | Scenes |
 |---|---|---|
@@ -40,13 +40,18 @@ Five more reels use the same design system, each with its own script, timeline, 
 | Endowment policy: 1.5x money, 3.7% IRR | `script/policy-irr.json` | `src/reels/policy-irr/` |
 | Regular vs direct plan: 1% = ₹31 lakh | `script/direct-vs-regular.json` | `src/reels/direct-vs-regular/` |
 | -50% then +50% = ₹75: average vs CAGR | `script/average-vs-cagr.json` | `src/reels/average-vs-cagr/` |
+| Home loan: ₹50 lakh becomes ₹1.04 crore | `script/home-loan-emi.json` | `src/reels/home-loan-emi/` |
+| Flat vs reducing rate: 10% flat ≈ 17.9% | `script/flat-vs-reducing.json` | `src/reels/flat-vs-reducing/` |
+| Health insurance room-rent cap | `script/room-rent-cap.json` | `src/reels/room-rent-cap/` |
+| DICGC deposit insurance: ₹5 lakh per bank | `script/deposit-insurance.json` | `src/reels/deposit-insurance/` |
+| SIP step-up: ₹1 crore vs ₹2 crore | `script/sip-step-up.json` | `src/reels/sip-step-up/` |
 
 ```
 python tools/tts_elevenlabs.py script/<id>.json build/<id>/vo [L05 ...]   # ElevenLabs takes + character timestamps (needs ELEVENLABS_API_KEY)
 TEMPO=1.06 python tools/build_timeline.py script/<id>.json build/<id>/vo public src/data/<id>.json <id>
 python tools/synth_audio.py src/data/<id>.json public/audio/<id> music
 node tools/stills.mjs src/reels/<id>/entry.tsx <id> out/stills <frame> ...
-sh tools/render_reel.sh <id>                                              # out/<id>.mp4 + out/<id>-cover.jpg
+sh tools/render_reel.sh <id>                                              # final/<id>.mp4 (~4.5 Mbps, -14 LUFS) + final/<id>-cover.jpg
 ```
 
 The voice is the Hindi narrator "Amrut Deshmukh" (`eleven_multilingual_v2`). Captions are timed from ElevenLabs' character alignment: each caption phrase (split at punctuation) is matched to the same phrase of the Devanagari text, so keep the punctuation of `cap` and `tts` in step. Re-take a line by passing its id to `tts_elevenlabs.py`; the other takes are kept. Each script's `moods` map sets the music intensity per scene, and `data_note` records the assumptions behind the numbers.
