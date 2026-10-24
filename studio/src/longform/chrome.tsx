@@ -86,19 +86,20 @@ export const ChapterCard: React.FC<{n: number; title: string; note: string; at: 
         <div style={{position: 'absolute', inset: 0, background: '#1d1b18', clipPath: tornPolygon('chapbg' + n, LW + 240, LH + 160, {left: true, right: true}, 24)}}>
           <Img src={staticFile('img/proc/tex_kraft.jpg')} style={{width: '100%', height: '100%', objectFit: 'cover', mixBlendMode: 'multiply', opacity: 0.85}} />
         </div>
-        <div style={{position: 'absolute', left: 290, top: 270}}>
+        <div style={{position: 'absolute', right: 230, top: 150, fontFamily: F.display, fontSize: 620, lineHeight: 1, color: 'transparent', WebkitTextStroke: `4px ${C.paperLight}`, opacity: 0.22 * ease(f, at + 4, at + 12), transform: `rotate(-4deg) translateY(${(1 - ease(f, at + 4, at + 14)) * 40}px)`}}>{label ? '★' : String(n).padStart(2, '0')}</div>
+        <div style={{position: 'absolute', left: 290, top: 330}}>
           <div style={{display: 'inline-block', background: C.paperLight, color: C.ink, fontFamily: F.mono, fontWeight: 700, fontSize: 30, letterSpacing: 8, padding: '8px 18px', transform: `rotate(-1deg) scale(${Math.min(1, tp)})`, transformOrigin: 'left center'}}>{label ?? `CHAPTER ${n}`}</div>
-          <div style={{position: 'relative', marginTop: 34, maxWidth: 1300}}>
+          <div style={{position: 'relative', marginTop: 34, maxWidth: 1250}}>
             <div style={{position: 'absolute', left: -40, right: -60, top: 18, bottom: 6, background: C.yellow, clipPath: tornPolygon('chapy' + n, 1300, 300, {left: true, right: true, top: true, bottom: true}, 12), transform: `scaleX(${ease(f, at + 8, at + 16)}) rotate(-1.4deg)`, transformOrigin: 'left center'}} />
-            <div style={{position: 'relative', fontFamily: F.display, fontSize: words.join(' ').length > 18 ? 128 : 156, lineHeight: 1.02, color: C.ink, textTransform: 'uppercase', padding: '14px 10px'}}>
+            <div style={{position: 'relative', fontFamily: F.display, fontSize: words.join(' ').length > 18 ? 136 : 176, lineHeight: 1.02, color: C.ink, textTransform: 'uppercase', padding: '14px 10px'}}>
               {words.map((w, i) => (
                 <span key={i} style={{display: 'inline-block', marginRight: '0.22em', opacity: f >= at + 9 + i * 2 ? 1 : 0, transform: `translateY(${f >= at + 11 + i * 2 ? 0 : -24}px)`}}>{w}</span>
               ))}
             </div>
           </div>
-          <div style={{marginTop: 40, fontFamily: F.hand, fontWeight: 700, fontSize: 58, color: C.paperLight, transform: 'rotate(-2deg)', opacity: f >= at + 18 ? 1 : 0, clipPath: `inset(-20% ${100 - ease(f, at + 18, at + 30) * 100}% -20% -5%)`}}>{note}</div>
+          <div style={{marginTop: 40, fontFamily: F.hand, fontWeight: 700, fontSize: 66, color: C.paperLight, transform: 'rotate(-2deg)', opacity: f >= at + 18 ? 1 : 0, clipPath: `inset(-20% ${100 - ease(f, at + 18, at + 30) * 100}% -20% -5%)`}}>{note}</div>
         </div>
-        <div style={{position: 'absolute', left: 290, right: 290, bottom: 210, height: 64, borderTop: `2px solid ${C.grey}`, borderBottom: `2px solid ${C.grey}`, display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontFamily: F.mono, fontSize: 20, letterSpacing: 3, color: C.grey}}>
+        <div style={{position: 'absolute', left: 290, right: 290, bottom: 150, height: 64, borderTop: `2px solid ${C.grey}`, borderBottom: `2px solid ${C.grey}`, display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontFamily: F.mono, fontSize: 20, letterSpacing: 3, color: C.grey}}>
           {Array.from({length: 9}).map((_, i) => (
             <span key={i} style={{opacity: 0.4 + 0.6 * random('tc' + n + i)}}>{i === 4 ? timecode(frame) : '▮'}</span>
           ))}
