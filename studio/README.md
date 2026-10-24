@@ -54,7 +54,7 @@ node tools/stills.mjs src/reels/<id>/entry.tsx <id> out/stills <frame> ...
 sh tools/render_reel.sh <id>                                              # final/<id>.mp4 (~4.5 Mbps, -14 LUFS) + final/<id>-cover.jpg
 ```
 
-The voice is the Hindi narrator "Amrut Deshmukh" (`eleven_multilingual_v2`). Captions are timed from ElevenLabs' character alignment: each caption phrase (split at punctuation) is matched to the same phrase of the Devanagari text, so keep the punctuation of `cap` and `tts` in step. Re-take a line by passing its id to `tts_elevenlabs.py`; the other takes are kept. Each script's `moods` map sets the music intensity per scene, and `data_note` records the assumptions behind the numbers.
+The voice is the Hindi narrator "Amrut Deshmukh". **Use the `eleven_v4` model for all narration** (the default in `tts_elevenlabs.py`; the first ten reels were made with `eleven_multilingual_v2`). Captions are timed from ElevenLabs' character alignment: each caption phrase (split at punctuation) is matched to the same phrase of the Devanagari text, so keep the punctuation of `cap` and `tts` in step. Re-take a line by passing its id to `tts_elevenlabs.py`; the other takes are kept. Each script's `moods` map sets the music intensity per scene, and `data_note` records the assumptions behind the numbers.
 
 ## Layout rules
 

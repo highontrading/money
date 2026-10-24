@@ -9,7 +9,7 @@ import base64, json, os, sys, time, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 VOICE = os.environ.get("ELEVEN_VOICE", "LHJy3mhZWsvhUjy0zUM1")  # Amrut Deshmukh, Hindi narrator
-MODEL = os.environ.get("ELEVEN_MODEL", "eleven_multilingual_v2")
+MODEL = os.environ.get("ELEVEN_MODEL", "eleven_v4")  # house standard from Oct 2026 onward
 SETTINGS = {"stability": 0.45, "similarity_boost": 0.8, "style": 0.2, "use_speaker_boost": True, "speed": 1.0}
 
 
