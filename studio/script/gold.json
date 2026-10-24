@@ -1,0 +1,144 @@
+{
+ "title": "Dhanteras pe sona: gehna, ETF ya digital gold?",
+ "data_note": "Dhanteras 6 Nov 2026. 24K ~Rs 1.43-1.46 lakh/10g (IBJA/IBTimes, 22-23 Oct). GST 3% on gold. Jewellery bill breakdown is an illustrative example. SEBI caution on digital gold: 8 Nov 2025. No new SGB tranche since Feb 2024.",
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "₹1 lakh ka gehna khareeda. Agle din bechne gaye, mile *₹84,000.*",
+   "tts": "एक लाख का गहना ख़रीदा. अगले दिन बेचने गए, मिले, चौरासी हज़ार."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Sona gira nahi. Phir *₹16,000* gaye kahan?",
+   "tts": "सोना गिरा नहीं. फिर सोलह हज़ार गए कहाँ?"
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "6 November ko *Dhanteras* hai. Usse pehle yeh bill samajh lo.",
+   "tts": "छह नवंबर को धनतेरस है. उससे पहले, ये बिल समझ लो."
+  },
+  {
+   "id": "L04",
+   "scene": "bill",
+   "cap": "Example bill. Sone ki asli keemat: *₹86,000.*",
+   "tts": "एग्ज़ाम्पल बिल. सोने की असली कीमत, छियासी हज़ार."
+  },
+  {
+   "id": "L05",
+   "scene": "bill",
+   "cap": "Upar se *making charges:* lagbhag ₹11,000. Design jitna bhaari, charge utna zyada.",
+   "tts": "ऊपर से मेकिंग चार्जेस, लगभग ग्यारह हज़ार. डिज़ाइन जितना भारी, चार्ज उतना ज़्यादा."
+  },
+  {
+   "id": "L06",
+   "scene": "bill",
+   "cap": "Phir *3% GST:* lagbhag ₹3,000. Total: *₹1 lakh.*",
+   "tts": "फिर तीन परसेंट GST, लगभग तीन हज़ार. टोटल, एक लाख."
+  },
+  {
+   "id": "L07",
+   "scene": "bill",
+   "cap": "Bechte waqt jeweller sirf *sone* ka daam deta hai. Making aur GST *wapas nahi.*",
+   "tts": "बेचते वक़्त, ज्वेलर सिर्फ़ सोने का दाम देता है. मेकिंग और GST, वापस नहीं."
+  },
+  {
+   "id": "L08",
+   "scene": "bill",
+   "cap": "Aur aksar sone pe bhi *thodi katauti.* Isliye ₹84,000.",
+   "tts": "और अक्सर, सोने पर भी थोड़ी कटौती. इसलिए चौरासी हज़ार."
+  },
+  {
+   "id": "L09",
+   "scene": "options",
+   "cap": "Pehnna hai, toh gehna *theek* hai. Par *investment* ke liye aur raaste hain.",
+   "tts": "पहनना है, तो गहना ठीक है. पर इन्वेस्टमेंट के लिए, और रास्ते हैं."
+  },
+  {
+   "id": "L10",
+   "scene": "options",
+   "cap": "*Gold ETF:* stock exchange pe sona. *SEBI regulated.*",
+   "tts": "गोल्ड ETF. स्टॉक एक्सचेंज पर सोना. SEBI रेगुलेटेड."
+  },
+  {
+   "id": "L11",
+   "scene": "options",
+   "cap": "Na making, na GST wali chot. Bas chhota sa *saalana kharcha.* Demat chahiye.",
+   "tts": "ना मेकिंग, ना GST वाली चोट. बस छोटा सा सालाना ख़र्चा. डीमैट चाहिए."
+  },
+  {
+   "id": "L12",
+   "scene": "options",
+   "cap": "Demat nahi? *Gold mutual fund.* Wahi ETF, mutual fund ke raaste.",
+   "tts": "डीमैट नहीं? गोल्ड म्यूचुअल फ़ंड. वही ETF, म्यूचुअल फ़ंड के रास्ते."
+  },
+  {
+   "id": "L13",
+   "scene": "digital",
+   "cap": "Ab *digital gold.* ₹10 se app pe khareedo. Aasaan lagta hai.",
+   "tts": "अब डिजिटल गोल्ड. दस रुपये से, ऐप पर ख़रीदो. आसान लगता है."
+  },
+  {
+   "id": "L14",
+   "scene": "digital",
+   "cap": "Par November 2025 mein SEBI ne *chetavni* di: digital gold uske *regulation se bahar* hai.",
+   "tts": "पर नवंबर दो हज़ार पच्चीस में, SEBI ने चेतावनी दी. डिजिटल गोल्ड, उसके रेगुलेशन से बाहर है."
+  },
+  {
+   "id": "L15",
+   "scene": "digital",
+   "cap": "Kuch galat hua, toh *investor protection nahi.* Aur khareed pe 3% GST bhi.",
+   "tts": "कुछ ग़लत हुआ, तो इन्वेस्टर प्रोटेक्शन नहीं. और ख़रीद पर, तीन परसेंट GST भी."
+  },
+  {
+   "id": "L16",
+   "scene": "digital",
+   "cap": "Aur *Sovereign Gold Bond?* February 2024 ke baad *naya issue aaya hi nahi.*",
+   "tts": "और सॉवरेन गोल्ड बॉन्ड? फ़रवरी दो हज़ार चौबीस के बाद, नया इश्यू आया ही नहीं."
+  },
+  {
+   "id": "L17",
+   "scene": "digital",
+   "cap": "Purane bonds sirf *exchange* pe mil sakte hain.",
+   "tts": "पुराने बॉन्ड्स, सिर्फ़ एक्सचेंज पर मिल सकते हैं."
+  },
+  {
+   "id": "L18",
+   "scene": "check",
+   "cap": "Gehna le rahe ho? Teen cheezein *zaroor* check karo.",
+   "tts": "गहना ले रहे हो? तीन चीज़ें, ज़रूर चेक करो."
+  },
+  {
+   "id": "L19",
+   "scene": "check",
+   "cap": "Ek: *HUID* hallmark. 6 akshar ka code. BIS CARE app pe verify karo.",
+   "tts": "एक. HUID हॉलमार्क. छह अक्षर का कोड. BIS केयर ऐप पर वेरिफ़ाई करो."
+  },
+  {
+   "id": "L20",
+   "scene": "check",
+   "cap": "Do: bill mein sona, making aur GST *alag-alag* likhe hon.",
+   "tts": "दो. बिल में, सोना, मेकिंग, और GST, अलग अलग लिखे हों."
+  },
+  {
+   "id": "L21",
+   "scene": "check",
+   "cap": "Teen: *buyback policy* pehle pucho. Kitna katenge?",
+   "tts": "तीन. बायबैक पॉलिसी, पहले पूछो. कितना काटेंगे?"
+  },
+  {
+   "id": "L22",
+   "scene": "outro",
+   "cap": "Pehnne ke liye gehna, *investment* ke liye ETF. Yeh us dost ko *bhejo* jo Dhanteras pe sona lene wala hai.",
+   "tts": "पहनने के लिए गहना, इन्वेस्टमेंट के लिए ETF. ये उस दोस्त को भेजो, जो धनतेरस पर सोना लेने वाला है."
+  },
+  {
+   "id": "L23",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है, मनी थ्योरी."
+  }
+ ]
+}

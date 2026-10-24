@@ -1,0 +1,29 @@
+{
+ "title": "Muhurat trading: ek ghante ka bazaar",
+ "data_note": "Muhurat trading Sunday 8 Nov 2026: pre-open 2:05-2:20 PM, session 2:20-3:30 PM (NSE/BSE circulars, 19 Oct 2026). First Diwali session with the Closing Auction Session (live since 3 Aug 2026). Nifty closed higher in 15 of the last 20 Muhurat sessions; 19 of 20 moves within +/-1%; 2008 over +6%; 2025 +0.10%. Trades settle normally.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Diwali ki shaam. Bazaar band hona chahiye. Par khulta hai, *sirf ek ghante* ke liye.", "tts": "दिवाली की शाम. बाज़ार बंद होना चाहिए. पर खुलता है, सिर्फ़ एक घंटे के लिए."},
+  {"id": "L02", "scene": "hook", "cap": "Ise kehte hain *Muhurat trading.*", "tts": "इसे कहते हैं, मुहूर्त ट्रेडिंग."},
+  {"id": "L03", "scene": "what", "cap": "Purani parampara. Vyapari Diwali pe *naye khaate* kholte the.", "tts": "पुरानी परंपरा. व्यापारी, दिवाली पे नए खाते खोलते थे."},
+  {"id": "L04", "scene": "what", "cap": "Naye *Samvat* saal ki pehli shubh khareed.", "tts": "नए संवत साल की, पहली शुभ ख़रीद."},
+  {"id": "L05", "scene": "what", "cap": "Stock exchange ne yahi parampara zinda rakhi hai.", "tts": "स्टॉक एक्सचेंज ने, यही परंपरा ज़िंदा रखी है."},
+  {"id": "L06", "scene": "when", "cap": "Is baar: *Ravivaar, 8 November.*", "tts": "इस बार. रविवार, आठ नवंबर."},
+  {"id": "L07", "scene": "when", "cap": "Pre-open *2:05* se *2:20*. Asli trading *2:20* se *3:30* tak.", "tts": "प्री ओपन, दो बजकर पाँच से, दो बजकर बीस तक. असली ट्रेडिंग, दो बजकर बीस से, साढ़े तीन बजे तक."},
+  {"id": "L08", "scene": "when", "cap": "Aur pehli baar Diwali pe *closing auction* bhi hoga.", "tts": "और पहली बार, दिवाली पे, क्लोज़िंग ऑक्शन भी होगा."},
+  {"id": "L09", "scene": "when", "cap": "Yaani aakhri daam ek chhoti boli se tay hoga.", "tts": "यानी, आख़िरी दाम, एक छोटी बोली से तय होगा."},
+  {"id": "L10", "scene": "data", "cap": "Ab sabse bada sawaal: kya Muhurat pe bazaar *upar hi* jaata hai?", "tts": "अब सबसे बड़ा सवाल. क्या मुहूर्त पे बाज़ार ऊपर ही जाता है?"},
+  {"id": "L11", "scene": "data", "cap": "Pichhle 20 saal mein Nifty *15 baar* upar band hua.", "tts": "पिछले बीस साल में, निफ़्टी, पंद्रह बार ऊपर बंद हुआ."},
+  {"id": "L12", "scene": "data", "cap": "Sunne mein shubh. Par 20 mein se 19 baar, badlaav *1% se kam.*", "tts": "सुनने में शुभ. पर बीस में से उन्नीस बार, बदलाव एक परसेंट से कम."},
+  {"id": "L13", "scene": "data", "cap": "Pichhli baar? Sirf *0.10%.*", "tts": "पिछली बार? सिर्फ़ ज़ीरो पॉइंट एक परसेंट."},
+  {"id": "L14", "scene": "data", "cap": "Aur 2008? Muhurat pe *6%* se zyada upar. Phir bhi woh saal bura raha.", "tts": "और दो हज़ार आठ? मुहूर्त पे, छह परसेंट से ज़्यादा ऊपर. फिर भी, वो साल बुरा रहा."},
+  {"id": "L15", "scene": "data", "cap": "Ek ghanta poore saal ka *signal* nahi hai.", "tts": "एक घंटा, पूरे साल का सिग्नल नहीं है."},
+  {"id": "L16", "scene": "real", "cap": "Aur yeh *asli trading* hai. Kharida toh paisa katega, settlement normal.", "tts": "और यह असली ट्रेडिंग है. ख़रीदा, तो पैसा कटेगा. सेटलमेंट नॉर्मल."},
+  {"id": "L17", "scene": "real", "cap": "Ek ghante mein volume kam, daam jhatke se hil sakte hain.", "tts": "एक घंटे में वॉल्यूम कम. दाम, झटके से हिल सकते हैं."},
+  {"id": "L18", "scene": "you", "cap": "Toh kya karein? Shagun ke liye thoda sa khareedna hai, toh *limit order* lagao.", "tts": "तो क्या करें? शगुन के लिए थोड़ा सा ख़रीदना है, तो लिमिट ऑर्डर लगाओ."},
+  {"id": "L19", "scene": "you", "cap": "Wahi khareedo jo waise bhi lene wale the.", "tts": "वही ख़रीदो, जो वैसे भी लेने वाले थे."},
+  {"id": "L20", "scene": "you", "cap": "Aur ek ghante mein *bada daav* mat lagao.", "tts": "और एक घंटे में, बड़ा दाँव मत लगाओ."},
+  {"id": "L21", "scene": "you", "cap": "Muhurat shubh hai. Par paisa *plan* se banta hai.", "tts": "मुहूर्त शुभ है. पर पैसा, प्लान से बनता है."},
+  {"id": "L22", "scene": "outro", "cap": "Jo Diwali pe 'shubh share' dhoondh raha hai, usse yeh *bhejo.*", "tts": "जो दिवाली पे शुभ शेयर ढूँढ रहा है, उसे यह भेजो."},
+  {"id": "L23", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

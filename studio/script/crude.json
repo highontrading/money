@@ -1,0 +1,29 @@
+{
+ "title": "Tel $117: aapki EMI tak ka safar",
+ "data_note": "Brent settled $116.72 on 23 Oct 2026 (Iran conflict, Hormuz fears), ~79% higher y/y. Strait of Hormuz carries ~20% of world oil. India imports ~85% of its crude. Per $10/bbl: current account deficit +~0.35% of GDP, CPI +20-30 bps (DBS); import bill +$12-15 bn a year. Sep 2026 CPI 5.54%; RBI repo raised to 5.50% on 7 Oct 2026. Pump prices largely unchanged so far.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Tel *$117* pe pahunch gaya.", "tts": "तेल, एक सौ सत्रह डॉलर पर पहुँच गया."},
+  {"id": "L02", "scene": "hook", "cap": "Aap car nahi chalate? Phir bhi yeh aapki *EMI* tak pahunchega.", "tts": "आप कार नहीं चलाते? फिर भी, यह आपकी ई एम आई तक पहुँचेगा."},
+  {"id": "L03", "scene": "hook", "cap": "Kaise? Ek-ek kadam samjhte hain.", "tts": "कैसे? एक-एक क़दम समझते हैं."},
+  {"id": "L04", "scene": "why", "cap": "Pehle, daam badha kyun? Middle East mein *Iran* ke saath jung.", "tts": "पहले, दाम बढ़ा क्यों? मिडिल ईस्ट में, ईरान के साथ जंग."},
+  {"id": "L05", "scene": "why", "cap": "Duniya ka lagbhag *20%* tel ek patli si raah se guzarta hai: *Hormuz.*", "tts": "दुनिया का लगभग बीस परसेंट तेल, एक पतली सी राह से गुज़रता है. होर्मुज़."},
+  {"id": "L06", "scene": "why", "cap": "Wahan khatra, toh tel mehenga. Ek saal mein lagbhag *79%* upar.", "tts": "वहाँ ख़तरा, तो तेल महँगा. एक साल में, लगभग उन्यासी परसेंट ऊपर."},
+  {"id": "L07", "scene": "india", "cap": "Ab India. Hum apna lagbhag *85%* tel bahar se khareedte hain.", "tts": "अब इंडिया. हम अपना लगभग पचासी परसेंट तेल, बाहर से ख़रीदते हैं."},
+  {"id": "L08", "scene": "india", "cap": "Aur tel *dollar* mein bikta hai.", "tts": "और तेल, डॉलर में बिकता है."},
+  {"id": "L09", "scene": "india", "cap": "Har *$10* ki badhat, saal ka bill lagbhag *$12–15 billion* badha deti hai.", "tts": "हर दस डॉलर की बढ़त, साल का बिल, लगभग बारह से पंद्रह बिलियन डॉलर बढ़ा देती है."},
+  {"id": "L10", "scene": "rupee", "cap": "Zyada dollar chahiye, toh *rupee* pe dabaav.", "tts": "ज़्यादा डॉलर चाहिए, तो रुपये पर दबाव."},
+  {"id": "L11", "scene": "rupee", "cap": "Kamzor rupee matlab bahar se aane wali har cheez mehengi. Phone, dawai, khaad.", "tts": "कमज़ोर रुपया मतलब, बाहर से आने वाली हर चीज़ महँगी. फ़ोन, दवाई, खाद."},
+  {"id": "L12", "scene": "prices", "cap": "Aur tel sirf petrol nahi. Diesel se *truck* chalte hain, sabzi unhi pe aati hai.", "tts": "और तेल सिर्फ़ पेट्रोल नहीं. डीज़ल से ट्रक चलते हैं, सब्ज़ी उन्हीं पे आती है."},
+  {"id": "L13", "scene": "prices", "cap": "Plastic, paint, hawai safar. Sab mein tel.", "tts": "प्लास्टिक, पेंट, हवाई सफ़र. सब में तेल."},
+  {"id": "L14", "scene": "prices", "cap": "Ek andaaza: har $10 se mehngai *0.2–0.3%* tak badh sakti hai.", "tts": "एक अंदाज़ा. हर दस डॉलर से, महँगाई, ज़ीरो पॉइंट दो से ज़ीरो पॉइंट तीन परसेंट तक बढ़ सकती है."},
+  {"id": "L15", "scene": "prices", "cap": "Pump pe daam abhi zyada nahi hile. Par yeh dabaav kahin na kahin aata hai.", "tts": "पंप पे दाम, अभी ज़्यादा नहीं हिले. पर यह दबाव, कहीं ना कहीं आता है."},
+  {"id": "L16", "scene": "emi", "cap": "September mein mehngai *5.54%* thi.", "tts": "सितंबर में महँगाई, पाँच पॉइंट पाँच चार परसेंट थी."},
+  {"id": "L17", "scene": "emi", "cap": "Isliye RBI ne 7 October ko *repo rate* badhakar *5.50%* kiya.", "tts": "इसलिए आर बी आई ने, सात अक्टूबर को, रेपो रेट बढ़ाकर, पाँच पॉइंट पाँच परसेंट किया."},
+  {"id": "L18", "scene": "emi", "cap": "Repo badha, toh bank ka loan mehenga. Aur aapki *EMI* bhi.", "tts": "रेपो बढ़ा, तो बैंक का लोन महँगा. और आपकी ई एम आई भी."},
+  {"id": "L19", "scene": "emi", "cap": "Toh chain yeh hai: *Tel → Rupee → Mehngai → Repo → EMI.*", "tts": "तो चेन यह है. तेल, रुपया, महँगाई, रेपो, ई एम आई."},
+  {"id": "L20", "scene": "you", "cap": "Aap kya karein? Floating loan hai, toh *EMI* ke badle *tenure* check karo.", "tts": "आप क्या करें? फ़्लोटिंग लोन है, तो ई एम आई के बदले, टेन्योर चेक करो."},
+  {"id": "L21", "scene": "you", "cap": "Aur emergency fund thoda mota rakho. Mehngai ke daur mein yahi sahara hai.", "tts": "और इमरजेंसी फ़ंड, थोड़ा मोटा रखो. महँगाई के दौर में, यही सहारा है."},
+  {"id": "L22", "scene": "outro", "cap": "Jo kehta hai 'mujhe tel se kya', usse yeh *bhejo.*", "tts": "जो कहता है, मुझे तेल से क्या, उसे यह भेजो."},
+  {"id": "L23", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

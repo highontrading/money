@@ -147,3 +147,32 @@ export const SignOff: React.FC<{shareLine: string; logoLine: string; shareWord: 
     </>
   );
 };
+
+export type Step = {t: string; s?: string; at: number; hi?: boolean};
+
+// Vertical cause-and-effect chain: strips of paper joined by drawn arrows.
+export const Steps: React.FC<{id: string; x?: number; y?: number; w?: number; h?: number; gap?: number; at?: number; out?: number; steps: Step[]; size?: number}> = ({id, x = 130, y = 420, w = 820, h = 118, gap = 50, out, steps, size = 70}) => {
+  const frame = useCurrentFrame();
+  return (
+    <>
+      {steps.map((st, i) => {
+        const top = y + i * (h + gap);
+        const rot = [-1.5, 1, -0.5, 1.5, -1][i % 5];
+        return (
+          <React.Fragment key={i}>
+            <Card id={id + i} x={x} y={top} w={w} h={h} rot={rot} at={st.at} out={out} enter={i % 2 ? 'right' : 'left'} bg={st.hi ? C.yellow : C.card}>
+              <div style={{display: 'flex', alignItems: 'center', height: '100%', padding: '0 34px'}}>
+                <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 24, width: 64, color: C.inkSoft}}>{`0${i + 1}`}</div>
+                <div style={{fontFamily: F.display, fontSize: size, flex: 1, whiteSpace: 'nowrap'}}>{st.t}</div>
+                {st.s ? <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: 1.5, textAlign: 'right', width: 300, lineHeight: 1.3, whiteSpace: 'pre-line'}}>{st.s}</div> : null}
+              </div>
+            </Card>
+            {i > 0 && frame >= st.at - 4 && (out === undefined || frame < out) ? (
+              <Marker id={id + 'a' + i} d={`M${x + 90},${top - gap + 4} l0,${gap - 10} m-14,-16 l14,16 l14,-16`} at={st.at - 4} dur={4} out={out} color={C.ink} width={7} />
+            ) : null}
+          </React.Fragment>
+        );
+      })}
+    </>
+  );
+};

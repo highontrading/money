@@ -1,0 +1,29 @@
+{
+ "title": "Jung ke beech chandi kyun giri?",
+ "data_note": "Delhi silver ~Rs 2.02 lakh/kg on 23 Oct 2026, down ~Rs 30,000 (~13%) since 30 Sep; MCX below Rs 2 lakh first time since Dec 2025 (IBTimes, Goodreturns). Brent settled $116.72 on 23 Oct (Iran conflict). Silver demand 2025: ~58% industrial, solar ~17% (Silver Institute World Silver Survey 2026).",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Middle East mein *jung* ka darr. Tel *$117* pe.", "tts": "मिडिल ईस्ट में जंग का डर. तेल, एक सौ सत्रह डॉलर पर."},
+  {"id": "L02", "scene": "hook", "cap": "Aise mein chandi upar jaani chahiye thi na? Par 3 hafte mein chandi *13% giri.*", "tts": "ऐसे में चाँदी ऊपर जानी चाहिए थी ना? पर तीन हफ़्ते में, चाँदी तेरह परसेंट गिरी."},
+  {"id": "L03", "scene": "hook", "cap": "Delhi mein *₹2.02 lakh* per kg. 30 September se *₹30,000* sasti.", "tts": "दिल्ली में, दो लाख दो हज़ार रुपये प्रति किलो. तीस सितंबर से, तीस हज़ार रुपये सस्ती."},
+  {"id": "L04", "scene": "chain", "cap": "Jawab ek *chain* mein chhupa hai. Shuruaat tel se.", "tts": "जवाब एक चेन में छुपा है. शुरुआत तेल से."},
+  {"id": "L05", "scene": "chain", "cap": "Tel mehenga, toh duniya bhar mein *mehngai* ka darr.", "tts": "तेल महंगा, तो दुनिया भर में, महंगाई का डर."},
+  {"id": "L06", "scene": "chain", "cap": "Mehngai ka darr, toh America mein interest rate *lambe samay tak upar.*", "tts": "महंगाई का डर, तो अमेरिका में इंटरेस्ट रेट, लंबे समय तक ऊपर."},
+  {"id": "L07", "scene": "chain", "cap": "Aur jab bond aur FD *achha interest* dein, toh sona-chandi kam aakarshak.", "tts": "और जब बॉन्ड और FD, अच्छा इंटरेस्ट दें, तो सोना चाँदी, कम आकर्षक."},
+  {"id": "L08", "scene": "yield", "cap": "Kyunki chandi *koi interest nahi* deti. Na rent, na dividend.", "tts": "क्योंकि चाँदी कोई इंटरेस्ट नहीं देती. ना रेंट, ना डिविडेंड."},
+  {"id": "L09", "scene": "yield", "cap": "Rate upar ho, toh chandi rakhne ki *keemat* badh jaati hai. Isse kehte hain *opportunity cost.*", "tts": "रेट ऊपर हो, तो चाँदी रखने की कीमत बढ़ जाती है. इसे कहते हैं, ऑपर्चुनिटी कॉस्ट."},
+  {"id": "L10", "scene": "yield", "cap": "Isliye sona bhi gira. Par chandi *zyada* giri. Kyun?", "tts": "इसलिए सोना भी गिरा. पर चाँदी ज़्यादा गिरी. क्यों?"},
+  {"id": "L11", "scene": "metal", "cap": "Chandi sirf gehna nahi. Duniya ki lagbhag *58%* chandi *industry* mein jaati hai.", "tts": "चाँदी सिर्फ़ गहना नहीं. दुनिया की लगभग अट्ठावन परसेंट चाँदी, इंडस्ट्री में जाती है."},
+  {"id": "L12", "scene": "metal", "cap": "Solar panel, electronics, gaadiyan. Sirf solar mein lagbhag *17%.*", "tts": "सोलर पैनल, इलेक्ट्रॉनिक्स, गाड़ियाँ. सिर्फ़ सोलर में, लगभग सत्रह परसेंट."},
+  {"id": "L13", "scene": "metal", "cap": "Tel mehenga, toh factories ka kharcha badha. *Economy slow* hone ka darr.", "tts": "तेल महंगा, तो फ़ैक्टरियों का ख़र्चा बढ़ा. इकॉनमी स्लो होने का डर."},
+  {"id": "L14", "scene": "metal", "cap": "Economy slow, toh *industry ki demand* kam. Chandi pe *double maar.*", "tts": "इकॉनमी स्लो, तो इंडस्ट्री की डिमांड कम. चाँदी पर, डबल मार."},
+  {"id": "L15", "scene": "swing", "cap": "Isliye chandi ko kehte hain *sone ki tez-mizaaj behen.*", "tts": "इसलिए चाँदी को कहते हैं, सोने की तेज़ मिज़ाज बहन."},
+  {"id": "L16", "scene": "swing", "cap": "Upar jaati hai toh tez, neeche aati hai toh *aur tez.*", "tts": "ऊपर जाती है तो तेज़, नीचे आती है तो, और तेज़."},
+  {"id": "L17", "scene": "swing", "cap": "MCX pe chandi *December 2025* ke baad pehli baar ₹2 lakh se neeche gayi.", "tts": "MCX पर चाँदी, दिसंबर दो हज़ार पच्चीस के बाद, पहली बार दो लाख से नीचे गई."},
+  {"id": "L18", "scene": "you", "cap": "Toh Dhanteras pe chandi khareedein ya nahi? *Advice nahi,* par teen baatein.", "tts": "तो धनतेरस पर चाँदी ख़रीदें या नहीं? एडवाइस नहीं, पर तीन बातें."},
+  {"id": "L19", "scene": "you", "cap": "Ek: *gehna* khareed rahe ho, toh sasta daam achhi khabar hai.", "tts": "एक. गहना ख़रीद रहे हो, तो सस्ता दाम, अच्छी ख़बर है."},
+  {"id": "L20", "scene": "you", "cap": "Do: *investment* ke liye, ek saath nahi. Thoda-thoda, *kai baar* mein.", "tts": "दो. इन्वेस्टमेंट के लिए, एक साथ नहीं. थोड़ा थोड़ा, कई बार में."},
+  {"id": "L21", "scene": "you", "cap": "Teen: chandi portfolio ka *chhota hissa* ho. Yeh tez-mizaaj hai, yaad hai na?", "tts": "तीन. चाँदी, पोर्टफ़ोलियो का छोटा हिस्सा हो. ये तेज़ मिज़ाज है, याद है ना?"},
+  {"id": "L22", "scene": "outro", "cap": "Yeh video us dost ko *bhejo* jo Dhanteras pe chandi lene wala hai.", "tts": "ये वीडियो उस दोस्त को भेजो, जो धनतेरस पर चाँदी लेने वाला है."},
+  {"id": "L23", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है, मनी थ्योरी."}
+ ]
+}

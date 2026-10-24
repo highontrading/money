@@ -83,6 +83,48 @@
   "license": "CC BY-SA 4.0",
   "author": "Sahil Dhiman"
  },
+ "tanker": {
+  "file": "tanker.jpg",
+  "title": "File:An oil tanker, Cochin Oil Terminal.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:An_oil_tanker,_Cochin_Oil_Terminal.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Rangan Datta Wiki"
+ },
+ "diya": {
+  "file": "diya.jpg",
+  "title": "File:Diya during Diwali.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Diya_during_Diwali.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Slyronit"
+ },
+ "silverbangle": {
+  "file": "silverbangle.jpg",
+  "title": "File:Thela, Silver Bangle, Jharkhand, India.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Thela,_Silver_Bangle,_Jharkhand,_India.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "SpeakingArch"
+ },
+ "solar": {
+  "file": "solar.jpg",
+  "title": "File:Field of Solar Panels near Ogwell.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Field_of_Solar_Panels_near_Ogwell.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Partonez"
+ },
+ "goldbangles": {
+  "file": "goldbangles.jpg",
+  "title": "File:Gold bangles with intricate patterns in a jewelry display Bangladesh 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_bangles_with_intricate_patterns_in_a_jewelry_display_Bangladesh_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "A S M Jobaer"
+ },
+ "refinery": {
+  "file": "refinery.jpg",
+  "title": "File:Jamnagar Refinery.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jamnagar_Refinery.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Reliance Industries"
+ },
  "certificate1909": {
   "file": "certificate1909.jpg",
   "title": "File:Bengal Luxmi Cotton Mills Share Certificate 1909.jpg",
