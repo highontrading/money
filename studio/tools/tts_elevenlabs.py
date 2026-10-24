@@ -12,12 +12,20 @@ import base64, json, os, sys, time, urllib.request
 VOICE = os.environ.get("ELEVENLABS_VOICE_ID", "LHJy3mhZWsvhUjy0zUM1")
 MODEL = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
 SETTINGS = {"stability": 0.45, "similarity_boost": 0.8, "style": 0.25, "use_speaker_boost": True, "speed": 1.06}
+# Long-form reads slower and steadier than Reels: ELEVENLABS_STABILITY / ELEVENLABS_SPEED override the defaults.
+for key in ("stability", "speed"):
+    if os.environ.get("ELEVENLABS_" + key.upper()):
+        SETTINGS[key] = float(os.environ["ELEVENLABS_" + key.upper()])
+# eleven_v3 only takes stability 0.0 / 0.5 / 1.0 and does not do request stitching (previous/next text).
+V3 = MODEL.startswith("eleven_v3")
+if V3:
+    SETTINGS = {"stability": min((0.0, 0.5, 1.0), key=lambda s: abs(s - SETTINGS["stability"]))}
 
 
 def synth(text, prev, nxt):
     body = {"text": text, "model_id": MODEL, "voice_settings": SETTINGS}
-    if prev: body["previous_text"] = prev
-    if nxt: body["next_text"] = nxt
+    if prev and not V3: body["previous_text"] = prev
+    if nxt and not V3: body["next_text"] = nxt
     req = urllib.request.Request(
         f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}/with-timestamps?output_format=mp3_44100_128",
         data=json.dumps(body).encode(),
