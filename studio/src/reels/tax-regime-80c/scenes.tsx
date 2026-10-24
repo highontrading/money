@@ -41,7 +41,7 @@ const Hook: React.FC = () => {
           </div>
         </div>
       </Card>
-      <Card id="rcpt" x={420} y={780} w={540} h={350} rot={4} at={word('L01', '₹1.5', -4)} out={l3} enter="drop" bg={C.paperLight} torn={{bottom: true}}>
+      <Card id="rcpt" x={480} y={770} w={480} h={340} rot={4} at={word('L01', '₹1.5', -4)} out={l3} enter="drop" bg={C.paperLight} torn={{bottom: true}}>
         <div style={{padding: '26px 36px'}}>
           <Label size={22}>Tax-saving · 80C</Label>
           <Row label="Policy" value="✓" size={36} />
@@ -49,11 +49,11 @@ const Hook: React.FC = () => {
           <div style={{fontFamily: F.display, fontSize: 84, textAlign: 'right', marginTop: 12}}>₹1,50,000</div>
         </div>
       </Card>
-      <Tape id="trc" x={600} y={762} w={150} rot={-8} at={word('L01', '₹1.5', 0)} out={l3} />
+      <Tape id="trc" x={640} y={752} w={150} rot={-8} at={word('L01', '₹1.5', 0)} out={l3} />
 
       {/* L02: what did it save? */}
       <Hand x={100} y={860} at={at('L02')} out={l3} size={64} rot={-5} w={330}>tax kitna bacha?</Hand>
-      <Stamp id="zero" text="Tax bacha: ₹0" x={510} y={630} at={word('L02', 'ek', -2)} out={l3} size={92} rot={-8} />
+      <Stamp id="zero" text="Tax bacha: ₹0" x={300} y={1150} at={word('L02', 'ek', -2)} out={l3} size={62} rot={-7} paper />
 
       {/* L03-L04: the new regime form; 80C doesn't exist there */}
       <Card id="nform" x={140} y={430} w={800} h={660} rot={-1} at={l3} enter="up" bg={C.card}>
@@ -116,13 +116,13 @@ const NewMath: React.FC = () => {
   const zero = word('L09', 'zero', -3);
   return (
     <AbsoluteFill>
-      <Card id="nrc" x={100} y={420} w={880} h={790} rot={-1} at={2} enter="up" bg={C.card} torn={{bottom: true}}>
+      <Card id="nrc" x={100} y={420} w={880} h={720} rot={-1} at={2} enter="up" bg={C.card} torn={{bottom: true}}>
         <Head right="₹12 LAKH SALARY">NEW REGIME · HISAAB</Head>
         <div style={{padding: '24px 46px'}}>
-          <Row label="Salary" value="₹12,00,000" size={44} at={word('L07', '₹12', -3)} />
-          <Row label="− Standard deduction" value={<HL at={word('L07', '₹75', 3)}>₹75,000</HL>} size={44} at={word('L07', '₹75', -3)} />
-          <Row label="= Taxable" value={<HL at={word('L08', '₹11', 3)}>₹11,25,000</HL>} size={44} at={word('L08', '₹11', -3)} bold />
-          <Row label="Rebate: ₹12 lakh tak" value="✓" size={44} at={word('L08', '₹12', -3)} />
+          <Row label="Salary" value="₹12,00,000" size={52} at={word('L07', '₹12', -3)} />
+          <Row label="− Std. deduction" value={<HL at={word('L07', '₹75', 3)}>₹75,000</HL>} size={52} at={word('L07', '₹75', -3)} />
+          <Row label="= Taxable" value={<HL at={word('L08', '₹11', 3)}>₹11,25,000</HL>} size={52} at={word('L08', '₹11', -3)} bold />
+          <Row label={<>Rebate: <HL at={word('L08', 'rebate', -2)}>₹12 lakh tak</HL></>} value="✓" size={52} at={word('L08', '₹12', -3)} />
           <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 30, opacity: stepped(frame) >= l9 ? 1 : 0}}>
             <span style={{fontFamily: F.display, fontSize: 110}}>TAX</span>
             <span style={{fontFamily: F.display, fontSize: 150}}>
@@ -132,8 +132,7 @@ const NewMath: React.FC = () => {
           </div>
         </div>
       </Card>
-      <Circle id="crb" cx={540} cy={826} rx={420} ry={56} at={word('L08', 'rebate', -2)} />
-      <Stamp id="zst" text="Zero" x={360} y={1100} at={zero + 4} size={96} rot={-10} paper />
+      <Stamp id="zst" text="Zero" x={560} y={1040} at={zero + 4} size={96} rot={-10} paper />
     </AbsoluteFill>
   );
 };
@@ -150,12 +149,12 @@ const OldMath: React.FC = () => {
   return (
     <AbsoluteFill>
       {/* L10-L11: same salary, old regime, with 80C */}
-      <Card id="orc" x={100} y={420} w={880} h={720} rot={1} at={2} out={l12} enter="up" bg={C.card} torn={{bottom: true}}>
+      <Card id="orc" x={100} y={420} w={880} h={620} rot={1} at={2} out={l12} enter="up" bg={C.card} torn={{bottom: true}}>
         <Head right="WAHI SALARY">OLD REGIME · HISAAB</Head>
         <div style={{padding: '24px 46px'}}>
-          <Row label="Salary" value="₹12,00,000" size={44} at={word('L10', 'salary', -3)} />
-          <Row label="− 80C · policy + ELSS" value="₹1,50,000" size={44} at={word('L10', '₹1.5', -3)} />
-          <Row label="Old slab rates" value={<span style={{color: C.red}}>↑</span>} size={44} at={word('L10', '80c', 0)} />
+          <Row label="Salary" value="₹12,00,000" size={52} at={word('L10', 'salary', -3)} />
+          <Row label="− 80C (policy, ELSS)" value="₹1,50,000" size={50} at={word('L10', '₹1.5', -3)} />
+          <Row label="Old slab rates" value={<span style={{color: C.red}}>↑</span>} size={52} at={word('L10', '80c', 0)} />
           <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 30, opacity: stepped(frame) >= l11 ? 1 : 0}}>
             <span style={{fontFamily: F.display, fontSize: 100}}>TAX</span>
             <span style={{fontFamily: F.display, fontSize: 120}}>
@@ -165,7 +164,7 @@ const OldMath: React.FC = () => {
           </div>
         </div>
       </Card>
-      <Circle id="c117" cx={700} cy={890} rx={260} ry={90} at={word('L11', 'lakh', 0)} out={l12} />
+      <Circle id="c117" cx={700} cy={880} rx={270} ry={95} at={word('L11', 'lakh', 0)} out={l12} />
 
       {/* L12: the policy didn't save it; the new regime did */}
       <Card id="pol" x={80} y={460} w={440} h={420} rot={-3} at={l12} out={l13} enter="left" bg={C.paperLight}>
@@ -297,11 +296,11 @@ const Fix: React.FC = () => {
         <div style={{position: 'relative', padding: '50px 54px'}}>
           <div style={{display: 'flex', alignItems: 'center', gap: 30, marginBottom: 54}}>
             <Tick at={wAt('L18', 5, -2)} size={80} />
-            <span style={{fontFamily: F.display, fontSize: 92}}>1. <HL at={wAt('L18', 4, 0)}>REGIME</HL> CHUNO</span>
+            <span style={{fontFamily: F.display, fontSize: 80, whiteSpace: 'nowrap'}}>1. <HL at={wAt('L18', 4, 0)}>REGIME</HL> CHUNO</span>
           </div>
           <div style={{display: 'flex', alignItems: 'center', gap: 30}}>
             <Tick at={wAt('L18', 7, -2)} size={80} />
-            <span style={{fontFamily: F.display, fontSize: 92}}>2. PHIR INVESTMENT</span>
+            <span style={{fontFamily: F.display, fontSize: 80, whiteSpace: 'nowrap'}}>2. PHIR INVESTMENT</span>
           </div>
         </div>
       </Card>

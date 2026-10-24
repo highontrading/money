@@ -48,16 +48,16 @@ const Hook: React.FC = () => {
       <Sfx at={word('L03', 'gira', -2)} name="pop" volume={0.3} />
 
       {/* L04: why? */}
-      <div style={{position: 'absolute', left: 120, top: 1030, width: 840}}>
-        <Big words={['KYUN', 'GIRTA', 'HAI?']} at={word('L04', 'kyun', -3)} gap={4} size={130} />
+      <div style={{position: 'absolute', left: 120, top: 1010, width: 840}}>
+        <Big words={['CARD', 'BAND', '→', 'KYUN', 'GIRA?']} at={at('L04', 2)} gap={4} size={110} />
       </div>
-      <Hand x={130} y={1000} at={at('L04', 2)} size={50} rot={-2}>card band → score ↓ ?</Hand>
     </AbsoluteFill>
   );
 };
 
 // ---------------------------------------------------------------- util
 const Util: React.FC = () => {
+  const frame = useCurrentFrame();
   const {at, word, end} = useCues();
   const l6 = at('L06'), l7 = at('L07');
   const fillAt = word('L08', '₹60,000', -2);
@@ -67,9 +67,14 @@ const Util: React.FC = () => {
       <div style={{position: 'absolute', left: 110, top: 440}}>
         <Show until={l7}><Appear at={0}><Label size={26}>Score ka ek bada hissa</Label></Appear></Show>
       </div>
-      <Card id="cu" x={100} y={510} w={880} h={260} rot={-1.5} at={word('L05', 'credit', -3)} out={l7} bg={C.yellow} torn={{right: true, bottom: true}} rough={12}>
-        <div style={{fontFamily: F.display, fontSize: 112, lineHeight: 0.95, textAlign: 'center', marginTop: 30}}>CREDIT<br />UTILIZATION</div>
+      <Card id="cu" x={100} y={510} w={880} h={260} rot={-1.5} at={2} out={l7} bg={C.yellow} torn={{right: true, bottom: true}} rough={12}>
+        {stepped(frame) < word('L05', 'credit', -3) ? (
+          <div style={{fontFamily: F.display, fontSize: 150, textAlign: 'center', marginTop: 40, letterSpacing: 8}}>? ? ?</div>
+        ) : (
+          <div style={{fontFamily: F.display, fontSize: 112, lineHeight: 0.95, textAlign: 'center', marginTop: 30}}><Appear at={word('L05', 'credit', -3)}>CREDIT</Appear><br /><Appear at={word('L05', 'utilization', -3)}>UTILIZATION</Appear></div>
+        )}
       </Card>
+      <Sfx at={word('L05', 'credit', -3)} name="pop" volume={0.3} />
       {/* L06: how much of the limit you use */}
       <Card id="q6" x={150} y={830} w={780} h={300} rot={1} at={l6} out={l7} enter="up" bg={C.card}>
         <div style={{padding: '30px 40px'}}>
@@ -97,15 +102,16 @@ const Util: React.FC = () => {
         </div>
       </Card>
       {/* L08: spend */}
-      <Card id="spend" x={130} y={1080} w={520} h={120} rot={-2} at={fillAt - 4} bg={C.paperLight} sfx={null}>
-        <div style={{fontFamily: F.display, fontSize: 56, textAlign: 'center', marginTop: 24, whiteSpace: 'nowrap'}}>KHARCHA ₹60,000 / MAHINA</div>
+      <Card id="spend" x={110} y={1070} w={480} h={150} rot={-2} at={fillAt - 4} bg={C.paperLight} sfx={null}>
+        <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: 3, textAlign: 'center', marginTop: 16}}>KHARCHA · HAR MAHINA</div>
+        <div style={{fontFamily: F.display, fontSize: 76, textAlign: 'center', lineHeight: 1.1}}>₹60,000</div>
       </Card>
       {/* L09: 30% */}
-      <Card id="ratio" x={600} y={1060} w={380} h={160} rot={3} at={word('L09', '÷', -6)} bg={C.yellow} z={40}>
+      <Card id="ratio" x={620} y={1060} w={360} h={160} rot={3} at={word('L09', '÷', -6)} bg={C.yellow} z={40}>
         <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 24, textAlign: 'center', marginTop: 14}}>₹60,000 ÷ ₹2 LAKH</div>
         <div style={{fontFamily: F.display, fontSize: 84, textAlign: 'center', lineHeight: 1}}><Appear at={word('L09', '30%', -2)}>= 30%</Appear></div>
       </Card>
-      <Stamp id="theek" text="Theek-thaak ✓" x={300} y={1150} at={word('L09', 'theek', -2)} out={end('L09', 20)} size={58} rot={-6} color={C.ink} paper />
+      <Stamp id="theek" text="Theek-thaak ✓" x={540} y={735} at={word('L09', 'theek', -2)} out={end('L09', 20)} size={58} rot={-6} color={C.ink} paper />
     </AbsoluteFill>
   );
 };
@@ -146,8 +152,9 @@ const Close: React.FC = () => {
         </div>
       </Card>
       {/* L11: same spend, 60% */}
-      <Card id="spend2" x={130} y={1110} w={500} h={110} rot={-2} at={word('L11', 'wahi', -4)} out={l12} bg={C.paperLight} sfx={null}>
-        <div style={{fontFamily: F.display, fontSize: 52, textAlign: 'center', marginTop: 22, whiteSpace: 'nowrap'}}>KHARCHA WAHI ₹60,000</div>
+      <Card id="spend2" x={110} y={1100} w={480} h={140} rot={-2} at={word('L11', 'wahi', -4)} out={l12} bg={C.paperLight} sfx={null}>
+        <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 22, letterSpacing: 3, textAlign: 'center', marginTop: 14}}>KHARCHA WAHI</div>
+        <div style={{fontFamily: F.display, fontSize: 72, textAlign: 'center', lineHeight: 1.1}}>₹60,000</div>
       </Card>
       <Card id="sixty" x={650} y={1060} w={320} h={170} rot={4} at={redAt} out={l12} bg={C.card} z={40}>
         <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 22, textAlign: 'center', marginTop: 14, letterSpacing: 3}}>UTILIZATION</div>
@@ -175,12 +182,12 @@ const Close: React.FC = () => {
           <div style={{marginTop: 70}}>
             <Meter w={820} h={110} fill0={0.6} fill1={0.6} fillAt={0} red={0} guide={0.3} guideAt={word('L13', '30%', -4)} />
           </div>
-          <div style={{position: 'absolute', left: 40 + 820 * 0.3 - 110, top: 260, width: 220, textAlign: 'center', fontFamily: F.display, fontSize: 52, opacity: ease(stepped(frame), word('L13', '30%', 2), word('L13', '30%', 8))}}>
+          <div style={{position: 'absolute', left: 40 + 820 * 0.3 - 180, top: 262, width: 360, textAlign: 'center', whiteSpace: 'nowrap', fontFamily: F.display, fontSize: 52, opacity: ease(stepped(frame), word('L13', '30%', 2), word('L13', '30%', 8))}}>
             <HL at={word('L13', 'neeche', -2)}>30% SE NEECHE</HL>
           </div>
         </div>
       </Card>
-      <Hand x={560} y={950} at={word('L13', 'neeche', 4)} size={60} rot={-3}>← yahan tak rakho</Hand>
+      <Hand x={500} y={950} at={word('L13', 'neeche', 4)} size={60} rot={-3}>← isse neeche</Hand>
     </AbsoluteFill>
   );
 };
@@ -201,7 +208,7 @@ const Age: React.FC = () => {
     <AbsoluteFill>
       {/* L14: the card that went was the oldest */}
       <Hand x={130} y={430} at={word('L14', 'doosra', -2)} out={l15} size={60} rot={-3}>doosra nuksaan…</Hand>
-      <CreditCard id="oldest" x={300} y={540} w={480} h={300} rot={-3} at={word('L14', 'card', -4)} out={l15} enter="drop" old />
+      <CreditCard id="oldest" x={300} y={540} w={480} h={300} rot={-3} at={at('L14')} out={l15} enter="drop" old />
       <Card id="oldtag" x={330} y={880} w={420} h={120} rot={3} at={word('L14', 'sabse', -3)} out={l15} bg={C.yellow} sfx={null}>
         <div style={{fontFamily: F.display, fontSize: 72, textAlign: 'center', marginTop: 18}}>SABSE PURANA</div>
       </Card>
