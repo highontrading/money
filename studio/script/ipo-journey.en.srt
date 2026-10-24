@@ -1,0 +1,760 @@
+1
+00:00:00,467 --> 00:00:02,567
+15 November 1977. Bombay.
+
+2
+00:00:02,601 --> 00:00:07,600
+A textile company comes to the public for the
+first time.
+
+3
+00:00:07,633 --> 00:00:13,033
+Price of a share: ₹10. Total issue: ₹2.82
+crore.
+
+4
+00:00:13,067 --> 00:00:18,433
+About 58,000 people fill in the form. The
+issue is oversubscribed seven times.
+
+5
+00:00:18,467 --> 00:00:21,033
+The company's name: Reliance.
+
+6
+00:00:21,067 --> 00:00:28,567
+49 years later. October 2026. A company from
+the same group: Jio Platforms.
+
+7
+00:00:28,600 --> 00:00:35,100
+Issue size: ₹30,213 crore. Not on paper forms,
+but on a phone, through UPI.
+
+8
+00:00:35,133 --> 00:00:39,767
+The money changed. The technology changed. But
+the road is the same.
+
+9
+00:00:39,800 --> 00:00:43,635
+Every IPO, whether it's Jio or a small company
+in your city,
+
+10
+00:00:43,668 --> 00:00:45,800
+goes through this same journey.
+
+11
+00:00:45,833 --> 00:00:50,833
+Today, that whole journey: from an idea to the
+listing bell.
+
+12
+00:00:50,867 --> 00:00:55,367
+And along the way, the questions you should
+ask before every application.
+
+13
+00:00:57,567 --> 00:01:00,133
+Let's start with a tea stall.
+
+14
+00:01:00,167 --> 00:01:05,000
+Raju's Chai. One stall, then five, then fifty.
+
+15
+00:01:05,033 --> 00:01:10,433
+Now Raju wants to open 500 stalls. He needs
+about ₹100 crore.
+
+16
+00:01:10,467 --> 00:01:13,133
+Where does the money come from? Three ways.
+
+17
+00:01:13,167 --> 00:01:17,767
+One: your own savings. But nobody has savings
+that big.
+
+18
+00:01:17,800 --> 00:01:18,974
+Two: a bank loan.
+
+19
+00:01:19,008 --> 00:01:23,900
+But the interest is due every month, whether
+the chai sells or not.
+
+20
+00:01:23,933 --> 00:01:25,340
+Three: find a partner.
+
+21
+00:01:25,373 --> 00:01:29,433
+They put in money and get a share of the
+company in return.
+
+22
+00:01:29,833 --> 00:01:33,767
+Raju picks partners. First, family and
+friends.
+
+23
+00:01:33,800 --> 00:01:39,367
+Then bigger investors: angel investors,
+venture capital, private equity funds.
+
+24
+00:01:39,400 --> 00:01:43,567
+Every partner gets shares. Small pieces of the
+company.
+
+25
+00:01:43,600 --> 00:01:48,467
+But all of this is private. Nobody can buy or
+sell these shares in a market.
+
+26
+00:01:48,867 --> 00:01:51,233
+Then one day, two things happen.
+
+27
+00:01:51,267 --> 00:01:55,600
+The company needs so much money that private
+partners aren't enough.
+
+28
+00:01:55,633 --> 00:01:59,767
+And the old partners say: we want to sell our
+stake and exit.
+
+29
+00:01:59,800 --> 00:02:03,867
+So the company says to the whole country:
+come, be a partner.
+
+30
+00:02:03,900 --> 00:02:07,113
+That's called an IPO. Initial Public Offering.
+
+31
+00:02:07,146 --> 00:02:10,633
+Shares offered to the public for the first
+time.
+
+32
+00:02:10,667 --> 00:02:13,367
+IPO money can go to two places.
+
+33
+00:02:13,400 --> 00:02:15,587
+Fresh issue: new shares are created.
+
+34
+00:02:15,620 --> 00:02:18,467
+The money goes to the company, for its work.
+
+35
+00:02:18,500 --> 00:02:22,031
+Offer for sale: old partners sell their
+shares.
+
+36
+00:02:22,064 --> 00:02:24,700
+The money goes into their pocket.
+
+37
+00:02:24,733 --> 00:02:28,957
+Jio's IPO was entirely a fresh issue: 27 crore
+new shares.
+
+38
+00:02:28,990 --> 00:02:32,567
+And a large part of it was for repaying loans.
+
+39
+00:02:34,767 --> 00:02:38,800
+But bringing an IPO isn't as easy as putting
+up a sign on a shop.
+
+40
+00:02:38,833 --> 00:02:44,467
+The company hires merchant bankers. Their job:
+run the whole IPO.
+
+41
+00:02:44,500 --> 00:02:50,033
+Along with lawyers, auditors and a registrar.
+Months of preparation.
+
+42
+00:02:50,433 --> 00:02:53,600
+The biggest task: one thick document.
+
+43
+00:02:53,633 --> 00:02:58,500
+It's called the DRHP. Draft Red Herring
+Prospectus.
+
+44
+00:02:58,533 --> 00:03:04,038
+Why 'red herring'? The cover of such a
+document used to carry a warning in red:
+
+45
+00:03:04,071 --> 00:03:05,467
+this is not final.
+
+46
+00:03:05,500 --> 00:03:08,733
+Because it doesn't have the price or the dates
+yet.
+
+47
+00:03:08,767 --> 00:03:10,324
+Everything else is there.
+
+48
+00:03:10,358 --> 00:03:14,467
+What the company does, how much it earns, how
+much debt it has.
+
+49
+00:03:14,500 --> 00:03:19,400
+Who the promoters are. Which court cases are
+running. And what the risks are.
+
+50
+00:03:19,433 --> 00:03:24,600
+And the most useful section: objects of the
+issue. Where the money will go.
+
+51
+00:03:25,000 --> 00:03:29,533
+This DRHP goes to SEBI. The stock market
+regulator.
+
+52
+00:03:29,567 --> 00:03:33,800
+And you can read it too. On SEBI's website,
+completely free.
+
+53
+00:03:33,833 --> 00:03:39,867
+SEBI asks questions. The company answers. Then
+SEBI gives its observations.
+
+54
+00:03:39,900 --> 00:03:42,967
+Now let's clear up a big misunderstanding.
+
+55
+00:03:43,000 --> 00:03:46,900
+SEBI doesn't say whether a company is good or
+bad.
+
+56
+00:03:46,933 --> 00:03:51,767
+SEBI checks whether the important facts are
+written down clearly.
+
+57
+00:03:51,800 --> 00:03:58,067
+So, 'SEBI approved it, so it's safe'? Wrong.
+The decision is yours.
+
+58
+00:03:58,100 --> 00:04:03,267
+After the observations, the company has one
+year to open the IPO.
+
+59
+00:04:05,467 --> 00:04:07,700
+Now the question: what is a share worth?
+
+60
+00:04:07,733 --> 00:04:14,100
+The bankers meet big investors to gauge
+demand. This is called a roadshow.
+
+61
+00:04:14,133 --> 00:04:18,667
+Then comes the RHP. Now with dates, and a
+price band.
+
+62
+00:04:18,700 --> 00:04:25,467
+A price band means a range. Jio's: ₹1,065 to
+₹1,119.
+
+63
+00:04:25,500 --> 00:04:30,500
+People bid within this range. That's why it's
+called book building.
+
+64
+00:04:30,533 --> 00:04:33,776
+Small investors often choose 'cut-off'.
+Meaning:
+
+65
+00:04:33,810 --> 00:04:36,467
+whatever the final price is, I'm in.
+
+66
+00:04:36,867 --> 00:04:40,033
+And shares come in lots, not one by one.
+
+67
+00:04:40,067 --> 00:04:45,133
+By the rules, one lot is worth roughly ₹10,000
+to ₹15,000.
+
+68
+00:04:45,167 --> 00:04:51,133
+Jio's lot: 12 shares. ₹13,428 at the upper
+band.
+
+69
+00:04:51,533 --> 00:04:56,700
+A day before the issue opens, the big players
+arrive: anchor investors.
+
+70
+00:04:56,733 --> 00:05:00,800
+Mutual funds, insurance companies, foreign
+funds.
+
+71
+00:05:00,833 --> 00:05:06,633
+In Jio's IPO, 212 anchors together put in
+₹8,110 crore.
+
+72
+00:05:06,667 --> 00:05:11,667
+Their job: to show confidence. That big
+investors are ready at this price.
+
+73
+00:05:11,700 --> 00:05:13,105
+But there's a condition.
+
+74
+00:05:13,139 --> 00:05:16,342
+Half of the anchors' shares can't be sold for
+30 days,
+
+75
+00:05:16,375 --> 00:05:18,367
+and the other half for 90 days.
+
+76
+00:05:18,400 --> 00:05:20,967
+So they don't run away on listing day itself.
+
+77
+00:05:21,367 --> 00:05:25,100
+Now the rest of the shares are divided. Think
+of it as a cake.
+
+78
+00:05:25,133 --> 00:05:30,333
+50% for big institutions. They're called QIBs.
+
+79
+00:05:30,367 --> 00:05:36,867
+15% for large investors who put in more than
+₹2 lakh. NII.
+
+80
+00:05:36,900 --> 00:05:42,933
+And 35% for you. Retail investors, who put in
+up to ₹2 lakh.
+
+81
+00:05:42,967 --> 00:05:46,094
+This split is for profitable companies.
+
+82
+00:05:46,127 --> 00:05:51,333
+In a company that can't show profits yet,
+retail gets only 10%.
+
+83
+00:05:51,367 --> 00:05:55,833
+Because the risk there is higher. The rule
+itself is protecting you.
+
+84
+00:05:58,033 --> 00:06:03,967
+Now comes the big day. The issue opens, for at
+least three working days.
+
+85
+00:06:04,000 --> 00:06:06,933
+Jio's: 21 to 23 October.
+
+86
+00:06:07,333 --> 00:06:11,633
+In grandpa's time? Go to the bank, fill in a
+form, attach a cheque.
+
+87
+00:06:11,667 --> 00:06:15,356
+If you got shares, a paper certificate came
+home.
+
+88
+00:06:15,389 --> 00:06:18,300
+If not, a refund cheque, weeks later.
+
+89
+00:06:18,333 --> 00:06:23,967
+After Reliance's 1977 IPO, listing took about
+two months.
+
+90
+00:06:24,367 --> 00:06:29,067
+Today? Open a broker app, place a bid, approve
+the mandate on UPI.
+
+91
+00:06:29,100 --> 00:06:33,680
+And here's something many people don't know:
+the money isn't deducted.
+
+92
+00:06:33,714 --> 00:06:35,033
+It's only blocked.
+
+93
+00:06:35,067 --> 00:06:40,081
+This system is called ASBA. The money stays in
+your account.
+
+94
+00:06:40,114 --> 00:06:42,267
+You just can't spend it.
+
+95
+00:06:42,300 --> 00:06:47,100
+If you get shares, the money is deducted. If
+not, the block is released.
+
+96
+00:06:47,500 --> 00:06:48,393
+For three days,
+
+97
+00:06:48,426 --> 00:06:52,633
+the exchange shows live how much demand there
+is in each category.
+
+98
+00:06:52,667 --> 00:06:58,767
+This is called subscription. How many times
+the bids exceed the shares on offer.
+
+99
+00:06:58,800 --> 00:07:08,567
+Jio: about 22 times overall. QIB more than 70
+times. Retail about 2.7 times.
+
+100
+00:07:08,600 --> 00:07:12,567
+In other words, the big investors' queue was
+far longer than yours.
+
+101
+00:07:12,600 --> 00:07:19,352
+In these days another market also runs,
+without any rules: the grey market.
+
+102
+00:07:19,386 --> 00:07:20,967
+Its number: GMP.
+
+103
+00:07:21,000 --> 00:07:26,033
+GMP is unofficial. There's a separate full
+video on it.
+
+104
+00:07:28,233 --> 00:07:33,533
+Three days are over. This day is called T day.
+Now the clock starts.
+
+105
+00:07:33,567 --> 00:07:40,033
+SEBI's rule: T+3. Listing within three working
+days of the issue closing.
+
+106
+00:07:40,433 --> 00:07:45,233
+First step, T+1: allotment. Who gets the
+shares?
+
+107
+00:07:45,267 --> 00:07:47,959
+When retail demand is higher, the rule is:
+
+108
+00:07:47,992 --> 00:07:51,467
+give at least one lot to as many people as
+possible.
+
+109
+00:07:51,500 --> 00:07:53,173
+That's why there's a lottery.
+
+110
+00:07:53,207 --> 00:07:56,400
+By computer, under the stock exchange's
+supervision.
+
+111
+00:07:56,433 --> 00:07:57,957
+And here's the twist:
+
+112
+00:07:57,990 --> 00:08:03,800
+whether you applied for 1 lot or 14, you have
+just one ticket in the lottery.
+
+113
+00:08:03,833 --> 00:08:09,331
+Jio had about 8.5 crore shares for retail.
+Lots of 12.
+
+114
+00:08:09,365 --> 00:08:13,800
+So at most about 70 lakh people could win.
+
+115
+00:08:13,833 --> 00:08:17,265
+If more people apply than that, not everyone
+will get shares.
+
+116
+00:08:17,298 --> 00:08:19,500
+No matter how much money they put in.
+
+117
+00:08:19,533 --> 00:08:24,436
+Want to check your status? On the registrar's
+site, or on NSE or BSE.
+
+118
+00:08:24,469 --> 00:08:26,100
+Just enter your PAN.
+
+119
+00:08:26,500 --> 00:08:29,802
+T+2: if you got shares, they're in your demat.
+
+120
+00:08:29,835 --> 00:08:32,400
+If not, the UPI block is released.
+
+121
+00:08:32,433 --> 00:08:36,212
+Today India has more than 20 crore demat
+accounts.
+
+122
+00:08:36,246 --> 00:08:39,267
+The paper certificate is now history.
+
+123
+00:08:41,467 --> 00:08:46,900
+T+3: listing day. But the share doesn't jump
+straight into the market.
+
+124
+00:08:46,933 --> 00:08:49,180
+First, a special pre-open session.
+
+125
+00:08:49,213 --> 00:08:52,967
+From 9 to 9:45 in the morning, only orders are
+placed.
+
+126
+00:08:53,000 --> 00:08:58,400
+Then the exchange finds the price at which the
+most shares can trade.
+
+127
+00:08:58,433 --> 00:09:03,067
+That's the listing price. And normal trading
+starts at 10.
+
+128
+00:09:03,467 --> 00:09:09,467
+And yes, a bell rings too. Promoters, bankers,
+cameras. A big celebration.
+
+129
+00:09:09,500 --> 00:09:15,633
+But the gap between the IPO price and the
+listing price is your first profit or loss.
+
+130
+00:09:15,667 --> 00:09:22,700
+Bajaj Housing Finance: IPO ₹70, listing ₹150.
+More than double.
+
+131
+00:09:22,733 --> 00:09:29,867
+Hyundai Motor India: IPO ₹1,960, listing
+₹1,934. Lower.
+
+132
+00:09:29,900 --> 00:09:34,433
+LIC: about 8% lower at listing.
+
+133
+00:09:34,467 --> 00:09:39,933
+So a big name is no guarantee. Listing is just
+one day's mood.
+
+134
+00:09:42,133 --> 00:09:46,867
+The story doesn't end after listing. Now some
+locks open.
+
+135
+00:09:46,900 --> 00:09:50,439
+After 30 days, half of the anchors' shares are
+free.
+
+136
+00:09:50,472 --> 00:09:52,667
+After 90 days, the other half.
+
+137
+00:09:52,700 --> 00:09:55,900
+Shares of the old private investors: after 6
+months.
+
+138
+00:09:55,933 --> 00:10:01,406
+And the promoters? At least 20% of their stake
+is locked for 18 months.
+
+139
+00:10:01,439 --> 00:10:03,667
+In some cases, three years.
+
+140
+00:10:03,700 --> 00:10:06,974
+When the locks open, there can be more
+sellers.
+
+141
+00:10:07,007 --> 00:10:10,233
+These dates are already written in the RHP.
+
+142
+00:10:10,633 --> 00:10:14,500
+And the company's life changes. Now it's
+public.
+
+143
+00:10:14,533 --> 00:10:15,965
+Results every three months.
+
+144
+00:10:15,998 --> 00:10:19,333
+Every major development has to be reported to
+the exchange.
+
+145
+00:10:19,367 --> 00:10:25,233
+And you? Now you're an owner. A small one, but
+an owner. With voting rights too.
+
+146
+00:10:27,433 --> 00:10:32,000
+So when the next IPO comes, ask these five
+questions before you apply.
+
+147
+00:10:32,033 --> 00:10:38,700
+One: who is the money going to? The company,
+or the old partners' pockets?
+
+148
+00:10:38,733 --> 00:10:43,858
+Two: what will the money be used for? A new
+business, or an old loan?
+
+149
+00:10:43,891 --> 00:10:46,267
+Read the objects of the issue.
+
+150
+00:10:46,300 --> 00:10:51,933
+Three: does the company earn? Is the profit
+growing, or the debt?
+
+151
+00:10:51,967 --> 00:10:57,075
+Four: is the price right? Check 'basis for
+offer price' in the RHP.
+
+152
+00:10:57,108 --> 00:10:59,467
+Compare with other companies.
+
+153
+00:10:59,500 --> 00:11:05,533
+Five: why am I applying? For one day of
+listing, or for five years?
+
+154
+00:11:07,733 --> 00:11:10,167
+One more time, the whole journey.
+
+155
+00:11:10,200 --> 00:11:14,967
+Partners needed. Bankers. DRHP. SEBI's
+questions.
+
+156
+00:11:15,000 --> 00:11:18,400
+Price band. Anchors. Three days of bidding.
+
+157
+00:11:18,433 --> 00:11:24,967
+T+1 lottery. T+2 demat. T+3 bell.
+
+158
+00:11:25,000 --> 00:11:30,700
+The road was the same in 1977. And it'll be
+the same for the next IPO too.
+
+159
+00:11:30,733 --> 00:11:35,533
+An IPO isn't a lottery ticket. It's a stake in
+a company.
+
+160
+00:11:35,933 --> 00:11:41,058
+Whoever at home is applying for an IPO for the
+first time, son, dad or grandma,
+
+161
+00:11:41,091 --> 00:11:42,400
+send this to them.
+
+162
+00:11:42,433 --> 00:11:46,633
+This video is only for explanation. Not
+investment advice.
+
+163
+00:11:46,667 --> 00:11:50,033
+Understand money. This is Money Theory.
+
