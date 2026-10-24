@@ -68,5 +68,33 @@
   "page": "https://commons.wikimedia.org/wiki/File:Popcorn_at_the_cinema.jpg",
   "license": "CC BY-SA 4.0",
   "author": "Gaunti Recipes"
+ },
+ "zim_note": {
+  "file": "zim_note.jpg",
+  "title": "File:Zimbabwe $100 trillion 2009 Obverse.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Zimbabwe_$100_trillion_2009_Obverse.jpg",
+  "license": "Public domain",
+  "author": "Reserve Bank of Zimbabwe"
+ },
+ "rbi_tower": {
+  "file": "rbi_tower.jpg",
+  "title": "File:RBI-Tower.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:RBI-Tower.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": ""
+ },
+ "gold_bars": {
+  "file": "gold_bars.jpg",
+  "title": "File:Gold bullion bars.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_bullion_bars.jpg",
+  "license": "CC0",
+  "author": "Stevebidmead"
+ },
+ "cinema_hall": {
+  "file": "cinema_hall.jpg",
+  "title": "File:Northwest Film Forum 04A.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Northwest_Film_Forum_04A.jpg",
+  "license": "CC BY 2.5",
+  "author": "Joe Mabel"
  }
 }
