@@ -31,7 +31,7 @@ node tools/stills.mjs out/stills <frame> <frame> ... # quick layout review
 
 ## Topic reels (ElevenLabs narration)
 
-Fifteen more reels use the same design system, each with its own script, timeline, audio and scene folder. They have no episode numbers.
+Twenty-four more reels use the same design system, each with its own script, timeline, audio and scene folder. They have no episode numbers.
 
 | Reel | Script | Scenes |
 |---|---|---|
@@ -50,12 +50,22 @@ Fifteen more reels use the same design system, each with its own script, timelin
 | LTCG harvesting: ₹15,625 a year | `script/ltcg-harvesting.json` | `src/reels/ltcg-harvesting/` |
 | New vs old tax regime (80C) | `script/tax-regime-80c.json` | `src/reels/tax-regime-80c/` |
 | ₹1 crore retirement and inflation | `script/retirement-1-crore.json` | `src/reels/retirement-1-crore/` |
+| CTC ₹12 lakh, haath mein ₹79,000? | `script/ctc-in-hand.json` | `src/reels/ctc-in-hand/` |
+| 'Like karo, ₹150 kamao': task scam | `script/task-scam.json` | `src/reels/task-scam/` |
+| F&O: 10 mein se 9 traders ghaate mein | `script/fno-losses.json` | `src/reels/fno-losses/` |
+| Ticket ₹280, popcorn ₹400: kyun? | `script/popcorn-price.json` | `src/reels/popcorn-price/` |
+| UPI free hai. Toh apps kamaate kaise? | `script/upi-free.json` | `src/reels/upi-free/` |
+| Sarkar note chhaap ke sabko amir kyun nahi karti? | `script/money-printing.json` | `src/reels/money-printing/` |
+| ₹999 kyun, ₹1,000 kyun nahi? | `script/price-999.json` | `src/reels/price-999/` |
+| 1991: India ne apna sona girvi kyun rakha? | `script/gold-1991.json` | `src/reels/gold-1991/` |
+| 1992: ek kaagaz se hazaaron crore ka scam | `script/harshad-1992.json` | `src/reels/harshad-1992/` |
 
 ```
 python tools/tts_elevenlabs.py script/<id>.json build/<id>/vo [L05 ...]   # ElevenLabs takes + character timestamps (needs ELEVENLABS_API_KEY)
 TEMPO=1.06 python tools/build_timeline.py script/<id>.json build/<id>/vo public src/data/<id>.json <id>
 python tools/synth_audio.py src/data/<id>.json public/audio/<id> music
 node tools/stills.mjs src/reels/<id>/entry.tsx <id> out/stills <frame> ...
+sh tools/render_queue.sh                                                  # renders ids appended to build/queue.txt, one at a time (STOP ends it)
 sh tools/render_reel.sh <id>                                              # final/<id>.mp4 (~4.5 Mbps, -14 LUFS) + final/<id>-cover.jpg
 ```
 

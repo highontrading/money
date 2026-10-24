@@ -14,3 +14,5 @@ Jisne abhi abhi offer letter paaya hai, use bhejo 📲
 Educational only · not financial advice. Illustrative ₹12 lakh CTC; new tax regime FY 2026-27; professional tax varies by state. Your breakup will differ.
 
 #moneytheory #salary #ctc #inhandsalary #offerletter #jobs #pf #personalfinance #paisa
+
+Photos: Hand holding smartphone with blank white screen.jpg by Santeri Viinamäki (CC BY-SA 4.0); paper textures by Pink Sherbet Photography, James Puckett, Matt Edward (CC BY 2.0). Via Wikimedia Commons. Narration voice: ElevenLabs (eleven_v4).

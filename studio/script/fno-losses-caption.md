@@ -14,3 +14,5 @@ Jo dost roz options khelta hai, use bhejo 📲
 Educational only · not financial advice. Source: SEBI study on equity F&O, FY25 (July 2025): ~91% of individual traders made net losses. Educational only, not investment advice.
 
 #moneytheory #fno #optionstrading #sebi #stockmarket #trading #nifty #personalfinance #paisa
+
+Photos: BSE - Bombay Stock Exchange Building.jpg by Niyantha Shekhar (CC BY 2.0); Hand holding smartphone with blank white screen.jpg by Santeri Viinamäki (CC BY-SA 4.0); paper textures by Pink Sherbet Photography, James Puckett, Matt Edward (CC BY 2.0). Via Wikimedia Commons. Narration voice: ElevenLabs (eleven_v4).

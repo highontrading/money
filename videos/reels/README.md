@@ -1,6 +1,6 @@
 # Money Theory topic reels
 
-Fifteen Hinglish explainer reels in the paper-collage design system, 1080×1920 at 30 fps, about 4.5 Mbps, −14 LUFS. ElevenLabs narration (Hindi voice "Amrut Deshmukh"; `eleven_v4` from the third batch on). The source, scripts and captions are in `studio/` (see `studio/README.md`).
+Twenty-four Hinglish explainer reels in the paper-collage design system, 1080×1920 at 30 fps, about 4.5 Mbps, −14 LUFS. ElevenLabs narration (Hindi voice "Amrut Deshmukh"; `eleven_v4` from the third batch on). The source, scripts and captions are in `studio/` (see `studio/README.md`).
 
 | Reel | Length | Video | Cover | Caption |
 |---|---|---|---|---|
@@ -19,5 +19,14 @@ Fifteen Hinglish explainer reels in the paper-collage design system, 1080×1920 
 | Har saal ₹15,625 ka tax-free coupon (LTCG harvesting) | 1:26 | `ltcg-harvesting.mp4` | `ltcg-harvesting-cover.jpg` | `studio/script/ltcg-harvesting-caption.md` |
 | Tax bachane ke liye policy li? New regime mein ₹0 bacha | 1:29 | `tax-regime-80c.mp4` | `tax-regime-80c-cover.jpg` | `studio/script/tax-regime-80c-caption.md` |
 | ₹1 crore ka retirement: sirf 5 saal? | 1:22 | `retirement-1-crore.mp4` | `retirement-1-crore-cover.jpg` | `studio/script/retirement-1-crore-caption.md` |
+| CTC ₹12 lakh, haath mein ₹79,000? | 1:25 | `ctc-in-hand.mp4` | `ctc-in-hand-cover.jpg` | `studio/script/ctc-in-hand-caption.md` |
+| 'Like karo, ₹150 kamao': task scam | 1:19 | `task-scam.mp4` | `task-scam-cover.jpg` | `studio/script/task-scam-caption.md` |
+| F&O: 10 mein se 9 traders ghaate mein | 1:21 | `fno-losses.mp4` | `fno-losses-cover.jpg` | `studio/script/fno-losses-caption.md` |
+| Ticket ₹280, popcorn ₹400: kyun? | 1:16 | `popcorn-price.mp4` | `popcorn-price-cover.jpg` | `studio/script/popcorn-price-caption.md` |
+| UPI free hai. Toh apps kamaate kaise? | 1:19 | `upi-free.mp4` | `upi-free-cover.jpg` | `studio/script/upi-free-caption.md` |
+| Sarkar note chhaap ke sabko amir kyun nahi karti? | 1:15 | `money-printing.mp4` | `money-printing-cover.jpg` | `studio/script/money-printing-caption.md` |
+| ₹999 kyun, ₹1,000 kyun nahi? | 1:20 | `price-999.mp4` | `price-999-cover.jpg` | `studio/script/price-999-caption.md` |
+| 1991: India ne apna sona girvi kyun rakha? | 1:28 | `gold-1991.mp4` | `gold-1991-cover.jpg` | `studio/script/gold-1991-caption.md` |
+| 1992: ek kaagaz se hazaaron crore ka scam | 1:24 | `harshad-1992.mp4` | `harshad-1992-cover.jpg` | `studio/script/harshad-1992-caption.md` |
 
 All numbers are illustrative unless a source is named; each script's `data_note` lists the assumptions.
