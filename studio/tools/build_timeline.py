@@ -17,6 +17,7 @@ FPS = 30
 TEMPO = 1.08
 GAP = 0.16
 SCENE_GAP = 0.60
+CHAPTER_GAP = 2.4  # long-form: room for the chapter card and its music sting
 LEAD_IN = 0.45
 TAIL = 3.2
 
@@ -112,10 +113,11 @@ def main():
     script, vo, pub, tl_path = sys.argv[1:5]
     sub = sys.argv[5] if len(sys.argv) > 5 else ""
     audio_dir = os.path.join("audio", sub) if sub else "audio"
-    lines = json.load(open(script))["lines"]
+    doc = json.load(open(script)); lines = doc["lines"]
+    titles = {c["id"]: c["title"] for c in doc.get("chapters", [])}
     os.makedirs(os.path.join(pub, audio_dir), exist_ok=True)
     track, cursor, prev_scene = [], LEAD_IN, None
-    tl_lines, scenes = [], []
+    tl_lines, scenes, chapters, prev_ch = [], [], [], None
     for ln in lines:
         wav, mp3 = os.path.join(vo, ln["id"] + ".wav"), os.path.join(vo, ln["id"] + ".mp3")
         ps = None
@@ -127,8 +129,12 @@ def main():
         else:
             # while takes are still generating, preview with silence of the expected length
             a = np.zeros(int(len(ln["tts"]) * 0.066 * SR), np.float32)
+        ch = ln.get("chapter")
         if prev_scene is not None:
-            cursor += SCENE_GAP if ln["scene"] != prev_scene else GAP
+            cursor += CHAPTER_GAP if ch != prev_ch else SCENE_GAP if ln["scene"] != prev_scene else GAP
+        if ch and ch != prev_ch:
+            chapters.append({"id": ch, "title": titles.get(ch, ch), "start": round(max(0, cursor - CHAPTER_GAP) * FPS) if prev_ch else 0})
+            prev_ch = ch
         if ln["scene"] != prev_scene:
             scenes.append({"id": ln["scene"], "start_s": max(0, cursor - SCENE_GAP / 2) if prev_scene else 0})
         dur = len(a) / SR
@@ -156,8 +162,11 @@ def main():
         s["end"] = scenes[i + 1]["start_s"] * FPS if i + 1 < len(scenes) else duration
     for s in scenes: s["end"] = round(s["end"])
     json.dump({"fps": FPS, "duration": duration, "lines": tl_lines, "scenes": scenes, "audio": f"{audio_dir}/narration.wav",
-               "music": f"{audio_dir}/music.wav", "sfx": []}, open(tl_path, "w"), indent=1, ensure_ascii=False)
+               "music": f"{audio_dir}/music.wav", "sfx": [], **({"chapters": chapters} if chapters else {})}, open(tl_path, "w"), indent=1, ensure_ascii=False)
     print(f"duration {total:.1f}s, {len(tl_lines)} lines, {len(scenes)} scenes")
+    for c in chapters:
+        t = c["start"] // FPS
+        print(f"{t // 60}:{t % 60:02d} {c['title']}")
 
 
 if __name__ == "__main__":
