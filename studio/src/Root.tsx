@@ -13,10 +13,15 @@ import {reel as flatRate} from './reels/flat-vs-reducing';
 import {reel as roomRent} from './reels/room-rent-cap';
 import {reel as depositInsurance} from './reels/deposit-insurance';
 import {reel as sipStepUp} from './reels/sip-step-up';
+import {reel as pfWithdrawal} from './reels/pf-withdrawal';
+import {reel as cardClose} from './reels/card-close-score';
+import {reel as ltcg} from './reels/ltcg-harvesting';
+import {reel as taxRegime} from './reels/tax-regime-80c';
+import {reel as retirement} from './reels/retirement-1-crore';
 import {ReelCompositions} from './reels/register';
 import {FPS, H, W} from './theme';
 
-const REELS = [gold, creditCard, policyIrr, directVsRegular, averageVsCagr, homeLoan, flatRate, roomRent, depositInsurance, sipStepUp];
+const REELS = [gold, creditCard, policyIrr, directVsRegular, averageVsCagr, homeLoan, flatRate, roomRent, depositInsurance, sipStepUp, pfWithdrawal, cardClose, ltcg, taxRegime, retirement];
 
 const Root: React.FC = () => (
   <>

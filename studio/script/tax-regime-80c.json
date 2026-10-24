@@ -1,0 +1,136 @@
+{
+ "topic": "INCOME TAX",
+ "title": "Tax bachane ke liye policy li? New regime mein ek rupaya nahi bacha",
+ "data_note": "FY 2026-27, salaried, ₹12 lakh: new regime (default) -> ₹75,000 standard deduction, taxable ₹11.25 lakh, rebate up to ₹12 lakh -> zero tax. Old regime with ₹50,000 standard deduction and ₹1.5 lakh 80C -> taxable ₹10 lakh -> ₹1,17,000 incl. 4% cess (₹1,63,800 without 80C). Budget 2026 kept slabs unchanged; '80C' used colloquially (renumbered under the Income-tax Act 2025).",
+ "moods": {
+  "hook": "hook",
+  "two": "build",
+  "newmath": "drive",
+  "oldmath": "tension",
+  "when": "build",
+  "fix": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Salary *₹12 lakh.* Tax bachane ke liye ₹1.5 lakh ki policy aur ELSS.",
+   "tts": "सैलरी बारह लाख. टैक्स बचाने के लिए डेढ़ लाख की पॉलिसी और ई एल एस एस."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Tax kitna bacha? *Ek rupaya bhi nahi.*",
+   "tts": "टैक्स कितना बचा? एक रुपया भी नहीं."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Kyunki aap *new regime* mein ho. Aur wahan 80C chalta hi nahi.",
+   "tts": "क्योंकि आप न्यू रिजीम में हो. और वहाँ एटी सी चलता ही नहीं."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Aur new regime ab *default* hai. Aapne kuch na chuna, toh yahi.",
+   "tts": "और न्यू रिजीम अब डिफ़ॉल्ट है. आपने कुछ ना चुना, तो यही."
+  },
+  {
+   "id": "L05",
+   "scene": "two",
+   "cap": "Do raaste hain. *Old regime:* deductions milte hain, par tax rates zyada.",
+   "tts": "दो रास्ते हैं. ओल्ड रिजीम: डिडक्शन्स मिलते हैं, पर टैक्स रेट्स ज़्यादा."
+  },
+  {
+   "id": "L06",
+   "scene": "two",
+   "cap": "*New regime:* rates kam, par 80C jaise deductions nahi.",
+   "tts": "न्यू रिजीम: रेट्स कम, पर एटी सी जैसे डिडक्शन्स नहीं."
+  },
+  {
+   "id": "L07",
+   "scene": "newmath",
+   "cap": "₹12 lakh salary, new regime mein. Pehle *₹75,000* standard deduction.",
+   "tts": "बारह लाख सैलरी, न्यू रिजीम में. पहले पचहत्तर हज़ार स्टैंडर्ड डिडक्शन."
+  },
+  {
+   "id": "L08",
+   "scene": "newmath",
+   "cap": "Taxable bacha ₹11.25 lakh. ₹12 lakh tak *rebate.*",
+   "tts": "टैक्सेबल बचा सवा ग्यारह लाख. बारह लाख तक रिबेट."
+  },
+  {
+   "id": "L09",
+   "scene": "newmath",
+   "cap": "Tax? *Zero.*",
+   "tts": "टैक्स? ज़ीरो."
+  },
+  {
+   "id": "L10",
+   "scene": "oldmath",
+   "cap": "Wahi salary, old regime mein, ₹1.5 lakh ke 80C ke saath.",
+   "tts": "वही सैलरी, ओल्ड रिजीम में, डेढ़ लाख के एटी सी के साथ."
+  },
+  {
+   "id": "L11",
+   "scene": "oldmath",
+   "cap": "Tax? Lagbhag *₹1.17 lakh.*",
+   "tts": "टैक्स? लगभग एक लाख सत्रह हज़ार."
+  },
+  {
+   "id": "L12",
+   "scene": "oldmath",
+   "cap": "Yaani policy ne tax nahi bachaya. *New regime* ne bachaya.",
+   "tts": "यानी पॉलिसी ने टैक्स नहीं बचाया. न्यू रिजीम ने बचाया."
+  },
+  {
+   "id": "L13",
+   "scene": "oldmath",
+   "cap": "Aur ₹1.5 lakh ek aisi policy mein band, jo shayad *aapko chahiye hi nahi* thi.",
+   "tts": "और डेढ़ लाख एक ऐसी पॉलिसी में बंद, जो शायद आपको चाहिए ही नहीं थी."
+  },
+  {
+   "id": "L14",
+   "scene": "when",
+   "cap": "Toh old regime kab jeetta hai? Jab *bade deductions* hon.",
+   "tts": "तो ओल्ड रिजीम कब जीतता है? जब बड़े डिडक्शन्स हों."
+  },
+  {
+   "id": "L15",
+   "scene": "when",
+   "cap": "Jaise HRA, *home loan* ka interest, 80C, health insurance. Sab mila ke.",
+   "tts": "जैसे एच आर ए, होम लोन का इंटरेस्ट, एटी सी, हेल्थ इंश्योरेंस. सब मिला के."
+  },
+  {
+   "id": "L16",
+   "scene": "when",
+   "cap": "Isliye hisaab *dono taraf* lagao. Income tax ki site pe calculator hai.",
+   "tts": "इसलिए हिसाब दोनों तरफ़ लगाओ. इनकम टैक्स की साइट पे कैलकुलेटर है."
+  },
+  {
+   "id": "L17",
+   "scene": "fix",
+   "cap": "Aur ELSS? Achha investment ho sakta hai. Bas *tax ke naam pe* mat lo.",
+   "tts": "और ई एल एस एस? अच्छा इन्वेस्टमेंट हो सकता है. बस टैक्स के नाम पे मत लो."
+  },
+  {
+   "id": "L18",
+   "scene": "fix",
+   "cap": "HR declaration se pehle, *regime* chuno. Phir investment.",
+   "tts": "एच आर डिक्लेरेशन से पहले, रिजीम चुनो. फिर इन्वेस्टमेंट."
+  },
+  {
+   "id": "L19",
+   "scene": "outro",
+   "cap": "Jo dost March mein tax bachane ki policy dhoondhta hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त मार्च में टैक्स बचाने की पॉलिसी ढूँढता है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L20",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

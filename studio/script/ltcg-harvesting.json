@@ -1,0 +1,141 @@
+{
+ "topic": "TAX · CAPITAL GAINS",
+ "title": "Har saal ₹15,625 ka tax-free coupon",
+ "data_note": "Long-term gains on listed equity / equity funds (held >12 months): first ₹1.25 lakh a year exempt, 12.5% above (Budget 2024; unchanged in Budget 2026; section numbers changed under the Income-tax Act 2025 from 1 Apr 2026). ₹1.25 lakh x 12.5% = ₹15,625. Harvesting every year for 10 years saves up to ₹1,56,250. Limit is combined across stocks and funds, per person.",
+ "moods": {
+  "hook": "hook",
+  "rule": "build",
+  "trap": "tension",
+  "harvest": "drive",
+  "careful": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Har saal sarkar aapko deti hai, ek *tax-free coupon.*",
+   "tts": "हर साल सरकार आपको देती है, एक टैक्स फ़्री कूपन."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Keemat? *₹15,625.*",
+   "tts": "कीमत? पंद्रह हज़ार छह सौ पच्चीस."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Aur zyaadatar investors use *phenk* dete hain.",
+   "tts": "और ज़्यादातर इन्वेस्टर्स उसे फेंक देते हैं."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Coupon ka naam: *LTCG harvesting.*",
+   "tts": "कूपन का नाम: एल टी सी जी हार्वेस्टिंग."
+  },
+  {
+   "id": "L05",
+   "scene": "rule",
+   "cap": "Shares ya equity fund, *ek saal* se zyada rakhe, toh profit long term.",
+   "tts": "शेयर्स या इक्विटी फ़ंड, एक साल से ज़्यादा रखे, तो प्रॉफ़िट लॉन्ग टर्म."
+  },
+  {
+   "id": "L06",
+   "scene": "rule",
+   "cap": "Har saal pehle *₹1.25 lakh* ka long-term profit, tax-free.",
+   "tts": "हर साल पहले सवा लाख का लॉन्ग टर्म प्रॉफ़िट, टैक्स फ़्री."
+  },
+  {
+   "id": "L07",
+   "scene": "rule",
+   "cap": "Uske upar, *12.5%* tax.",
+   "tts": "उसके ऊपर, साढ़े बारह परसेंट टैक्स."
+  },
+  {
+   "id": "L08",
+   "scene": "rule",
+   "cap": "₹1.25 lakh ka 12.5%: yahi hai woh *₹15,625.*",
+   "tts": "सवा लाख का साढ़े बारह परसेंट: यही है वो पंद्रह हज़ार छह सौ पच्चीस."
+  },
+  {
+   "id": "L09",
+   "scene": "trap",
+   "cap": "Ab dikkat: yeh chhoot *saal dar saal* judti nahi.",
+   "tts": "अब दिक्कत: ये छूट साल दर साल जुड़ती नहीं."
+  },
+  {
+   "id": "L10",
+   "scene": "trap",
+   "cap": "Is saal use nahi kiya? *Khatam.* Agle saal phir sirf ₹1.25 lakh.",
+   "tts": "इस साल यूज़ नहीं किया? ख़त्म. अगले साल फिर सिर्फ़ सवा लाख."
+  },
+  {
+   "id": "L11",
+   "scene": "trap",
+   "cap": "10 saal baad ek saath becha? Chhoot mili *sirf ek baar.*",
+   "tts": "दस साल बाद एक साथ बेचा? छूट मिली सिर्फ़ एक बार."
+  },
+  {
+   "id": "L12",
+   "scene": "harvest",
+   "cap": "Harvesting matlab: har saal, *₹1.25 lakh tak* ka profit book karo.",
+   "tts": "हार्वेस्टिंग मतलब: हर साल, सवा लाख तक का प्रॉफ़िट बुक करो."
+  },
+  {
+   "id": "L13",
+   "scene": "harvest",
+   "cap": "Becho, aur *wahi paisa* turant wapas invest karo.",
+   "tts": "बेचो, और वही पैसा तुरंत वापस इन्वेस्ट करो."
+  },
+  {
+   "id": "L14",
+   "scene": "harvest",
+   "cap": "Investment wahi raha. Par aapki *kharid keemat* upar ho gayi.",
+   "tts": "इन्वेस्टमेंट वही रहा. पर आपकी ख़रीद कीमत ऊपर हो गई."
+  },
+  {
+   "id": "L15",
+   "scene": "harvest",
+   "cap": "Toh aage ka taxable profit *₹1.25 lakh kam.*",
+   "tts": "तो आगे का टैक्सेबल प्रॉफ़िट सवा लाख कम."
+  },
+  {
+   "id": "L16",
+   "scene": "harvest",
+   "cap": "10 saal tak har saal kiya? Tax bachega, *₹1.5 lakh se zyada.*",
+   "tts": "दस साल तक हर साल किया? टैक्स बचेगा, डेढ़ लाख से ज़्यादा."
+  },
+  {
+   "id": "L17",
+   "scene": "careful",
+   "cap": "Par dhyan do. Becho sirf woh units, jo *ek saal* purane hain.",
+   "tts": "पर ध्यान दो. बेचो सिर्फ़ वो यूनिट्स, जो एक साल पुराने हैं."
+  },
+  {
+   "id": "L18",
+   "scene": "careful",
+   "cap": "*Exit load* check karo. Aur yeh limit stocks aur funds, sab mila ke hai.",
+   "tts": "एग्ज़िट लोड चेक करो. और ये लिमिट स्टॉक्स और फ़ंड्स, सब मिला के है."
+  },
+  {
+   "id": "L19",
+   "scene": "careful",
+   "cap": "Aur sabse accha waqt? *March se pehle,* har financial year.",
+   "tts": "और सबसे अच्छा वक़्त? मार्च से पहले, हर फ़ाइनेंशियल ईयर."
+  },
+  {
+   "id": "L20",
+   "scene": "outro",
+   "cap": "Jo dost kabhi apna fund nahi bechta, *use yeh bhejo.*",
+   "tts": "जो दोस्त कभी अपना फ़ंड नहीं बेचता, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L21",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

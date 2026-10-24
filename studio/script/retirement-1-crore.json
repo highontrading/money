@@ -1,0 +1,135 @@
+{
+ "topic": "RETIREMENT",
+ "title": "₹1 crore ka retirement: sirf 5 saal?",
+ "data_note": "Illustrative: 6% inflation for 25 years -> prices x4.29; ₹1 crore then = ₹23.3 lakh today. ₹50,000/month expenses today -> ₹2.15 lakh/month (₹25.8 lakh/yr) in 25 years. ₹1 crore earning 7% with expenses rising 6% lasts ~5 years. Corpus for 30 years of retirement at those rates ≈ ₹6.3 crore.",
+ "moods": {
+  "hook": "hook",
+  "infl": "build",
+  "expense": "tension",
+  "need": "drive",
+  "fix": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Plan simple hai: 60 tak *₹1 crore* jodo, aur aaraam.",
+   "tts": "प्लान सिंपल है: साठ तक एक करोड़ जोड़ो, और आराम."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Aaj ₹1 crore bahut lagta hai.",
+   "tts": "आज एक करोड़ बहुत लगता है."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Par 25 saal baad, woh chalega sirf *5 saal.*",
+   "tts": "पर पच्चीस साल बाद, वो चलेगा सिर्फ़ पाँच साल."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Villain ka naam: *mehngai.*",
+   "tts": "विलेन का नाम: महंगाई."
+  },
+  {
+   "id": "L05",
+   "scene": "infl",
+   "cap": "Maan lo mehngai *6%* saalana.",
+   "tts": "मान लो महंगाई छह परसेंट सालाना."
+  },
+  {
+   "id": "L06",
+   "scene": "infl",
+   "cap": "Har saal cheezein 6% mehngi. Aur yeh bhi *compound* hota hai.",
+   "tts": "हर साल चीज़ें छह परसेंट महंगी. और ये भी कंपाउंड होता है."
+  },
+  {
+   "id": "L07",
+   "scene": "infl",
+   "cap": "25 saal mein, daam lagbhag *4.3 guna.*",
+   "tts": "पच्चीस साल में, दाम लगभग चार दशमलव तीन गुना."
+  },
+  {
+   "id": "L08",
+   "scene": "infl",
+   "cap": "Toh 25 saal baad ka ₹1 crore, aaj ke sirf *₹23 lakh* jitna.",
+   "tts": "तो पच्चीस साल बाद का एक करोड़, आज के सिर्फ़ तेईस लाख जितना."
+  },
+  {
+   "id": "L09",
+   "scene": "expense",
+   "cap": "Aaj ghar ka kharcha *₹50,000* mahina?",
+   "tts": "आज घर का ख़र्चा पचास हज़ार महीना?"
+  },
+  {
+   "id": "L10",
+   "scene": "expense",
+   "cap": "25 saal baad, wahi life: *₹2.15 lakh* mahina.",
+   "tts": "पच्चीस साल बाद, वही लाइफ़: दो लाख पंद्रह हज़ार महीना."
+  },
+  {
+   "id": "L11",
+   "scene": "expense",
+   "cap": "Saal ka lagbhag *₹26 lakh.*",
+   "tts": "साल का लगभग छब्बीस लाख."
+  },
+  {
+   "id": "L12",
+   "scene": "expense",
+   "cap": "₹1 crore, 7% return ke saath bhi, *5 saal* mein khatam.",
+   "tts": "एक करोड़, सात परसेंट रिटर्न के साथ भी, पाँच साल में ख़त्म."
+  },
+  {
+   "id": "L13",
+   "scene": "need",
+   "cap": "Toh chahiye kitna? 30 saal ke retirement ke liye, lagbhag *₹6 crore se upar.*",
+   "tts": "तो चाहिए कितना? तीस साल के रिटायरमेंट के लिए, लगभग छह करोड़ से ऊपर."
+  },
+  {
+   "id": "L14",
+   "scene": "need",
+   "cap": "Darr gaye? Ruko. Compounding aapki *taraf bhi* kaam karti hai.",
+   "tts": "डर गए? रुको. कंपाउंडिंग आपकी तरफ़ भी काम करती है."
+  },
+  {
+   "id": "L15",
+   "scene": "fix",
+   "cap": "Pehla: target *aaj ke rupaye* mein mat socho. Mehngai jod ke socho.",
+   "tts": "पहला: टारगेट आज के रुपये में मत सोचो. महंगाई जोड़ के सोचो."
+  },
+  {
+   "id": "L16",
+   "scene": "fix",
+   "cap": "Doosra: *jaldi shuru* karo. 25 saal ka SIP, 15 saal se kahin zyada banata hai.",
+   "tts": "दूसरा: जल्दी शुरू करो. पच्चीस साल का एस आई पी, पंद्रह साल से कहीं ज़्यादा बनाता है."
+  },
+  {
+   "id": "L17",
+   "scene": "fix",
+   "cap": "Teesra: salary badhe, toh *SIP bhi badhao.*",
+   "tts": "तीसरा: सैलरी बढ़े, तो एस आई पी भी बढ़ाओ."
+  },
+  {
+   "id": "L18",
+   "scene": "fix",
+   "cap": "Aur retirement ka paisa sirf *FD* mein nahi. Mehngai se tez badhne wali jagah chahiye.",
+   "tts": "और रिटायरमेंट का पैसा सिर्फ़ एफ़ डी में नहीं. महंगाई से तेज़ बढ़ने वाली जगह चाहिए."
+  },
+  {
+   "id": "L19",
+   "scene": "outro",
+   "cap": "Jo kehta hai ₹1 crore kaafi hai, *use yeh bhejo.*",
+   "tts": "जो कहता है एक करोड़ काफ़ी है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L20",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

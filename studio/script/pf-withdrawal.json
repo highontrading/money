@@ -1,0 +1,140 @@
+{
+ "topic": "PF · EPF",
+ "title": "Job badli, PF nikaala: ₹3 lakh liye, ₹32 lakh gaye",
+ "data_note": "Illustrative: ₹3 lakh left in EPF at 8.25% (rate for FY 2025-26, declared by EPFO, ratified 2026) for 30 years (age 28 to 58) -> ₹32.4 lakh, no further contributions. Withdrawal before 5 years of continuous service can be taxable, with TDS. Transfer via UAN on the EPFO portal keeps the service continuous.",
+ "moods": {
+  "hook": "hook",
+  "compound": "build",
+  "tax": "tension",
+  "transfer": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Naukri badli. Purane PF mein the *₹3 lakh.*",
+   "tts": "नौकरी बदली. पुराने पी एफ़ में थे तीन लाख."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Socha, nikaal lete hain. *Bike* aa jaayegi.",
+   "tts": "सोचा, निकाल लेते हैं. बाइक आ जाएगी."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Par woh ₹3 lakh, retirement tak ban sakte the *₹32 lakh.*",
+   "tts": "पर वो तीन लाख, रिटायरमेंट तक बन सकते थे बत्तीस लाख."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Ek bike ki asli keemat: *₹29 lakh.*",
+   "tts": "एक बाइक की असली कीमत: उनतीस लाख."
+  },
+  {
+   "id": "L05",
+   "scene": "hook",
+   "cap": "Kaise? PF ka *compounding* samjho.",
+   "tts": "कैसे? पी एफ़ का कंपाउंडिंग समझो."
+  },
+  {
+   "id": "L06",
+   "scene": "compound",
+   "cap": "EPF pe interest hai *8.25%* saalana. EPFO har saal tay karta hai.",
+   "tts": "ई पी एफ़ पे इंटरेस्ट है सवा आठ परसेंट सालाना. ई पी एफ़ ओ हर साल तय करता है."
+  },
+  {
+   "id": "L07",
+   "scene": "compound",
+   "cap": "Aur interest pe bhi interest. *Har saal.*",
+   "tts": "और इंटरेस्ट पे भी इंटरेस्ट. हर साल."
+  },
+  {
+   "id": "L08",
+   "scene": "compound",
+   "cap": "Maan lo umar 28. Retirement 58 pe. Yaani *30 saal.*",
+   "tts": "मान लो उमर अट्ठाईस. रिटायरमेंट अट्ठावन पे. यानी तीस साल."
+  },
+  {
+   "id": "L09",
+   "scene": "compound",
+   "cap": "₹3 lakh, 8.25% pe, 30 saal: lagbhag *₹32 lakh.*",
+   "tts": "तीन लाख, सवा आठ परसेंट पे, तीस साल: लगभग बत्तीस लाख."
+  },
+  {
+   "id": "L10",
+   "scene": "compound",
+   "cap": "Aur yeh sirf *ek baar* ka paisa hai. Koi naya contribution nahi.",
+   "tts": "और ये सिर्फ़ एक बार का पैसा है. कोई नया कॉन्ट्रिब्यूशन नहीं."
+  },
+  {
+   "id": "L11",
+   "scene": "compound",
+   "cap": "Har job switch pe nikaala? Toh har baar compounding *zero se shuru.*",
+   "tts": "हर जॉब स्विच पे निकाला? तो हर बार कंपाउंडिंग ज़ीरो से शुरू."
+  },
+  {
+   "id": "L12",
+   "scene": "tax",
+   "cap": "Aur ek baat. *5 saal* ki continuous service se pehle nikaala?",
+   "tts": "और एक बात. पाँच साल की कंटिन्यूअस सर्विस से पहले निकाला?"
+  },
+  {
+   "id": "L13",
+   "scene": "tax",
+   "cap": "Toh yeh paisa *taxable* ho sakta hai. Aur TDS bhi kat sakta hai.",
+   "tts": "तो ये पैसा टैक्सेबल हो सकता है. और टी डी एस भी कट सकता है."
+  },
+  {
+   "id": "L14",
+   "scene": "tax",
+   "cap": "Yaani haath mein *₹3 lakh* bhi poore nahi aate.",
+   "tts": "यानी हाथ में तीन लाख भी पूरे नहीं आते."
+  },
+  {
+   "id": "L15",
+   "scene": "transfer",
+   "cap": "Toh karein kya? *Transfer.* Nikaalo mat.",
+   "tts": "तो करें क्या? ट्रांसफ़र. निकालो मत."
+  },
+  {
+   "id": "L16",
+   "scene": "transfer",
+   "cap": "Aapka *UAN* ek hi rehta hai. Har naukri mein wahi.",
+   "tts": "आपका यू ए एन एक ही रहता है. हर नौकरी में वही."
+  },
+  {
+   "id": "L17",
+   "scene": "transfer",
+   "cap": "EPFO portal pe, purana PF *naye account* mein transfer karo. Online.",
+   "tts": "ई पी एफ़ ओ पोर्टल पे, पुराना पी एफ़ नए अकाउंट में ट्रांसफ़र करो. ऑनलाइन."
+  },
+  {
+   "id": "L18",
+   "scene": "transfer",
+   "cap": "Paisa bhi chalta rehta hai, aur *service bhi judti* rehti hai. 5 saal ka hisaab bhi.",
+   "tts": "पैसा भी चलता रहता है, और सर्विस भी जुड़ती रहती है. पाँच साल का हिसाब भी."
+  },
+  {
+   "id": "L19",
+   "scene": "transfer",
+   "cap": "Sach mein emergency hai? Toh poora nahi, *zaroorat jitna* nikaalo.",
+   "tts": "सच में इमरजेंसी है? तो पूरा नहीं, ज़रूरत जितना निकालो."
+  },
+  {
+   "id": "L20",
+   "scene": "outro",
+   "cap": "Jisne abhi abhi resign kiya hai, *use yeh bhejo.*",
+   "tts": "जिसने अभी अभी रिज़ाइन किया है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L21",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "topic": "CREDIT SCORE",
+ "title": "Credit card band kiya, CIBIL score gira?",
+ "data_note": "Illustrative: two cards with ₹1 lakh limit each, ₹60,000 monthly spend -> utilization 30%; close one -> 60%. Under 30% is a common guideline, not an official cutoff; CIBIL does not publish factor weights. Closed accounts stay on the report, but average account age falls over time.",
+ "moods": {
+  "hook": "hook",
+  "util": "build",
+  "close": "tension",
+  "age": "drive",
+  "fix": "lift",
+  "outro": "outro"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Do credit card the. Ek purana, kabhi use nahi hota.",
+   "tts": "दो क्रेडिट कार्ड थे. एक पुराना, कभी यूज़ नहीं होता."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Socha, band kar dete hain. *Responsible* kaam.",
+   "tts": "सोचा, बंद कर देते हैं. रिस्पॉन्सिबल काम."
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Agle mahine *CIBIL score* gira.",
+   "tts": "अगले महीने सिबिल स्कोर गिरा."
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "cap": "Card band karne se score *kyun* girta hai?",
+   "tts": "कार्ड बंद करने से स्कोर क्यों गिरता है?"
+  },
+  {
+   "id": "L05",
+   "scene": "util",
+   "cap": "Score ka ek bada hissa: *credit utilization.*",
+   "tts": "स्कोर का एक बड़ा हिस्सा: क्रेडिट यूटिलाइज़ेशन."
+  },
+  {
+   "id": "L06",
+   "scene": "util",
+   "cap": "Yaani aapki limit ka *kitna hissa* aap use karte ho.",
+   "tts": "यानी आपकी लिमिट का कितना हिस्सा आप यूज़ करते हो."
+  },
+  {
+   "id": "L07",
+   "scene": "util",
+   "cap": "Do card, dono ki limit *₹1 lakh.* Total ₹2 lakh.",
+   "tts": "दो कार्ड, दोनों की लिमिट एक लाख. टोटल दो लाख."
+  },
+  {
+   "id": "L08",
+   "scene": "util",
+   "cap": "Har mahine kharcha *₹60,000.*",
+   "tts": "हर महीने ख़र्चा साठ हज़ार."
+  },
+  {
+   "id": "L09",
+   "scene": "util",
+   "cap": "₹60,000 ÷ ₹2 lakh: *30%.* Theek-thaak.",
+   "tts": "साठ हज़ार भाग दो लाख: तीस परसेंट. ठीक ठाक."
+  },
+  {
+   "id": "L10",
+   "scene": "close",
+   "cap": "Ab ek card band. Limit bachi *₹1 lakh.*",
+   "tts": "अब एक कार्ड बंद. लिमिट बची एक लाख."
+  },
+  {
+   "id": "L11",
+   "scene": "close",
+   "cap": "Kharcha wahi ₹60,000. Utilization? *60%.*",
+   "tts": "ख़र्चा वही साठ हज़ार. यूटिलाइज़ेशन? साठ परसेंट."
+  },
+  {
+   "id": "L12",
+   "scene": "close",
+   "cap": "Bank ko lagta hai, aap *credit pe zyada* nirbhar ho.",
+   "tts": "बैंक को लगता है, आप क्रेडिट पे ज़्यादा निर्भर हो."
+  },
+  {
+   "id": "L13",
+   "scene": "close",
+   "cap": "Aam salah: utilization *30% se neeche* rakho.",
+   "tts": "आम सलाह: यूटिलाइज़ेशन तीस परसेंट से नीचे रखो."
+  },
+  {
+   "id": "L14",
+   "scene": "age",
+   "cap": "Aur doosra nuksaan: woh card *sabse purana* tha.",
+   "tts": "और दूसरा नुकसान: वो कार्ड सबसे पुराना था."
+  },
+  {
+   "id": "L15",
+   "scene": "age",
+   "cap": "Purana account matlab *lambi history.* Score ko yeh pasand hai.",
+   "tts": "पुराना अकाउंट मतलब लंबी हिस्ट्री. स्कोर को ये पसंद है."
+  },
+  {
+   "id": "L16",
+   "scene": "age",
+   "cap": "Band kiya, toh aapki average credit age *dheere dheere ghat* jaati hai.",
+   "tts": "बंद किया, तो आपकी एवरेज क्रेडिट एज धीरे धीरे घट जाती है."
+  },
+  {
+   "id": "L17",
+   "scene": "fix",
+   "cap": "Toh karein kya? Free card hai, toh *band mat karo.*",
+   "tts": "तो करें क्या? फ़्री कार्ड है, तो बंद मत करो."
+  },
+  {
+   "id": "L18",
+   "scene": "fix",
+   "cap": "Kabhi kabhi chhota sa kharcha karo, aur *poora bill* bharo.",
+   "tts": "कभी कभी छोटा सा ख़र्चा करो, और पूरा बिल भरो."
+  },
+  {
+   "id": "L19",
+   "scene": "fix",
+   "cap": "Annual fee bhaari hai? Bank se *lifetime free* version maango.",
+   "tts": "एनुअल फ़ी भारी है? बैंक से लाइफ़टाइम फ़्री वर्ज़न माँगो."
+  },
+  {
+   "id": "L20",
+   "scene": "fix",
+   "cap": "Aur bada kharcha aane wala hai? Pehle *limit badhwao,* card mat todo.",
+   "tts": "और बड़ा ख़र्चा आने वाला है? पहले लिमिट बढ़वाओ, कार्ड मत तोड़ो."
+  },
+  {
+   "id": "L21",
+   "scene": "outro",
+   "cap": "Jo dost apna purana card band karne wala hai, *use yeh bhejo.*",
+   "tts": "जो दोस्त अपना पुराना कार्ड बंद करने वाला है, उसे ये वीडियो भेजो."
+  },
+  {
+   "id": "L22",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है मनी थ्योरी."
+  }
+ ]
+}

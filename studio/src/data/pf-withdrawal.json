@@ -1,0 +1,1415 @@
+{
+ "fps": 30,
+ "duration": 2606,
+ "lines": [
+  {
+   "id": "L01",
+   "scene": "hook",
+   "start": 14,
+   "end": 107,
+   "words": [
+    {
+     "text": "Naukri",
+     "hi": false,
+     "start": 14,
+     "end": 26
+    },
+    {
+     "text": "badli.",
+     "hi": false,
+     "start": 26,
+     "end": 36
+    },
+    {
+     "text": "Purane",
+     "hi": false,
+     "start": 51,
+     "end": 63
+    },
+    {
+     "text": "PF",
+     "hi": false,
+     "start": 63,
+     "end": 69
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 69,
+     "end": 77
+    },
+    {
+     "text": "the",
+     "hi": false,
+     "start": 77,
+     "end": 85
+    },
+    {
+     "text": "₹3",
+     "hi": true,
+     "start": 85,
+     "end": 95
+    },
+    {
+     "text": "lakh.",
+     "hi": true,
+     "start": 95,
+     "end": 104
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "start": 112,
+   "end": 196,
+   "words": [
+    {
+     "text": "Socha,",
+     "hi": false,
+     "start": 112,
+     "end": 128
+    },
+    {
+     "text": "nikaal",
+     "hi": false,
+     "start": 139,
+     "end": 152
+    },
+    {
+     "text": "lete",
+     "hi": false,
+     "start": 152,
+     "end": 161
+    },
+    {
+     "text": "hain.",
+     "hi": false,
+     "start": 161,
+     "end": 171
+    },
+    {
+     "text": "Bike",
+     "hi": true,
+     "start": 173,
+     "end": 180
+    },
+    {
+     "text": "aa",
+     "hi": false,
+     "start": 180,
+     "end": 185
+    },
+    {
+     "text": "jaayegi.",
+     "hi": false,
+     "start": 185,
+     "end": 196
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "start": 201,
+   "end": 319,
+   "words": [
+    {
+     "text": "Par",
+     "hi": false,
+     "start": 201,
+     "end": 208
+    },
+    {
+     "text": "woh",
+     "hi": false,
+     "start": 208,
+     "end": 215
+    },
+    {
+     "text": "₹3",
+     "hi": false,
+     "start": 215,
+     "end": 226
+    },
+    {
+     "text": "lakh,",
+     "hi": false,
+     "start": 226,
+     "end": 234
+    },
+    {
+     "text": "retirement",
+     "hi": false,
+     "start": 251,
+     "end": 268
+    },
+    {
+     "text": "tak",
+     "hi": false,
+     "start": 268,
+     "end": 274
+    },
+    {
+     "text": "ban",
+     "hi": false,
+     "start": 274,
+     "end": 281
+    },
+    {
+     "text": "sakte",
+     "hi": false,
+     "start": 281,
+     "end": 290
+    },
+    {
+     "text": "the",
+     "hi": false,
+     "start": 290,
+     "end": 296
+    },
+    {
+     "text": "₹32",
+     "hi": true,
+     "start": 296,
+     "end": 310
+    },
+    {
+     "text": "lakh.",
+     "hi": true,
+     "start": 310,
+     "end": 318
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "scene": "hook",
+   "start": 324,
+   "end": 417,
+   "words": [
+    {
+     "text": "Ek",
+     "hi": false,
+     "start": 324,
+     "end": 332
+    },
+    {
+     "text": "bike",
+     "hi": false,
+     "start": 332,
+     "end": 344
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 344,
+     "end": 352
+    },
+    {
+     "text": "asli",
+     "hi": false,
+     "start": 352,
+     "end": 364
+    },
+    {
+     "text": "keemat:",
+     "hi": false,
+     "start": 364,
+     "end": 381
+    },
+    {
+     "text": "₹29",
+     "hi": true,
+     "start": 383,
+     "end": 405
+    },
+    {
+     "text": "lakh.",
+     "hi": true,
+     "start": 405,
+     "end": 417
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "scene": "hook",
+   "start": 422,
+   "end": 494,
+   "words": [
+    {
+     "text": "Kaise?",
+     "hi": false,
+     "start": 422,
+     "end": 449
+    },
+    {
+     "text": "PF",
+     "hi": false,
+     "start": 451,
+     "end": 457
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 457,
+     "end": 462
+    },
+    {
+     "text": "compounding",
+     "hi": true,
+     "start": 462,
+     "end": 482
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 482,
+     "end": 494
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "scene": "compound",
+   "start": 512,
+   "end": 678,
+   "words": [
+    {
+     "text": "EPF",
+     "hi": false,
+     "start": 512,
+     "end": 522
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 522,
+     "end": 530
+    },
+    {
+     "text": "interest",
+     "hi": false,
+     "start": 530,
+     "end": 553
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 553,
+     "end": 564
+    },
+    {
+     "text": "8.25%",
+     "hi": true,
+     "start": 564,
+     "end": 596
+    },
+    {
+     "text": "saalana.",
+     "hi": false,
+     "start": 596,
+     "end": 616
+    },
+    {
+     "text": "EPFO",
+     "hi": false,
+     "start": 618,
+     "end": 629
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 629,
+     "end": 637
+    },
+    {
+     "text": "saal",
+     "hi": false,
+     "start": 637,
+     "end": 648
+    },
+    {
+     "text": "tay",
+     "hi": false,
+     "start": 648,
+     "end": 656
+    },
+    {
+     "text": "karta",
+     "hi": false,
+     "start": 656,
+     "end": 669
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 669,
+     "end": 678
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "scene": "compound",
+   "start": 682,
+   "end": 764,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 682,
+     "end": 691
+    },
+    {
+     "text": "interest",
+     "hi": false,
+     "start": 691,
+     "end": 710
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 710,
+     "end": 716
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 716,
+     "end": 725
+    },
+    {
+     "text": "interest.",
+     "hi": false,
+     "start": 725,
+     "end": 744
+    },
+    {
+     "text": "Har",
+     "hi": true,
+     "start": 746,
+     "end": 754
+    },
+    {
+     "text": "saal.",
+     "hi": true,
+     "start": 754,
+     "end": 764
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "scene": "compound",
+   "start": 769,
+   "end": 918,
+   "words": [
+    {
+     "text": "Maan",
+     "hi": false,
+     "start": 769,
+     "end": 780
+    },
+    {
+     "text": "lo",
+     "hi": false,
+     "start": 780,
+     "end": 787
+    },
+    {
+     "text": "umar",
+     "hi": false,
+     "start": 787,
+     "end": 797
+    },
+    {
+     "text": "28.",
+     "hi": false,
+     "start": 797,
+     "end": 817
+    },
+    {
+     "text": "Retirement",
+     "hi": false,
+     "start": 833,
+     "end": 850
+    },
+    {
+     "text": "58",
+     "hi": false,
+     "start": 850,
+     "end": 866
+    },
+    {
+     "text": "pe.",
+     "hi": false,
+     "start": 866,
+     "end": 871
+    },
+    {
+     "text": "Yaani",
+     "hi": false,
+     "start": 887,
+     "end": 896
+    },
+    {
+     "text": "30",
+     "hi": true,
+     "start": 896,
+     "end": 909
+    },
+    {
+     "text": "saal.",
+     "hi": true,
+     "start": 909,
+     "end": 916
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "scene": "compound",
+   "start": 923,
+   "end": 1068,
+   "words": [
+    {
+     "text": "₹3",
+     "hi": false,
+     "start": 923,
+     "end": 933
+    },
+    {
+     "text": "lakh,",
+     "hi": false,
+     "start": 933,
+     "end": 941
+    },
+    {
+     "text": "8.25%",
+     "hi": false,
+     "start": 953,
+     "end": 987
+    },
+    {
+     "text": "pe,",
+     "hi": false,
+     "start": 987,
+     "end": 996
+    },
+    {
+     "text": "30",
+     "hi": false,
+     "start": 998,
+     "end": 1017
+    },
+    {
+     "text": "saal:",
+     "hi": false,
+     "start": 1017,
+     "end": 1027
+    },
+    {
+     "text": "lagbhag",
+     "hi": false,
+     "start": 1030,
+     "end": 1043
+    },
+    {
+     "text": "₹32",
+     "hi": true,
+     "start": 1043,
+     "end": 1059
+    },
+    {
+     "text": "lakh.",
+     "hi": true,
+     "start": 1059,
+     "end": 1068
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "scene": "compound",
+   "start": 1073,
+   "end": 1178,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1073,
+     "end": 1080
+    },
+    {
+     "text": "yeh",
+     "hi": false,
+     "start": 1080,
+     "end": 1088
+    },
+    {
+     "text": "sirf",
+     "hi": false,
+     "start": 1088,
+     "end": 1097
+    },
+    {
+     "text": "ek",
+     "hi": true,
+     "start": 1097,
+     "end": 1103
+    },
+    {
+     "text": "baar",
+     "hi": true,
+     "start": 1103,
+     "end": 1112
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 1112,
+     "end": 1118
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 1118,
+     "end": 1129
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1129,
+     "end": 1136
+    },
+    {
+     "text": "Koi",
+     "hi": false,
+     "start": 1138,
+     "end": 1144
+    },
+    {
+     "text": "naya",
+     "hi": false,
+     "start": 1144,
+     "end": 1152
+    },
+    {
+     "text": "contribution",
+     "hi": false,
+     "start": 1152,
+     "end": 1170
+    },
+    {
+     "text": "nahi.",
+     "hi": false,
+     "start": 1170,
+     "end": 1178
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "scene": "compound",
+   "start": 1182,
+   "end": 1305,
+   "words": [
+    {
+     "text": "Har",
+     "hi": false,
+     "start": 1182,
+     "end": 1188
+    },
+    {
+     "text": "job",
+     "hi": false,
+     "start": 1188,
+     "end": 1194
+    },
+    {
+     "text": "switch",
+     "hi": false,
+     "start": 1194,
+     "end": 1203
+    },
+    {
+     "text": "pe",
+     "hi": false,
+     "start": 1203,
+     "end": 1208
+    },
+    {
+     "text": "nikaala?",
+     "hi": false,
+     "start": 1208,
+     "end": 1219
+    },
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 1237,
+     "end": 1244
+    },
+    {
+     "text": "har",
+     "hi": false,
+     "start": 1244,
+     "end": 1251
+    },
+    {
+     "text": "baar",
+     "hi": false,
+     "start": 1251,
+     "end": 1259
+    },
+    {
+     "text": "compounding",
+     "hi": false,
+     "start": 1259,
+     "end": 1278
+    },
+    {
+     "text": "zero",
+     "hi": true,
+     "start": 1278,
+     "end": 1287
+    },
+    {
+     "text": "se",
+     "hi": true,
+     "start": 1287,
+     "end": 1292
+    },
+    {
+     "text": "shuru.",
+     "hi": true,
+     "start": 1292,
+     "end": 1302
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "scene": "tax",
+   "start": 1323,
+   "end": 1434,
+   "words": [
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1323,
+     "end": 1331
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 1331,
+     "end": 1338
+    },
+    {
+     "text": "baat.",
+     "hi": false,
+     "start": 1338,
+     "end": 1349
+    },
+    {
+     "text": "5",
+     "hi": true,
+     "start": 1359,
+     "end": 1368
+    },
+    {
+     "text": "saal",
+     "hi": true,
+     "start": 1368,
+     "end": 1376
+    },
+    {
+     "text": "ki",
+     "hi": false,
+     "start": 1376,
+     "end": 1380
+    },
+    {
+     "text": "continuous",
+     "hi": false,
+     "start": 1380,
+     "end": 1397
+    },
+    {
+     "text": "service",
+     "hi": false,
+     "start": 1397,
+     "end": 1408
+    },
+    {
+     "text": "se",
+     "hi": false,
+     "start": 1408,
+     "end": 1413
+    },
+    {
+     "text": "pehle",
+     "hi": false,
+     "start": 1413,
+     "end": 1422
+    },
+    {
+     "text": "nikaala?",
+     "hi": false,
+     "start": 1422,
+     "end": 1434
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "scene": "tax",
+   "start": 1439,
+   "end": 1558,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 1439,
+     "end": 1447
+    },
+    {
+     "text": "yeh",
+     "hi": false,
+     "start": 1447,
+     "end": 1456
+    },
+    {
+     "text": "paisa",
+     "hi": false,
+     "start": 1456,
+     "end": 1467
+    },
+    {
+     "text": "taxable",
+     "hi": true,
+     "start": 1467,
+     "end": 1483
+    },
+    {
+     "text": "ho",
+     "hi": false,
+     "start": 1483,
+     "end": 1489
+    },
+    {
+     "text": "sakta",
+     "hi": false,
+     "start": 1489,
+     "end": 1501
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1501,
+     "end": 1509
+    },
+    {
+     "text": "Aur",
+     "hi": false,
+     "start": 1514,
+     "end": 1521
+    },
+    {
+     "text": "TDS",
+     "hi": false,
+     "start": 1521,
+     "end": 1528
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 1528,
+     "end": 1535
+    },
+    {
+     "text": "kat",
+     "hi": false,
+     "start": 1535,
+     "end": 1542
+    },
+    {
+     "text": "sakta",
+     "hi": false,
+     "start": 1542,
+     "end": 1552
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1552,
+     "end": 1558
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "scene": "tax",
+   "start": 1563,
+   "end": 1642,
+   "words": [
+    {
+     "text": "Yaani",
+     "hi": false,
+     "start": 1563,
+     "end": 1573
+    },
+    {
+     "text": "haath",
+     "hi": false,
+     "start": 1573,
+     "end": 1583
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1583,
+     "end": 1591
+    },
+    {
+     "text": "₹3",
+     "hi": true,
+     "start": 1591,
+     "end": 1601
+    },
+    {
+     "text": "lakh",
+     "hi": true,
+     "start": 1601,
+     "end": 1609
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 1609,
+     "end": 1616
+    },
+    {
+     "text": "poore",
+     "hi": false,
+     "start": 1616,
+     "end": 1625
+    },
+    {
+     "text": "nahi",
+     "hi": false,
+     "start": 1625,
+     "end": 1634
+    },
+    {
+     "text": "aate.",
+     "hi": false,
+     "start": 1634,
+     "end": 1642
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "scene": "transfer",
+   "start": 1660,
+   "end": 1749,
+   "words": [
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 1660,
+     "end": 1667
+    },
+    {
+     "text": "karein",
+     "hi": false,
+     "start": 1667,
+     "end": 1678
+    },
+    {
+     "text": "kya?",
+     "hi": false,
+     "start": 1678,
+     "end": 1685
+    },
+    {
+     "text": "Transfer.",
+     "hi": true,
+     "start": 1700,
+     "end": 1725
+    },
+    {
+     "text": "Nikaalo",
+     "hi": false,
+     "start": 1729,
+     "end": 1742
+    },
+    {
+     "text": "mat.",
+     "hi": false,
+     "start": 1742,
+     "end": 1749
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "scene": "transfer",
+   "start": 1754,
+   "end": 1859,
+   "words": [
+    {
+     "text": "Aapka",
+     "hi": false,
+     "start": 1754,
+     "end": 1770
+    },
+    {
+     "text": "UAN",
+     "hi": true,
+     "start": 1770,
+     "end": 1782
+    },
+    {
+     "text": "ek",
+     "hi": false,
+     "start": 1782,
+     "end": 1790
+    },
+    {
+     "text": "hi",
+     "hi": false,
+     "start": 1790,
+     "end": 1799
+    },
+    {
+     "text": "rehta",
+     "hi": false,
+     "start": 1799,
+     "end": 1815
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 1815,
+     "end": 1827
+    },
+    {
+     "text": "Har",
+     "hi": false,
+     "start": 1829,
+     "end": 1835
+    },
+    {
+     "text": "naukri",
+     "hi": false,
+     "start": 1835,
+     "end": 1844
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1844,
+     "end": 1852
+    },
+    {
+     "text": "wahi.",
+     "hi": false,
+     "start": 1852,
+     "end": 1859
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "scene": "transfer",
+   "start": 1863,
+   "end": 2026,
+   "words": [
+    {
+     "text": "EPFO",
+     "hi": false,
+     "start": 1863,
+     "end": 1882
+    },
+    {
+     "text": "portal",
+     "hi": false,
+     "start": 1882,
+     "end": 1906
+    },
+    {
+     "text": "pe,",
+     "hi": false,
+     "start": 1906,
+     "end": 1918
+    },
+    {
+     "text": "purana",
+     "hi": false,
+     "start": 1920,
+     "end": 1933
+    },
+    {
+     "text": "PF",
+     "hi": false,
+     "start": 1933,
+     "end": 1939
+    },
+    {
+     "text": "naye",
+     "hi": true,
+     "start": 1939,
+     "end": 1949
+    },
+    {
+     "text": "account",
+     "hi": true,
+     "start": 1949,
+     "end": 1964
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 1964,
+     "end": 1973
+    },
+    {
+     "text": "transfer",
+     "hi": false,
+     "start": 1973,
+     "end": 1990
+    },
+    {
+     "text": "karo.",
+     "hi": false,
+     "start": 1990,
+     "end": 1999
+    },
+    {
+     "text": "Online.",
+     "hi": false,
+     "start": 2002,
+     "end": 2026
+    }
+   ]
+  },
+  {
+   "id": "L18",
+   "scene": "transfer",
+   "start": 2031,
+   "end": 2169,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2031,
+     "end": 2041
+    },
+    {
+     "text": "bhi",
+     "hi": false,
+     "start": 2041,
+     "end": 2047
+    },
+    {
+     "text": "chalta",
+     "hi": false,
+     "start": 2047,
+     "end": 2058
+    },
+    {
+     "text": "rehta",
+     "hi": false,
+     "start": 2058,
+     "end": 2068
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2068,
+     "end": 2074
+    },
+    {
+     "text": "aur",
+     "hi": false,
+     "start": 2077,
+     "end": 2083
+    },
+    {
+     "text": "service",
+     "hi": true,
+     "start": 2083,
+     "end": 2096
+    },
+    {
+     "text": "bhi",
+     "hi": true,
+     "start": 2096,
+     "end": 2103
+    },
+    {
+     "text": "judti",
+     "hi": true,
+     "start": 2103,
+     "end": 2112
+    },
+    {
+     "text": "rehti",
+     "hi": false,
+     "start": 2112,
+     "end": 2122
+    },
+    {
+     "text": "hai.",
+     "hi": false,
+     "start": 2122,
+     "end": 2129
+    },
+    {
+     "text": "5",
+     "hi": false,
+     "start": 2131,
+     "end": 2140
+    },
+    {
+     "text": "saal",
+     "hi": false,
+     "start": 2140,
+     "end": 2147
+    },
+    {
+     "text": "ka",
+     "hi": false,
+     "start": 2147,
+     "end": 2152
+    },
+    {
+     "text": "hisaab",
+     "hi": false,
+     "start": 2152,
+     "end": 2162
+    },
+    {
+     "text": "bhi.",
+     "hi": false,
+     "start": 2162,
+     "end": 2169
+    }
+   ]
+  },
+  {
+   "id": "L19",
+   "scene": "transfer",
+   "start": 2173,
+   "end": 2311,
+   "words": [
+    {
+     "text": "Sach",
+     "hi": false,
+     "start": 2173,
+     "end": 2183
+    },
+    {
+     "text": "mein",
+     "hi": false,
+     "start": 2183,
+     "end": 2192
+    },
+    {
+     "text": "emergency",
+     "hi": false,
+     "start": 2192,
+     "end": 2210
+    },
+    {
+     "text": "hai?",
+     "hi": false,
+     "start": 2210,
+     "end": 2217
+    },
+    {
+     "text": "Toh",
+     "hi": false,
+     "start": 2224,
+     "end": 2234
+    },
+    {
+     "text": "poora",
+     "hi": false,
+     "start": 2234,
+     "end": 2248
+    },
+    {
+     "text": "nahi,",
+     "hi": false,
+     "start": 2248,
+     "end": 2260
+    },
+    {
+     "text": "zaroorat",
+     "hi": true,
+     "start": 2264,
+     "end": 2282
+    },
+    {
+     "text": "jitna",
+     "hi": true,
+     "start": 2282,
+     "end": 2294
+    },
+    {
+     "text": "nikaalo.",
+     "hi": false,
+     "start": 2294,
+     "end": 2309
+    }
+   ]
+  },
+  {
+   "id": "L20",
+   "scene": "outro",
+   "start": 2329,
+   "end": 2425,
+   "words": [
+    {
+     "text": "Jisne",
+     "hi": false,
+     "start": 2329,
+     "end": 2341
+    },
+    {
+     "text": "abhi",
+     "hi": false,
+     "start": 2341,
+     "end": 2351
+    },
+    {
+     "text": "abhi",
+     "hi": false,
+     "start": 2351,
+     "end": 2361
+    },
+    {
+     "text": "resign",
+     "hi": false,
+     "start": 2361,
+     "end": 2374
+    },
+    {
+     "text": "kiya",
+     "hi": false,
+     "start": 2374,
+     "end": 2384
+    },
+    {
+     "text": "hai,",
+     "hi": false,
+     "start": 2384,
+     "end": 2393
+    },
+    {
+     "text": "use",
+     "hi": true,
+     "start": 2395,
+     "end": 2404
+    },
+    {
+     "text": "yeh",
+     "hi": true,
+     "start": 2404,
+     "end": 2412
+    },
+    {
+     "text": "bhejo.",
+     "hi": true,
+     "start": 2412,
+     "end": 2425
+    }
+   ]
+  },
+  {
+   "id": "L21",
+   "scene": "outro",
+   "start": 2430,
+   "end": 2510,
+   "words": [
+    {
+     "text": "Paisa",
+     "hi": false,
+     "start": 2430,
+     "end": 2448
+    },
+    {
+     "text": "samjho.",
+     "hi": false,
+     "start": 2448,
+     "end": 2468
+    },
+    {
+     "text": "Yeh",
+     "hi": false,
+     "start": 2473,
+     "end": 2480
+    },
+    {
+     "text": "hai",
+     "hi": false,
+     "start": 2480,
+     "end": 2487
+    },
+    {
+     "text": "Money",
+     "hi": true,
+     "start": 2487,
+     "end": 2498
+    },
+    {
+     "text": "Theory.",
+     "hi": true,
+     "start": 2498,
+     "end": 2510
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "mood": "hook",
+   "start": 0,
+   "end": 503
+  },
+  {
+   "id": "compound",
+   "mood": "build",
+   "start": 503,
+   "end": 1314
+  },
+  {
+   "id": "tax",
+   "mood": "tension",
+   "start": 1314,
+   "end": 1651
+  },
+  {
+   "id": "transfer",
+   "mood": "lift",
+   "start": 1651,
+   "end": 2320
+  },
+  {
+   "id": "outro",
+   "mood": "outro",
+   "start": 2320,
+   "end": 2606
+  }
+ ],
+ "audio": "audio/pf-withdrawal/narration.wav",
+ "music": "audio/pf-withdrawal/music.wav",
+ "sfx": []
+}
