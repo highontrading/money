@@ -10,7 +10,7 @@ writes out_dir/<id>.mp3 and out_dir/<id>.align.json
 import base64, json, os, sys, time, urllib.request
 
 VOICE = os.environ.get("ELEVENLABS_VOICE_ID", "LHJy3mhZWsvhUjy0zUM1")
-MODEL = os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")
+MODEL = os.environ.get("ELEVENLABS_MODEL", "eleven_v4")
 SETTINGS = {"stability": 0.45, "similarity_boost": 0.8, "style": 0.25, "use_speaker_boost": True, "speed": 1.06}
 
 
