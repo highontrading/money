@@ -68,5 +68,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Vegetable_market,_Ahmedabad.jpg",
   "license": "CC BY-SA 3.0",
   "author": "Bernard Gagnon"
+ },
+ "jiosim": {
+  "file": "jiosim.jpg",
+  "title": "File:Jio sim.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jio_sim.jpg",
+  "license": "CC BY-SA 3.0",
+  "author": "Jim Carter"
+ },
+ "tower": {
+  "file": "tower.jpg",
+  "title": "File:Mobile tower in fields in Punjab.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mobile_tower_in_fields_in_Punjab.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Sahil Dhiman"
  }
 }

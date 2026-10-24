@@ -8,6 +8,8 @@ import {inflation} from './episodes/inflation';
 import {sip} from './episodes/sip';
 import {price} from './episodes/price';
 import {repo} from './episodes/repo';
+import {jioMoney} from './episodes/jioMoney';
+import {jioListing} from './episodes/jioListing';
 import {FPS, H, W} from './theme';
 
 const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
@@ -17,6 +19,8 @@ const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
   {def: sip, cover: {big: 'SIP vs LUMP', bigSize: 165, line1: 'KAUN JEET-TA', line2: 'HAI?', photo: 'crowd.jpg', photoPos: '50% 60%', stamp: '₹32,490 CR'}},
   {def: price, cover: {big: 'SHARE PRICE', bigSize: 160, line1: 'DECIDE KAUN', line2: 'KARTA HAI?', photo: 'bse.jpg', stamp: 'BID vs ASK'}},
   {def: repo, cover: {big: 'REPO → EMI', bigSize: 170, line1: 'RATE BADHA,', line2: 'EMI KA KYA?', photo: 'flats.jpg', stamp: '5.25% → 5.50%'}},
+  {def: jioMoney, cover: {big: 'JIO IPO', bigSize: 250, line1: 'PAISA JAATA', line2: 'KAHAN HAI?', photo: 'jiosim.jpg', photoPos: '40% 50%', stamp: '₹30,213 CR'}},
+  {def: jioListing, cover: {big: 'LISTING DAY', bigSize: 170, line1: 'JIO: 28 OCT KO', line2: 'KYA HOGA?', photo: 'tower.jpg', stamp: '₹1,364 ?'}},
 ];
 
 // Composition props are serialized to JSON, which would drop the scene

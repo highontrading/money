@@ -1,0 +1,33 @@
+{
+ "title": "Jio IPO ka paisa jaata kahan hai?",
+ "data_note": "Jio Platforms RHP: fresh issue of 27 crore shares, Rs 30,213 cr at upper band Rs 1,119; up to Rs 27,500 cr to repay/prepay borrowings of Reliance Jio Infocomm; valuation ~Rs 10.3 lakh cr at upper band.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Jio IPO mein lakhon logon ne paise lagaye. *₹30,213 crore* ka issue.", "tts": "जियो के आईपीओ में, लाखों लोगों ने पैसे लगाए. तीस हज़ार दो सौ तेरह करोड़ रुपये का इश्यू."},
+  {"id": "L02", "scene": "hook", "cap": "Par aapka paisa gaya *kiske paas?* Ambani ke? Jio ke? Ya kisi aur ke?", "tts": "पर आपका पैसा गया, किसके पास? अंबानी के? जियो के? या किसी और के?"},
+  {"id": "L03", "scene": "hook", "cap": "Chalo, ek rupaye ka *poora safar* dekhte hain.", "tts": "चलो, एक रुपये का पूरा सफ़र देखते हैं."},
+  {"id": "L04", "scene": "issue", "cap": "IPO *do tarah* ka hota hai.", "tts": "आईपीओ दो तरह का होता है."},
+  {"id": "L05", "scene": "issue", "cap": "*Offer for sale:* purane shareholders apne shares bechte hain. Paisa unki jeb mein.", "tts": "ऑफ़र फ़ॉर सेल. पुराने शेयरहोल्डर्स अपने शेयर्स बेचते हैं. पैसा उनकी जेब में."},
+  {"id": "L06", "scene": "issue", "cap": "*Fresh issue:* company naye shares banati hai. Paisa *company* ke paas.", "tts": "फ़्रेश इश्यू. कंपनी नए शेयर्स बनाती है. पैसा कंपनी के पास."},
+  {"id": "L07", "scene": "issue", "cap": "Jio ka IPO poora *fresh issue* hai. 27 crore naye shares. Koi purana shareholder nahi bech raha.", "tts": "जियो का आईपीओ, पूरा फ़्रेश इश्यू है. सत्ताईस करोड़ नए शेयर्स. कोई पुराना शेयरहोल्डर नहीं बेच रहा."},
+  {"id": "L08", "scene": "split", "cap": "Toh ₹30,213 crore Jio ke paas aaye. Ab Jio inka *kya karegi?*", "tts": "तो तीस हज़ार दो सौ तेरह करोड़, जियो के पास आए. अब जियो इनका क्या करेगी?"},
+  {"id": "L09", "scene": "split", "cap": "Offer document ke hisaab se: *₹27,500 crore tak* loan chukane mein.", "tts": "ऑफ़र डॉक्यूमेंट के हिसाब से, सत्ताईस हज़ार पाँच सौ करोड़ तक, लोन चुकाने में."},
+  {"id": "L10", "scene": "split", "cap": "Loans hain Reliance Jio Infocomm ke. Wahi company jo aapka *Jio SIM* chalati hai.", "tts": "लोन्स हैं, रिलायंस जियो इन्फ़ोकॉम के. वही कंपनी, जो आपका जियो सिम चलाती है."},
+  {"id": "L11", "scene": "split", "cap": "Yaani har ₹100 mein se lagbhag *₹91* seedha lenders ke paas.", "tts": "यानी हर सौ रुपये में से, लगभग इक्यानवे रुपये, सीधा लेंडर्स के पास."},
+  {"id": "L12", "scene": "split", "cap": "Baaki general kaam aur *IPO ke kharchon* mein.", "tts": "बाक़ी, जनरल काम और आईपीओ के ख़र्चों में."},
+  {"id": "L13", "scene": "debt", "cap": "Ab sawaal: IPO se *loan kyun* chukana?", "tts": "अब सवाल. आईपीओ से लोन क्यों चुकाना?"},
+  {"id": "L14", "scene": "debt", "cap": "Loan pe har saal *interest* jaata hai. Woh profit se katta hai.", "tts": "लोन पर हर साल इंटरेस्ट जाता है. वो प्रॉफ़िट से कटता है."},
+  {"id": "L15", "scene": "debt", "cap": "Loan kam, toh interest kam. Interest kam, toh *profit zyada.*", "tts": "लोन कम, तो इंटरेस्ट कम. इंटरेस्ट कम, तो प्रॉफ़िट ज़्यादा."},
+  {"id": "L16", "scene": "debt", "cap": "Bilkul waise, jaise bonus se *home loan prepay* karna.", "tts": "बिल्कुल वैसे, जैसे बोनस से, होम लोन प्रीपे करना."},
+  {"id": "L17", "scene": "debt", "cap": "Par dhyaan do: yeh paisa *naye towers* ya naye business mein nahi. Purana bojh utaar raha hai.", "tts": "पर ध्यान दो. ये पैसा, नए टावर्स या नए बिज़नेस में नहीं. पुराना बोझ उतार रहा है."},
+  {"id": "L18", "scene": "stake", "cap": "Aur ₹30,213 crore mein Jio ka kitna hissa bika? *Sirf lagbhag 3%.*", "tts": "और तीस हज़ार करोड़ में, जियो का कितना हिस्सा बिका? सिर्फ़ लगभग तीन परसेंट."},
+  {"id": "L19", "scene": "stake", "cap": "Upper band pe poori company ki valuation: *₹10.3 lakh crore.*", "tts": "अपर बैंड पर, पूरी कंपनी की वैल्यूएशन, दस दशमलव तीन लाख करोड़ रुपये."},
+  {"id": "L20", "scene": "stake", "cap": "Naye shares aane se purane malikon ka hissa thoda patla hota hai. Ise kehte hain *dilution.*", "tts": "नए शेयर्स आने से, पुराने मालिकों का हिस्सा, थोड़ा पतला होता है. इसे कहते हैं, डाइल्यूशन."},
+  {"id": "L21", "scene": "stake", "cap": "Reliance phir bhi *majority owner* rahegi.", "tts": "रिलायंस फिर भी, मेजॉरिटी ओनर रहेगी."},
+  {"id": "L22", "scene": "you", "cap": "Toh aapke liye iska *matlab?*", "tts": "तो आपके लिए, इसका मतलब?"},
+  {"id": "L23", "scene": "you", "cap": "Paisa Ambani ki jeb mein nahi gaya. Aapne *company ka hissa* khareeda.", "tts": "पैसा अंबानी की जेब में नहीं गया. आपने कंपनी का हिस्सा ख़रीदा."},
+  {"id": "L24", "scene": "you", "cap": "Aur us company ka loan *halka* hua. Aage ka profit is pe tika hai.", "tts": "और उस कंपनी का लोन हल्का हुआ. आगे का प्रॉफ़िट, इस पर टिका है."},
+  {"id": "L25", "scene": "you", "cap": "Agli baar IPO aaye, toh pehle *'objects of the issue'* padhna. Paisa kahan jaayega, wahin likha hota hai.", "tts": "अगली बार आईपीओ आए, तो पहले ऑब्जेक्ट्स ऑफ़ द इश्यू पढ़ना. पैसा कहाँ जाएगा, वहीं लिखा होता है."},
+  {"id": "L26", "scene": "outro", "cap": "Yeh video us dost ko *bhejo* jisne Jio IPO bhara hai.", "tts": "ये वीडियो उस दोस्त को भेजो, जिसने जियो आईपीओ भरा है."},
+  {"id": "L27", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है, मनी थ्योरी."}
+ ]
+}

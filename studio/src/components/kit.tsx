@@ -138,7 +138,7 @@ export const SignOff: React.FC<{shareLine: string; logoLine: string; shareWord: 
           <div style={{fontFamily: F.display, fontSize: 250, lineHeight: 0.9, color: C.ink}}><HL at={logo + 6}>THEORY</HL></div>
           <div style={{fontFamily: F.hand, fontWeight: 700, fontSize: 84, marginTop: 30, opacity: ease(stepped(frame), logo + 24, logo + 34)}}>Paisa samjho.</div>
         </div>
-        <div style={{position: 'absolute', left: 90, right: 150, top: 1200, fontFamily: F.mono, fontWeight: 500, fontSize: 20, letterSpacing: 1, color: C.inkSoft, textAlign: 'center', lineHeight: 1.6, opacity: ease(frame, logo + 20, logo + 30), whiteSpace: 'pre-line'}}>{disclaimer}</div>
+        <div style={{position: 'absolute', left: 90, right: 150, top: 1130, fontFamily: F.mono, fontWeight: 500, fontSize: 20, letterSpacing: 1, color: C.inkSoft, textAlign: 'center', lineHeight: 1.6, opacity: ease(frame, logo + 20, logo + 30), whiteSpace: 'pre-line'}}>{disclaimer}</div>
       </Hold>
       <Hold from={l2} to={logo}>
         <div style={{position: 'absolute', left: 0, right: 0, top: 640, textAlign: 'center', fontFamily: F.hand, fontWeight: 700, fontSize: 110}}>Paisa samjho.</div>
