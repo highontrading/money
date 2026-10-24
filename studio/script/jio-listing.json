@@ -2,31 +2,161 @@
  "title": "Jio listing day: 28 October ko kya hoga?",
  "data_note": "Subscription ~21x overall (trackers 20.9-22.2x), QIB ~65-70x, NII ~14x, retail ~2.7x. Allotment 26 Oct, refund/credit 27 Oct, listing 28 Oct (tentative). Registrar KFin Technologies. NSE special pre-open: 9:00-9:45 order entry, 9:45-9:55 matching, normal trading from 10:00. STCG 20%, LTCG 12.5% above Rs 1.25 lakh.",
  "lines": [
-  {"id": "L01", "scene": "hook", "cap": "Jio IPO band ho gaya. Lagbhag *21 guna* subscribe hua.", "tts": "जियो आईपीओ बंद हो गया. लगभग इक्कीस गुना सब्सक्राइब हुआ."},
-  {"id": "L02", "scene": "hook", "cap": "Grey market keh raha tha *₹1,364.* Par 28 October ko asli price *kaun* tay karega?", "tts": "ग्रे मार्केट कह रहा था, तेरह सौ चौंसठ. पर अट्ठाईस अक्टूबर को, असली प्राइस कौन तय करेगा?"},
-  {"id": "L03", "scene": "hook", "cap": "Allotment se listing tak, agle kuch dinon ka *poora plan.*", "tts": "अलॉटमेंट से लिस्टिंग तक, अगले कुछ दिनों का पूरा प्लान."},
-  {"id": "L04", "scene": "allot", "cap": "26 October: *allotment* ka din.", "tts": "छब्बीस अक्टूबर. अलॉटमेंट का दिन."},
-  {"id": "L05", "scene": "allot", "cap": "Registrar *KFin Technologies* ki site pe, ya NSE, BSE pe check karo. PAN daalo, status dekho.", "tts": "रजिस्ट्रार केफ़िन टेक्नोलॉजीज़ की साइट पर, या NSE, BSE पर चेक करो. पैन डालो, स्टेटस देखो."},
-  {"id": "L06", "scene": "allot", "cap": "Retail hissa lagbhag *2.7 guna* bhara. Allotment lottery se hoga, toh *sabko nahi* milega.", "tts": "रिटेल हिस्सा, लगभग दो दशमलव सात गुना भरा. अलॉटमेंट लॉटरी से होगा, तो सबको नहीं मिलेगा."},
-  {"id": "L07", "scene": "money", "cap": "Nahi mila? Ghabrao mat. Paisa kata hi nahi tha, sirf *block* tha.", "tts": "नहीं मिला? घबराओ मत. पैसा कटा ही नहीं था, सिर्फ़ ब्लॉक था."},
-  {"id": "L08", "scene": "money", "cap": "Lagbhag 27 October tak UPI block *release* ho jayega.", "tts": "लगभग सत्ताईस अक्टूबर तक, UPI ब्लॉक रिलीज़ हो जाएगा."},
-  {"id": "L09", "scene": "money", "cap": "Mila? Toh *12 shares* aapke demat mein, aur upper band pe *₹13,428* kat jaayenge.", "tts": "मिला? तो बारह शेयर्स आपके डीमैट में. और अपर बैंड पर, तेरह हज़ार चार सौ अट्ठाईस रुपये कट जाएँगे."},
-  {"id": "L10", "scene": "open", "cap": "Ab 28 October. Naye share ke liye ek *special pre-open session* hota hai.", "tts": "अब अट्ठाईस अक्टूबर. नए शेयर के लिए, एक स्पेशल प्री ओपन सेशन होता है."},
-  {"id": "L11", "scene": "open", "cap": "9 se 9:45 tak sirf *orders* lagte hain. Koi trade nahi.", "tts": "नौ से पौने दस तक, सिर्फ़ ऑर्डर्स लगते हैं. कोई ट्रेड नहीं."},
-  {"id": "L12", "scene": "open", "cap": "Phir exchange woh price nikaalta hai jahan *sabse zyada shares* trade ho sakein.", "tts": "फिर एक्सचेंज वो प्राइस निकालता है, जहाँ सबसे ज़्यादा शेयर्स ट्रेड हो सकें."},
-  {"id": "L13", "scene": "open", "cap": "Wahi hai *listing price.* Aur 10 baje se normal trading.", "tts": "वही है लिस्टिंग प्राइस. और दस बजे से, नॉर्मल ट्रेडिंग."},
-  {"id": "L14", "scene": "open", "cap": "Yaani listing price GMP nahi, *asli buyers aur sellers* tay karte hain.", "tts": "यानी लिस्टिंग प्राइस, GMP नहीं, असली बायर्स और सेलर्स तय करते हैं."},
-  {"id": "L15", "scene": "decide", "cap": "Ab sabse bada sawaal: *becho ya rakho?*", "tts": "अब सबसे बड़ा सवाल. बेचो, या रखो?"},
-  {"id": "L16", "scene": "decide", "cap": "Hum advice nahi denge. Par yeh *teen sawaal* khud se pucho.", "tts": "हम एडवाइस नहीं देंगे. पर ये तीन सवाल, ख़ुद से पूछो."},
-  {"id": "L17", "scene": "decide", "cap": "Ek: maine *kyun* apply kiya tha? Listing gain ke liye, ya lambe samay ke liye?", "tts": "एक. मैंने क्यों अप्लाई किया था? लिस्टिंग गेन के लिए, या लंबे समय के लिए?"},
-  {"id": "L18", "scene": "decide", "cap": "Do: kya main *₹10.3 lakh crore* ki valuation pe yeh company khareedta? Bina hype ke?", "tts": "दो. क्या मैं, दस दशमलव तीन लाख करोड़ की वैल्यूएशन पर, ये कंपनी ख़रीदता? बिना हाइप के?"},
-  {"id": "L19", "scene": "decide", "cap": "Teen: mera kitna *portfolio* ek hi stock mein hai?", "tts": "तीन. मेरा कितना पोर्टफ़ोलियो, एक ही स्टॉक में है?"},
-  {"id": "L20", "scene": "decide", "cap": "Kai log beech ka raasta lete hain: *aadhe becho, aadhe rakho.*", "tts": "कई लोग बीच का रास्ता लेते हैं. आधे बेचो, आधे रखो."},
-  {"id": "L21", "scene": "tax", "cap": "Aur *tax* mat bhoolna.", "tts": "और टैक्स मत भूलना."},
-  {"id": "L22", "scene": "tax", "cap": "12 mahine se pehle becha? Munafe pe *20% tax.* Short term capital gain.", "tts": "बारह महीने से पहले बेचा? मुनाफ़े पर बीस परसेंट टैक्स. शॉर्ट टर्म कैपिटल गेन."},
-  {"id": "L23", "scene": "tax", "cap": "Example: ₹245 per share munafa, 12 shares: ₹2,940. Tax lagbhag *₹588,* plus cess.", "tts": "एग्ज़ाम्पल. दो सौ पैंतालीस रुपये प्रति शेयर मुनाफ़ा, बारह शेयर्स. उनतीस सौ चालीस. टैक्स, लगभग पाँच सौ अट्ठासी, प्लस सेस."},
-  {"id": "L24", "scene": "tax", "cap": "Saal bhar rakha? Toh long term: *12.5%,* aur saal ka pehla *₹1.25 lakh* gain tax-free.", "tts": "साल भर रखा? तो लॉन्ग टर्म. साढ़े बारह परसेंट, और साल का पहला सवा लाख गेन, टैक्स फ़्री."},
-  {"id": "L25", "scene": "outro", "cap": "28 ko dekhenge: GMP *sahi* nikla ya *galat.* Aur yeh video us dost ko bhejo jiska allotment aane wala hai.", "tts": "अट्ठाईस को देखेंगे, GMP सही निकला, या ग़लत. और ये वीडियो उस दोस्त को भेजो, जिसका अलॉटमेंट आने वाला है."},
-  {"id": "L26", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. ये है, मनी थ्योरी."}
+  {
+   "id": "L01",
+   "scene": "hook",
+   "cap": "Jio IPO band ho gaya. Lagbhag *21 guna* subscribe hua.",
+   "tts": "जियो आईपीओ बंद हो गया. लगभग इक्कीस गुना सब्सक्राइब हुआ."
+  },
+  {
+   "id": "L02",
+   "scene": "hook",
+   "cap": "Grey market keh raha tha *₹1,364.* Par 28 October ko asli price *kaun* tay karega?",
+   "tts": "ग्रे मार्केट कह रहा था, तेरह सौ चौंसठ. पर अट्ठाईस अक्टूबर को, असली प्राइस कौन तय करेगा?"
+  },
+  {
+   "id": "L03",
+   "scene": "hook",
+   "cap": "Allotment se listing tak, agle kuch dinon ka *poora plan.*",
+   "tts": "अलॉटमेंट से लिस्टिंग तक, अगले कुछ दिनों का पूरा प्लान."
+  },
+  {
+   "id": "L04",
+   "scene": "allot",
+   "cap": "26 October: *allotment* ka din.",
+   "tts": "छब्बीस अक्टूबर. अलॉटमेंट का दिन."
+  },
+  {
+   "id": "L05",
+   "scene": "allot",
+   "cap": "Registrar *KFin Technologies* ki site pe, ya NSE, BSE pe check karo. PAN daalo, status dekho.",
+   "tts": "रजिस्ट्रार, के फ़िन टेक्नोलॉजीज़ की साइट पर, या NSE, BSE पर चेक करो. पैन डालो, स्टेटस देखो."
+  },
+  {
+   "id": "L06",
+   "scene": "allot",
+   "cap": "Retail hissa lagbhag *2.7 guna* bhara. Allotment lottery se hoga, toh *sabko nahi* milega.",
+   "tts": "रिटेल हिस्सा, लगभग दो दशमलव सात गुना भरा. अलॉटमेंट लॉटरी से होगा, तो सबको नहीं मिलेगा."
+  },
+  {
+   "id": "L07",
+   "scene": "money",
+   "cap": "Nahi mila? Ghabrao mat. Paisa kata hi nahi tha, sirf *block* tha.",
+   "tts": "नहीं मिला? घबराओ मत. पैसा कटा ही नहीं था, सिर्फ़ ब्लॉक था."
+  },
+  {
+   "id": "L08",
+   "scene": "money",
+   "cap": "Lagbhag 27 October tak UPI block *release* ho jayega.",
+   "tts": "लगभग सत्ताईस अक्टूबर तक, UPI ब्लॉक रिलीज़ हो जाएगा."
+  },
+  {
+   "id": "L09",
+   "scene": "money",
+   "cap": "Mila? Toh *12 shares* aapke demat mein, aur upper band pe *₹13,428* kat jaayenge.",
+   "tts": "मिला? तो बारह शेयर्स आपके डीमैट में. और अपर बैंड पर, तेरह हज़ार चार सौ अट्ठाईस रुपये कट जाएँगे."
+  },
+  {
+   "id": "L10",
+   "scene": "open",
+   "cap": "Ab 28 October. Naye share ke liye ek *special pre-open session* hota hai.",
+   "tts": "अब अट्ठाईस अक्टूबर. नए शेयर के लिए, एक स्पेशल प्री ओपन सेशन होता है."
+  },
+  {
+   "id": "L11",
+   "scene": "open",
+   "cap": "9 se 9:45 tak sirf *orders* lagte hain. Koi trade nahi.",
+   "tts": "नौ से पौने दस तक, सिर्फ़ ऑर्डर्स लगते हैं. कोई ट्रेड नहीं."
+  },
+  {
+   "id": "L12",
+   "scene": "open",
+   "cap": "Phir exchange woh price nikaalta hai jahan *sabse zyada shares* trade ho sakein.",
+   "tts": "फिर एक्सचेंज वो प्राइस निकालता है, जहाँ सबसे ज़्यादा शेयर्स ट्रेड हो सकें."
+  },
+  {
+   "id": "L13",
+   "scene": "open",
+   "cap": "Wahi hai *listing price.* Aur 10 baje se normal trading.",
+   "tts": "वही है लिस्टिंग प्राइस. और दस बजे से, नॉर्मल ट्रेडिंग."
+  },
+  {
+   "id": "L14",
+   "scene": "open",
+   "cap": "Yaani listing price GMP nahi, *asli buyers aur sellers* tay karte hain.",
+   "tts": "यानी लिस्टिंग प्राइस, GMP नहीं, असली बायर्स और सेलर्स तय करते हैं."
+  },
+  {
+   "id": "L15",
+   "scene": "decide",
+   "cap": "Ab sabse bada sawaal: *becho ya rakho?*",
+   "tts": "अब सबसे बड़ा सवाल. बेचो, या रखो?"
+  },
+  {
+   "id": "L16",
+   "scene": "decide",
+   "cap": "Hum advice nahi denge. Par yeh *teen sawaal* khud se pucho.",
+   "tts": "हम एडवाइस नहीं देंगे. पर ये तीन सवाल, ख़ुद से पूछो."
+  },
+  {
+   "id": "L17",
+   "scene": "decide",
+   "cap": "Ek: maine *kyun* apply kiya tha? Listing gain ke liye, ya lambe samay ke liye?",
+   "tts": "एक. मैंने क्यों अप्लाई किया था? लिस्टिंग गेन के लिए, या लंबे समय के लिए?"
+  },
+  {
+   "id": "L18",
+   "scene": "decide",
+   "cap": "Do: kya main *₹10.3 lakh crore* ki valuation pe yeh company khareedta? Bina hype ke?",
+   "tts": "दो. क्या मैं, दस दशमलव तीन लाख करोड़ की वैल्यूएशन पर, ये कंपनी ख़रीदता? बिना हाइप के?"
+  },
+  {
+   "id": "L19",
+   "scene": "decide",
+   "cap": "Teen: mera kitna *portfolio* ek hi stock mein hai?",
+   "tts": "तीन. मेरा कितना पोर्टफ़ोलियो, एक ही स्टॉक में है?"
+  },
+  {
+   "id": "L20",
+   "scene": "decide",
+   "cap": "Kai log beech ka raasta lete hain: *aadhe becho, aadhe rakho.*",
+   "tts": "कई लोग बीच का रास्ता लेते हैं. आधे बेचो, आधे रखो."
+  },
+  {
+   "id": "L21",
+   "scene": "tax",
+   "cap": "Aur *tax* mat bhoolna.",
+   "tts": "और टैक्स मत भूलना."
+  },
+  {
+   "id": "L22",
+   "scene": "tax",
+   "cap": "12 mahine se pehle becha? Munafe pe *20% tax.* Short term capital gain.",
+   "tts": "बारह महीने से पहले बेचा? मुनाफ़े पर बीस परसेंट टैक्स. शॉर्ट टर्म कैपिटल गेन."
+  },
+  {
+   "id": "L23",
+   "scene": "tax",
+   "cap": "Example: ₹245 per share munafa, 12 shares: ₹2,940. Tax lagbhag *₹588,* plus cess.",
+   "tts": "एग्ज़ाम्पल. दो सौ पैंतालीस रुपये प्रति शेयर मुनाफ़ा, बारह शेयर्स. उनतीस सौ चालीस. टैक्स, लगभग पाँच सौ अट्ठासी, प्लस सेस."
+  },
+  {
+   "id": "L24",
+   "scene": "tax",
+   "cap": "Saal bhar rakha? Toh long term: *12.5%,* aur saal ka pehla *₹1.25 lakh* gain tax-free.",
+   "tts": "साल भर रखा? तो लॉन्ग टर्म. साढ़े बारह परसेंट, और साल का पहला सवा लाख गेन, टैक्स फ़्री."
+  },
+  {
+   "id": "L25",
+   "scene": "outro",
+   "cap": "28 ko dekhenge: GMP *sahi* nikla ya *galat.* Aur yeh video us dost ko bhejo jiska allotment aane wala hai.",
+   "tts": "अट्ठाईस को देखेंगे, GMP सही निकला, या ग़लत. और ये वीडियो उस दोस्त को भेजो, जिसका अलॉटमेंट आने वाला है."
+  },
+  {
+   "id": "L26",
+   "scene": "outro",
+   "cap": "Paisa samjho. Yeh hai *Money Theory.*",
+   "tts": "पैसा समझो. ये है, मनी थ्योरी."
+  }
  ]
 }

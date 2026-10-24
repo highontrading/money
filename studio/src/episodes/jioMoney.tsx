@@ -13,13 +13,13 @@ const Hook: React.FC = () => {
   const l2 = at('L02'), l3 = at('L03');
   return (
     <AbsoluteFill>
-      <Photo id="sim" src="jiosim.jpg" x={80} y={400} w={920} h={600} rot={-2} at={0} out={l2} enter="up" torn={{top: true, bottom: true}} rough={14} pos="40% 50%" caption="JIO PLATFORMS IPO" />
-      <Card id="size" x={170} y={880} w={740} h={280} rot={2} at={word('L01', '30,213', -3)} out={l2} bg={C.yellow}>
+      <Photo id="sim" src="jiosim.jpg" x={80} y={400} w={920} h={600} rot={-2} at={0} out={l2 - 2} enter="up" torn={{top: true, bottom: true}} rough={14} pos="40% 50%" caption="JIO PLATFORMS IPO" />
+      <Card id="size" x={170} y={880} w={740} h={280} rot={2} at={word('L01', '30,213', -3)} out={l2 - 2} bg={C.yellow}>
         <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 24, letterSpacing: 3, textAlign: 'center', marginTop: 24}}>ISSUE SIZE · 21–23 OCT 2026</div>
         <div style={{fontFamily: F.display, fontSize: 150, textAlign: 'center', lineHeight: 1.1}}>₹30,213 CR</div>
       </Card>
       {[['AMBANI?', 'ambani'], ['JIO?', 'jio'], ['KISI AUR?', 'aur']].map(([t, k], i) => (
-        <Card key={k} id={'who' + k} x={100 + (i % 2) * 120} y={430 + i * 240} w={760} h={200} rot={[-3, 2, -1][i]} at={word('L02', k, -4)} out={l3} enter={i % 2 ? 'right' : 'left'} bg={i === 2 ? C.yellow : C.card}>
+        <Card key={k} id={'who' + k} x={100 + (i % 2) * 120} y={430 + i * 240} w={760} h={200} rot={[-3, 2, -1][i]} at={i === 0 ? l2 - 2 : word('L02', k, -4)} out={l3} enter={i % 2 ? 'right' : 'left'} bg={i === 2 ? C.yellow : C.card}>
           <div style={{fontFamily: F.display, fontSize: 120, textAlign: 'center', marginTop: 30}}>{t}</div>
         </Card>
       ))}
