@@ -1,6 +1,6 @@
 # Money Theory topic reels
 
-Ten Hinglish explainer reels in the paper-collage design system, 1080×1920 at 30 fps, about 4.5 Mbps, −14 LUFS. ElevenLabs narration (Hindi voice "Amrut Deshmukh"). The source, scripts and captions are in `studio/` (see `studio/README.md`).
+Fifteen Hinglish explainer reels in the paper-collage design system, 1080×1920 at 30 fps, about 4.5 Mbps, −14 LUFS. ElevenLabs narration (Hindi voice "Amrut Deshmukh"; `eleven_v4` from the third batch on). The source, scripts and captions are in `studio/` (see `studio/README.md`).
 
 | Reel | Length | Video | Cover | Caption |
 |---|---|---|---|---|
@@ -14,5 +14,10 @@ Ten Hinglish explainer reels in the paper-collage design system, 1080×1920 at 3
 | ₹5 lakh cover, ₹3 lakh bill, claim ₹2.25 lakh? | 1:42 | `room-rent-cap.mp4` | `room-rent-cap-cover.jpg` | `studio/script/room-rent-cap-caption.md` |
 | Bank doob gaya: ₹20 lakh FD mein se kitna milega? | 1:30 | `deposit-insurance.mp4` | `deposit-insurance-cover.jpg` | `studio/script/deposit-insurance-caption.md` |
 | SIP same: ₹1 crore. Har saal 10% badhaya: ₹2 crore | 1:31 | `sip-step-up.mp4` | `sip-step-up-cover.jpg` | `studio/script/sip-step-up-caption.md` |
+| Job badli, PF nikaala: ₹3 lakh liye, ₹32 lakh gaye | 1:27 | `pf-withdrawal.mp4` | `pf-withdrawal-cover.jpg` | `studio/script/pf-withdrawal-caption.md` |
+| Credit card band kiya, CIBIL score gira? | 1:24 | `card-close-score.mp4` | `card-close-score-cover.jpg` | `studio/script/card-close-score-caption.md` |
+| Har saal ₹15,625 ka tax-free coupon (LTCG harvesting) | 1:26 | `ltcg-harvesting.mp4` | `ltcg-harvesting-cover.jpg` | `studio/script/ltcg-harvesting-caption.md` |
+| Tax bachane ke liye policy li? New regime mein ₹0 bacha | 1:29 | `tax-regime-80c.mp4` | `tax-regime-80c-cover.jpg` | `studio/script/tax-regime-80c-caption.md` |
+| ₹1 crore ka retirement: sirf 5 saal? | 1:22 | `retirement-1-crore.mp4` | `retirement-1-crore-cover.jpg` | `studio/script/retirement-1-crore-caption.md` |
 
 All numbers are illustrative unless a source is named; each script's `data_note` lists the assumptions.

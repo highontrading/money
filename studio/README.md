@@ -31,7 +31,7 @@ node tools/stills.mjs out/stills <frame> <frame> ... # quick layout review
 
 ## Topic reels (ElevenLabs narration)
 
-Ten more reels use the same design system, each with its own script, timeline, audio and scene folder. They have no episode numbers.
+Fifteen more reels use the same design system, each with its own script, timeline, audio and scene folder. They have no episode numbers.
 
 | Reel | Script | Scenes |
 |---|---|---|
@@ -45,6 +45,11 @@ Ten more reels use the same design system, each with its own script, timeline, a
 | Health insurance room-rent cap | `script/room-rent-cap.json` | `src/reels/room-rent-cap/` |
 | DICGC deposit insurance: ₹5 lakh per bank | `script/deposit-insurance.json` | `src/reels/deposit-insurance/` |
 | SIP step-up: ₹1 crore vs ₹2 crore | `script/sip-step-up.json` | `src/reels/sip-step-up/` |
+| PF withdrawal on job switch | `script/pf-withdrawal.json` | `src/reels/pf-withdrawal/` |
+| Closing a credit card and your score | `script/card-close-score.json` | `src/reels/card-close-score/` |
+| LTCG harvesting: ₹15,625 a year | `script/ltcg-harvesting.json` | `src/reels/ltcg-harvesting/` |
+| New vs old tax regime (80C) | `script/tax-regime-80c.json` | `src/reels/tax-regime-80c/` |
+| ₹1 crore retirement and inflation | `script/retirement-1-crore.json` | `src/reels/retirement-1-crore/` |
 
 ```
 python tools/tts_elevenlabs.py script/<id>.json build/<id>/vo [L05 ...]   # ElevenLabs takes + character timestamps (needs ELEVENLABS_API_KEY)
