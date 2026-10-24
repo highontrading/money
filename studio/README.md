@@ -5,7 +5,7 @@ Code-built explainer Reels (1080×1920, 30 fps). The look is a Vox-style paper c
 ## Making a new video (current workflow)
 
 1. Write `script/<slug>.json`: per line a Roman-Hinglish caption (`*keywords*` get highlighted) and the Devanagari text the voice reads, grouped into scenes.
-2. `python3 tools/tts_elevenlabs.py script/<slug>.json build/<slug>/vo` (needs `ELEVENLABS_API_KEY`; voice from `ELEVENLABS_VOICE_ID`). Takes come with character timestamps.
+2. `python3 tools/tts_elevenlabs.py script/<slug>.json build/<slug>/vo` (needs `ELEVENLABS_API_KEY`; voice from `ELEVENLABS_VOICE_ID`, model `eleven_v4`, the channel standard for every video; long-form adds `ELEVENLABS_STABILITY=0.55 ELEVENLABS_SPEED=1.0`). Takes come with character timestamps.
 3. `python3 tools/qa_vo.py script/<slug>.json build/<slug>/vo medium` to transcribe takes back and flag drift.
 4. `python3 tools/build_timeline.py script/<slug>.json build/<slug>/vo public src/data/<slug>.json <slug>` then `python3 tools/synth_audio.py src/data/<slug>.json public/audio/<slug> <transpose> <bpm>` (needs numpy, scipy, soundfile, pyloudnorm).
 5. Add scenes in `src/episodes/<name>.tsx` (shared pieces in `src/components/kit.tsx`), register it with a cover in `src/Root.tsx`.

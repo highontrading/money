@@ -89,7 +89,7 @@ We'll check every license before using a clip. Credits go in the description and
 
 ## Sound design
 
-- **Voice:** ElevenLabs with `previous_text` / `next_text`. For long-form: stability ~0.55 for consistency across 10 minutes and speed ~1.0. We'll A/B `eleven_multilingual_v2` against `eleven_v3` on the cold open before committing.
+- **Voice:** ElevenLabs with `previous_text` / `next_text`. For long-form: stability ~0.55 for consistency across 10 minutes and speed ~1.0. Model: `eleven_v4` (channel standard, picked on the IPO cold-open test).
 - **Music:** one cue per chapter (tension for the crisis, lighter for the mechanism, a resolve for the landing) with stingers at chapter cards, sidechain-ducked about 12 dB under the voice. Option A: extend `tools/synth_audio.py` (original, no licensing). Option B: ElevenLabs Music (check that your plan allows commercial use).
 - **SFX layer:** paper slide, tear, tape rip, stamp thud, marker squeak, typewriter, scissors, coin, note riffle, cash counter, projector rattle under archival clips, whooshes and risers into reveals, a low boom on the title. These can be generated with ElevenLabs Sound Effects (same API key, uses credits) or synthesized, and placed automatically from animation cues as the Reels already do.
 - **Room tone:** a quiet desk/room bed so silences never feel dead.
