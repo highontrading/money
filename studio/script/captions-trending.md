@@ -13,7 +13,7 @@ Send this to the friend buying silver this Dhanteras.
 
 #moneytheory #silver #silverprice #dhanteras #commodities #financeindia #investing
 ```
-First comment: `Photos via Wikimedia Commons: Rangan Datta Wiki (CC BY-SA 4.0), SpeakingArch (CC BY-SA 4.0), {SOLAR}, {REFINERY}, Santeri Viinamäki (CC BY-SA 4.0)`
+First comment: `Photos via Wikimedia Commons: Rangan Datta Wiki (CC BY-SA 4.0), SpeakingArch (CC BY-SA 4.0), Partonez (CC BY-SA 4.0), Reliance Industries (CC BY-SA 4.0), Santeri Viinamäki (CC BY-SA 4.0)`
 
 ## Dhanteras gold
 
@@ -26,7 +26,7 @@ Send this to the friend buying gold this Dhanteras.
 
 #moneytheory #dhanteras #gold #goldetf #digitalgold #personalfinance #financeindia
 ```
-First comment: `Photos via Wikimedia Commons: {GOLD}, Niyantha Shekhar (CC BY 2.0), Santeri Viinamäki (CC BY-SA 4.0)`
+First comment: `Photos via Wikimedia Commons: A S M Jobaer (CC BY-SA 4.0), Niyantha Shekhar (CC BY 2.0), Santeri Viinamäki (CC BY-SA 4.0)`
 
 ## Crude oil → EMI
 

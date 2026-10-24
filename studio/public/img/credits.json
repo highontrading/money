@@ -110,5 +110,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Field_of_Solar_Panels_near_Ogwell.jpg",
   "license": "CC BY-SA 4.0",
   "author": "Partonez"
+ },
+ "goldbangles": {
+  "file": "goldbangles.jpg",
+  "title": "File:Gold bangles with intricate patterns in a jewelry display Bangladesh 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_bangles_with_intricate_patterns_in_a_jewelry_display_Bangladesh_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "A S M Jobaer"
+ },
+ "refinery": {
+  "file": "refinery.jpg",
+  "title": "File:Jamnagar Refinery.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jamnagar_Refinery.jpg",
+  "license": "CC BY-SA 4.0",
+  "author": "Reliance Industries"
  }
 }

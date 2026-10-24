@@ -68,8 +68,8 @@ const Bill: React.FC = () => {
         </div>
       </Card>
       <Hand x={160} y={1060} at={word('L05', 'design', -2)} out={at('L06')} size={52} rot={-2}>design bhaari → charge zyada</Hand>
-      <Cross id="xm" x={rx + 40} y={ry + 160} w={700} h={60} at={word('L07', 'making', -2)} />
-      <Cross id="xg" x={rx + 40} y={ry + 236} w={700} h={60} at={word('L07', 'gst', 0)} />
+      <Cross id="xm" x={rx + 40} y={ry + 172} w={700} h={56} at={word('L07', 'making', -2)} />
+      <Cross id="xg" x={rx + 40} y={ry + 248} w={700} h={56} at={word('L07', 'gst', 0)} />
       <Hand x={140} y={1060} at={word('L07', 'wapas', -2)} out={l8} size={60} rot={-2} color={C.red}>bechte waqt: wapas nahi</Hand>
       <Card id="katauti" x={160} y={1060} w={760} h={150} rot={1.5} at={word('L08', 'katauti', -4)} bg={C.card}>
         <div style={{display: 'flex', justifyContent: 'space-between', fontFamily: F.type, fontSize: 40, padding: '40px 40px'}}><span>Sone pe bhi thodi katauti</span><span>↓</span></div>
@@ -85,10 +85,10 @@ const Options: React.FC = () => {
   return (
     <AbsoluteFill>
       <Card id="wear" x={80} y={440} w={430} h={340} rot={-2} at={0} out={l10} enter="left" bg={C.card}>
-        <div style={{padding: 30}}><Label size={22}>Pehnna hai</Label><div style={{fontFamily: F.display, fontSize: 110, marginTop: 24}}>GEHNA ✓</div></div>
+        <div style={{padding: 30}}><Label size={22}>Pehnna hai</Label><div style={{fontFamily: F.display, fontSize: 84, marginTop: 34, whiteSpace: 'nowrap'}}>GEHNA ✓</div></div>
       </Card>
       <Card id="inv" x={570} y={470} w={430} h={340} rot={2} at={word('L09', 'investment', -4)} out={l10} enter="right" bg={C.yellow}>
-        <div style={{padding: 30}}><Label size={22}>Investment</Label><div style={{fontFamily: F.display, fontSize: 110, marginTop: 24}}>AUR RAASTE</div></div>
+        <div style={{padding: 30}}><Label size={22}>Investment</Label><div style={{fontFamily: F.display, fontSize: 72, marginTop: 40, whiteSpace: 'nowrap'}}>AUR RAASTE</div></div>
       </Card>
       <Photo id="bse" src="bse.jpg" x={70} y={410} w={940} h={460} rot={-1.5} at={l10} out={l12} enter="up" torn={{top: true, bottom: true}} rough={14} caption="STOCK EXCHANGE" />
       <Card id="etf" x={110} y={820} w={860} h={200} rot={1} at={l10 + 4} out={l12} bg={C.yellow}>
@@ -108,7 +108,7 @@ const Options: React.FC = () => {
       <Headline words={['Demat', 'nahi?']} at={l12} size={150} y={460} />
       <Card id="mf" x={110} y={760} w={860} h={300} rot={-1.5} at={word('L12', 'mutual', -4)} bg={C.yellow}>
         <div style={{padding: '30px 40px'}}>
-          <div style={{fontFamily: F.display, fontSize: 110}}>GOLD MUTUAL FUND</div>
+          <div style={{fontFamily: F.display, fontSize: 92, whiteSpace: 'nowrap'}}>GOLD MUTUAL FUND</div>
           <div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 26, letterSpacing: 2, marginTop: 10}}>WAHI ETF, MUTUAL FUND KE RAASTE</div>
         </div>
       </Card>

@@ -33,7 +33,7 @@ const Chain: React.FC = () => {
   const {at, word} = useCues();
   return (
     <AbsoluteFill>
-      <Headline words={['Ek', 'chain']} at={0} out={at('L05')} size={210} y={500} label="Shuruaat tel se" />
+      <Headline words={['Ek', 'chain']} at={0} out={at('L05')} size={210} y={760} label="Shuruaat tel se" />
       <Steps id="ch" y={420} steps={[
         {t: 'TEL ↑', s: '$117', at: word('L04', 'tel', -2)},
         {t: 'MEHNGAI KA DARR', s: 'DUNIYA BHAR', at: word('L05', 'mehngai', -4)},
@@ -57,10 +57,10 @@ const Yield: React.FC = () => {
           {t: 'Dividend', s: 'nahi', at: word('L08', 'dividend', -2), bad: true},
         ]} />
       <Card id="fd" x={80} y={430} w={430} h={330} rot={-2} at={l9} out={l10} enter="left" bg={C.yellow}>
-        <div style={{padding: 30}}><Label size={22}>FD · Bond</Label><div style={{fontFamily: F.display, fontSize: 110, marginTop: 20}}>INTEREST ✓</div></div>
+        <div style={{padding: 30}}><Label size={22}>FD · Bond</Label><div style={{fontFamily: F.display, fontSize: 72, marginTop: 30, whiteSpace: 'nowrap'}}>INTEREST ✓</div></div>
       </Card>
       <Card id="ag" x={570} y={460} w={430} h={330} rot={2} at={l9 + 6} out={l10} enter="right" bg={C.card}>
-        <div style={{padding: 30}}><Label size={22}>Chandi</Label><div style={{fontFamily: F.display, fontSize: 110, marginTop: 20}}>KUCH NAHI</div></div>
+        <div style={{padding: 30}}><Label size={22}>Chandi</Label><div style={{fontFamily: F.display, fontSize: 72, marginTop: 30, whiteSpace: 'nowrap'}}>KUCH NAHI</div></div>
       </Card>
       <Note id="oc" x={110} y={850} w={860} h={300} at={word('L09', 'opportunity', -6)} out={l10} rot={-1} label="Isse kehte hain" size={64}>
         <HL at={word('L09', 'opportunity', 0)}>Opportunity cost</HL>
@@ -104,7 +104,7 @@ const Metal: React.FC = () => {
         </Card>
       ))}
       <Stamp id="17" text="Solar ≈ 17%" x={640} y={560} at={word('L12', '17%', -4)} out={l13} size={92} rot={-6} paper />
-      <Photo id="ref" src="refinery.jpg" x={70} y={410} w={940} h={540} rot={1.5} at={l13} out={l14} enter="up" torn={{top: true, bottom: true}} rough={14} caption="FACTORY KA KHARCHA ↑" />
+      <Photo id="ref" src="refinery.jpg" pos="50% 62%" x={70} y={410} w={940} h={540} rot={1.5} at={l13} out={l14} enter="up" torn={{top: true, bottom: true}} rough={14} caption="FACTORY KA KHARCHA ↑" />
       <Stamp id="slow" text="Economy slow?" x={540} y={1060} at={word('L13', 'economy', -2)} out={l14} size={90} rot={-5} />
       <Card id="hit1" x={80} y={440} w={430} h={360} rot={-2} at={l14} enter="left" bg={C.card}>
         <div style={{padding: 30}}><Label size={22}>Maar 1</Label><div style={{fontFamily: F.display, fontSize: 92, marginTop: 24, lineHeight: 1}}>RATES ↑</div><div style={{fontFamily: F.mono, fontWeight: 700, fontSize: 22, marginTop: 16}}>INTEREST NAHI DETI</div></div>
