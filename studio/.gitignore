@@ -4,3 +4,5 @@ out/
 public/audio/
 public/img/proc/
 __pycache__/
+public/raw/
+public/video/

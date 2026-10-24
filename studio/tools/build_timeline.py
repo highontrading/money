@@ -19,7 +19,7 @@ GAP = 0.16
 SCENE_GAP = 0.60
 CHAPTER_GAP = 2.4  # long-form: room for the chapter card and its music sting
 LEAD_IN = 0.45
-TAIL = 3.2
+TAIL = float(os.environ.get("VO_TAIL", 3.2))  # long-form: room for the YouTube end screen
 
 
 def load_take(path, tempo=TEMPO):

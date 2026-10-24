@@ -60,8 +60,7 @@ def neutral_texture(src, size, name, tint=None, strength=1.0):
     save(rgb, name)
 
 
-def background(src):
-    w, h = 1080, 1920
+def background(src, w=1080, h=1920, name="bg_paper.jpg"):
     if src and os.path.exists(src):
         im = ImageOps.fit(Image.open(src).convert("L"), (w, h), Image.LANCZOS)
         a = np.array(im, dtype=np.float32); a = (a - a.mean()) / (a.std() + 1e-6)
@@ -74,7 +73,7 @@ def background(src):
     yy, xx = np.mgrid[0:h, 0:w]
     d = np.sqrt(((xx - w * 0.3) / w) ** 2 + ((yy - h * 0.25) / h) ** 2)
     rgb *= (1.03 - 0.16 * d ** 1.6)[..., None]
-    save(rgb, "bg_paper.jpg", 92)
+    save(rgb, name, 92)
 
 
 def photo(src, name, size=(1400, 1400), contrast=1.35, dots=True):
@@ -103,11 +102,11 @@ def photo(src, name, size=(1400, 1400), contrast=1.35, dots=True):
     save(rgb * 255, name, 88)
 
 
-def grain():
+def grain(w=1080, h=1920, prefix="grain"):
     for i in range(6):
-        g = rng.normal(128, 38, (960, 540))
-        g = np.array(Image.fromarray(np.clip(g, 0, 255).astype(np.uint8)).resize((1080, 1920), Image.BILINEAR))
-        save(g, f"grain_{i}.png")
+        g = rng.normal(128, 38, (h // 2, w // 2))
+        g = np.array(Image.fromarray(np.clip(g, 0, 255).astype(np.uint8)).resize((w, h), Image.BILINEAR))
+        save(g, f"{prefix}_{i}.png")
 
 
 def ink_mask():
@@ -141,3 +140,10 @@ if __name__ == "__main__":
         grain()
     if "ink" in what:
         ink_mask()
+    # 16:9 long-form: wide desk, wide grain, and the extra photos used by the YouTube episodes
+    if "wide" in what:
+        background(R("paper_wrinkled.jpg"), 1920, 1080, "bg_wide.jpg")
+        grain(1920, 1080, "grainw")
+        for f in ["jiosim", "tower", "rbi", "flats", "veg", "chai_stall", "chai_kettle", "sebi", "nse", "drum", "typewriter", "ahmedabad_se"]:
+            photo(R(f + ".jpg") if os.path.exists(R(f + ".jpg")) else R(f + ".JPG"), f + ".jpg", size=(1800, 1800))
+        photo(R("certificate1909.jpg"), "certificate1909.jpg", size=(1800, 1800), contrast=1.15, dots=False)

@@ -1,6 +1,6 @@
 {
  "fps": 30,
- "duration": 21391,
+ "duration": 21835,
  "lines": [
   {
    "id": "L001",
@@ -10205,7 +10205,7 @@
   {
    "id": "outro",
    "start": 20869,
-   "end": 21391
+   "end": 21835
   }
  ],
  "audio": "audio/ipo-journey/narration.wav",

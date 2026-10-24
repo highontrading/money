@@ -11,6 +11,9 @@ import {repo} from './episodes/repo';
 import {jioMoney} from './episodes/jioMoney';
 import {jioListing} from './episodes/jioListing';
 import {FPS, H, W} from './theme';
+import {LongEpisode} from './longform/LongEpisode';
+import {LH, LW} from './longform/frame';
+import {ipoJourney} from './longform/ipo';
 
 const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
   {def: ep01, cover: {big: 'GMP', line1: 'GREY MARKET', line2: 'KA SACH', photo: 'bse.jpg', stamp: '₹1,364 ?'}},
@@ -27,6 +30,8 @@ const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
 // components, so each episode gets its own wrapper component instead.
 const COMPONENTS = Object.fromEntries(EPISODES.map(({def}) => [def.id, () => <Episode def={def} />]));
 
+const IpoJourney = () => <LongEpisode def={ipoJourney} />;
+
 const Root: React.FC = () => (
   <>
     {EPISODES.map(({def, cover}) => (
@@ -35,6 +40,8 @@ const Root: React.FC = () => (
         <Still id={def.id + '-cover'} component={Cover} defaultProps={cover} width={W} height={H} />
       </React.Fragment>
     ))}
+    {/* YouTube long-form, 16:9 */}
+    <Composition id={ipoJourney.id} component={IpoJourney} durationInFrames={ipoJourney.timeline.duration} fps={FPS} width={LW} height={LH} />
   </>
 );
 

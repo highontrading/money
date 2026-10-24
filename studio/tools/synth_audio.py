@@ -199,6 +199,70 @@ def sfx():
     s["coin"] = sum(np.sin(2 * np.pi * f * tt) * np.exp(-tt * d) * a for f, d, a in [(2093, 5, 0.5), (3270, 7, 0.35), (4730, 9, 0.25), (6200, 12, 0.15)]) * np.minimum(1, tt / 0.002) * 0.35
     tt = t(0.25)
     s["pop"] = np.sin(2 * np.pi * (300 + 500 * np.exp(-tt * 30)) * tt) * np.exp(-tt * 25) * 0.35
+    s.update(foley_long())
+    return s
+
+
+def foley_long():
+    """Extra foley for the long-form episodes (typewriter, bells, padlocks, lottery drum...)."""
+    s = {}
+    # typewriter key: sharp click + slug thud + a little carriage ring
+    tt = t(0.12)
+    s["type"] = (bp(rng.normal(0, 1, len(tt)), 2500, 9000) * np.exp(-tt * 160) * 0.8
+                 + np.sin(2 * np.pi * 180 * tt) * np.exp(-tt * 60) * 0.5)
+    # paper tear: crackly band noise with an amplitude-modulated grain
+    tt = t(0.55)
+    n = rng.normal(0, 1, len(tt))
+    crackle = (rng.random(len(tt)) > 0.985) * rng.normal(0, 3, len(tt))
+    s["tear"] = (bp(n, 1200, 7000) * (0.4 + 0.6 * np.abs(np.sin(2 * np.pi * 31 * tt))) + bp(crackle, 800, 6000)) * np.sin(np.pi * tt / 0.55) ** 0.6 * 0.6
+    # page flip: soft whoosh with a paper flutter
+    tt = t(0.32)
+    s["page"] = bp(rng.normal(0, 1, len(tt)), 900, 5000) * np.sin(np.pi * tt / 0.32) ** 2 * (0.7 + 0.3 * np.sin(2 * np.pi * 45 * tt)) * 0.6
+    # chapter sting: low boom + bright marimba-ish fifth, short tail
+    tt = t(1.6)
+    boom = np.sin(2 * np.pi * (48 + 40 * np.exp(-tt * 9)) * tt) * np.exp(-tt * 3.2)
+    bell = sum(np.sin(2 * np.pi * f * tt) * np.exp(-tt * d) * a for f, d, a in [(659.3, 3.5, 0.35), (987.8, 4.5, 0.25), (1318.5, 6, 0.12)])
+    s["sting"] = boom * 0.9 + bell * 0.5 + bp(rng.normal(0, 1, len(tt)), 3000, 9000) * np.exp(-tt * 30) * 0.15
+    # big hit for titles
+    tt = t(2.2)
+    s["boom"] = np.sin(2 * np.pi * (42 + 50 * np.exp(-tt * 7)) * tt) * np.exp(-tt * 2.2) + lp(rng.normal(0, 1, len(tt)), 400) * np.exp(-tt * 6) * 0.4
+    # riser into reveals
+    tt = t(1.4)
+    sweep = bp(rng.normal(0, 1, len(tt)), 400, 9000)
+    s["riser"] = sweep * (tt / 1.4) ** 2.2 * 0.6 + np.sin(2 * np.pi * (200 + 500 * (tt / 1.4) ** 2) * tt) * (tt / 1.4) ** 3 * 0.25
+    # 16mm projector rattle (under archive film)
+    tt = t(1.6)
+    clack = (np.sin(2 * np.pi * 24 * tt) > 0.92).astype(float)
+    s["projector"] = (bp(rng.normal(0, 1, len(tt)), 1500, 6000) * clack * 0.7 + lp(rng.normal(0, 1, len(tt)), 300) * 0.25) * np.minimum(1, tt / 0.1) * np.minimum(1, (1.6 - tt) / 0.4)
+    # exchange bell: inharmonic partials, long ring
+    tt = t(2.6)
+    s["bell"] = sum(np.sin(2 * np.pi * f * tt) * np.exp(-tt * d) * a for f, d, a in [(523, 1.2, 0.5), (1046, 1.6, 0.35), (1340, 2.2, 0.25), (1780, 2.8, 0.18), (2610, 3.5, 0.1)]) * np.minimum(1, tt / 0.003)
+    # padlock click: two quick metallic ticks
+    tt = t(0.2)
+    tick = lambda a: np.roll(bp(rng.normal(0, 1, len(tt)), 3000, 10000) * np.exp(-tt * 300), int(a * SR))
+    s["padlock"] = (tick(0) + tick(0.06) * 0.8 + np.sin(2 * np.pi * 2400 * tt) * np.exp(-tt * 80) * 0.2) * 0.7
+    # note-counter riffle
+    tt = t(0.8)
+    flick = (np.sin(2 * np.pi * 38 * tt) > 0.7).astype(float)
+    s["riffle"] = bp(rng.normal(0, 1, len(tt)), 1500, 8000) * flick * np.sin(np.pi * tt / 0.8) * 0.6
+    # phone notification ping
+    tt = t(0.6)
+    s["ping"] = (np.sin(2 * np.pi * 1318.5 * tt) * np.exp(-tt * 9) + np.sin(2 * np.pi * 1975.5 * np.clip(tt - 0.09, 0, None)) * np.exp(-np.clip(tt - 0.09, 0, None) * 9) * (tt > 0.09)) * 0.35
+    # lottery drum: rolling rattle of paper tickets
+    tt = t(1.5)
+    roll = sum(np.roll(bp(rng.normal(0, 1, len(tt)), 800, 5000) * np.exp(-((tt - 0.0) * 40) ** 2), int(rng.random() * len(tt))) for _ in range(40))
+    s["drum"] = (roll * 0.3 + lp(rng.normal(0, 1, len(tt)), 220) * 0.4) * np.sin(np.pi * tt / 1.5) * 0.7
+    # clock tick-tock
+    tt = t(1.0)
+    tk = bp(rng.normal(0, 1, len(tt)), 2000, 7000) * np.exp(-tt * 200)
+    s["clock"] = (tk + np.roll(tk, int(0.5 * SR)) * 0.7) * 0.8
+    # crowd murmur (applause-ish texture)
+    tt = t(2.0)
+    s["crowd"] = (bp(rng.normal(0, 1, len(tt)), 300, 2500) * (0.6 + 0.4 * np.sin(2 * np.pi * 3 * tt + rng.random(len(tt)) * 0.5))
+                  + bp((rng.random(len(tt)) > 0.995) * rng.normal(0, 3, len(tt)), 1500, 6000)) * np.sin(np.pi * tt / 2.0) * 0.5
+    # scissors snip
+    tt = t(0.18)
+    s["scissors"] = (bp(rng.normal(0, 1, len(tt)), 3000, 11000) * np.exp(-tt * 70) + np.roll(bp(rng.normal(0, 1, len(tt)), 2500, 9000) * np.exp(-tt * 90), int(0.07 * SR))) * 0.6
     return s
 
 
