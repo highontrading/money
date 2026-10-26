@@ -1,20 +1,19 @@
 # IPO ka poora safar: YouTube upload sheet
 
-## Title options
-1. IPO ka poora safar: Idea se Listing ki Ghanti tak | Jio IPO example
-2. IPO kaise kaam karta hai? DRHP, Anchor, Lottery, Listing — sab ek video mein
-3. 1977 ka Reliance IPO vs 2026 ka Jio IPO: har IPO ka same raasta
+Everything to fill in YouTube Studio, in the order Studio asks for it. Files: `out/final/ipo-journey_1080p_upload.mp4`, `out/thumbs/thumb-a.png` and `thumb-b.png`, `script/ipo-journey.hinglish.srt` and `script/ipo-journey.en.srt` (regenerate with `tools/make_srt.py`).
 
-## Thumbnails
-`ipo-journey-thumb-a` (then vs now) and `ipo-journey-thumb-b` (1 lot ya 14?): run both in YouTube's Test & Compare.
+## Title (max 100 chars)
 
-## Subtitles
-`out/youtube/ipo-journey.hinglish.srt` (Hindi, Latin script) and `out/youtube/ipo-journey.en.srt` (English), made by `tools/make_srt.py`.
+**Use:** `IPO Kaise Kaam Karta Hai? Idea se Listing Tak Poora Safar | Jio IPO Example` (75 chars)
 
-## End screen
-The last ~18 s keep two taped frames (right) and a subscribe circle (left) clear: put "Best for viewer" + a playlist in the frames and the subscribe element on the circle.
+Alternatives for a later title test:
+- `IPO ka Poora Safar: DRHP, Anchor, Lottery, Listing — Sab Ek Video Mein`
+- `1977 ka Reliance IPO vs 2026 ka Jio IPO: Har IPO ka Same Raasta`
+- `1 Lot Lagao ya 14, Chance Same Kyun? IPO ka Poora Process Samjho`
 
-## Description
+Once Jio has listed and the news peak passes, swap "Jio IPO Example" for a generic ending (e.g. "| IPO Process in Hindi") so the title stays evergreen.
+
+## Description (max 5,000 chars; this one is ~4,400)
 
 ```
 IPO ka poora safar — ek idea se listing ki ghanti tak. 🔔
@@ -66,3 +65,70 @@ Music and sound effects: original, made for Money Theory.
 
 #moneytheory #ipo #ipokyahai #jioipo #stockmarket #sebi #personalfinance #financeindia
 ```
+
+YouTube shows the first three hashtags above the title (#moneytheory #ipo #ipokyahai).
+
+## Tags (max 500 chars; this list is 411)
+
+```
+ipo, ipo kya hai, ipo kaise kaam karta hai, ipo process in india, ipo in hindi, how ipo works, jio ipo, jio platforms ipo, reliance jio ipo, jio ipo listing, ipo allotment, ipo allotment kaise hota hai, ipo lottery, drhp, rhp, anchor investors, price band, ipo lot size, asba, upi ipo, t+3 listing, ipo listing day, gmp, sebi, share market for beginners, stock market hindi, money theory, personal finance india
+```
+
+## Thumbnail
+
+Upload `thumb-a.png` (then vs now) as the main one, then use **Test & Compare** with `thumb-b.png` (1 lot ya 14? same chance).
+
+## Playlists
+
+Create **"IPO Samjho"** (this video, plus the GMP / Jio listing videos once they're on YouTube), and a channel-wide **"Money Theory Explained"** for every long-form video.
+
+## Audience and settings
+
+| Field | Value |
+|---|---|
+| Audience | No, it's not made for kids |
+| Age restriction | None |
+| Altered or synthetic content | **Yes.** The narration is an AI voice (ElevenLabs) that sounds like a real person. Ticking it only adds a small label; leaving it unticked on a realistic synthetic voice can get the video flagged |
+| Paid promotion | No |
+| Automatic chapters | Off (the description already has chapters) |
+| Featured places / automatic concepts | Off |
+| Language (video and title/description) | Hindi |
+| Caption certification | None |
+| Recording date / location | 2026, India (optional) |
+| License | Standard YouTube License |
+| Distribution | Allow embedding on; publish to subscriptions feed and notify subscribers on |
+| Shorts remixing | Allow video and audio remixing |
+| Category | **Education** |
+| Comments | On; hold potentially inappropriate comments for review; sort by Top |
+
+## Subtitles
+
+Studio → Subtitles → Add language:
+- **Hindi** → Upload file → *With timing* → `ipo-journey.hinglish.srt` (Latin-script Hinglish, matches the on-screen words)
+- **English** → Upload file → *With timing* → `ipo-journey.en.srt`
+
+## End screen (last 18 s: 11:49 → 12:07)
+
+The video leaves two taped frames on the right and a dashed circle on the left empty for these:
+- Top frame → **Video: Best for viewer**
+- Bottom frame → **Playlist: IPO Samjho** (or a specific video once the GMP one is up)
+- Circle → **Subscribe**
+
+Line each element up with the frames using Studio's preview.
+
+## Cards
+
+- **7:21**, on "GMP… uspe poori video alag se hai": card to the GMP video. That video must be on YouTube for this; upload the GMP reel as a Short if it isn't yet.
+- **3:51**, on "SEBI ne approve kiya toh safe hai? Galat": optional poll card, "Kya aap pehle aisa maante the? Haan / Nahi".
+
+## Pinned comment
+
+```
+Aapke ghar mein sabse pehla IPO kisne bhara tha — dadaji, papa ya aap? 👇
+Aur agla video kis topic pe chahiye: Rupee vs Dollar, 1991 gold crisis, ya UPI ka asli kharcha?
+(Photo/film credits description mein hain.)
+```
+
+## When to publish
+
+Jio lists on **28 Oct 2026**, and searches for "IPO allotment / listing" peak around allotment and listing day. Publish **27 Oct, 6–7 pm IST** so the video is live and indexed before the listing-morning search spike. After that, the generic title keeps it evergreen.
