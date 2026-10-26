@@ -1,0 +1,26 @@
+{
+ "title": "Rupee ₹95: aapki jeb pe asar",
+ "data_note": "Rupee closed 94.81/$ on 22 Oct 2026 (PTI); ~88.20 on 30 Oct 2025 (AIR). Record low ~96.97 in May 2026. FPIs pulled ~Rs 3.08 lakh crore from Indian equities in CY26 to mid-Oct (Business Standard, record). Example fees $40,000: Rs 35.3 lakh at 88.2 vs Rs 37.9 lakh at 94.8. Remittance $1,000: Rs 88,200 vs Rs 94,800.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Ek saal pehle 1 dollar = *₹88.* Aaj lagbhag *₹95.*", "tts": "एक साल पहले, एक डॉलर, अठासी रुपये. आज लगभग, पचानवे."},
+  {"id": "L02", "scene": "hook", "cap": "Dollar mehenga nahi hua. *Rupee sasta* hua. Aur iska bill aapki jeb tak aata hai.", "tts": "डॉलर महँगा नहीं हुआ. रुपया सस्ता हुआ. और इसका बिल, आपकी जेब तक आता है."},
+  {"id": "L03", "scene": "why", "cap": "Rupee ka daam bhi *demand aur supply* se tay hota hai.", "tts": "रुपये का दाम भी, डिमांड और सप्लाई से तय होता है."},
+  {"id": "L04", "scene": "why", "cap": "Pehla kaaran: *tel.* Tel mehenga, toh India ko zyada dollar chahiye.", "tts": "पहला कारण, तेल. तेल महँगा, तो इंडिया को ज़्यादा डॉलर चाहिए."},
+  {"id": "L05", "scene": "why", "cap": "Doosra: *videshi investor.* Is saal Indian shares se *₹3 lakh crore* se zyada nikaal chuke hain.", "tts": "दूसरा, विदेशी इन्वेस्टर. इस साल, इंडियन शेयर्स से, तीन लाख करोड़ से ज़्यादा निकाल चुके हैं."},
+  {"id": "L06", "scene": "why", "cap": "Wo rupee bech kar dollar lete hain. Dollar ki demand badhi, *rupee gira.*", "tts": "वो रुपया बेचकर डॉलर लेते हैं. डॉलर की डिमांड बढ़ी, रुपया गिरा."},
+  {"id": "L07", "scene": "why", "cap": "May mein toh rupee *₹97* ke paas pahunch gaya tha. Ab tak ka sabse neeche.", "tts": "मई में तो रुपया, सत्तानवे के पास पहुँच गया था. अब तक का सबसे नीचे."},
+  {"id": "L08", "scene": "you", "cap": "Ab aapki jeb. Bachcha America mein padh raha hai? Fees *$40,000* saal.", "tts": "अब आपकी जेब. बच्चा अमेरिका में पढ़ रहा है? फ़ीस, चालीस हज़ार डॉलर साल."},
+  {"id": "L09", "scene": "you", "cap": "Pichhle saal yeh lagbhag *₹35 lakh* thi. Aaj *₹38 lakh.* Fees wahi, kharcha zyada.", "tts": "पिछले साल यह, लगभग पैंतीस लाख थी. आज, अड़तीस लाख. फ़ीस वही, ख़र्चा ज़्यादा."},
+  {"id": "L10", "scene": "you", "cap": "Foreign trip, imported phone, laptop. Sab *mehenga.*", "tts": "फ़ॉरेन ट्रिप, इम्पोर्टेड फ़ोन, लैपटॉप. सब महँगा."},
+  {"id": "L11", "scene": "you", "cap": "Aur tel bhi dollar mein aata hai. Toh *mehngai* ka dabaav alag.", "tts": "और तेल भी डॉलर में आता है. तो महँगाई का दबाव अलग."},
+  {"id": "L12", "scene": "win", "cap": "Par kuch log *khush* bhi hain.", "tts": "पर कुछ लोग ख़ुश भी हैं."},
+  {"id": "L13", "scene": "win", "cap": "Bahar se ghar paisa bhejne wale. *$1,000* pe pehle ₹88,000 milte the, ab *₹95,000.*", "tts": "बाहर से घर पैसा भेजने वाले. एक हज़ार डॉलर पे, पहले अठासी हज़ार मिलते थे, अब पचानवे हज़ार."},
+  {"id": "L14", "scene": "win", "cap": "Aur *IT companies,* jo dollar mein kamaati hain.", "tts": "और आई टी कंपनियाँ, जो डॉलर में कमाती हैं."},
+  {"id": "L15", "scene": "rbi", "cap": "RBI kya karta hai? Apne *reserve* se dollar bechta hai, taaki girawat *dheemi* ho.", "tts": "आर बी आई क्या करता है? अपने रिज़र्व से डॉलर बेचता है, ताकि गिरावट धीमी हो."},
+  {"id": "L16", "scene": "rbi", "cap": "Rokta nahi. Bas *jhatke* kam karta hai.", "tts": "रोकता नहीं. बस झटके कम करता है."},
+  {"id": "L17", "scene": "do", "cap": "Aap kya karein? Videsh ka bada kharcha aane wala hai, toh dollar *thoda-thoda* lo.", "tts": "आप क्या करें? विदेश का बड़ा ख़र्चा आने वाला है, तो डॉलर, थोड़ा-थोड़ा लो."},
+  {"id": "L18", "scene": "do", "cap": "Aur portfolio mein thoda *international* hissa, rupee ke girne se kuch bachaav deta hai.", "tts": "और पोर्टफ़ोलियो में थोड़ा इंटरनेशनल हिस्सा, रुपये के गिरने से कुछ बचाव देता है."},
+  {"id": "L19", "scene": "outro", "cap": "Jiska bachcha bahar padh raha hai, usse yeh *bhejo.*", "tts": "जिसका बच्चा बाहर पढ़ रहा है, उसे यह भेजो."},
+  {"id": "L20", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

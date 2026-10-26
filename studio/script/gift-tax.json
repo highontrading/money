@@ -1,0 +1,24 @@
+{
+ "title": "Diwali gift pe tax?",
+ "data_note": "Income-tax Act 2025 (from 1 Apr 2026) keeps the gift rules: gifts from relatives exempt; gifts on own marriage exempt; from non-relatives, if the aggregate in a year exceeds Rs 50,000 the whole amount is taxed as other income (money, and movable property such as jewellery/shares by fair value). Employer non-cash gifts/vouchers: perquisite nil up to Rs 15,000 a year (Income-tax Rules 2026, notified 20 Mar 2026; was Rs 5,000). Cash gifts/bonus from employer: salary.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Diwali pe gifts. Mithai, sona, cash, *voucher.*", "tts": "दिवाली पे गिफ़्ट्स. मिठाई, सोना, कैश, वाउचर."},
+  {"id": "L02", "scene": "hook", "cap": "Par kuch gifts pe *income tax* bhi lag sakta hai. Kaunse?", "tts": "पर कुछ गिफ़्ट्स पे, इनकम टैक्स भी लग सकता है. कौन से?"},
+  {"id": "L03", "scene": "family", "cap": "Pehla rule. *Rishtedaar* se mila gift, kitna bhi bada, *tax-free.*", "tts": "पहला रूल. रिश्तेदार से मिला गिफ़्ट, कितना भी बड़ा, टैक्स फ़्री."},
+  {"id": "L04", "scene": "family", "cap": "Maa-baap, bhai-behen, pati-patni, saas-sasur. Poori list *law* mein hai.", "tts": "माँ-बाप, भाई-बहन, पति-पत्नी, सास-ससुर. पूरी लिस्ट, लॉ में है."},
+  {"id": "L05", "scene": "family", "cap": "Aur apni *shaadi* pe mila gift bhi tax-free. Kisi se bhi mile.", "tts": "और अपनी शादी पे मिला गिफ़्ट भी टैक्स फ़्री. किसी से भी मिले."},
+  {"id": "L06", "scene": "friends", "cap": "Ab *dost* ya jaan-pehchaan wale.", "tts": "अब दोस्त, या जान-पहचान वाले."},
+  {"id": "L07", "scene": "friends", "cap": "Saal bhar mein inse mile gifts ka total *₹50,000* tak, koi tax nahi.", "tts": "साल भर में, इनसे मिले गिफ़्ट्स का टोटल, पचास हज़ार तक, कोई टैक्स नहीं."},
+  {"id": "L08", "scene": "friends", "cap": "Par total ₹50,000 se upar gaya, toh *poora amount* income. Sirf upar wala hissa nahi.", "tts": "पर टोटल पचास हज़ार से ऊपर गया, तो पूरा अमाउंट इनकम. सिर्फ़ ऊपर वाला हिस्सा नहीं."},
+  {"id": "L09", "scene": "friends", "cap": "Dosto se ₹60,000 mile? Toh poore *₹60,000* pe aapke slab se tax.", "tts": "दोस्तों से साठ हज़ार मिले? तो पूरे साठ हज़ार पे, आपके स्लैब से टैक्स."},
+  {"id": "L10", "scene": "friends", "cap": "Aur yeh sirf cash nahi. *Sona, shares* jaisi cheezein bhi ginti mein.", "tts": "और यह सिर्फ़ कैश नहीं. सोना, शेयर्स जैसी चीज़ें भी गिनती में."},
+  {"id": "L11", "scene": "office", "cap": "Ab office. Company se mila *voucher ya gift.*", "tts": "अब ऑफ़िस. कंपनी से मिला वाउचर या गिफ़्ट."},
+  {"id": "L12", "scene": "office", "cap": "Is saal se naya rule: saal mein *₹15,000* tak tax-free. Pehle sirf ₹5,000 tha.", "tts": "इस साल से नया रूल. साल में पंद्रह हज़ार तक, टैक्स फ़्री. पहले सिर्फ़ पाँच हज़ार था."},
+  {"id": "L13", "scene": "office", "cap": "Par cash gift ya *Diwali bonus?* Woh salary hai. Pehle rupaye se taxable.", "tts": "पर कैश गिफ़्ट, या दिवाली बोनस? वो सैलरी है. पहले रुपये से टैक्सेबल."},
+  {"id": "L14", "scene": "do", "cap": "Toh kya karein? Bada gift mila, toh kisne diya, kitna, *likh kar* rakho.", "tts": "तो क्या करें? बड़ा गिफ़्ट मिला, तो किसने दिया, कितना, लिखकर रखो."},
+  {"id": "L15", "scene": "do", "cap": "*Bank transfer* se mile, toh record apne aap ban jaata hai.", "tts": "बैंक ट्रांसफ़र से मिले, तो रिकॉर्ड अपने आप बन जाता है."},
+  {"id": "L16", "scene": "do", "cap": "Aur ITR mein taxable gift *'other income'* mein dikhana mat bhoolo.", "tts": "और आई टी आर में, टैक्सेबल गिफ़्ट, अदर इनकम में दिखाना मत भूलो."},
+  {"id": "L17", "scene": "outro", "cap": "Jise is Diwali bada gift milne wala hai, usse yeh *bhejo.*", "tts": "जिसे इस दिवाली बड़ा गिफ़्ट मिलने वाला है, उसे यह भेजो."},
+  {"id": "L18", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "title": "FII bech rahe, kaun khareed raha?",
+ "data_note": "FPIs pulled ~Rs 3.08 lakh crore from Indian equities in CY26 to 15 Oct, a record (Business Standard). 1-15 Oct 2026: FPI -Rs 47,955 cr, DII +Rs 51,829 cr (fortnightly review). DII net CY26 ~Rs 6.83 lakh crore (Business Standard). SIP inflows record Rs 32,490 cr in Sep 2026 (AMFI).",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Videshi investor is saal Indian shares se *₹3 lakh crore* se zyada nikaal chuke hain. *Record.*", "tts": "विदेशी इन्वेस्टर, इस साल इंडियन शेयर्स से, तीन लाख करोड़ से ज़्यादा निकाल चुके हैं. रिकॉर्ड."},
+  {"id": "L02", "scene": "hook", "cap": "Phir bhi bazaar poora kyun nahi bikhra? *Kaun khareed raha hai?*", "tts": "फिर भी बाज़ार पूरा क्यों नहीं बिखरा? कौन ख़रीद रहा है?"},
+  {"id": "L03", "scene": "who", "cap": "Pehle naam samjho. *FII:* bahar ke bade fund.", "tts": "पहले नाम समझो. एफ़ आई आई. बाहर के बड़े फ़ंड."},
+  {"id": "L04", "scene": "who", "cap": "*DII:* desh ke mutual fund, insurance companies, pension fund.", "tts": "डी आई आई. देश के म्यूचुअल फ़ंड, इंश्योरेंस कंपनियाँ, पेंशन फ़ंड."},
+  {"id": "L05", "scene": "why", "cap": "FII kyun bech rahe? Tel mehenga, *rupee kamzor,* aur America mein achha interest.", "tts": "एफ़ आई आई क्यों बेच रहे? तेल महँगा, रुपया कमज़ोर, और अमेरिका में अच्छा इंटरेस्ट."},
+  {"id": "L06", "scene": "why", "cap": "Rupee girta hai, toh unka *dollar* wala return bhi ghat-ta hai.", "tts": "रुपया गिरता है, तो उनका डॉलर वाला रिटर्न भी घटता है."},
+  {"id": "L07", "scene": "flows", "cap": "Ab October ke pehle 15 din. FII ne beche lagbhag *₹48,000 crore.*", "tts": "अब अक्टूबर के पहले पंद्रह दिन. एफ़ आई आई ने बेचे, लगभग अड़तालीस हज़ार करोड़."},
+  {"id": "L08", "scene": "flows", "cap": "Aur DII ne khareede lagbhag *₹52,000 crore.*", "tts": "और डी आई आई ने ख़रीदे, लगभग बावन हज़ार करोड़."},
+  {"id": "L09", "scene": "flows", "cap": "Is saal ab tak DII ki kul khareed: *₹6.8 lakh crore* se zyada.", "tts": "इस साल अब तक, डी आई आई की कुल ख़रीद, छह पॉइंट आठ लाख करोड़ से ज़्यादा."},
+  {"id": "L10", "scene": "sip", "cap": "Aur DII ke paas paisa aata kahan se hai? *Aapse.*", "tts": "और डी आई आई के पास पैसा आता कहाँ से है? आपसे."},
+  {"id": "L11", "scene": "sip", "cap": "Har mahine ki SIP. September mein record: *₹32,490 crore.*", "tts": "हर महीने की एस आई पी. सितंबर में रिकॉर्ड. बत्तीस हज़ार चार सौ नब्बे करोड़."},
+  {"id": "L12", "scene": "sip", "cap": "Bazaar gira, phir bhi log SIP *chalate rahe.*", "tts": "बाज़ार गिरा, फिर भी लोग एस आई पी चलाते रहे."},
+  {"id": "L13", "scene": "sip", "cap": "Aapki chhoti si SIP, lakhon logon ke saath milkar, videshi selling ka *jawab* ban gayi.", "tts": "आपकी छोटी सी एस आई पी, लाखों लोगों के साथ मिलकर, विदेशी सेलिंग का जवाब बन गई."},
+  {"id": "L14", "scene": "lesson", "cap": "Isliye FII ke nikalne ka asar ab pehle se *kam* padta hai.", "tts": "इसलिए एफ़ आई आई के निकलने का असर, अब पहले से कम पड़ता है."},
+  {"id": "L15", "scene": "lesson", "cap": "Par iska matlab yeh nahi ki bazaar *girega nahi.*", "tts": "पर इसका मतलब यह नहीं, कि बाज़ार गिरेगा नहीं."},
+  {"id": "L16", "scene": "lesson", "cap": "Bas itna: India ke bazaar mein ab *Indian paise* ki taaqat badh gayi hai.", "tts": "बस इतना. इंडिया के बाज़ार में, अब इंडियन पैसे की ताक़त बढ़ गई है."},
+  {"id": "L17", "scene": "do", "cap": "SIP chal rahi hai? Girte bazaar mein usi paise se *zyada units* milti hain.", "tts": "एस आई पी चल रही है? गिरते बाज़ार में, उसी पैसे से ज़्यादा यूनिट्स मिलती हैं."},
+  {"id": "L18", "scene": "do", "cap": "Rokne se pehle apna *goal* aur *time* dekho. Headline nahi.", "tts": "रोकने से पहले, अपना गोल और टाइम देखो. हेडलाइन नहीं."},
+  {"id": "L19", "scene": "outro", "cap": "Jo kehta hai 'FII bech rahe, sab bech do', usse yeh *bhejo.*", "tts": "जो कहता है, एफ़ आई आई बेच रहे, सब बेच दो, उसे यह भेजो."},
+  {"id": "L20", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

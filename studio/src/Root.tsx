@@ -14,6 +14,11 @@ import {silver} from './episodes/silver';
 import {gold} from './episodes/gold';
 import {crude} from './episodes/crude';
 import {muhurat} from './episodes/muhurat';
+import {rupee} from './episodes/rupee';
+import {fd} from './episodes/fd';
+import {fiiDii} from './episodes/fiiDii';
+import {noCostEmi} from './episodes/noCostEmi';
+import {giftTax} from './episodes/giftTax';
 import {FPS, H, W} from './theme';
 import {LongEpisode} from './longform/LongEpisode';
 import {LH, LW} from './longform/frame';
@@ -33,6 +38,11 @@ const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
   {def: gold, cover: {big: 'DHANTERAS', bigSize: 200, line1: '₹1 LAKH KA GEHNA,', line2: '₹84,000 WAPAS?', photo: 'goldbangles.jpg', stamp: 'ETF vs GEHNA'}},
   {def: crude, cover: {big: 'TEL → EMI', bigSize: 210, line1: '$117 KA TEL,', line2: 'AAPKI JEB TAK', photo: 'tanker.jpg', stamp: '$117'}},
   {def: muhurat, cover: {big: 'MUHURAT', bigSize: 220, line1: 'DIWALI KA', line2: 'EK GHANTA', photo: 'diya.jpg', stamp: '8 NOV · 2:20 PM'}},
+  {def: rupee, cover: {big: 'RUPEE ₹95', bigSize: 200, line1: 'DOLLAR MEHENGA YA', line2: 'RUPEE SASTA?', photo: 'dollar.jpg', stamp: '₹88 → ₹95'}},
+  {def: fd, cover: {big: 'FD RATE?', bigSize: 220, line1: 'REPO BADHA,', line2: 'FD KAB BADHEGI?', photo: 'rbi.jpg', stamp: '5.50%'}},
+  {def: fiiDii, cover: {big: 'FII vs DII', bigSize: 200, line1: 'VIDESHI BECH RAHE,', line2: 'KHAREED KAUN RAHA?', photo: 'nse.jpg', stamp: '₹3 LAKH CR'}},
+  {def: noCostEmi, cover: {big: 'NO-COST EMI', bigSize: 165, line1: 'COST KAHAN', line2: 'CHHUPI HAI?', photo: 'phone.jpg', stamp: '18% GST'}},
+  {def: giftTax, cover: {big: 'GIFT PE TAX?', bigSize: 165, line1: 'DIWALI GIFTS KA', line2: 'TAX RULE', photo: 'diyas.jpg', stamp: '₹50,000'}},
 ];
 
 // Composition props are serialized to JSON, which would drop the scene

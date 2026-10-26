@@ -1,0 +1,24 @@
+{
+ "title": "Repo badha, FD kab badhegi?",
+ "data_note": "RBI repo 5.25% -> 5.50% on 7 Oct 2026. ICICI revised FD rates from 13 Oct; most big banks unchanged mid-Oct; SBI chairman: deposit rates may take 2-3 months (Upstox/GoPocket). NBFC FDs up to ~8.95% (Ventura). DICGC cover Rs 5 lakh per depositor per bank incl. interest (since 4 Feb 2020); NBFC deposits not covered.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "RBI ne repo rate badhaya. *5.25%* se *5.50%.*", "tts": "आर बी आई ने रेपो रेट बढ़ाया. पाँच पॉइंट दो पाँच से, पाँच पॉइंट पाँच परसेंट."},
+  {"id": "L02", "scene": "hook", "cap": "Toh aapki FD ka rate bhi badha? Zyada tar banks mein, *abhi nahi.*", "tts": "तो आपकी एफ़ डी का रेट भी बढ़ा? ज़्यादातर बैंकों में, अभी नहीं."},
+  {"id": "L03", "scene": "why", "cap": "Kyun? Naye loan ka rate repo se *seedha juda* hai. Jaldi badhta hai.", "tts": "क्यों? नए लोन का रेट, रेपो से सीधा जुड़ा है. जल्दी बढ़ता है."},
+  {"id": "L04", "scene": "why", "cap": "Par FD ka rate bank *khud* tay karta hai. Jab deposit ki zaroorat ho, tab badhata hai.", "tts": "पर एफ़ डी का रेट, बैंक ख़ुद तय करता है. जब डिपॉज़िट की ज़रूरत हो, तब बढ़ाता है."},
+  {"id": "L05", "scene": "why", "cap": "Kuch banks ne badhaya hai. Par SBI ke chairman ne kaha: *2–3 mahine* lag sakte hain.", "tts": "कुछ बैंकों ने बढ़ाया है. पर एस बी आई के चेयरमैन ने कहा, दो से तीन महीने लग सकते हैं."},
+  {"id": "L06", "scene": "nbfc", "cap": "Aur idhar NBFC FD: *8.95%* tak! Zyada lagta hai na?", "tts": "और इधर, एन बी एफ़ सी एफ़ डी. आठ पॉइंट नौ पाँच परसेंट तक! ज़्यादा लगता है ना?"},
+  {"id": "L07", "scene": "nbfc", "cap": "Par ek fark samjho. Bank FD pe *DICGC* ka insurance hai.", "tts": "पर एक फ़र्क समझो. बैंक एफ़ डी पे, डी आई सी जी सी का इंश्योरेंस है."},
+  {"id": "L08", "scene": "nbfc", "cap": "Har bank mein, har depositor ke *₹5 lakh* tak. Bank doobe, toh bhi yeh paisa surakshit.", "tts": "हर बैंक में, हर डिपॉज़िटर के, पाँच लाख तक. बैंक डूबे, तो भी यह पैसा सुरक्षित."},
+  {"id": "L09", "scene": "nbfc", "cap": "NBFC FD pe yeh insurance *nahi.* Isliye *rating* zaroor dekho.", "tts": "एन बी एफ़ सी एफ़ डी पे, यह इंश्योरेंस नहीं. इसलिए रेटिंग ज़रूर देखो."},
+  {"id": "L10", "scene": "nbfc", "cap": "Zyada byaaj matlab *zyada risk.* Yeh rule kabhi mat bhoolna.", "tts": "ज़्यादा ब्याज, मतलब ज़्यादा रिस्क. यह रूल कभी मत भूलना."},
+  {"id": "L11", "scene": "ladder", "cap": "Toh abhi FD karein ya ruken? Ek tareeka: *laddering.*", "tts": "तो अभी एफ़ डी करें, या रुकें? एक तरीका. लैडरिंग."},
+  {"id": "L12", "scene": "ladder", "cap": "Maan lo ₹3 lakh. Ek saath nahi. *1 lakh* ek saal, *1 lakh* do saal, *1 lakh* teen saal.", "tts": "मान लो तीन लाख. एक साथ नहीं. एक लाख एक साल, एक लाख दो साल, एक लाख तीन साल."},
+  {"id": "L13", "scene": "ladder", "cap": "Har saal ek FD *mature* hogi. Rate badhe, toh naye rate pe dobara lagao.", "tts": "हर साल एक एफ़ डी मैच्योर होगी. रेट बढ़े, तो नए रेट पे दोबारा लगाओ."},
+  {"id": "L14", "scene": "ladder", "cap": "Rate gire, toh baaki FD *purane rate* pe chal rahi hain.", "tts": "रेट गिरे, तो बाकी एफ़ डी, पुराने रेट पे चल रही हैं."},
+  {"id": "L15", "scene": "tips", "cap": "Senior citizen ho, toh aksar *0.5%* zyada milta hai. Poochna mat bhoolo.", "tts": "सीनियर सिटिज़न हो, तो अक्सर, ज़ीरो पॉइंट पाँच परसेंट ज़्यादा मिलता है. पूछना मत भूलो."},
+  {"id": "L16", "scene": "tips", "cap": "Aur FD ka byaaj aapki income mein judta hai. *Slab ke hisaab se tax.*", "tts": "और एफ़ डी का ब्याज, आपकी इनकम में जुड़ता है. स्लैब के हिसाब से टैक्स."},
+  {"id": "L17", "scene": "outro", "cap": "Jo roz poochta hai 'FD rate kab badhega', usse yeh *bhejo.*", "tts": "जो रोज़ पूछता है, एफ़ डी रेट कब बढ़ेगा, उसे यह भेजो."},
+  {"id": "L18", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

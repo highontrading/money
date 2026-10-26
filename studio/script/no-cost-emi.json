@@ -1,0 +1,25 @@
+{
+ "title": "No-cost EMI: cost kahan chhupi hai?",
+ "data_note": "Illustrative: Rs 60,000 phone, 6 x Rs 10,000. At ~16% p.a. bank rate, financed principal ~Rs 57,360, interest ~Rs 2,640, given back as upfront discount. GST 18% on interest ~Rs 475. Processing fee typically ~Rs 200 + GST (varies by bank). Interest is shifted to the merchant as a discount, not waived (Business Today, Zerodha Varsity, Jupiter).",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Phone *₹60,000.* No-cost EMI: *₹10,000* mahina, 6 mahine.", "tts": "फ़ोन, साठ हज़ार. नो कॉस्ट ई एम आई. दस हज़ार महीना, छह महीने."},
+  {"id": "L02", "scene": "hook", "cap": "Total ₹60,000. Toh free hai na? *Poora nahi.*", "tts": "टोटल साठ हज़ार. तो फ़्री है ना? पूरा नहीं."},
+  {"id": "L03", "scene": "how", "cap": "EMI matlab *loan.* Aur bank free mein loan nahi deta.", "tts": "ई एम आई मतलब लोन. और बैंक फ़्री में लोन नहीं देता."},
+  {"id": "L04", "scene": "how", "cap": "Toh byaaj kaun bharta hai? Dukaan ya brand, aapko utna *discount* de deta hai.", "tts": "तो ब्याज कौन भरता है? दुकान या ब्रांड, आपको उतना डिस्काउंट दे देता है."},
+  {"id": "L05", "scene": "how", "cap": "Maan lo lagbhag *₹2,600* ka discount. Aur bank utna hi *byaaj* le leta hai. Hisaab barabar.", "tts": "मान लो, लगभग छब्बीस सौ का डिस्काउंट. और बैंक उतना ही ब्याज ले लेता है. हिसाब बराबर."},
+  {"id": "L06", "scene": "hidden", "cap": "Ab chhupe kharche. Pehla: byaaj pe *18% GST.*", "tts": "अब छुपे ख़र्चे. पहला. ब्याज पे, अठारह परसेंट जी एस टी."},
+  {"id": "L07", "scene": "hidden", "cap": "₹2,600 ke byaaj pe lagbhag *₹470.* Yeh aap bharte ho. Statement mein dikhta hai.", "tts": "छब्बीस सौ के ब्याज पे, लगभग चार सौ सत्तर. यह आप भरते हो. स्टेटमेंट में दिखता है."},
+  {"id": "L08", "scene": "hidden", "cap": "Doosra: *processing fee.* Aksar ₹200 ke aas-paas, upar se GST.", "tts": "दूसरा. प्रोसेसिंग फ़ीस. अक्सर दो सौ के आस-पास, ऊपर से जी एस टी."},
+  {"id": "L09", "scene": "hidden", "cap": "Teesra, sabse bada: *cash discount.* Poora paisa ek saath do, toh kai baar alag offer milta hai.", "tts": "तीसरा, सबसे बड़ा. कैश डिस्काउंट. पूरा पैसा एक साथ दो, तो कई बार अलग ऑफ़र मिलता है."},
+  {"id": "L10", "scene": "hidden", "cap": "No-cost EMI chuna, toh woh discount *chhoot* jaata hai.", "tts": "नो कॉस्ट ई एम आई चुना, तो वो डिस्काउंट छूट जाता है."},
+  {"id": "L11", "scene": "credit", "cap": "Aur yeh loan aapki *credit report* mein dikhega.", "tts": "और यह लोन, आपकी क्रेडिट रिपोर्ट में दिखेगा."},
+  {"id": "L12", "scene": "credit", "cap": "Ek EMI chooki, toh late fee, aur *credit score* pe daag.", "tts": "एक ई एम आई चूकी, तो लेट फ़ीस, और क्रेडिट स्कोर पे दाग़."},
+  {"id": "L13", "scene": "credit", "cap": "Kai chhote EMI ek saath? Aage *bada loan* lene mein dikkat ho sakti hai.", "tts": "कई छोटे ई एम आई एक साथ? आगे बड़ा लोन लेने में, दिक्कत हो सकती है."},
+  {"id": "L14", "scene": "check", "cap": "Toh tap karne se pehle *teen sawaal.*", "tts": "तो टैप करने से पहले, तीन सवाल."},
+  {"id": "L15", "scene": "check", "cap": "Ek: poora paisa dene pe kitna *discount?* Dono ka final daam milao.", "tts": "एक. पूरा पैसा देने पे, कितना डिस्काउंट? दोनों का फ़ाइनल दाम मिलाओ."},
+  {"id": "L16", "scene": "check", "cap": "Do: GST aur fee *milaakar* total kitna?", "tts": "दो. जी एस टी और फ़ीस मिलाकर, टोटल कितना?"},
+  {"id": "L17", "scene": "check", "cap": "Teen: yeh *zaroorat* hai, ya sirf EMI chhoti dikh rahi hai isliye?", "tts": "तीन. यह ज़रूरत है, या सिर्फ़ ई एम आई छोटी दिख रही है, इसलिए?"},
+  {"id": "L18", "scene": "outro", "cap": "Jo is sale mein sab kuch EMI pe le raha hai, usse yeh *bhejo.*", "tts": "जो इस सेल में, सब कुछ ई एम आई पे ले रहा है, उसे यह भेजो."},
+  {"id": "L19", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}
