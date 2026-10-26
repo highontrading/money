@@ -236,5 +236,40 @@
   "page": "https://archive.org/details/0537_Banks_and_Credit_19_41_46_04",
   "license": "Public domain",
   "author": "Prelinger Archives"
+ },
+ "dollar": {
+  "file": "dollar.jpg",
+  "title": "File:US one dollar bill, obverse, series 2009.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_one_dollar_bill,_obverse,_series_2009.jpg",
+  "license": "Public domain",
+  "author": "ESEMES"
+ },
+ "cardterminal": {
+  "file": "cardterminal.jpg",
+  "title": "File:Credit card terminal.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Credit_card_terminal.jpg",
+  "license": "Public domain",
+  "author": "Izcool at English Wikipedia"
+ },
+ "mithai": {
+  "file": "mithai.jpg",
+  "title": "File:A box full of burfis, Mithai Indian Sweets London November 2009.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_box_full_of_burfis,_Mithai_Indian_Sweets_London_November_2009.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "secretlondon123"
+ },
+ "airport": {
+  "file": "airport.jpg",
+  "title": "File:Welcome Area Delhi T3 Departure IGI Airport.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Welcome_Area_Delhi_T3_Departure_IGI_Airport.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Ramesh NG"
+ },
+ "diyas": {
+  "file": "diyas.jpg",
+  "title": "File:Happy Diwali - Festival of light.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Happy_Diwali_-_Festival_of_light.jpg",
+  "license": "CC BY-SA 2.0",
+  "author": "Ramesh NG"
  }
 }

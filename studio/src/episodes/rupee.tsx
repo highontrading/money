@@ -55,7 +55,7 @@ const You: React.FC = () => {
   const l10 = at('L10'), l11 = at('L11');
   return (
     <AbsoluteFill>
-      <Photo id="air" src="airport.jpg" x={70} y={410} w={940} h={400} rot={-1.5} at={0} out={l10} enter="up" torn={{top: true, bottom: true}} rough={14} caption="DELHI T3 · DEPARTURE" />
+      <Photo id="air" src="airport.jpg" x={70} y={410} w={940} h={400} rot={-1.5} at={0} out={l10} enter="up" torn={{top: true, bottom: true}} rough={14} caption="DELHI T3 · DEPARTURE" pos="50% 70%" />
       <Card id="fees" x={110} y={840} w={860} h={150} rot={1} at={word('L08', '40,000', -6)} out={l10} bg={C.card}>
         <div style={{display: 'flex', alignItems: 'center', height: '100%', padding: '0 36px'}}>
           <div style={{fontFamily: F.display, fontSize: 96, flex: 1}}>$40,000</div>
@@ -78,7 +78,7 @@ const You: React.FC = () => {
       <Stamp id="mehenga" text="Sab mehenga" x={540} y={880} at={word('L10', 'mehenga', -4)} out={l11} size={100} rot={-6} />
       <Photo id="tanker" src="tanker.jpg" x={70} y={410} w={940} h={460} rot={1.5} at={l11} enter="up" torn={{top: true, bottom: true}} rough={14} caption="TEL BHI DOLLAR MEIN" />
       <Card id="infl" x={160} y={920} w={760} h={190} rot={-1.5} at={word('L11', 'mehngai', -4)} bg={C.yellow}>
-        <div style={{fontFamily: F.display, fontSize: 104, textAlign: 'center', marginTop: 30}}>MEHNGAI KA DABAAV</div>
+        <div style={{fontFamily: F.display, fontSize: 84, textAlign: 'center', marginTop: 46, whiteSpace: 'nowrap'}}>MEHNGAI KA DABAAV</div>
       </Card>
     </AbsoluteFill>
   );
@@ -94,9 +94,9 @@ const Win: React.FC = () => {
         <div style={{padding: '30px 40px'}}>
           <Label size={22}>Ghar paisa bhejna · $1,000</Label>
           <div style={{display: 'flex', alignItems: 'center', gap: 30, marginTop: 40}}>
-            <div style={{fontFamily: F.display, fontSize: 100, color: C.inkSoft}}>₹88,000</div>
-            <div style={{fontFamily: F.display, fontSize: 90}}>→</div>
-            <div style={{fontFamily: F.display, fontSize: 110}}><HL at={word('L13', '95,000', -2)}>₹95,000</HL></div>
+            <div style={{fontFamily: F.display, fontSize: 84, color: C.inkSoft}}>₹88,000</div>
+            <div style={{fontFamily: F.display, fontSize: 80}}>→</div>
+            <div style={{fontFamily: F.display, fontSize: 96}}><HL at={word('L13', '95,000', -2)}>₹95,000</HL></div>
           </div>
           <div style={{fontFamily: F.hand, fontWeight: 700, fontSize: 48, marginTop: 30}}>NRI parivaar ke liye achhi khabar</div>
         </div>
