@@ -4,46 +4,48 @@ Everything to fill in YouTube Studio, in the order Studio asks for it. Files: `o
 
 ## Title (max 100 chars)
 
-**Use:** `IPO Kaise Kaam Karta Hai? Idea se Listing Tak Poora Safar | Jio IPO Example` (75 chars)
+**Use:** `How an IPO Works: The Full Journey from Idea to Listing Day | Jio IPO Example` (77 chars)
 
 Alternatives for a later title test:
-- `IPO ka Poora Safar: DRHP, Anchor, Lottery, Listing — Sab Ek Video Mein`
-- `1977 ka Reliance IPO vs 2026 ka Jio IPO: Har IPO ka Same Raasta`
-- `1 Lot Lagao ya 14, Chance Same Kyun? IPO ka Poora Process Samjho`
+- `IPO Explained: DRHP, Anchor Investors, Allotment Lottery and Listing Day`
+- `Reliance's 1977 IPO vs Jio's 2026 IPO: Every IPO Takes the Same Road`
+- `1 Lot or 14 Lots, Same Chance? How IPO Allotment Really Works`
 
-Once Jio has listed and the news peak passes, swap "Jio IPO Example" for a generic ending (e.g. "| IPO Process in Hindi") so the title stays evergreen.
+Once Jio has listed and the news peak passes, swap "Jio IPO Example" for "IPO Process Explained" so the title stays evergreen.
 
-## Description (max 5,000 chars; this one is ~4,400)
+## Description (max 5,000 chars)
 
 ```
-IPO ka poora safar — ek idea se listing ki ghanti tak. 🔔
+The full journey of an IPO, from a business idea to the listing-day bell. 🔔
 
-1977 mein Reliance ka ₹10 ka share. 2026 mein Jio Platforms ka ₹30,213 crore ka IPO. Paisa badla, technology badli — par raasta wahi hai. Is video mein har IPO ka poora safar: company ko partner kyun chahiye, DRHP aur SEBI ka asli role, price band aur lot, anchor investors, 3 din ki boli (ASBA/UPI), allotment lottery, listing day ka special pre-open session, lock-ins, aur apply karne se pehle ke 5 sawaal.
+In 1977, Reliance sold shares at ₹10 each. In 2026, Jio Platforms raised ₹30,213 crore. The money changed, the technology changed, but the road is the same. This video walks through every step: why a company needs partners, what the DRHP is and what SEBI really checks, the price band and lot size, anchor investors, the three days of bidding (ASBA/UPI), the allotment lottery, the special pre-open session on listing day, lock-ins, and the five questions to ask before you apply.
 
-Ghar mein jo bhi pehli baar IPO bhar raha hai — beta, papa ya dadi — unhe yeh video bhejo.
+Narration in Hindi, with English subtitles (turn on CC).
+
+If someone at home is applying for their first IPO, whether it's your son, your dad or your grandmother, send them this video.
 
 ⏱️ Chapters
 0:00 Intro: 1977 vs 2026
-0:55 IPO kyun? Partner chahiye
-2:32 DRHP aur SEBI
-4:03 Price band, lot aur anchor investors
-5:55 3 din ki boli: ASBA, UPI, subscription
-7:25 Allotment lottery: T+1, T+2
-8:39 Listing day ki ghanti (T+3)
-9:39 Listing ke baad: lock-ins
-10:25 Apply se pehle 5 sawaal
+0:55 Why go public? Finding partners
+2:32 The DRHP and SEBI's role
+4:03 Price band, lot size and anchor investors
+5:55 Three days of bidding: ASBA, UPI, subscription
+7:25 The allotment lottery: T+1, T+2
+8:39 Listing day and the bell (T+3)
+9:39 After listing: lock-ins
+10:25 Five questions before you apply
 11:05 Recap
 
 📚 Sources
-• Reliance IPO 1977 (₹10/share, ₹2.82 crore, ~7x, ~58,000 investors, listed Jan 1978): Reliance / Jio Institute archive
-• Jio Platforms RHP and exchange data (Oct 2026): price band ₹1,065–1,119, lot 12, fresh issue of 27 crore shares, ₹30,213 crore; anchor book ₹8,110 crore from 212 anchors; final subscription (NSE, 23 Oct 2026, 7 pm) 22.19x overall, QIB 70.55x, retail 2.70x
-• SEBI ICDR Regulations: quota split (Reg 6(1)/6(2)), anchor lock-in (50% 30 days, 50% 90 days), promoter lock-in (20% for 18 months; 3 years for capex-heavy issues), pre-IPO shareholders 6 months, observation validity 12 months
-• SEBI circular on T+3 listing (mandatory from 1 Dec 2023); NSE special pre-open session for IPO listing
+• Reliance IPO 1977 (₹10/share, ₹2.82 crore, ~7x subscribed, ~58,000 investors, listed Jan 1978): Reliance / Jio Institute archive
+• Jio Platforms RHP and exchange data (Oct 2026): price band ₹1,065–1,119, lot of 12 shares, fresh issue of 27 crore shares, ₹30,213 crore; anchor book ₹8,110 crore from 212 anchors; final subscription (NSE, 23 Oct 2026, 7 pm) 22.19x overall, QIB 70.55x, retail 2.70x
+• SEBI ICDR Regulations: quota split (Reg 6(1)/6(2)), anchor lock-in (50% for 30 days, 50% for 90 days), promoter lock-in (20% for 18 months; 3 years for capex-heavy issues), pre-IPO shareholders 6 months, SEBI observations valid 12 months
+• SEBI circular on T+3 listing (mandatory from 1 Dec 2023); NSE special pre-open session for IPO listings
 • Listing-day prices: Bajaj Housing Finance (Sep 2024), Hyundai Motor India (Oct 2024), LIC (May 2022)
 • Demat accounts: NSDL + CDSL (2026)
 "Raju ki Chai" is a made-up example.
 
-⚠️ Educational only. Not investment advice. Numbers are as of October 2026; rules can change, check SEBI's latest circulars.
+⚠️ For education only. Not investment advice. Figures are as of October 2026; rules can change, so check SEBI's latest circulars.
 
 📷 Photos & film
 • Bengal Luxmi Cotton Mills Share Certificate 1909.jpg — Unknown (Public domain) https://commons.wikimedia.org/wiki/File:Bengal_Luxmi_Cotton_Mills_Share_Certificate_1909.jpg
@@ -63,15 +65,15 @@ Ghar mein jo bhi pehli baar IPO bhar raha hai — beta, papa ya dadi — unhe ye
 • Banks and Credit (1948) — Prelinger Archives (public domain) https://archive.org/details/0537_Banks_and_Credit_19_41_46_04
 Music and sound effects: original, made for Money Theory.
 
-#moneytheory #ipo #ipokyahai #jioipo #stockmarket #sebi #personalfinance #financeindia
+#moneytheory #ipo #ipoexplained #jioipo #stockmarket #sebi #personalfinance #financeindia
 ```
 
-YouTube shows the first three hashtags above the title (#moneytheory #ipo #ipokyahai).
+YouTube shows the first three hashtags above the title (#moneytheory #ipo #ipoexplained).
 
-## Tags (max 500 chars; this list is 411)
+## Tags (max 500 chars)
 
 ```
-ipo, ipo kya hai, ipo kaise kaam karta hai, ipo process in india, ipo in hindi, how ipo works, jio ipo, jio platforms ipo, reliance jio ipo, jio ipo listing, ipo allotment, ipo allotment kaise hota hai, ipo lottery, drhp, rhp, anchor investors, price band, ipo lot size, asba, upi ipo, t+3 listing, ipo listing day, gmp, sebi, share market for beginners, stock market hindi, money theory, personal finance india
+ipo, ipo explained, how ipo works, ipo process in india, what is an ipo, ipo for beginners, jio ipo, jio platforms ipo, reliance jio ipo, jio ipo listing, ipo allotment, ipo allotment process, ipo lottery, drhp, rhp, anchor investors, ipo price band, ipo lot size, asba, upi ipo, t+3 listing, ipo listing day, gmp, sebi, stock market for beginners, indian stock market, ipo in hindi, money theory, personal finance india
 ```
 
 ## Thumbnail
@@ -92,7 +94,8 @@ Create **"IPO Samjho"** (this video, plus the GMP / Jio listing videos once they
 | Paid promotion | No |
 | Automatic chapters | Off (the description already has chapters) |
 | Featured places / automatic concepts | Off |
-| Language (video and title/description) | Hindi |
+| Video language | Hindi (the narration) |
+| Title and description language | English |
 | Caption certification | None |
 | Recording date / location | 2026, India (optional) |
 | License | Standard YouTube License |
@@ -119,14 +122,14 @@ Line each element up with the frames using Studio's preview.
 ## Cards
 
 - **7:21**, on "GMP… uspe poori video alag se hai": card to the GMP video. That video must be on YouTube for this; upload the GMP reel as a Short if it isn't yet.
-- **3:51**, on "SEBI ne approve kiya toh safe hai? Galat": optional poll card, "Kya aap pehle aisa maante the? Haan / Nahi".
+- **3:51**, on "SEBI ne approve kiya toh safe hai? Galat": optional poll card, "Did you think SEBI approval meant an IPO was safe? Yes / No".
 
 ## Pinned comment
 
 ```
-Aapke ghar mein sabse pehla IPO kisne bhara tha — dadaji, papa ya aap? 👇
-Aur agla video kis topic pe chahiye: Rupee vs Dollar, 1991 gold crisis, ya UPI ka asli kharcha?
-(Photo/film credits description mein hain.)
+Who was the first person in your family to apply for an IPO: your grandfather, your dad, or you? 👇
+And what should the next video be about: rupee vs dollar, the 1991 gold crisis, or who really pays for UPI?
+(Photo and film credits are in the description.)
 ```
 
 ## When to publish
