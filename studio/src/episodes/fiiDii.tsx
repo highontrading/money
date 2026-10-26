@@ -17,7 +17,7 @@ const Hook: React.FC = () => {
       <Tile id="out" y={960} at={word('L01', '3', -6)} out={l2} op="−" value={<HL at={word('L01', 'crore', 0)}>₹3 lakh cr+</HL>} label={'FII · IS SAAL\nRECORD'} rot={-1.5} size={104} h={200} />
       <Stamp id="rec" text="Record" x={760} y={520} at={word('L01', 'record', -2)} out={l2} size={96} rot={8} />
       <Card id="who" x={180} y={960} w={720} h={240} rot={2} at={l2} bg={C.yellow}>
-        <div style={{fontFamily: F.display, fontSize: 120, textAlign: 'center', marginTop: 40}}>KAUN KHAREEDE?</div>
+        <div style={{fontFamily: F.display, fontSize: 100, textAlign: 'center', marginTop: 56, whiteSpace: 'nowrap'}}>KAUN KHAREEDE?</div>
       </Card>
     </AbsoluteFill>
   );
@@ -51,11 +51,11 @@ const Why: React.FC = () => {
     <AbsoluteFill>
       <Headline words={['FII', 'kyun', 'bech', 'rahe?']} at={0} size={150} y={440} />
       {[['TEL ↑', 'tel'], ['RUPEE ↓', 'rupee'], ['US INTEREST ↑', 'america']].map(([t, k], i) => (
-        <Card key={k} id={'w' + k} x={[80, 560, 200][i]} y={[680, 700, 900][i]} w={[440, 440, 680][i]} h={170} rot={[-2, 2, -1][i]} at={word('L05', k, -4)} bg={i === 1 ? C.yellow : C.card}>
+        <Card key={k} id={'w' + k} x={[80, 560, 200][i]} y={[770, 790, 990][i]} w={[440, 440, 680][i]} h={170} rot={[-2, 2, -1][i]} at={word('L05', k, -4)} bg={i === 1 ? C.yellow : C.card}>
           <div style={{fontFamily: F.display, fontSize: 84, textAlign: 'center', marginTop: 32}}>{t}</div>
         </Card>
       ))}
-      <Hand x={130} y={1110} at={at('L06')} size={52} rot={-2} color={C.red}>rupee gira → unka dollar return ghata</Hand>
+      <Hand x={130} y={1180} at={at('L06')} size={52} rot={-2} color={C.red}>rupee gira → unka dollar return ghata</Hand>
     </AbsoluteFill>
   );
 };
@@ -113,7 +113,7 @@ const Lesson: React.FC = () => {
         FII ke nikalne ka asar ab pehle se <HL at={word('L14', 'kam', -2)}>kam</HL>
       </Note>
       <Card id="but" x={160} y={820} w={760} h={180} rot={1.5} at={l15} out={l16} bg={C.card}>
-        <div style={{fontFamily: F.display, fontSize: 84, textAlign: 'center', marginTop: 40}}>PAR GIRAWAT ≠ BAND</div>
+        <div style={{fontFamily: F.display, fontSize: 72, textAlign: 'center', marginTop: 46, whiteSpace: 'nowrap'}}>PAR BAZAAR GIR SAKTA HAI</div>
       </Card>
       <Card id="power" x={110} y={820} w={860} h={300} rot={-1} at={l16} bg={C.yellow}>
         <div style={{padding: '30px 40px'}}>

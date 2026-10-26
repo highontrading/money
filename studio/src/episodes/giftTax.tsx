@@ -48,7 +48,7 @@ const Family: React.FC = () => {
       <Card id="shaadi" x={160} y={800} w={760} h={260} rot={1.5} at={l5} bg={C.card}>
         <div style={{padding: '28px 40px'}}>
           <Label size={22}>Apni shaadi pe</Label>
-          <div style={{fontFamily: F.display, fontSize: 96, marginTop: 16}}>KISI SE BHI · TAX-FREE</div>
+          <div style={{fontFamily: F.display, fontSize: 76, marginTop: 20, whiteSpace: 'nowrap'}}>KISI SE BHI · TAX-FREE</div>
         </div>
       </Card>
     </AbsoluteFill>
@@ -78,7 +78,7 @@ const Friends: React.FC = () => {
   const l7 = at('L07'), l8 = at('L08'), l9 = at('L09'), l10 = at('L10');
   return (
     <AbsoluteFill>
-      <Headline words={['Dost', '&', 'jaan-pehchaan']} at={0} out={l7} size={150} y={520} />
+      <Headline words={['Dost', '&', 'jaan-pehchaan']} at={0} out={l7} size={130} y={540} />
       <Hold from={l7} to={l10}>
         <Card id="meter" x={80} y={430} w={920} h={480} rot={-1} at={l7} enter="up" bg={C.card}>
           <div style={{padding: '28px 40px'}}><Label size={22}>Dosto se gifts · saal bhar ka total</Label></div>

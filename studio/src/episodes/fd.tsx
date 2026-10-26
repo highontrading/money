@@ -96,7 +96,7 @@ const Nbfc: React.FC = () => {
       </Card>
       <Hold from={l10}>
         <Card id="rule" x={110} y={1050} w={860} h={170} rot={-1} at={l10} bg={C.yellow} z={30}>
-          <div style={{fontFamily: F.display, fontSize: 88, textAlign: 'center', marginTop: 30}}>ZYADA BYAAJ = ZYADA RISK</div>
+          <div style={{fontFamily: F.display, fontSize: 74, textAlign: 'center', marginTop: 36, whiteSpace: 'nowrap'}}>ZYADA BYAAJ = ZYADA RISK</div>
         </Card>
       </Hold>
     </AbsoluteFill>

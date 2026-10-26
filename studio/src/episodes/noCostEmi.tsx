@@ -59,8 +59,8 @@ const How: React.FC = () => {
       </Card>
       <Hand x={250} y={720} at={word('L04', 'discount', -2)} size={44} rot={10}>discount ↘</Hand>
       <Hand x={690} y={720} at={word('L05', 'byaaj', -2)} size={44} rot={-10}>↙ byaaj</Hand>
-      <Card id="eq" x={110} y={1060} w={860} h={150} rot={-1} at={l5} bg={C.card}>
-        <div style={{fontFamily: F.display, fontSize: 70, textAlign: 'center', marginTop: 30}}>DISCOUNT ~₹2,600 = <HL at={word('L05', 'barabar', -4)}>BYAAJ ~₹2,600</HL></div>
+      <Card id="eq" x={110} y={1040} w={860} h={190} rot={-1} at={l5} bg={C.card}>
+        <div style={{fontFamily: F.display, fontSize: 62, textAlign: 'center', marginTop: 20, lineHeight: 1.2}}>DISCOUNT ~₹2,600<br />= <HL at={word('L05', 'barabar', -4)}>BYAAJ ~₹2,600</HL></div>
       </Card>
     </AbsoluteFill>
   );
