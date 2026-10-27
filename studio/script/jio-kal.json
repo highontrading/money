@@ -1,0 +1,26 @@
+{
+ "title": "Jio kal list: aapke ₹13,428 ka kya hoga?",
+ "data_note": "Issue Rs 30,213 cr, India's largest IPO (previous record Hyundai Motor India Rs 27,870 cr, Oct 2024). Price band Rs 1,065-1,119, lot 12 = Rs 13,428. Anchor book: Rs 8,110 cr raised, demand >Rs 2.5 lakh cr (Business Today, Inc42, 20 Oct 2026). Day-1 bids Rs 3.73 lakh cr (5.57x). Final 22.19x: QIB 70.55x, NII 14.00x, retail 2.72x (HDFC Sky, IPOji). GMP Rs 247 on 26 Oct -> ~Rs 1,366 (+22%); peak Rs 273 on 20 Oct (InvestorGain). Allotment 26 Oct; listing 28 Oct, special pre-open 9:00-10:00, trading from 10:00. STCG on listed equity 20%.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "*India ka sabse bada IPO.* Kal subah, *10 baje.*", "tts": "इंडिया का सबसे बड़ा आई पी ओ. कल सुबह, दस बजे."},
+  {"id": "L02", "scene": "hook", "cap": "*₹30,213 crore.* Hyundai ka record bhi toot gaya.", "tts": "तीस हज़ार दो सौ तेरह करोड़. ह्युंडई का रिकॉर्ड भी टूट गया."},
+  {"id": "L03", "scene": "hook", "cap": "Aur aapke *₹13,428* ka faisla, kal ek ghante mein.", "tts": "और आपके तेरह हज़ार चार सौ अट्ठाईस का फ़ैसला, कल एक घंटे में."},
+  {"id": "L04", "scene": "hype", "cap": "Craze dekho. Anchor investors ki taraf se *₹2.5 lakh crore* ki demand.", "tts": "क्रेज़ देखो. एंकर इन्वेस्टर्स की तरफ़ से, ढाई लाख करोड़ की डिमांड."},
+  {"id": "L05", "scene": "hype", "cap": "Pehle hi din *₹3.73 lakh crore* ki boli.", "tts": "पहले ही दिन, तीन पॉइंट सात तीन लाख करोड़ की बोली."},
+  {"id": "L06", "scene": "hype", "cap": "Aakhir mein issue *22 guna* bhara. Bade institutions: *70 guna.*", "tts": "आख़िर में, इशू बाईस गुना भरा. बड़े इंस्टिट्यूशंस, सत्तर गुना."},
+  {"id": "L07", "scene": "hype", "cap": "Retail? Lagbhag *2.7 guna.* Yaani sabko share nahi mile.", "tts": "रिटेल? लगभग दो पॉइंट सात गुना. यानी सबको शेयर नहीं मिले."},
+  {"id": "L08", "scene": "gmp", "cap": "Grey market kya keh raha hai? GMP lagbhag *₹247.*", "tts": "ग्रे मार्केट क्या कह रहा है? जी एम पी, लगभग दो सौ सैंतालीस."},
+  {"id": "L09", "scene": "gmp", "cap": "Yaani andaaza: ₹1,119 ka share, kal *₹1,366* ke aas-paas.", "tts": "यानी अंदाज़ा. एक हज़ार एक सौ उन्नीस का शेयर, कल, एक हज़ार तीन सौ छियासठ के आस-पास."},
+  {"id": "L10", "scene": "gmp", "cap": "Ek lot pe lagbhag *₹2,964* ka fayda. *Agar* andaaza sahi nikla.", "tts": "एक लॉट पे, लगभग दो हज़ार नौ सौ चौंसठ का फ़ायदा. अगर अंदाज़ा सही निकला."},
+  {"id": "L11", "scene": "gmp", "cap": "Par 20 October ko yahi GMP *₹273* tha. Andaaza *badalta* hai.", "tts": "पर बीस अक्टूबर को, यही जी एम पी, दो सौ तिहत्तर था. अंदाज़ा बदलता है."},
+  {"id": "L12", "scene": "paths", "cap": "Toh kal *teen raaste.*", "tts": "तो कल, तीन रास्ते."},
+  {"id": "L13", "scene": "paths", "cap": "Ek: GMP ke *aas-paas.* Sab khush.", "tts": "एक. जी एम पी के आस-पास. सब ख़ुश."},
+  {"id": "L14", "scene": "paths", "cap": "Do: GMP se *upar.* Craze aur bada.", "tts": "दो. जी एम पी से ऊपर. क्रेज़ और बड़ा."},
+  {"id": "L15", "scene": "paths", "cap": "Teen: GMP se *neeche.* Grey market galat. Aisa pehle bhi hua hai.", "tts": "तीन. जी एम पी से नीचे. ग्रे मार्केट ग़लत. ऐसा पहले भी हुआ है."},
+  {"id": "L16", "scene": "morning", "cap": "Kal *9 baje* special pre-open. Boli lagegi, *10 baje* pehla daam.", "tts": "कल नौ बजे, स्पेशल प्री ओपन. बोली लगेगी, दस बजे पहला दाम."},
+  {"id": "L17", "scene": "morning", "cap": "Bechna hai ya rakhna, *panic* mein nahi. Plan aaj raat banao.", "tts": "बेचना है या रखना, पैनिक में नहीं. प्लान आज रात बनाओ."},
+  {"id": "L18", "scene": "morning", "cap": "Aur bechoge, toh gain pe *20%* short-term tax.", "tts": "और बेचोगे, तो गेन पे, बीस परसेंट शॉर्ट टर्म टैक्स."},
+  {"id": "L19", "scene": "outro", "cap": "Jise Jio mila hai, usse yeh abhi *bhejo.*", "tts": "जिसे जियो मिला है, उसे यह अभी भेजो."},
+  {"id": "L20", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

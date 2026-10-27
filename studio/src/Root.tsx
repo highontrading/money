@@ -19,6 +19,7 @@ import {fd} from './episodes/fd';
 import {fiiDii} from './episodes/fiiDii';
 import {noCostEmi} from './episodes/noCostEmi';
 import {giftTax} from './episodes/giftTax';
+import {jioKal} from './episodes/jioKal';
 import {FPS, H, W} from './theme';
 import {LongEpisode} from './longform/LongEpisode';
 import {LH, LW} from './longform/frame';
@@ -43,6 +44,7 @@ const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
   {def: fiiDii, cover: {big: 'FII vs DII', bigSize: 200, line1: 'VIDESHI BECH RAHE,', line2: 'KHAREED KAUN RAHA?', photo: 'nse.jpg', stamp: '₹3 LAKH CR'}},
   {def: noCostEmi, cover: {big: 'NO-COST EMI', bigSize: 165, line1: 'COST KAHAN', line2: 'CHHUPI HAI?', photo: 'phone.jpg', stamp: '18% GST'}},
   {def: giftTax, cover: {big: 'GIFT PE TAX?', bigSize: 165, line1: 'DIWALI GIFTS KA', line2: 'TAX RULE', photo: 'diyas.jpg', stamp: '₹50,000'}},
+  {def: jioKal, cover: {big: 'JIO: KAL', bigSize: 230, line1: 'AAPKE ₹13,428', line2: 'KA KYA HOGA?', photo: 'tower.jpg', stamp: 'KAL 10:00 AM'}},
 ];
 
 // Composition props are serialized to JSON, which would drop the scene
