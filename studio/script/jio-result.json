@@ -1,0 +1,26 @@
+{
+ "title": "Jio list ho gaya: GMP sahi tha?",
+ "data_note": "Listed 28 Oct 2026 at Rs 1,358 on NSE and BSE, +21.36% vs issue price Rs 1,119 (Angel One, Inc42, 10:02 IST). GMP Rs 247 on 26 Oct implied ~Rs 1,366 (InvestorGain): gap Rs 8. Lot 12 shares = Rs 13,428; listing gain 12 x 239 = Rs 2,868. Valuation at listing ~Rs 12.5 lakh crore (Inc42). Listing price set in the special pre-open call auction. STCG on listed equity sold within 12 months: 20% (plus cess).",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Grey market ne kaha tha: Jio *₹1,366* ke aas-paas list hoga.", "tts": "ग्रे मार्केट ने कहा था. जियो, एक हज़ार तीन सौ छियासठ के आस-पास लिस्ट होगा."},
+  {"id": "L02", "scene": "hook", "cap": "Aaj subah asli daam aaya: *₹1,358.*", "tts": "आज सुबह असली दाम आया. एक हज़ार तीन सौ अट्ठावन."},
+  {"id": "L03", "scene": "hook", "cap": "Sirf *₹8* ka fark! Is baar GMP *lagbhag sahi* nikla.", "tts": "सिर्फ़ आठ रुपये का फ़र्क! इस बार जी एम पी, लगभग सही निकला."},
+  {"id": "L04", "scene": "math", "cap": "Ab hisaab. Issue price tha *₹1,119.* Listing *₹1,358.*", "tts": "अब हिसाब. इशू प्राइस था, एक हज़ार एक सौ उन्नीस. लिस्टिंग, एक हज़ार तीन सौ अट्ठावन."},
+  {"id": "L05", "scene": "math", "cap": "Yaani listing gain lagbhag *21%.*", "tts": "यानी लिस्टिंग गेन, लगभग इक्कीस परसेंट."},
+  {"id": "L06", "scene": "math", "cap": "Ek lot mein 12 shares. *₹13,428* lagaye the.", "tts": "एक लॉट में बारह शेयर. तेरह हज़ार चार सौ अट्ठाईस लगाए थे."},
+  {"id": "L07", "scene": "math", "cap": "Listing pe har lot pe lagbhag *₹2,868* ka fayda.", "tts": "लिस्टिंग पे, हर लॉट पे, लगभग दो हज़ार आठ सौ अड़सठ का फ़ायदा."},
+  {"id": "L08", "scene": "math", "cap": "Aur Jio ki kul keemat? Lagbhag *₹12.5 lakh crore.*", "tts": "और जियो की कुल कीमत? लगभग साढ़े बारह लाख करोड़."},
+  {"id": "L09", "scene": "gmp", "cap": "Par yaad rakho: GMP *official daam nahi.* Is baar sahi, *har baar nahi.*", "tts": "पर याद रखो. जी एम पी, ऑफ़िशियल दाम नहीं. इस बार सही, हर बार नहीं."},
+  {"id": "L10", "scene": "gmp", "cap": "Asli daam *special pre-open auction* mein tay hua.", "tts": "असली दाम, स्पेशल प्री ओपन ऑक्शन में तय हुआ."},
+  {"id": "L11", "scene": "gmp", "cap": "Wahan asli kharidaar, asli bechne wale. *Demand aur supply.*", "tts": "वहाँ असली ख़रीदार, असली बेचने वाले. डिमांड और सप्लाई."},
+  {"id": "L12", "scene": "now", "cap": "Allotment mila? Ab *teen sawaal.*", "tts": "अलॉटमेंट मिला? अब तीन सवाल."},
+  {"id": "L13", "scene": "now", "cap": "Ek: maine yeh *listing gain* ke liye liya tha, ya *lambe samay* ke liye?", "tts": "एक. मैंने यह लिस्टिंग गेन के लिए लिया था, या लंबे समय के लिए?"},
+  {"id": "L14", "scene": "now", "cap": "Do: kya main samajhta hoon, *Jio kamaata kaise* hai?", "tts": "दो. क्या मैं समझता हूँ, जियो कमाता कैसे है?"},
+  {"id": "L15", "scene": "now", "cap": "Teen: kya yeh mere portfolio ka *chhota hissa* hai?", "tts": "तीन. क्या यह मेरे पोर्टफ़ोलियो का छोटा हिस्सा है?"},
+  {"id": "L16", "scene": "tax", "cap": "Aur bechoge, toh tax. 12 mahine se pehle becha, toh *20%* short-term tax.", "tts": "और बेचोगे, तो टैक्स. बारह महीने से पहले बेचा, तो बीस परसेंट शॉर्ट टर्म टैक्स."},
+  {"id": "L17", "scene": "tax", "cap": "Gain pe tax, *poore paise pe nahi.*", "tts": "गेन पे टैक्स, पूरे पैसे पे नहीं."},
+  {"id": "L18", "scene": "lesson", "cap": "Aur sabse badi seekh: *GMP ek andaaza hai, guarantee nahi.*", "tts": "और सबसे बड़ी सीख. जी एम पी एक अंदाज़ा है, गारंटी नहीं."},
+  {"id": "L19", "scene": "outro", "cap": "Jisne Jio ke liye apply kiya tha, usse yeh *bhejo.*", "tts": "जिसने जियो के लिए अप्लाई किया था, उसे यह भेजो."},
+  {"id": "L20", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}
