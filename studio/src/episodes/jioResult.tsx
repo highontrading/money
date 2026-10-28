@@ -39,12 +39,12 @@ const Calc: React.FC = () => {
         <Tile id="list" y={680} at={word('L04', 'listing', -4)} value={<HL at={word('L04', '1,358', 0)}>₹1,358</HL>} label={'LISTING\n28 OCT'} rot={1} size={120} h={200} />
         <Stamp id="21" text="+21%" sub="LISTING GAIN" x={540} y={1050} at={word('L05', '21%', -4)} size={140} rot={-6} paper />
       </Hold>
-      <Hold from={l6} to={l8}>
+      <Hold from={l6} to={l8 + 8}>
         <Tile id="lot" y={440} at={l6} value="₹13,428" label={'1 LOT\n12 SHARES'} rot={-1.5} size={120} h={200} />
         <Tile id="gain" y={680} at={word('L07', '2,868', -6)} op="+" value={<HL at={word('L07', '2,868', 0)} color={C.paperLight}>₹2,868</HL>} label={'PER LOT\n239 × 12'} rot={1} size={120} h={200} hi />
         <Hand x={140} y={930} at={word('L07', 'fayda', -2)} size={58} rot={-2}>listing pe, har lot</Hand>
       </Hold>
-      <Photo id="tower" src="tower.jpg" x={70} y={410} w={940} h={480} rot={-2} at={l8} enter="up" torn={{top: true, bottom: true}} rough={14} caption="JIO PLATFORMS" />
+      <Photo id="tower" src="tower.jpg" x={70} y={410} w={940} h={480} rot={-2} at={l8 - 6} z={20} enter="up" torn={{top: true, bottom: true}} rough={14} caption="JIO PLATFORMS" />
       <Card id="val" x={110} y={920} w={860} h={260} rot={1.5} at={word('L08', '12.5', -6)} bg={C.yellow}>
         <div style={{padding: '26px 40px'}}>
           <Label size={22}>Listing pe kul keemat</Label>
