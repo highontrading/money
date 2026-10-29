@@ -63,7 +63,7 @@ const Split: React.FC = () => {
           {label: 'EMERGENCY\nFUND', value: 20000, text: '₹20k', at: word('L10', '20,000', -4), hi: true},
           {label: 'KARZ', value: 15000, text: '₹15k', at: word('L10', '15,000', -4)},
           {label: 'INVEST', value: 10000, text: '₹10k', at: word('L10', '10,000', -4)},
-          {label: 'MASTI', value: 5000, text: '₹5k', at: word('L10', '5,000', -4), color: C.red},
+          {label: 'MASTI', value: 5000, text: '₹5k', at: word('L10', 'masti', -8), color: C.red},
         ]} />
       <Hand x={140} y={1160} at={at('L11')} size={56} rot={-2} color={C.red}>amount alag, kram wahi</Hand>
     </AbsoluteFill>

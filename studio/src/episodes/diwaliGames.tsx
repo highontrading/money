@@ -67,7 +67,7 @@ const Calc: React.FC = () => {
         <Card id="lose" x={570} y={850} w={430} h={220} rot={2} at={word('L03', '100', -4)} bg={C.card}>
           <div style={{padding: 26}}><Label size={22}>Haare</Label><div style={{fontFamily: F.display, fontSize: 100, marginTop: 10, color: C.red}}>−₹100</div></div>
         </Card>
-        <Stamp id="avg" text="−₹5 / round" sub="AVERAGE" x={540} y={620} at={word('L04', '5', -4)} size={96} rot={-6} paper />
+        <Stamp id="avg" text="−₹5 / round" sub="AVERAGE" x={540} y={620} at={word('L04', 'haarte', -10)} size={96} rot={-6} paper />
         <Hand x={120} y={1100} at={at('L05')} size={52} rot={-2} color={C.red}>₹10 ka fark = house ka cut</Hand>
       </Hold>
       <Running at={l6} />
