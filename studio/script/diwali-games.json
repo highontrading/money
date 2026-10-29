@@ -1,0 +1,20 @@
+{
+ "title": "Diwali ka daav: jeet-ta kaun hai?",
+ "data_note": "Illustrative coin game: win Rs 90 / lose Rs 100 at 50-50 -> expected loss Rs 5 a round, ~Rs 500 over 100 rounds. Promotion and Regulation of Online Gaming Act, 2025 (passed Aug 2025) bans online money games; offering them: up to 3 years' jail and/or fine up to Rs 1 crore. Constitutional challenge pending in the Supreme Court.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Diwali ki raat. Taash, ya phone pe *'game'.* Thoda sa daav.", "tts": "दिवाली की रात. ताश, या फ़ोन पे गेम. थोड़ा सा दाँव."},
+  {"id": "L02", "scene": "hook", "cap": "Ek sawaal: lambe samay mein *jeet-ta kaun* hai?", "tts": "एक सवाल. लंबे समय में, जीतता कौन है?"},
+  {"id": "L03", "scene": "math", "cap": "Ek game. Sikka uchhalo. Jeete toh *₹90* mile, haare toh *₹100* gaye.", "tts": "एक गेम. सिक्का उछालो. जीते तो नब्बे मिले, हारे तो सौ गए."},
+  {"id": "L04", "scene": "math", "cap": "Lagta hai 50-50. Par har round mein aap average *₹5 haarte* ho.", "tts": "लगता है फ़िफ़्टी-फ़िफ़्टी. पर हर राउंड में, आप एवरेज, पाँच रुपये हारते हो."},
+  {"id": "L05", "scene": "math", "cap": "Woh ₹10 ka fark? Yahi *house ka cut* hai.", "tts": "वो दस रुपये का फ़र्क? यही हाउस का कट है."},
+  {"id": "L06", "scene": "math", "cap": "Ek round mein pata nahi chalta. Par *100 round* mein lagbhag *₹500* gaye.", "tts": "एक राउंड में पता नहीं चलता. पर सौ राउंड में, लगभग पाँच सौ गए."},
+  {"id": "L07", "scene": "math", "cap": "Isliye betting wale ghaate mein nahi rehte. *Ganit unke saath* hai.", "tts": "इसलिए बेटिंग वाले, घाटे में नहीं रहते. गणित उनके साथ है."},
+  {"id": "L08", "scene": "law", "cap": "Aur 2025 mein naya kanoon aaya. Paise wale *online games pe ban.*", "tts": "और दो हज़ार पच्चीस में नया कानून आया. पैसे वाले ऑनलाइन गेम्स पे बैन."},
+  {"id": "L09", "scene": "law", "cap": "Aise games chalane pe *3 saal* tak jail, ya *₹1 crore* tak jurmana.", "tts": "ऐसे गेम्स चलाने पे, तीन साल तक जेल, या एक करोड़ तक जुर्माना."},
+  {"id": "L10", "scene": "law", "cap": "Koi app bole 'paisa double'? Samjho, *risk* aapka hai, ganit unka.", "tts": "कोई ऐप बोले, पैसा डबल? समझो, रिस्क आपका है, गणित उनका."},
+  {"id": "L11", "scene": "rules", "cap": "Dosto ke saath taash? Niyam ek: utna hi lagao, jitna *khona* afford kar sako.", "tts": "दोस्तों के साथ ताश? नियम एक. उतना ही लगाओ, जितना खोना अफ़ोर्ड कर सको."},
+  {"id": "L12", "scene": "rules", "cap": "Aur haar ke baad *'bas ek aur round'?* Yahi sabse mehenga round hai.", "tts": "और हार के बाद, बस एक और राउंड? यही सबसे महँगा राउंड है."},
+  {"id": "L13", "scene": "outro", "cap": "Jo har Diwali 'bas ek aur' kehta hai, usse yeh *bhejo.*", "tts": "जो हर दिवाली, बस एक और, कहता है, उसे यह भेजो."},
+  {"id": "L14", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

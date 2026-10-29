@@ -1,0 +1,20 @@
+{
+ "title": "Diwali bonus: is baar alag karo",
+ "data_note": "Bonus is taxed as salary (TDS by employer). Credit card interest typically ~3-3.75% a month (36-45% a year). Emergency fund guideline: ~6 months of expenses. Split is illustrative.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Diwali bonus aaya. Account mein *₹50,000.*", "tts": "दिवाली बोनस आया. अकाउंट में, पचास हज़ार."},
+  {"id": "L02", "scene": "hook", "cap": "15 din baad? *Pata hi nahi* kahan gaya. Is baar alag karo.", "tts": "पंद्रह दिन बाद? पता ही नहीं, कहाँ गया. इस बार अलग करो."},
+  {"id": "L03", "scene": "hook", "cap": "Pehle yaad rakho: bonus *salary* hai. Tax kat kar aata hai.", "tts": "पहले याद रखो. बोनस, सैलरी है. टैक्स कट कर आता है."},
+  {"id": "L04", "scene": "plan", "cap": "Ab simple plan. *Chaar dabbe.* Isi kram mein.", "tts": "अब सिंपल प्लान. चार डिब्बे. इसी क्रम में."},
+  {"id": "L05", "scene": "plan", "cap": "Pehla: *emergency fund.* Kam se kam 6 mahine ka kharcha, alag rakha ho.", "tts": "पहला. इमरजेंसी फ़ंड. कम से कम छह महीने का ख़र्चा, अलग रखा हो."},
+  {"id": "L06", "scene": "plan", "cap": "Doosra: *mehenga karz.* Credit card ka byaaj saal ka *36%* se bhi zyada.", "tts": "दूसरा. महँगा कर्ज़. क्रेडिट कार्ड का ब्याज, साल का छत्तीस परसेंट से भी ज़्यादा."},
+  {"id": "L07", "scene": "plan", "cap": "Koi investment itna pakka return nahi deta. Toh pehle *yeh chukao.*", "tts": "कोई इन्वेस्टमेंट, इतना पक्का रिटर्न नहीं देता. तो पहले यह चुकाओ."},
+  {"id": "L08", "scene": "plan", "cap": "Teesra: *investment.* Lambe goal ke liye, SIP ya index fund.", "tts": "तीसरा. इन्वेस्टमेंट. लंबे गोल के लिए, एस आई पी या इंडेक्स फ़ंड."},
+  {"id": "L09", "scene": "plan", "cap": "Chautha: *khushi.* Diwali hai! Ek hissa bina guilt ke kharch karo.", "tts": "चौथा. ख़ुशी. दिवाली है! एक हिस्सा, बिना गिल्ट के ख़र्च करो."},
+  {"id": "L10", "scene": "split", "cap": "Jaise ₹50,000: *₹20,000* fund, *₹15,000* karz, *₹10,000* invest, *₹5,000* masti.", "tts": "जैसे पचास हज़ार. बीस हज़ार फ़ंड, पंद्रह हज़ार कर्ज़, दस हज़ार इन्वेस्ट, पाँच हज़ार मस्ती."},
+  {"id": "L11", "scene": "split", "cap": "Aapka hisaab alag hoga. Par *kram* yahi rakho.", "tts": "आपका हिसाब अलग होगा. पर क्रम यही रखो."},
+  {"id": "L12", "scene": "trick", "cap": "Aur ek trick: bonus aate hi, plan wale paise *pehle transfer.* Phir kharch.", "tts": "और एक ट्रिक. बोनस आते ही, प्लान वाले पैसे पहले ट्रांसफ़र. फिर ख़र्च."},
+  {"id": "L13", "scene": "outro", "cap": "Jiska bonus aate hi ud jaata hai, usse yeh *bhejo.*", "tts": "जिसका बोनस आते ही उड़ जाता है, उसे यह भेजो."},
+  {"id": "L14", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "title": "Diwali loan offer: zero fee ka sach",
+ "data_note": "Illustrative car loan Rs 8 lakh, 60 months: 9% -> EMI 16,607, total interest ~Rs 1,96,400; 8.5% -> EMI 16,413, interest ~Rs 1,84,800; difference ~Rs 11,600 minus Rs 5,000 fee = ~Rs 6,600. RBI repo raised to 5.50% on 7 Oct 2026; repo-linked floating loans reset upward.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Diwali offer! *Zero processing fee.* Special rate!", "tts": "दिवाली ऑफ़र! ज़ीरो प्रोसेसिंग फ़ीस. स्पेशल रेट!"},
+  {"id": "L02", "scene": "hook", "cap": "Par loan ka asli kharcha *fee nahi, byaaj* hai.", "tts": "पर लोन का असली ख़र्चा, फ़ीस नहीं, ब्याज है."},
+  {"id": "L03", "scene": "math", "cap": "Example: car loan *₹8 lakh,* 5 saal.", "tts": "एग्ज़ाम्पल. कार लोन, आठ लाख, पाँच साल."},
+  {"id": "L04", "scene": "math", "cap": "Offer A: *9%* byaaj, fee *zero.*", "tts": "ऑफ़र ए. नौ परसेंट ब्याज, फ़ीस ज़ीरो."},
+  {"id": "L05", "scene": "math", "cap": "Offer B: *8.5%* byaaj, fee *₹5,000.*", "tts": "ऑफ़र बी. आठ पॉइंट पाँच परसेंट ब्याज, फ़ीस पाँच हज़ार."},
+  {"id": "L06", "scene": "math", "cap": "A mein kul byaaj lagbhag *₹1.96 lakh.* B mein *₹1.85 lakh.*", "tts": "ए में कुल ब्याज, लगभग एक पॉइंट नौ छह लाख. बी में, एक पॉइंट आठ पाँच लाख."},
+  {"id": "L07", "scene": "math", "cap": "Fee jod kar bhi, B lagbhag *₹6,600 sasta.*", "tts": "फ़ीस जोड़कर भी, बी लगभग छह हज़ार छह सौ सस्ता."},
+  {"id": "L08", "scene": "traps", "cap": "Doosra jaal: *teaser rate.* Pehle saal kam, phir badh jaata hai.", "tts": "दूसरा जाल. टीज़र रेट. पहले साल कम, फिर बढ़ जाता है."},
+  {"id": "L09", "scene": "traps", "cap": "Aur repo ab *5.50%* hai. Floating loan ka rate aage *badh* sakta hai.", "tts": "और रेपो अब पाँच पॉइंट पाँच परसेंट है. फ़्लोटिंग लोन का रेट, आगे बढ़ सकता है."},
+  {"id": "L10", "scene": "traps", "cap": "Teesra: loan ke saath *insurance* chipka dena. Premium bhi loan mein jud jaata hai.", "tts": "तीसरा. लोन के साथ, इंश्योरेंस चिपका देना. प्रीमियम भी लोन में जुड़ जाता है."},
+  {"id": "L11", "scene": "check", "cap": "Sign karne se pehle *teen sawaal.*", "tts": "साइन करने से पहले, तीन सवाल."},
+  {"id": "L12", "scene": "check", "cap": "Ek: *kul kharcha* kitna? Byaaj plus saari fees.", "tts": "एक. कुल ख़र्चा कितना? ब्याज, प्लस सारी फ़ीस."},
+  {"id": "L13", "scene": "check", "cap": "Do: rate *fixed* hai ya *floating?* Pehle saal ke baad kya?", "tts": "दो. रेट फ़िक्स्ड है, या फ़्लोटिंग? पहले साल के बाद क्या?"},
+  {"id": "L14", "scene": "check", "cap": "Teen: insurance *zaroori* hai, ya optional?", "tts": "तीन. इंश्योरेंस ज़रूरी है, या ऑप्शनल?"},
+  {"id": "L15", "scene": "outro", "cap": "Jo is Diwali gaadi lene wala hai, usse yeh *bhejo.*", "tts": "जो इस दिवाली गाड़ी लेने वाला है, उसे यह भेजो."},
+  {"id": "L16", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

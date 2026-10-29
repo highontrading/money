@@ -21,6 +21,9 @@ import {noCostEmi} from './episodes/noCostEmi';
 import {giftTax} from './episodes/giftTax';
 import {jioKal} from './episodes/jioKal';
 import {jioResult} from './episodes/jioResult';
+import {diwaliBonus} from './episodes/diwaliBonus';
+import {festiveLoans} from './episodes/festiveLoans';
+import {diwaliGames} from './episodes/diwaliGames';
 import {FPS, H, W} from './theme';
 import {LongEpisode} from './longform/LongEpisode';
 import {LH, LW} from './longform/frame';
@@ -47,6 +50,9 @@ const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
   {def: giftTax, cover: {big: 'GIFT PE TAX?', bigSize: 165, line1: 'DIWALI GIFTS KA', line2: 'TAX RULE', photo: 'diyas.jpg', stamp: '₹50,000'}},
   {def: jioKal, cover: {big: 'JIO: KAL', bigSize: 230, line1: 'AAPKE ₹13,428', line2: 'KA KYA HOGA?', photo: 'tower.jpg', stamp: 'KAL 10:00 AM'}},
   {def: jioResult, cover: {big: 'JIO ₹1,358', bigSize: 200, line1: 'GMP SAHI THA?', line2: 'SIRF ₹8 KA FARK', photo: 'tower.jpg', stamp: '+21%'}},
+  {def: diwaliBonus, cover: {big: 'DIWALI BONUS', bigSize: 165, line1: 'IS BAAR', line2: 'ALAG KARO', photo: 'diyas.jpg', stamp: '4 DABBE'}},
+  {def: festiveLoans, cover: {big: 'ZERO FEE?', bigSize: 220, line1: 'DIWALI LOAN OFFER', line2: 'KA SACH', photo: 'showroom.jpg', stamp: '₹6,600'}},
+  {def: diwaliGames, cover: {big: 'DIWALI DAAV', bigSize: 175, line1: 'JEET-TA', line2: 'KAUN HAI?', photo: 'diyas.jpg', stamp: '−₹5 / ROUND'}},
 ];
 
 // Composition props are serialized to JSON, which would drop the scene
