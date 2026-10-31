@@ -125,7 +125,7 @@ const Do: React.FC = () => {
 
 const Outro: React.FC = () => (
   <SignOff shareLine="L19" logoLine="L20" shareWord="bhejo" friendNote="us dost ko jiska crypto Binance pe hai →"
-    disclaimer={'EDUCATIONAL ONLY · NOT FINANCIAL ADVICE\nFIGURES: BINANCE STATEMENTS AND REPORTS, 29–30 OCT 2026 · STILL DEVELOPING\nATTRIBUTION: CHAINALYSIS / TRM LABS · ₹ AT ~95 PER $'} />
+    disclaimer={'EDUCATIONAL ONLY · NOT FINANCIAL ADVICE\nFIGURES: BINANCE + REPORTS, 29–30 OCT 2026 · DEVELOPING\nATTRIBUTION: CHAINALYSIS / TRM LABS · ₹ AT ~95 PER $'} />
 );
 
 export const binanceHack: EpisodeDef = {
