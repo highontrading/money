@@ -1,0 +1,26 @@
+{
+ "title": "Binance hack: ₹60,000 crore, ek laptop se",
+ "data_note": "29-30 Oct 2026: Binance said ~$6.3bn of client assets affected, largest crypto theft on record (previous: Bybit ~$1.5bn, Feb 2025). Initial finding: a compromised engineer's laptop let an attacker submit unauthorized withdrawals. Chainalysis/TRM Labs attribute to North Korea's TraderTraitor. ~$3bn frozen on-chain with partners. Binance to cover losses from SAFU and company funds; withdrawals paused, phased restart expected within ~48h. Bitcoin fell below $77,000 (CoinDesk). Sources: Bloomberg, CNBC, CNN, Al Jazeera, Forbes, CoinDesk. $6.3bn x ~Rs 95 = ~Rs 60,000 crore. India: 30% tax on crypto gains, 1% TDS on transfers.",
+ "lines": [
+  {"id": "L01", "scene": "hook", "cap": "Ek laptop. Aur lagbhag *₹60,000 crore* ka crypto *gayab.*", "tts": "एक लैपटॉप. और लगभग साठ हज़ार करोड़ का क्रिप्टो, ग़ायब."},
+  {"id": "L02", "scene": "hook", "cap": "Duniya ke sabse bade crypto exchange *Binance* pe, itihaas ki *sabse badi chori.*", "tts": "दुनिया के सबसे बड़े क्रिप्टो एक्सचेंज बाइनेंस पे, इतिहास की सबसे बड़ी चोरी."},
+  {"id": "L03", "scene": "what", "cap": "29 October. Binance ne bataya: lagbhag *$6.3 billion* ke client assets pe asar.", "tts": "उनतीस अक्टूबर. बाइनेंस ने बताया, लगभग छह पॉइंट तीन बिलियन डॉलर के क्लाइंट एसेट्स पे असर."},
+  {"id": "L04", "scene": "what", "cap": "Shuruaati jaanch: ek engineer ka *laptop hack* hua.", "tts": "शुरुआती जाँच. एक इंजीनियर का लैपटॉप हैक हुआ."},
+  {"id": "L05", "scene": "what", "cap": "Usse hacker andar ghusa, aur *nakli withdrawals* chala diye.", "tts": "उससे हैकर अंदर घुसा, और नकली विड्रॉल्स चला दिए."},
+  {"id": "L06", "scene": "what", "cap": "Blockchain jaanch firms ke mutabik, peeche *North Korea* ka hacker group.", "tts": "ब्लॉकचेन जाँच फ़र्म्स के मुताबिक, पीछे नॉर्थ कोरिया का हैकर ग्रुप."},
+  {"id": "L07", "scene": "what", "cap": "Pichhla record? 2025 mein Bybit: *$1.5 billion.* Yeh usse *chaar guna* se zyada.", "tts": "पिछला रिकॉर्ड? दो हज़ार पच्चीस में बायबिट, डेढ़ बिलियन डॉलर. यह उससे चार गुना से ज़्यादा."},
+  {"id": "L08", "scene": "now", "cap": "Ab kya hua? Binance ne *withdrawals rok* diye.", "tts": "अब क्या हुआ? बाइनेंस ने विड्रॉल्स रोक दिए."},
+  {"id": "L09", "scene": "now", "cap": "Lagbhag *$3 billion* blockchain pe hi *freeze* kar diya gaya.", "tts": "लगभग तीन बिलियन डॉलर, ब्लॉकचेन पे ही फ़्रीज़ कर दिया गया."},
+  {"id": "L10", "scene": "now", "cap": "Binance ka vaada: nuksaan *apne fund* se bharenge.", "tts": "बाइनेंस का वादा. नुकसान अपने फ़ंड से भरेंगे."},
+  {"id": "L11", "scene": "now", "cap": "Aur Bitcoin *$77,000* ke neeche gir gaya.", "tts": "और बिटकॉइन, सतहत्तर हज़ार डॉलर के नीचे गिर गया."},
+  {"id": "L12", "scene": "lesson", "cap": "Ab asli sabak. Exchange pe rakha crypto, *aapke paas nahi* hai.", "tts": "अब असली सबक. एक्सचेंज पे रखा क्रिप्टो, आपके पास नहीं है."},
+  {"id": "L13", "scene": "lesson", "cap": "Woh exchange ke wallet mein hai. Aapke paas bas ek *vaada* hai.", "tts": "वो एक्सचेंज के वॉलेट में है. आपके पास बस एक वादा है."},
+  {"id": "L14", "scene": "lesson", "cap": "Crypto ka rule: *Not your keys, not your coins.*", "tts": "क्रिप्टो का रूल. नॉट योर कीज़, नॉट योर कॉइन्स."},
+  {"id": "L15", "scene": "lesson", "cap": "Aur yahan bank jaisa *insurance nahi.* Na DICGC, na ₹5 lakh ki guarantee.", "tts": "और यहाँ बैंक जैसा इंश्योरेंस नहीं. ना डी आई सी जी सी, ना पाँच लाख की गारंटी."},
+  {"id": "L16", "scene": "do", "cap": "Aap kya karein? Ek: saara crypto *ek exchange* pe mat rakho.", "tts": "आप क्या करें? एक. सारा क्रिप्टो, एक एक्सचेंज पे मत रखो."},
+  {"id": "L17", "scene": "do", "cap": "Do: 'help desk' wale *call aur DM* se bacho. Aise waqt pe scam badhte hain.", "tts": "दो. हेल्प डेस्क वाले कॉल और डी एम से बचो. ऐसे वक़्त पे स्कैम बढ़ते हैं."},
+  {"id": "L18", "scene": "do", "cap": "Teen: crypto portfolio ka *chhota hissa* ho. Aur yaad rahe, gains pe *30% tax.*", "tts": "तीन. क्रिप्टो, पोर्टफ़ोलियो का छोटा हिस्सा हो. और याद रहे, गेन्स पे तीस परसेंट टैक्स."},
+  {"id": "L19", "scene": "outro", "cap": "Jiska crypto Binance pe hai, usse yeh abhi *bhejo.*", "tts": "जिसका क्रिप्टो बाइनेंस पे है, उसे यह अभी भेजो."},
+  {"id": "L20", "scene": "outro", "cap": "Paisa samjho. Yeh hai *Money Theory.*", "tts": "पैसा समझो. यह है मनी थ्योरी."}
+ ]
+}

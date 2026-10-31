@@ -278,5 +278,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Car_Showroom_near_Mattuthavani.JPG",
   "license": "CC BY-SA 3.0",
   "author": "Nileshantony92"
+ },
+ "btclaptop": {
+  "file": "btclaptop.jpg",
+  "title": "File:Bitcoin on Laptop Keyboard.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bitcoin_on_Laptop_Keyboard.jpg",
+  "license": "CC BY 2.0",
+  "author": "Satheesh Sankaran"
+ },
+ "btccoin": {
+  "file": "btccoin.jpg",
+  "title": "File:Physical bitcoin statistic coin.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Physical_bitcoin_statistic_coin.JPG",
+  "license": "CC BY-SA 3.0",
+  "author": "AntanaCoins"
  }
 }

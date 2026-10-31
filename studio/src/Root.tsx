@@ -24,6 +24,7 @@ import {jioResult} from './episodes/jioResult';
 import {diwaliBonus} from './episodes/diwaliBonus';
 import {festiveLoans} from './episodes/festiveLoans';
 import {diwaliGames} from './episodes/diwaliGames';
+import {binanceHack} from './episodes/binanceHack';
 import {FPS, H, W} from './theme';
 import {LongEpisode} from './longform/LongEpisode';
 import {LH, LW} from './longform/frame';
@@ -53,6 +54,7 @@ const EPISODES: {def: EpisodeDef; cover: CoverProps}[] = [
   {def: diwaliBonus, cover: {big: 'DIWALI BONUS', bigSize: 165, line1: 'IS BAAR', line2: 'ALAG KARO', photo: 'diyas.jpg', stamp: '4 DABBE'}},
   {def: festiveLoans, cover: {big: 'ZERO FEE?', bigSize: 220, line1: 'DIWALI LOAN OFFER', line2: 'KA SACH', photo: 'showroom.jpg', stamp: '₹6,600'}},
   {def: diwaliGames, cover: {big: 'DIWALI DAAV', bigSize: 175, line1: 'JEET-TA', line2: 'KAUN HAI?', photo: 'diyas.jpg', stamp: '−₹5 / ROUND'}},
+  {def: binanceHack, cover: {big: 'BINANCE HACK', bigSize: 165, line1: '₹60,000 CRORE,', line2: 'EK LAPTOP SE', photo: 'btclaptop.jpg', stamp: '$6.3 BN'}},
 ];
 
 // Composition props are serialized to JSON, which would drop the scene
